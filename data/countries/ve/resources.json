@@ -1,0 +1,1303 @@
+{
+  "country": "VE",
+  "language": "es",
+  "resources": [
+    {
+      "id": "ve-911",
+      "organization": "Sistema de Emergencias VEN 911",
+      "category": "emergency",
+      "service": "Solicita ayuda inmediata ante una emergencia. La disponibilidad del despacho depende de la zona.",
+      "coverage": {
+        "scope": "national",
+        "area": "Venezuela",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "911",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.radioclubve.org/terremoto/"
+        ]
+      }
+    },
+    {
+      "id": "ve-pc-chacao",
+      "organization": "Protección Civil Chacao",
+      "category": "emergency",
+      "service": "Solicita apoyo de Protección Civil ante riesgos o desastres en el municipio.",
+      "coverage": {
+        "scope": "local",
+        "area": "Chacao, Miranda",
+        "municipality": "Chacao"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584241206707",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.chacao.gob.ve/home/1196/"
+        ]
+      }
+    },
+    {
+      "id": "ve-pc-baruta",
+      "organization": "Protección Civil Baruta",
+      "category": "emergency",
+      "service": "Canal de emergencias de Protección Civil del municipio de Baruta.",
+      "coverage": {
+        "scope": "local",
+        "area": "Baruta, Miranda",
+        "municipality": "Baruta"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584123362122",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://alcaldiabaruta.gob.ve/direcciones/proteccion-civil/"
+        ]
+      }
+    },
+    {
+      "id": "ve-pc-aragua",
+      "organization": "Protección Civil Aragua",
+      "category": "emergency",
+      "service": "Solicita orientación o respuesta por un incidente que requiera Protección Civil.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Aragua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582432474940",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.radioclubve.org/terremoto/"
+        ]
+      }
+    },
+    {
+      "id": "ve-fire-yaracuy",
+      "organization": "Bomberos de San Felipe",
+      "category": "emergency",
+      "service": "Contacta al cuerpo de bomberos por incendios y rescates.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Felipe, Yaracuy",
+        "municipality": "San Felipe"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582542345533",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.radioclubve.org/terremoto/"
+        ]
+      }
+    },
+    {
+      "id": "ve-fire-puerto",
+      "organization": "Bomberos de Puerto Cabello",
+      "category": "emergency",
+      "service": "Contacta al cuerpo de bomberos por incendios y rescates.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puerto Cabello, Carabobo",
+        "municipality": "Puerto Cabello"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582423622461",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.radioclubve.org/terremoto/"
+        ]
+      }
+    },
+    {
+      "id": "ve-pc-laguaira",
+      "organization": "Protección Civil La Guaira",
+      "category": "emergency",
+      "service": "Canal regional para incidentes y riesgos atendidos por Protección Civil.",
+      "coverage": {
+        "scope": "regional",
+        "area": "La Guaira",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584242075335",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.radioclubve.org/terremoto/"
+        ]
+      }
+    },
+    {
+      "id": "ve-cruz-ayacucho",
+      "organization": "Centro Integral Cruz Roja Venezolana",
+      "category": "health-and-psychosocial",
+      "service": "Consulta los servicios médicos disponibles y requisitos de atención del centro de la Cruz Roja.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puerto Ayacucho, Amazonas",
+        "municipality": "Puerto Ayacucho"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584164520708",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://cruzroja.ve/nuestra-presencia/"
+        ]
+      }
+    },
+    {
+      "id": "ve-cruz-anaco",
+      "organization": "Ambulatorio Cruz Roja Venezolana",
+      "category": "health-and-psychosocial",
+      "service": "Consulta los servicios médicos disponibles y requisitos de atención del centro de la Cruz Roja.",
+      "coverage": {
+        "scope": "local",
+        "area": "Anaco, Anzoátegui",
+        "municipality": "Anaco"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582824245157",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://cruzroja.ve/nuestra-presencia/"
+        ]
+      }
+    },
+    {
+      "id": "ve-cruz-barcelona",
+      "organization": "Ambulatorio J. J. Marcano Maza",
+      "category": "health-and-psychosocial",
+      "service": "Consulta los servicios médicos disponibles y requisitos de atención del centro de la Cruz Roja.",
+      "coverage": {
+        "scope": "local",
+        "area": "Barcelona, Anzoátegui",
+        "municipality": "Barcelona"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582812742090",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://cruzroja.ve/nuestra-presencia/"
+        ]
+      }
+    },
+    {
+      "id": "ve-cruz-tigre",
+      "organization": "Centro Quirúrgico Bertha Richany",
+      "category": "health-and-psychosocial",
+      "service": "Consulta los servicios médicos disponibles y requisitos de atención del centro de la Cruz Roja.",
+      "coverage": {
+        "scope": "local",
+        "area": "El Tigre, Anzoátegui",
+        "municipality": "El Tigre"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582832357869",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://cruzroja.ve/nuestra-presencia/"
+        ]
+      }
+    },
+    {
+      "id": "ve-cruz-piritu",
+      "organization": "Centro Integral Cruz Roja Venezolana",
+      "category": "health-and-psychosocial",
+      "service": "Consulta los servicios médicos disponibles y requisitos de atención del centro de la Cruz Roja.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puerto Píritu, Anzoátegui",
+        "municipality": "Puerto Píritu"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584148183116",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://cruzroja.ve/nuestra-presencia/"
+        ]
+      }
+    },
+    {
+      "id": "ve-cruz-apure",
+      "organization": "Ambulatorio Dr. José Gregorio Montilla",
+      "category": "health-and-psychosocial",
+      "service": "Consulta los servicios médicos disponibles y requisitos de atención del centro de la Cruz Roja.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Fernando de Apure, Apure",
+        "municipality": "San Fernando de Apure"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582473411564",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://cruzroja.ve/nuestra-presencia/"
+        ]
+      }
+    },
+    {
+      "id": "ve-cruz-maracay",
+      "organization": "Centro Integral Cruz Roja Venezolana",
+      "category": "health-and-psychosocial",
+      "service": "Consulta los servicios médicos disponibles y requisitos de atención del centro de la Cruz Roja.",
+      "coverage": {
+        "scope": "local",
+        "area": "Maracay, Aragua",
+        "municipality": "Maracay"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582435532629",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://cruzroja.ve/nuestra-presencia/"
+        ]
+      }
+    },
+    {
+      "id": "ve-cruz-bolivar",
+      "organization": "Centro Materno Infantil Ing. Lino Bossio Palacios",
+      "category": "health-and-psychosocial",
+      "service": "Consulta los servicios médicos disponibles y requisitos de atención del centro de la Cruz Roja.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad Bolívar, Bolívar",
+        "municipality": "Ciudad Bolívar"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582856547001",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://cruzroja.ve/nuestra-presencia/"
+        ]
+      }
+    },
+    {
+      "id": "ve-cruz-guayana",
+      "organization": "Ambulatorio Cruz Roja Venezolana",
+      "category": "health-and-psychosocial",
+      "service": "Consulta los servicios médicos disponibles y requisitos de atención del centro de la Cruz Roja.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad Guayana, Bolívar",
+        "municipality": "Ciudad Guayana"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582869514395",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://cruzroja.ve/nuestra-presencia/"
+        ]
+      }
+    },
+    {
+      "id": "ve-cruz-cabello",
+      "organization": "Hospital Dr. Carlos Páez Maya",
+      "category": "health-and-psychosocial",
+      "service": "Consulta los servicios médicos disponibles y requisitos de atención del centro de la Cruz Roja.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puerto Cabello, Carabobo",
+        "municipality": "Puerto Cabello"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582423616144",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://cruzroja.ve/nuestra-presencia/"
+        ]
+      }
+    },
+    {
+      "id": "ve-cruz-valencia",
+      "organization": "Hospital Luis Blanco Gasperi",
+      "category": "health-and-psychosocial",
+      "service": "Consulta los servicios médicos disponibles y requisitos de atención del centro de la Cruz Roja.",
+      "coverage": {
+        "scope": "local",
+        "area": "Valencia, Carabobo",
+        "municipality": "Valencia"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582418256436",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://cruzroja.ve/nuestra-presencia/"
+        ]
+      }
+    },
+    {
+      "id": "ve-cruz-sancarlos",
+      "organization": "Ambulatorio Cruz Roja Venezolana",
+      "category": "health-and-psychosocial",
+      "service": "Consulta los servicios médicos disponibles y requisitos de atención del centro de la Cruz Roja.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Carlos, Cojedes",
+        "municipality": "San Carlos"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584149585729",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://cruzroja.ve/nuestra-presencia/"
+        ]
+      }
+    },
+    {
+      "id": "ve-fpv",
+      "organization": "Federación de Psicólogos de Venezuela",
+      "category": "health-and-psychosocial",
+      "service": "Consulta por apoyo psicosocial a distancia.",
+      "coverage": {
+        "scope": "national",
+        "area": "Venezuela",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582124163136",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+582124163118",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://venezuela.unfpa.org/sites/default/files/pub-pdf/directorioserviciosvbg.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ve-caritas",
+      "organization": "Cáritas de Venezuela",
+      "category": "shelter-and-food",
+      "service": "Consulta por programas de apoyo alimentario y nutrición y por las sedes que los ofrecen.",
+      "coverage": {
+        "scope": "national",
+        "area": "Venezuela",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582124433153",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://caritasvenezuela.org/wp-content/uploads/2025/10/TERMINOS-DE-REFERENCIA-PARA-CONSULTORIA.pdf",
+          "https://caritasvenezuela.org/mapeo-de-servicios/"
+        ]
+      }
+    },
+    {
+      "id": "ve-caritas-valencia",
+      "organization": "Cáritas Valencia, asistencia humanitaria",
+      "category": "shelter-and-food",
+      "service": "Consulta los programas de ayuda humanitaria y los requisitos de acceso.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Carabobo",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584127424708",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://caritasvln.com/ayuda-humanitaria/"
+        ]
+      }
+    },
+    {
+      "id": "ve-luz-mundo",
+      "organization": "Fundación Casa Hogar Luz del Mundo",
+      "category": "shelter-and-food",
+      "service": "Consulta por acogida y alimentación de menores remitidos al programa y requisitos de ingreso.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Anzoátegui",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582832359816",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://venezuelasinlimites.org/directorio-ong/"
+        ]
+      }
+    },
+    {
+      "id": "ve-madre-emilia",
+      "organization": "Fundación Casa Hogar Madre Emilia de Táriba",
+      "category": "shelter-and-food",
+      "service": "Consulta por programas de acogida y apoyo para niñas y jóvenes en situación de vulnerabilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Táriba, Táchira",
+        "municipality": "Táriba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582763940454",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://venezuelasinlimites.org/directorio-ong/"
+        ]
+      }
+    },
+    {
+      "id": "ve-fundana",
+      "organization": "Equidad, FUNDANA",
+      "category": "shelter-and-food",
+      "service": "Consulta por apoyo alimentario y atención social para personas en situación de vulnerabilidad.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Área metropolitana de Caracas",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584241986658",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://venezuela.unfpa.org/sites/default/files/pub-pdf/directorioserviciosvbg.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ve-luz-vida",
+      "organization": "Fundación Luz y Vida",
+      "category": "shelter-and-food",
+      "service": "Consulta por apoyo alimentario, social y derivación a otros servicios en la zona de Petare.",
+      "coverage": {
+        "scope": "local",
+        "area": "Sucre, Miranda",
+        "municipality": "Sucre"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584142783056",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://venezuela.unfpa.org/sites/default/files/pub-pdf/directorioserviciosvbg.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ve-conare-central",
+      "organization": "Comisión Nacional para los Refugiados, región central",
+      "category": "migration-and-legal",
+      "service": "Orientación remota para solicitantes de refugio y personas refugiadas.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Región central",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584241247284",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/venezuela/donde-encontrar-ayuda-2/instituciones-publicas/"
+        ]
+      }
+    },
+    {
+      "id": "ve-conare-apure",
+      "organization": "Comisión Nacional para los Refugiados, Apure",
+      "category": "migration-and-legal",
+      "service": "Consulta trámites de refugio en la oficina de Guasdualito.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Apure",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582783321016",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+584247676584",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/venezuela/donde-encontrar-ayuda-2/instituciones-publicas/"
+        ]
+      }
+    },
+    {
+      "id": "ve-conare-zulia",
+      "organization": "Comisión Nacional para los Refugiados, Zulia",
+      "category": "migration-and-legal",
+      "service": "Consulta cómo iniciar o dar seguimiento a una solicitud de refugio.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Zulia",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584242743743",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/venezuela/donde-encontrar-ayuda-2/instituciones-publicas/"
+        ]
+      }
+    },
+    {
+      "id": "ve-acnur-caracas",
+      "organization": "ACNUR, Caracas",
+      "category": "migration-and-legal",
+      "service": "Consulta acceso a servicios de ayuda y protección para solicitantes de refugio y personas refugiadas.",
+      "coverage": {
+        "scope": "national",
+        "area": "Venezuela",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584241430025",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+584241414058",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/venezuela/donde-encontrar-ayuda-2/organismos-internacionales/"
+        ]
+      }
+    },
+    {
+      "id": "ve-acnur-tachira",
+      "organization": "ACNUR, San Cristóbal",
+      "category": "migration-and-legal",
+      "service": "Consulta acceso a servicios de ayuda y protección para solicitantes de refugio y personas refugiadas.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Táchira",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584242704187",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/venezuela/donde-encontrar-ayuda-2/organismos-internacionales/"
+        ]
+      }
+    },
+    {
+      "id": "ve-acnur-zulia",
+      "organization": "ACNUR, Maracaibo",
+      "category": "migration-and-legal",
+      "service": "Consulta acceso a servicios de ayuda y protección para solicitantes de refugio y personas refugiadas.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Zulia",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584122631681",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+584242184133",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/venezuela/donde-encontrar-ayuda-2/organismos-internacionales/"
+        ]
+      }
+    },
+    {
+      "id": "ve-defensoria",
+      "organization": "Defensoría del Pueblo",
+      "category": "migration-and-legal",
+      "service": "Consulta por defensa de derechos y presentación de quejas, incluidos casos de personas refugiadas.",
+      "coverage": {
+        "scope": "national",
+        "area": "Venezuela",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582125077071",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/venezuela/donde-encontrar-ayuda-2/instituciones-publicas/"
+        ]
+      }
+    },
+    {
+      "id": "ve-defensoria-amazonas",
+      "organization": "Defensoría del Pueblo, Amazonas",
+      "category": "migration-and-legal",
+      "service": "Contacta a la oficina regional en caso de una posible vulneración de derechos.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Amazonas",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582485210446",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/venezuela/donde-encontrar-ayuda-2/instituciones-publicas/"
+        ]
+      }
+    },
+    {
+      "id": "ve-defensoria-apure",
+      "organization": "Defensoría del Pueblo, Guasdualito",
+      "category": "migration-and-legal",
+      "service": "Contacta a la oficina regional en caso de una posible vulneración de derechos.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Apure",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582783321256",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/venezuela/donde-encontrar-ayuda-2/instituciones-publicas/"
+        ]
+      }
+    },
+    {
+      "id": "ve-defensa-anz",
+      "organization": "Defensa Pública, Barcelona",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación y acceso a defensa pública en la región.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Anzoátegui",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582812703212",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.redhnna.org/sistema-de-proteccion"
+        ]
+      }
+    },
+    {
+      "id": "ve-defensa-apure",
+      "organization": "Defensa Pública, San Fernando de Apure",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación y acceso a defensa pública en la región.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Apure",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582473415016",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.redhnna.org/sistema-de-proteccion"
+        ]
+      }
+    },
+    {
+      "id": "ve-defensa-aragua",
+      "organization": "Defensa Pública, Maracay",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación y acceso a defensa pública en la región.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Aragua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582432472112",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.redhnna.org/sistema-de-proteccion"
+        ]
+      }
+    },
+    {
+      "id": "ve-mujeres",
+      "organization": "Ministerio del Poder Popular para la Mujer, línea de atención",
+      "category": "protection",
+      "service": "Orientación y derivación ante violencia de género.",
+      "coverage": {
+        "scope": "national",
+        "area": "Venezuela",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "08006853737",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.consulado.gob.cl/consulado-contigo/redes-de-apoyo-en-caracas"
+        ]
+      }
+    },
+    {
+      "id": "ve-avesa",
+      "organization": "AVESA, línea PsicoApoyo por Nosotras",
+      "category": "protection",
+      "service": "Apoyo psicosocial ante violencia de género. Marca la opción 1 al llamar.",
+      "coverage": {
+        "scope": "national",
+        "area": "Venezuela",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582124145114",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://refugiolatinoamericano.com/wp-content/uploads/2026/05/Directorio-Regional-de-Denuncia-contra-la-Violencia-hacia-la-Mujer-Migrante-yo-Refugiada.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ve-tinta",
+      "organization": "Tinta Violeta",
+      "category": "protection",
+      "service": "Consulta atención psicológica o asesoría legal por violencia de género.",
+      "coverage": {
+        "scope": "national",
+        "area": "Venezuela",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584126924010",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+584126924072",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://refugiolatinoamericano.com/wp-content/uploads/2026/05/Directorio-Regional-de-Denuncia-contra-la-Violencia-hacia-la-Mujer-Migrante-yo-Refugiada.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ve-voces",
+      "organization": "Voces de Género",
+      "category": "protection",
+      "service": "Orientación para acceder a asistencia legal y psicológica en situaciones de violencia.",
+      "coverage": {
+        "scope": "national",
+        "area": "Venezuela",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584264189608",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://refugiolatinoamericano.com/wp-content/uploads/2026/05/Directorio-Regional-de-Denuncia-contra-la-Violencia-hacia-la-Mujer-Migrante-yo-Refugiada.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ve-exodo",
+      "organization": "Éxodo, línea de atención directa",
+      "category": "protection",
+      "service": "Consulta por orientación y apoyo en situaciones de trata o violencia de género.",
+      "coverage": {
+        "scope": "national",
+        "area": "Venezuela",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584121537916",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+584121549896",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, 8:00–17:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://refugiolatinoamericano.com/wp-content/uploads/2026/05/Directorio-Regional-de-Denuncia-contra-la-Violencia-hacia-la-Mujer-Migrante-yo-Refugiada.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ve-cicr",
+      "organization": "Comité Internacional de la Cruz Roja, contacto comunitario",
+      "category": "protection",
+      "service": "Consulta por asistencia humanitaria y seguimiento de necesidades de protección.",
+      "coverage": {
+        "scope": "national",
+        "area": "Venezuela",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+584126365015",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+584241721364",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.icrc.org/es/document/venezuela-contactanos-traves-de-nuestra-linea-de-atencion-telefonica"
+        ]
+      }
+    },
+    {
+      "id": "ve-habla",
+      "organization": "Fundación de Atención Social Habla",
+      "category": "protection",
+      "service": "Consulta por acompañamiento y servicios para sobrevivientes de violencia de género.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Distrito Capital y área metropolitana de Caracas",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+582122611806",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://venezuela.unfpa.org/sites/default/files/pub-pdf/directorioserviciosvbg.pdf"
+        ]
+      }
+    }
+  ]
+}
+
