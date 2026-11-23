@@ -22,6 +22,7 @@ A Spanish-language, mobile-first directory of emergency services, health resourc
 | Dominican Republic | 45 | [DO](data/countries/do/resources.json) |
 | Puerto Rico | 45 | [PR](data/countries/pr/resources.json) |
 | Paraguay | 45 | [PY](data/countries/py/resources.json) |
+| Bolivia | 45 | [BO](data/countries/bo/resources.json) |
 
 The country selector also offers general guidance when a local directory is unavailable.
 
@@ -79,6 +80,7 @@ Each resource card shows the sources, date and verification method. Initial revi
 - Dominican Republic. [Civil Defense emergency directory](https://www.sismap.gob.do/GestionPublica/uploads/evidencias/638581015687823389-Manual-de-Evacuacin-Defensa-Civil-Vigente-2024.pdf), [Roadside assistance](https://mopc.gob.do/servicios/programa-de-protecci%C3%B3n-y-asistencia-vial), [Regional Health Services](https://sns.gob.do/regionales-de-salud/), [Public dining halls](https://comedoreseconomicos.gob.do/dependencias/), [UNHCR partner assistance](https://help.unhcr.org/dominicanrepublic/donde-encontrar-ayuda/solicitantes-asilo-refugio-refugiadas/), [Protection services](https://observatoriojusticiaygenero.poderjudicial.gob.do/wp-content/uploads/2025/06/directorio_profamilia.pdf).
 - Puerto Rico. [Department of Public Safety emergency numbers](https://www.dsp.pr.gov/lineas-de-emergencia), [Department of Health hospital listings](https://www.salud.pr.gov/CMS/DOWNLOAD/9687), [ASSMCA treatment centers](https://assmca.pr.gov/tratamientos), [Housing and homeless services](https://coc502pr.com/directorio), [Legal aid centers](https://www.servicioslegales.org/donde-estamos/), [Justice Department victim support](https://www.justicia.pr.gov/secretarias-y-oficinas/servicios-a-las-victimas-y-testigos-de-delitos/).
 - Paraguay. [Government emergency lines](https://paraguay.gov.py/), [Ministry of Health services](https://www.mspbs.gov.py/portal/35850/operativo-jahoi-2026-unas-32-personas-atendidas-en-albergues-transitorios.html), [Permanent homes for older adults](https://www.mspbs.gov.py/bienestarsocial/hogares-acuerdos.html), [Public defense offices](https://www.mdp.gov.py/wp-content/uploads/2023/02/Direcciones-y-Telefonos-Nivel-Pais-.pdf), [Women’s regional centers](https://mujer.gov.py/centro-regionales/), [Fono Ayuda](https://minna.gov.py/fonoayuda/).
+- Bolivia. [EMAPA emergency directory](https://emapa.gob.bo/wp-content/uploads/2022/10/PREVENCION-ANTE-RESPUESTAS-EMAPA.pdf), [National toxicology directory](https://www.minsalud.gob.bo/component/jdownloads/send/58-programa-nacional-de-gestion-en-salud-ambiental/886-guia-tecnica-para-la-prevencion-diagnostico-tratamiento-y-vigilancia-de-la-intoxicacion-por-mercurio-en-bolivia?Itemid=2394), [La Paz municipal hospitals](https://lapaz.bo/autoridades/), [Consular support directory](https://www.cancilleria.gob.ec/wp-content/uploads/2025/05/Catalogo-ServiciosV6.pdf), [Ombudsperson offices](https://www.defensoria.gob.bo/contenido/preguntas-frecuentes), [UNHCR assistance](https://help.unhcr.org/bolivia/dondeencontrarayuda/), [Child protection offices](https://www.gob.bo/tramites/defensoria-de-la-ninez-y-adolescencia).
 
 ### Correcting directory entries
 

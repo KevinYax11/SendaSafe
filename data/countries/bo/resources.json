@@ -1,0 +1,1289 @@
+{
+  "country": "BO",
+  "language": "es",
+  "resources": [
+    {
+      "id": "bo-police",
+      "organization": "Policía Boliviana, Radio Patrullas",
+      "category": "emergency",
+      "service": "Solicita intervención policial inmediata.",
+      "coverage": {
+        "scope": "national",
+        "area": "Bolivia",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "110",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://emapa.gob.bo/wp-content/uploads/2022/10/PREVENCION-ANTE-RESPUESTAS-EMAPA.pdf"
+        ]
+      }
+    },
+    {
+      "id": "bo-bomberos",
+      "organization": "Bomberos de la Policía Boliviana",
+      "category": "emergency",
+      "service": "Solicita ayuda ante incendios o situaciones que requieran rescate.",
+      "coverage": {
+        "scope": "national",
+        "area": "Bolivia",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "119",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://emapa.gob.bo/wp-content/uploads/2022/10/PREVENCION-ANTE-RESPUESTAS-EMAPA.pdf"
+        ]
+      }
+    },
+    {
+      "id": "bo-auxilio",
+      "organization": "Auxilio La Paz 167",
+      "category": "emergency",
+      "service": "Atención prehospitalaria y ambulancias municipales en La Paz.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Paz, La Paz",
+        "municipality": "La Paz"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "167",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://lapaz.bo/auxilio-la-paz-167-presto-mas-de-8-mil-atenciones-prehospitalarias-y-de-emergencia/"
+        ]
+      }
+    },
+    {
+      "id": "bo-riesgos",
+      "organization": "Red 114, Gobierno Autónomo Municipal de La Paz",
+      "category": "emergency",
+      "service": "Reporta riesgos municipales, como inundaciones o deslizamientos.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Paz, La Paz",
+        "municipality": "La Paz"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "114",
+          "routing": "short-code"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+59167070712",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://lapaz.bo/recepcion-de-demandas-vecinales-ante-situaciones-de-riesgos-y-emergencias/"
+        ]
+      }
+    },
+    {
+      "id": "bo-cit-santa-cruz",
+      "organization": "Centro de Información Toxicológica, Hospital Boliviano Japonés",
+      "category": "emergency",
+      "service": "Orientación especializada en caso de exposición a sustancias tóxicas.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Santa Cruz",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "800106966",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+59173146414",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.minsalud.gob.bo/component/jdownloads/send/58-programa-nacional-de-gestion-en-salud-ambiental/886-guia-tecnica-para-la-prevencion-diagnostico-tratamiento-y-vigilancia-de-la-intoxicacion-por-mercurio-en-bolivia?Itemid=2394"
+        ]
+      }
+    },
+    {
+      "id": "bo-cit-chuquisaca",
+      "organization": "Centro de Información Toxicológica, Hospital Santa Bárbara",
+      "category": "emergency",
+      "service": "Orientación especializada en caso de exposición a sustancias tóxicas.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Chuquisaca",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59160319882",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.minsalud.gob.bo/component/jdownloads/send/58-programa-nacional-de-gestion-en-salud-ambiental/886-guia-tecnica-para-la-prevencion-diagnostico-tratamiento-y-vigilancia-de-la-intoxicacion-por-mercurio-en-bolivia?Itemid=2394"
+        ]
+      }
+    },
+    {
+      "id": "bo-cit-cochabamba",
+      "organization": "Centro de Información Toxicológica, Hospital Clínico Viedma",
+      "category": "emergency",
+      "service": "Orientación especializada en caso de exposición a sustancias tóxicas.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Cochabamba",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59170731074",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.minsalud.gob.bo/component/jdownloads/send/58-programa-nacional-de-gestion-en-salud-ambiental/886-guia-tecnica-para-la-prevencion-diagnostico-tratamiento-y-vigilancia-de-la-intoxicacion-por-mercurio-en-bolivia?Itemid=2394"
+        ]
+      }
+    },
+    {
+      "id": "bo-lapaz",
+      "organization": "Hospital La Paz",
+      "category": "health-and-psychosocial",
+      "service": "Consulta al hospital por atención médica y disponibilidad de servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Paz, La Paz",
+        "municipality": "La Paz"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59122454033",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+59122460327",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://lapaz.bo/autoridades/"
+        ]
+      }
+    },
+    {
+      "id": "bo-pinos",
+      "organization": "Hospital Municipal Los Pinos",
+      "category": "health-and-psychosocial",
+      "service": "Consulta al hospital por atención médica y disponibilidad de servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Paz, La Paz",
+        "municipality": "La Paz"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59122656303",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://lapaz.bo/autoridades/"
+        ]
+      }
+    },
+    {
+      "id": "bo-merced",
+      "organization": "Hospital Municipal La Merced",
+      "category": "health-and-psychosocial",
+      "service": "Consulta al hospital por atención médica y disponibilidad de servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Paz, La Paz",
+        "municipality": "La Paz"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59122656602",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://lapaz.bo/autoridades/"
+        ]
+      }
+    },
+    {
+      "id": "bo-portada",
+      "organization": "Hospital Municipal La Portada",
+      "category": "health-and-psychosocial",
+      "service": "Consulta cómo acceder a la atención por medio del programa municipal Médico en tu Casa.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Paz, La Paz",
+        "municipality": "La Paz"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59172565375",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://lapaz.bo/un-ejemplo-cosomusa-destaca-la-calidad-humana-de-romero-en-el-programa-medico-en-tu-casa/"
+        ]
+      }
+    },
+    {
+      "id": "bo-cotahuma",
+      "organization": "Hospital Municipal Cotahuma",
+      "category": "health-and-psychosocial",
+      "service": "Consulta cómo acceder a la atención por medio del programa municipal Médico en tu Casa.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Paz, La Paz",
+        "municipality": "La Paz"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59173702729",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://lapaz.bo/un-ejemplo-cosomusa-destaca-la-calidad-humana-de-romero-en-el-programa-medico-en-tu-casa/"
+        ]
+      }
+    },
+    {
+      "id": "bo-cruz-roja",
+      "organization": "Cruz Roja Boliviana, filial La Paz",
+      "category": "health-and-psychosocial",
+      "service": "Consulta por servicios de salud de la filial.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Paz, La Paz",
+        "municipality": "La Paz"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59122202930",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cancilleria.gob.ec/wp-content/uploads/2025/05/Catalogo-ServiciosV6.pdf"
+        ]
+      }
+    },
+    {
+      "id": "bo-calle-lapaz",
+      "organization": "Gobierno Autónomo Municipal de La Paz, atención a personas en situación de calle",
+      "category": "shelter-and-food",
+      "service": "Consulta al equipo municipal por atención social y derivación voluntaria a albergues transitorios.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Paz, La Paz",
+        "municipality": "La Paz"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59122650943",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://lapaz.bo/atencion-a-poblacion-en-situacion-de-calle-en-el-municipio-de-la-paz-2/"
+        ]
+      }
+    },
+    {
+      "id": "bo-calle-santa",
+      "organization": "Albergue municipal de invierno de Santa Cruz de la Sierra",
+      "category": "shelter-and-food",
+      "service": "Consulta la disponibilidad de alojamiento y traslado para personas en situación de calle.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santa Cruz de la Sierra, Santa Cruz",
+        "municipality": "Santa Cruz de la Sierra"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "800125700",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Mientras esté activo el albergue de invierno",
+      "cost": "Llamada gratuita",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gmsantacruz.gob.bo/Noticias/Detalle/?id=754"
+        ]
+      }
+    },
+    {
+      "id": "bo-casa-refugio",
+      "organization": "Casa del Migrante Señor de La Paz",
+      "category": "shelter-and-food",
+      "service": "Consulta por acogida temporal de personas en movilidad y requisitos de alojamiento.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Paz, La Paz",
+        "municipality": "La Paz"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59122301019",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cancilleria.gob.ec/wp-content/uploads/2025/05/Catalogo-ServiciosV6.pdf",
+          "https://www.simn-global.org/centros-scalabrinianos/centro/casa-del-migrante-y-centro-de-atencion-senor-de-la-paz/"
+        ]
+      }
+    },
+    {
+      "id": "bo-chasquipampa",
+      "organization": "Casa del Migrante de Chasquipampa",
+      "category": "shelter-and-food",
+      "service": "Consulta por alojamiento de personas migrantes y disponibilidad de cupo.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Paz, La Paz",
+        "municipality": "La Paz"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59167043051",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cancilleria.gob.ec/wp-content/uploads/2025/05/Catalogo-ServiciosV6.pdf"
+        ]
+      }
+    },
+    {
+      "id": "bo-munasim-alojamiento",
+      "organization": "Fundación Munasim Kullakita, acogida",
+      "category": "shelter-and-food",
+      "service": "Consulta por servicios de alojamiento y derivación disponibles para personas en situación de vulnerabilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "El Alto, La Paz",
+        "municipality": "El Alto"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59122843853",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cancilleria.gob.ec/wp-content/uploads/2025/05/Catalogo-ServiciosV6.pdf"
+        ]
+      }
+    },
+    {
+      "id": "bo-munasim-ayuda",
+      "organization": "Fundación Munasim Kullakita, atención remota a personas migrantes",
+      "category": "migration-and-legal",
+      "service": "Solicita orientación para personas refugiadas y migrantes o consulta dónde encontrar atención cerca de ti.",
+      "coverage": {
+        "scope": "national",
+        "area": "Bolivia",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+59161234410",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a jueves, sábados y domingos, 9:00–16:30. Viernes, 9:00–12:00.",
+      "cost": "Gratuito",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/bolivia/dondeencontrarayuda/"
+        ]
+      }
+    },
+    {
+      "id": "bo-caritas",
+      "organization": "Cáritas Boliviana",
+      "category": "migration-and-legal",
+      "service": "Consulta por asesoría jurídica y derivación para personas en movilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Paz, La Paz",
+        "municipality": "La Paz"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59122406206",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cancilleria.gob.ec/wp-content/uploads/2025/05/Catalogo-ServiciosV6.pdf"
+        ]
+      }
+    },
+    {
+      "id": "bo-caritas-alto",
+      "organization": "Cáritas El Alto",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación jurídica local para personas migrantes y refugiadas.",
+      "coverage": {
+        "scope": "local",
+        "area": "El Alto, La Paz",
+        "municipality": "El Alto"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59122829027",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cancilleria.gob.ec/wp-content/uploads/2025/05/Catalogo-ServiciosV6.pdf"
+        ]
+      }
+    },
+    {
+      "id": "bo-defensoria-central",
+      "organization": "Defensoría del Pueblo, oficina nacional",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación o presenta una queja por una posible vulneración de derechos.",
+      "coverage": {
+        "scope": "national",
+        "area": "Bolivia",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59122113600",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.bo/contenido/preguntas-frecuentes"
+        ]
+      }
+    },
+    {
+      "id": "bo-defensoria-alto",
+      "organization": "Defensoría del Pueblo, El Alto",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación o presenta una queja por una posible vulneración de derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "El Alto, La Paz",
+        "municipality": "El Alto"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59122112572",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.bo/contenido/preguntas-frecuentes"
+        ]
+      }
+    },
+    {
+      "id": "bo-defensoria-caranavi",
+      "organization": "Defensoría del Pueblo, Caranavi",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación o presenta una queja por una posible vulneración de derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Caranavi, La Paz",
+        "municipality": "Caranavi"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59128243934",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.bo/contenido/preguntas-frecuentes"
+        ]
+      }
+    },
+    {
+      "id": "bo-defensoria-cochabamba",
+      "organization": "Defensoría del Pueblo, Cochabamba",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación o presenta una queja por una posible vulneración de derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cochabamba, Cochabamba",
+        "municipality": "Cochabamba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59144140745",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.bo/contenido/preguntas-frecuentes"
+        ]
+      }
+    },
+    {
+      "id": "bo-defensoria-santa-cruz",
+      "organization": "Defensoría del Pueblo, Santa Cruz de la Sierra",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación o presenta una queja por una posible vulneración de derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santa Cruz de la Sierra, Santa Cruz",
+        "municipality": "Santa Cruz de la Sierra"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59133111695",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.bo/contenido/preguntas-frecuentes"
+        ]
+      }
+    },
+    {
+      "id": "bo-defensoria-puerto",
+      "organization": "Defensoría del Pueblo, Puerto Suárez",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación o presenta una queja por una posible vulneración de derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puerto Suárez, Santa Cruz",
+        "municipality": "Puerto Suárez"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59167290016",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.bo/contenido/preguntas-frecuentes"
+        ]
+      }
+    },
+    {
+      "id": "bo-defensoria-oruro",
+      "organization": "Defensoría del Pueblo, Oruro",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación o presenta una queja por una posible vulneración de derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Oruro, Oruro",
+        "municipality": "Oruro"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59125112471",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.bo/contenido/preguntas-frecuentes"
+        ]
+      }
+    },
+    {
+      "id": "bo-defensoria-sucre",
+      "organization": "Defensoría del Pueblo, Sucre",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación o presenta una queja por una posible vulneración de derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Sucre, Chuquisaca",
+        "municipality": "Sucre"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59146918054",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.bo/contenido/preguntas-frecuentes"
+        ]
+      }
+    },
+    {
+      "id": "bo-defensoria-potosi",
+      "organization": "Defensoría del Pueblo, Potosí",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación o presenta una queja por una posible vulneración de derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Potosí, Potosí",
+        "municipality": "Potosí"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59126120805",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.bo/contenido/preguntas-frecuentes"
+        ]
+      }
+    },
+    {
+      "id": "bo-defensoria-cobija",
+      "organization": "Defensoría del Pueblo, Cobija",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación o presenta una queja por una posible vulneración de derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cobija, Pando",
+        "municipality": "Cobija"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59138423888",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.bo/contenido/preguntas-frecuentes"
+        ]
+      }
+    },
+    {
+      "id": "bo-defensoria-tarija",
+      "organization": "Defensoría del Pueblo, Tarija",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación o presenta una queja por una posible vulneración de derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tarija, Tarija",
+        "municipality": "Tarija"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59146116444",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.bo/contenido/preguntas-frecuentes"
+        ]
+      }
+    },
+    {
+      "id": "bo-defensoria-trinidad",
+      "organization": "Defensoría del Pueblo, Trinidad",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación o presenta una queja por una posible vulneración de derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Trinidad, Beni",
+        "municipality": "Trinidad"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59134652200",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.bo/contenido/preguntas-frecuentes"
+        ]
+      }
+    },
+    {
+      "id": "bo-defensoria-desaguadero",
+      "organization": "Defensoría del Pueblo, Desaguadero",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación o presenta una queja por una posible vulneración de derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Desaguadero, La Paz",
+        "municipality": "Desaguadero"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59173210241",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.bo/contenido/preguntas-frecuentes"
+        ]
+      }
+    },
+    {
+      "id": "bo-felcv",
+      "organization": "Fuerza Especial de Lucha Contra la Violencia",
+      "category": "protection",
+      "service": "Solicita auxilio policial y orientación para denunciar violencia de género o familiar.",
+      "coverage": {
+        "scope": "national",
+        "area": "Bolivia",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "800140348",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas",
+      "cost": "Llamada gratuita",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/bolivia/acceso-a-derechos-en-bolivia/violencia-basada-en-genero/"
+        ]
+      }
+    },
+    {
+      "id": "bo-paif",
+      "organization": "Plataforma de Atención Integral a la Familia de La Paz",
+      "category": "protection",
+      "service": "Solicita orientación o intervención municipal por violencia contra mujeres, niñas, niños o adolescentes.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Paz, La Paz",
+        "municipality": "La Paz"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "156",
+          "routing": "short-code"
+        },
+        {
+          "type": "phone",
+          "number": "800104100",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://lapaz.bo/paif-de-emergencia-linea-156/"
+        ]
+      }
+    },
+    {
+      "id": "bo-casa-mujer",
+      "organization": "Casa de la Mujer",
+      "category": "protection",
+      "service": "Atención psicológica, jurídica y social para personas sobrevivientes de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santa Cruz de la Sierra, Santa Cruz",
+        "municipality": "Santa Cruz de la Sierra"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+59162001850",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Cuota social según el servicio",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://casadelamujerbolivia.org/contacto",
+          "https://casadelamujerbolivia.org/como-te-ayudamos"
+        ]
+      }
+    },
+    {
+      "id": "bo-felcv-cochabamba",
+      "organization": "Fuerza Especial de Lucha Contra la Violencia, Cochabamba",
+      "category": "protection",
+      "service": "Contacto regional para pedir auxilio y orientación ante violencia de género o familiar.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Cochabamba",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59160707069",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aisem.gob.bo/wp-content/uploads/2021/08/MGAS-C4_2021.pdf"
+        ]
+      }
+    },
+    {
+      "id": "bo-felcv-beni",
+      "organization": "Fuerza Especial de Lucha Contra la Violencia, Beni",
+      "category": "protection",
+      "service": "Contacto regional para pedir auxilio y orientación ante violencia de género o familiar.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Beni",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59172042709",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aisem.gob.bo/wp-content/uploads/2021/08/MGAS-C4_2021.pdf"
+        ]
+      }
+    },
+    {
+      "id": "bo-felcv-pando",
+      "organization": "Fuerza Especial de Lucha Contra la Violencia, Pando",
+      "category": "protection",
+      "service": "Contacto regional para pedir auxilio y orientación ante violencia de género o familiar.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Pando",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59172042740",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aisem.gob.bo/wp-content/uploads/2021/08/MGAS-C4_2021.pdf"
+        ]
+      }
+    },
+    {
+      "id": "bo-felcv-potosi",
+      "organization": "Fuerza Especial de Lucha Contra la Violencia, Potosí",
+      "category": "protection",
+      "service": "Contacto regional para pedir auxilio y orientación ante violencia de género o familiar.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Potosí",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59172042570",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aisem.gob.bo/wp-content/uploads/2021/08/MGAS-C4_2021.pdf"
+        ]
+      }
+    },
+    {
+      "id": "bo-sucreninez-1",
+      "organization": "Defensoría de la Niñez y Adolescencia de Sucre, distrito 1",
+      "category": "protection",
+      "service": "Solicita orientación o intervención ante situaciones que afecten los derechos de niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Sucre, Chuquisaca",
+        "municipality": "Sucre"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59146436739",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta la atención en el distrito 1 de Sucre.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.bo/tramites/defensoria-de-la-ninez-y-adolescencia"
+        ]
+      }
+    },
+    {
+      "id": "bo-sucreninez-3",
+      "organization": "Defensoría de la Niñez y Adolescencia de Sucre, distrito 3",
+      "category": "protection",
+      "service": "Solicita orientación o intervención ante situaciones que afecten los derechos de niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Sucre, Chuquisaca",
+        "municipality": "Sucre"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59146436835",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta la atención en el distrito 3 de Sucre.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.bo/tramites/defensoria-de-la-ninez-y-adolescencia"
+        ]
+      }
+    },
+    {
+      "id": "bo-sucreninez-4",
+      "organization": "Defensoría de la Niñez y Adolescencia de Sucre, distrito 4",
+      "category": "protection",
+      "service": "Solicita orientación o intervención ante situaciones que afecten los derechos de niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Sucre, Chuquisaca",
+        "municipality": "Sucre"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59146435243",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta la atención en el distrito 4 de Sucre.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.bo/tramites/defensoria-de-la-ninez-y-adolescencia"
+        ]
+      }
+    },
+    {
+      "id": "bo-sucreninez-5",
+      "organization": "Defensoría de la Niñez y Adolescencia de Sucre, distrito 5",
+      "category": "protection",
+      "service": "Solicita orientación o intervención ante situaciones que afecten los derechos de niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Sucre, Chuquisaca",
+        "municipality": "Sucre"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59146435821",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta la atención en el distrito 5 de Sucre.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.bo/tramites/defensoria-de-la-ninez-y-adolescencia"
+        ]
+      }
+    }
+  ]
+}
+
