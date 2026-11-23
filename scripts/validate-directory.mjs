@@ -67,7 +67,17 @@ const countries = {
       protection: 18,
     },
   },
-  HN: { name: 'Honduras', numberPattern: /^\+504[2389]\d{7}$/ },
+  HN: {
+    name: 'Honduras',
+    numberPattern: /^\+504[2389]\d{7}$/,
+    minimumNumbers: {
+      emergency: 6,
+      'health-and-psychosocial': 9,
+      'shelter-and-food': 8,
+      'migration-and-legal': 15,
+      protection: 16,
+    },
+  },
   MX: {
     name: 'México',
     numberPattern: /^\+52[2-9]\d{9}$/,

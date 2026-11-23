@@ -11,7 +11,7 @@ A Spanish-language, mobile-first directory of emergency services, health resourc
 | Costa Rica | 46 | [CR](data/countries/cr/resources.json) |
 | El Salvador | 48 | [SV](data/countries/sv/resources.json) |
 | Guatemala | 49 | [GT](data/countries/gt/resources.json) |
-| Honduras | 22 | [HN](data/countries/hn/resources.json) |
+| Honduras | 47 | [HN](data/countries/hn/resources.json) |
 | Mexico | 49 | [MX](data/countries/mx/resources.json) |
 | Panama | 48 | [PA](data/countries/pa/resources.json) |
 

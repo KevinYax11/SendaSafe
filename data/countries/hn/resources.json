@@ -652,6 +652,707 @@
           "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Danli.pdf"
         ]
       }
+    },
+    {
+      "id": "bomberos-choluteca",
+      "organization": "Estación de Bomberos de Choluteca",
+      "category": "emergency",
+      "service": "Contacto de la estación de bomberos indicada en el directorio nacional.",
+      "coverage": {
+        "scope": "local",
+        "area": "Choluteca",
+        "municipality": "Choluteca"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50427820503",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "El 911 coordina el despacho nacional de emergencias.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://bomberos.hn/numeros-de-emergencia"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-comayagua",
+      "organization": "Estación de Bomberos de Comayagua",
+      "category": "emergency",
+      "service": "Contacto de la estación de bomberos indicada en el directorio nacional.",
+      "coverage": {
+        "scope": "local",
+        "area": "Comayagua",
+        "municipality": "Comayagua"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50427726291",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "El 911 coordina el despacho nacional de emergencias.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://bomberos.hn/numeros-de-emergencia"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-la-ceiba",
+      "organization": "Estación de Bomberos de La Ceiba",
+      "category": "emergency",
+      "service": "Contacto de la estación de bomberos indicada en el directorio nacional.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Ceiba, Atlántida",
+        "municipality": "La Ceiba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50424401949",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "El 911 coordina el despacho nacional de emergencias.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://bomberos.hn/numeros-de-emergencia"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-danli",
+      "organization": "Estación de Bomberos de Danlí",
+      "category": "emergency",
+      "service": "Contacto de la estación de bomberos indicada en el directorio nacional.",
+      "coverage": {
+        "scope": "local",
+        "area": "Danlí, El Paraíso",
+        "municipality": "Danlí"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50427632340",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "El 911 coordina el despacho nacional de emergencias.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://bomberos.hn/numeros-de-emergencia"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-juticalpa",
+      "organization": "Estación de Bomberos de Juticalpa",
+      "category": "emergency",
+      "service": "Contacto de la estación de bomberos indicada en el directorio nacional.",
+      "coverage": {
+        "scope": "local",
+        "area": "Juticalpa, Olancho",
+        "municipality": "Juticalpa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50427852910",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "El 911 coordina el despacho nacional de emergencias.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://bomberos.hn/numeros-de-emergencia"
+        ]
+      }
+    },
+    {
+      "id": "caps-unah",
+      "organization": "Centro de Asistencia Psicológica — UNAH",
+      "category": "health-and-psychosocial",
+      "service": "Ofrece consulta psicológica con cita.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tegucigalpa, Francisco Morazán",
+        "municipality": "Tegucigalpa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50498502834",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Solicita una cita con el centro.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://blogs.unah.edu.hn/presencia-universitaria/el-aporte-de-la-unah-a-la-salud-mental-desde-el-centro-de-asistencia-psicologica"
+        ]
+      }
+    },
+    {
+      "id": "psicologia-unah-valle-sula",
+      "organization": "Clínica Psicológica UNAH Valle de Sula",
+      "category": "health-and-psychosocial",
+      "service": "Atención psicológica vinculada al área de salud universitaria.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Pedro Sula, Cortés",
+        "municipality": "San Pedro Sula"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50425456628",
+          "routing": "switchboard",
+          "extension": "300085"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta las condiciones de acceso y disponibilidad.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://vallesula.unah.edu.hn/estudiar-en-unah-vs/sudecad/areas/areas-de-la-salud/clinica-medica-5/"
+        ]
+      }
+    },
+    {
+      "id": "hospital-general-sur",
+      "organization": "Hospital General del Sur",
+      "category": "health-and-psychosocial",
+      "service": "Hospital público con consultas, incluida atención psicológica dentro de la ruta local de atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Choluteca",
+        "municipality": "Choluteca"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50427820221",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta cómo acceder a la especialidad.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Choluteca.pdf"
+        ]
+      }
+    },
+    {
+      "id": "pastoral-mujer-choluteca",
+      "organization": "Pastoral de la Mujer — Atención psicológica",
+      "category": "health-and-psychosocial",
+      "service": "Ofrece acompañamiento psicológico a mujeres en la ruta local de atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Choluteca",
+        "municipality": "Choluteca"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50433940467",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Choluteca.pdf"
+        ]
+      }
+    },
+    {
+      "id": "sai-choluteca",
+      "organization": "Servicio de Atención Integral — Apoyo psicosocial",
+      "category": "health-and-psychosocial",
+      "service": "Brinda apoyo psicosocial para personas que viven con VIH.",
+      "coverage": {
+        "scope": "local",
+        "area": "Choluteca",
+        "municipality": "Choluteca"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50493918303",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Choluteca.pdf"
+        ]
+      }
+    },
+    {
+      "id": "casa-alianza",
+      "organization": "Casa Alianza Honduras",
+      "category": "shelter-and-food",
+      "service": "Ofrece refugio, alimentos y atención integral para niñas, niños y adolescentes en situación de vulnerabilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tegucigalpa, Francisco Morazán",
+        "municipality": "Tegucigalpa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50422371494",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta la ruta de ingreso y los criterios de atención.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://consultoriojuridico.unah.edu.hn/assets/cjgCabinas/faq-ongn9.html"
+        ]
+      }
+    },
+    {
+      "id": "hogar-esperanza-choluteca",
+      "organization": "Hogar Esperanza",
+      "category": "shelter-and-food",
+      "service": "Alojamiento temporal para personas en movilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Choluteca",
+        "municipality": "Choluteca"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50493951495",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Confirma cupo y modalidad de ingreso.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Choluteca.pdf"
+        ]
+      }
+    },
+    {
+      "id": "caim-choluteca",
+      "organization": "Centro de Atención Integral a la Mujer — Refugio",
+      "category": "shelter-and-food",
+      "service": "Canal público de orientación para solicitar refugio por violencia doméstica.",
+      "coverage": {
+        "scope": "local",
+        "area": "Choluteca",
+        "municipality": "Choluteca"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50497183928",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas.",
+      "cost": null,
+      "requirements": "Coordina el acceso por teléfono.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Choluteca.pdf"
+        ]
+      }
+    },
+    {
+      "id": "banco-alimentos-honduras",
+      "organization": "Banco de Alimentos de Honduras",
+      "category": "shelter-and-food",
+      "service": "Orienta a entidades asistenciales que distribuyen apoyo alimentario.",
+      "coverage": {
+        "scope": "national",
+        "area": "Honduras",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50422833650",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "El programa atiende a organizaciones asistenciales legalmente constituidas.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://bahonduras.org/organizaciones/"
+        ]
+      }
+    },
+    {
+      "id": "albergue-la-pastoral-trojes",
+      "organization": "Albergue La Pastoral",
+      "category": "shelter-and-food",
+      "service": "Alojamiento vinculado a la comunidad católica local para personas migrantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Trojes, El Paraíso",
+        "municipality": "Trojes"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50499104408",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Confirma cupo, horario y condiciones antes de acudir.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cancilleria.gob.ec/wp-content/uploads/2025/05/Catalogo-ServiciosV6.pdf"
+        ]
+      }
+    },
+    {
+      "id": "acnur-tegucigalpa",
+      "organization": "ACNUR — Unidad de Terreno Tegucigalpa",
+      "category": "migration-and-legal",
+      "service": "Ofrece orientación sobre refugio, protección internacional y acceso a servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tegucigalpa, Francisco Morazán",
+        "municipality": "Tegucigalpa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50431742939",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/donde-encontrar-ayuda/oficinas-del-acnur/"
+        ]
+      }
+    },
+    {
+      "id": "acnur-san-pedro-sula",
+      "organization": "ACNUR — Unidad de Terreno San Pedro Sula",
+      "category": "migration-and-legal",
+      "service": "Ofrece orientación sobre refugio, protección internacional y acceso a servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Pedro Sula, Cortés",
+        "municipality": "San Pedro Sula"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50425653100",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/donde-encontrar-ayuda/oficinas-del-acnur/"
+        ]
+      }
+    },
+    {
+      "id": "acnur-choluteca",
+      "organization": "ACNUR — Unidad de Terreno Choluteca",
+      "category": "migration-and-legal",
+      "service": "Ofrece orientación sobre refugio, protección internacional y acceso a servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Choluteca",
+        "municipality": "Choluteca"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50431721182",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/donde-encontrar-ayuda/oficinas-del-acnur/"
+        ]
+      }
+    },
+    {
+      "id": "inm-orientacion-refugio",
+      "organization": "Instituto Nacional de Migración — Orientación sobre refugio",
+      "category": "migration-and-legal",
+      "service": "La Gerencia de Derechos Humanos y Atención al Migrante orienta sobre la solicitud de refugio en Honduras.",
+      "coverage": {
+        "scope": "national",
+        "area": "Honduras",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50489356896",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/como-solicitar-asilo/"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-unicah-choluteca",
+      "organization": "Consultorio Jurídico de la UNICAH",
+      "category": "migration-and-legal",
+      "service": "Brinda orientación jurídica dentro de la ruta local de atención a víctimas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Choluteca",
+        "municipality": "Choluteca"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50498085087",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Choluteca.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ciudad-mujer-juticalpa",
+      "organization": "Ciudad Mujer Juticalpa",
+      "category": "protection",
+      "service": "Ofrece servicios de protección y orientación frente a la violencia de género.",
+      "coverage": {
+        "scope": "local",
+        "area": "Juticalpa, Olancho",
+        "municipality": "Juticalpa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50495765424",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.ciudadmujer.gob.hn/?page_id=4770"
+        ]
+      }
+    },
+    {
+      "id": "ciudad-mujer-san-pedro-sula",
+      "organization": "Ciudad Mujer San Pedro Sula",
+      "category": "protection",
+      "service": "Orienta a mujeres y facilita el acceso a servicios de atención y protección.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Pedro Sula, Cortés",
+        "municipality": "San Pedro Sula"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50498704259",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.ciudadmujer.gob.hn/?page_id=4763"
+        ]
+      }
+    },
+    {
+      "id": "maie-ceiba",
+      "organization": "Módulo de Atención Integral Especializado — La Ceiba",
+      "category": "protection",
+      "service": "Brinda atención del Ministerio Público a personas en situación de vulnerabilidad, incluidas mujeres víctimas de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Ceiba, Atlántida",
+        "municipality": "La Ceiba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50424412104",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.ciudadmujer.gob.hn/?page_id=4749"
+        ]
+      }
+    },
+    {
+      "id": "maie-choluteca",
+      "organization": "Módulo de Atención Integral Especializado — Choluteca",
+      "category": "protection",
+      "service": "Orienta a víctimas y facilita el acceso a servicios del Ministerio Público.",
+      "coverage": {
+        "scope": "local",
+        "area": "Choluteca",
+        "municipality": "Choluteca"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50427820994",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Choluteca.pdf"
+        ]
+      }
+    },
+    {
+      "id": "conadeh-choluteca",
+      "organization": "CONADEH — Oficina Departamental de Choluteca",
+      "category": "protection",
+      "service": "Recibe quejas y orienta sobre la protección de derechos humanos.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Choluteca",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50427825555",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Choluteca.pdf"
+        ]
+      }
     }
   ]
 }
