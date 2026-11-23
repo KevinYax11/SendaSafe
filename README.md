@@ -20,6 +20,7 @@ A Spanish-language, mobile-first directory of emergency services, health resourc
 | Ecuador | 45 | [EC](data/countries/ec/resources.json) |
 | Brazil | 45 | [BR](data/countries/br/resources.json) |
 | Dominican Republic | 45 | [DO](data/countries/do/resources.json) |
+| Puerto Rico | 45 | [PR](data/countries/pr/resources.json) |
 
 The country selector also offers general guidance when a local directory is unavailable.
 
@@ -75,6 +76,7 @@ Each resource card shows the sources, date and verification method. Initial revi
 - Ecuador. [ECU 911](https://www.ecu911.gob.ec/como-reportar-al-9-1-1/), [IESS](https://www.iess.gob.ec/es/mapa-de-unidades-medicas), [Defensoría Pública](https://www.defensoria.gob.ec/?page_id=22777), [ACNUR Ecuador](https://help.unhcr.org/ecuador/en/violencia-de-genero-explotacion-y-abuso-sexual/organizaciones-locales-que-atienden-casos-de-violencia-basada-en-genero/).
 - Brazil. [Ministério das Comunicações](https://www.gov.br/mcom/pt-br/noticias/2026/setembro/emergencia-voce-sabe-para-quem-ligar-quando-precisa-de-ajuda/), [ACNUR Brasil](https://help.unhcr.org/brazil/onde-encontrar-ajuda/organizacoes-parceiras-da-sociedade-civil/), [Prefeitura de Curitiba](https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=211).
 - Dominican Republic. [Civil Defense emergency directory](https://www.sismap.gob.do/GestionPublica/uploads/evidencias/638581015687823389-Manual-de-Evacuacin-Defensa-Civil-Vigente-2024.pdf), [Roadside assistance](https://mopc.gob.do/servicios/programa-de-protecci%C3%B3n-y-asistencia-vial), [Regional Health Services](https://sns.gob.do/regionales-de-salud/), [Public dining halls](https://comedoreseconomicos.gob.do/dependencias/), [UNHCR partner assistance](https://help.unhcr.org/dominicanrepublic/donde-encontrar-ayuda/solicitantes-asilo-refugio-refugiadas/), [Protection services](https://observatoriojusticiaygenero.poderjudicial.gob.do/wp-content/uploads/2025/06/directorio_profamilia.pdf).
+- Puerto Rico. [Department of Public Safety emergency numbers](https://www.dsp.pr.gov/lineas-de-emergencia), [Department of Health hospital listings](https://www.salud.pr.gov/CMS/DOWNLOAD/9687), [ASSMCA treatment centers](https://assmca.pr.gov/tratamientos), [Housing and homeless services](https://coc502pr.com/directorio), [Legal aid centers](https://www.servicioslegales.org/donde-estamos/), [Justice Department victim support](https://www.justicia.pr.gov/secretarias-y-oficinas/servicios-a-las-victimas-y-testigos-de-delitos/).
 
 ### Correcting directory entries
 

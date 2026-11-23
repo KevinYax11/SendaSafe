@@ -1,0 +1,1292 @@
+{
+  "country": "PR",
+  "language": "es",
+  "resources": [
+    {
+      "id": "pr-911",
+      "organization": "Negociado de Sistema de Emergencias 9-1-1",
+      "category": "emergency",
+      "service": "Solicita intervención inmediata de los servicios de emergencia.",
+      "coverage": {
+        "scope": "national",
+        "area": "Puerto Rico",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "911",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.dsp.pr.gov/negociados/negociado-de-sistema-de-emergencias-9-1-1"
+        ]
+      }
+    },
+    {
+      "id": "pr-bomberos",
+      "organization": "Negociado del Cuerpo de Bomberos",
+      "category": "emergency",
+      "service": "Contacto del cuerpo de bomberos. Si hay un incendio activo o peligro inmediato, llama al 911.",
+      "coverage": {
+        "scope": "national",
+        "area": "Puerto Rico",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17873432330",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.dsp.pr.gov/lineas-de-emergencia"
+        ]
+      }
+    },
+    {
+      "id": "pr-policia",
+      "organization": "Policía de Puerto Rico",
+      "category": "emergency",
+      "service": "Contacto de la Policía de Puerto Rico. Ante peligro inmediato, marca 911.",
+      "coverage": {
+        "scope": "national",
+        "area": "Puerto Rico",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17873432020",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.dsp.pr.gov/lineas-de-emergencia"
+        ]
+      }
+    },
+    {
+      "id": "pr-desastres",
+      "organization": "Negociado para el Manejo de Emergencias y Administración de Desastres",
+      "category": "emergency",
+      "service": "Contacto institucional para información y coordinación sobre emergencias y desastres.",
+      "coverage": {
+        "scope": "national",
+        "area": "Puerto Rico",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877240124",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.dsp.pr.gov/lineas-de-emergencia"
+        ]
+      }
+    },
+    {
+      "id": "pr-emergencias-medicas",
+      "organization": "Negociado del Cuerpo de Emergencias Médicas",
+      "category": "emergency",
+      "service": "Contacto institucional del servicio de emergencias médicas. Para solicitar despacho urgente, marca 911.",
+      "coverage": {
+        "scope": "national",
+        "area": "Puerto Rico",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17873432550",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.dsp.pr.gov/lineas-de-emergencia"
+        ]
+      }
+    },
+    {
+      "id": "pr-luma",
+      "organization": "LUMA Energy",
+      "category": "emergency",
+      "service": "Reporta apagones o riesgos relacionados con el servicio eléctrico.",
+      "coverage": {
+        "scope": "national",
+        "area": "Puerto Rico",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18448885862",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.dsp.pr.gov/lineas-de-emergencia"
+        ]
+      }
+    },
+    {
+      "id": "pr-h-pavia",
+      "organization": "Hospital Pavía Arecibo",
+      "category": "health-and-psychosocial",
+      "service": "Comunícate con el hospital para consultar la disponibilidad de sus servicios médicos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Arecibo, Puerto Rico",
+        "municipality": "Arecibo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17876507272",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.salud.pr.gov/CMS/DOWNLOAD/9687"
+        ]
+      }
+    },
+    {
+      "id": "pr-h-hurra",
+      "organization": "Hospital Universitario Ramón Ruiz Arnau",
+      "category": "health-and-psychosocial",
+      "service": "Comunícate con el hospital para consultar la disponibilidad de sus servicios médicos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bayamón, Puerto Rico",
+        "municipality": "Bayamón"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877875151",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.salud.pr.gov/CMS/DOWNLOAD/9687"
+        ]
+      }
+    },
+    {
+      "id": "pr-h-auxilio",
+      "organization": "Hospital Auxilio Mutuo San Pablo",
+      "category": "health-and-psychosocial",
+      "service": "Comunícate con el hospital para consultar la disponibilidad de sus servicios médicos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bayamón, Puerto Rico",
+        "municipality": "Bayamón"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17876536060",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.salud.pr.gov/CMS/DOWNLOAD/9687"
+        ]
+      }
+    },
+    {
+      "id": "pr-h-women",
+      "organization": "Puerto Rico Women and Children’s Hospital",
+      "category": "health-and-psychosocial",
+      "service": "Comunícate con el hospital para consultar la disponibilidad de sus servicios médicos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bayamón, Puerto Rico",
+        "municipality": "Bayamón"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17874748282",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.salud.pr.gov/CMS/DOWNLOAD/9687"
+        ]
+      }
+    },
+    {
+      "id": "pr-h-trilla",
+      "organization": "Hospital UPR Dr. Federico Trilla",
+      "category": "health-and-psychosocial",
+      "service": "Comunícate con el hospital para consultar la disponibilidad de sus servicios médicos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Carolina, Puerto Rico",
+        "municipality": "Carolina"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877571800",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.salud.pr.gov/CMS/DOWNLOAD/9687"
+        ]
+      }
+    },
+    {
+      "id": "pr-h-ryder",
+      "organization": "Hospital Ryder Memorial",
+      "category": "health-and-psychosocial",
+      "service": "Comunícate con el hospital para consultar la disponibilidad de sus servicios médicos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Humacao, Puerto Rico",
+        "municipality": "Humacao"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17878520768",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.salud.pr.gov/CMS/DOWNLOAD/9687"
+        ]
+      }
+    },
+    {
+      "id": "pr-inspira",
+      "organization": "Clínicas de INSPIRA",
+      "category": "health-and-psychosocial",
+      "service": "Consulta las opciones de atención ambulatoria en salud mental y el acceso a citas.",
+      "coverage": {
+        "scope": "national",
+        "area": "Puerto Rico",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877040705",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://lineapas.assmca.pr.gov/material/PAS-0003"
+        ]
+      }
+    },
+    {
+      "id": "pr-alimentos",
+      "organization": "Banco de Alimentos de Puerto Rico",
+      "category": "shelter-and-food",
+      "service": "Consulta cómo encontrar organizaciones aliadas para recibir asistencia alimentaria.",
+      "coverage": {
+        "scope": "national",
+        "area": "Puerto Rico",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877403663",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://alimentospr.org/contact-us/",
+          "https://alimentospr.org/"
+        ]
+      }
+    },
+    {
+      "id": "pr-fondita",
+      "organization": "La Fondita de Jesús",
+      "category": "shelter-and-food",
+      "service": "Consulta por servicios de apoyo a personas sin hogar y opciones de alojamiento.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Juan, Puerto Rico",
+        "municipality": "San Juan"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877244051",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://esgweb.familia.pr.gov/entidades_/"
+        ]
+      }
+    },
+    {
+      "id": "pr-el-paraiso",
+      "organization": "Albergue El Paraíso",
+      "category": "shelter-and-food",
+      "service": "Consulta por recursos de vivienda para personas sin hogar y condiciones de ingreso.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Juan, Puerto Rico",
+        "municipality": "San Juan"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877250080",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://coc502pr.com/directorio"
+        ]
+      }
+    },
+    {
+      "id": "pr-guara-bi",
+      "organization": "Guara Bí, Comerío",
+      "category": "shelter-and-food",
+      "service": "Pregunta por el programa de vivienda permanente y cómo solicitar acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Comerío, Puerto Rico",
+        "municipality": "Comerío"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877433960",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://coc502pr.com/directorio"
+        ]
+      }
+    },
+    {
+      "id": "pr-amparo",
+      "organization": "Hogar Amparo, Coalición de Guaynabo",
+      "category": "shelter-and-food",
+      "service": "Consulta por alojamiento transitorio y requisitos de ingreso.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Guaynabo y Bayamón",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877315480",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://coc502pr.com/directorio"
+        ]
+      }
+    },
+    {
+      "id": "pr-nuestra-gente",
+      "organization": "Casa Nuestra Gente",
+      "category": "shelter-and-food",
+      "service": "Consulta por admisión y disponibilidad de albergue para personas sin hogar.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Juan, Puerto Rico",
+        "municipality": "San Juan"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877533221",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://pazparalasmujeres.org/directorio-ayuda/"
+        ]
+      }
+    },
+    {
+      "id": "pr-buen-pastor",
+      "organization": "Hogar del Buen Pastor",
+      "category": "shelter-and-food",
+      "service": "Consulta por acceso a servicios de albergue para personas sin hogar.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Juan, Puerto Rico",
+        "municipality": "San Juan"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877218579",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://pazparalasmujeres.org/directorio-ayuda/"
+        ]
+      }
+    },
+    {
+      "id": "pr-peregrino",
+      "organization": "Casa del Peregrino Aguadilla",
+      "category": "shelter-and-food",
+      "service": "Contacta al albergue de Aguadilla para consultar si hay cupo y cómo ingresar.",
+      "coverage": {
+        "scope": "local",
+        "area": "Aguadilla, Puerto Rico",
+        "municipality": "Aguadilla"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17878910059",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://biblioteca.policia.pr.gov/Document/StreamPdf?DocTitle=Anejo+B+OG+628&fileGuid=0ada6ebc-2af2-4a44-9724-5caf77ce6916.pdf"
+        ]
+      }
+    },
+    {
+      "id": "pr-slpr",
+      "organization": "Servicios Legales de Puerto Rico, admisión",
+      "category": "migration-and-legal",
+      "service": "Solicita evaluación para recibir orientación o representación jurídica civil.",
+      "coverage": {
+        "scope": "national",
+        "area": "Puerto Rico",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877285070",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+18009815342",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, 8:00–17:30",
+      "cost": "Gratuito para personas que cualifiquen",
+      "requirements": "Para casos civiles. El programa evalúa ingresos y otros criterios de elegibilidad. Existen excepciones en situaciones de violencia doméstica o trata.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.servicioslegales.org/solicite/"
+        ]
+      }
+    },
+    {
+      "id": "pr-slpr-aguadilla",
+      "organization": "Servicios Legales de Puerto Rico, Aguadilla",
+      "category": "migration-and-legal",
+      "service": "Centro regional de orientación y representación jurídica civil para personas elegibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Aguada, Aguadilla, Isabela, Moca, Rincón y San Sebastián",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17878911275",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito para personas que cualifiquen",
+      "requirements": "Para casos civiles. El programa evalúa ingresos y otros criterios de elegibilidad. Existen excepciones en situaciones de violencia doméstica o trata.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.servicioslegales.org/donde-estamos/",
+          "https://www.servicioslegales.org/solicite/"
+        ]
+      }
+    },
+    {
+      "id": "pr-slpr-arecibo",
+      "organization": "Servicios Legales de Puerto Rico, Arecibo",
+      "category": "migration-and-legal",
+      "service": "Centro regional de orientación y representación jurídica civil para personas elegibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Arecibo, Camuy, Hatillo y Quebradillas",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17878152680",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito para personas que cualifiquen",
+      "requirements": "Para casos civiles. El programa evalúa ingresos y otros criterios de elegibilidad. Existen excepciones en situaciones de violencia doméstica o trata.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.servicioslegales.org/donde-estamos/",
+          "https://www.servicioslegales.org/solicite/"
+        ]
+      }
+    },
+    {
+      "id": "pr-slpr-bayamon",
+      "organization": "Servicios Legales de Puerto Rico, Bayamón",
+      "category": "migration-and-legal",
+      "service": "Centro regional de orientación y representación jurídica civil para personas elegibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Bayamón y municipios atendidos por el centro",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877853858",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito para personas que cualifiquen",
+      "requirements": "Para casos civiles. El programa evalúa ingresos y otros criterios de elegibilidad. Existen excepciones en situaciones de violencia doméstica o trata.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.servicioslegales.org/donde-estamos/",
+          "https://www.servicioslegales.org/solicite/"
+        ]
+      }
+    },
+    {
+      "id": "pr-slpr-caguas",
+      "organization": "Servicios Legales de Puerto Rico, Caguas",
+      "category": "migration-and-legal",
+      "service": "Centro regional de orientación y representación jurídica civil para personas elegibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Caguas, Aguas Buenas, Cayey, Cidra, Gurabo, Juncos y San Lorenzo",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877439103",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito para personas que cualifiquen",
+      "requirements": "Para casos civiles. El programa evalúa ingresos y otros criterios de elegibilidad. Existen excepciones en situaciones de violencia doméstica o trata.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.servicioslegales.org/donde-estamos/",
+          "https://www.servicioslegales.org/solicite/"
+        ]
+      }
+    },
+    {
+      "id": "pr-slpr-fajardo",
+      "organization": "Servicios Legales de Puerto Rico, Fajardo",
+      "category": "migration-and-legal",
+      "service": "Centro regional de orientación y representación jurídica civil para personas elegibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Ceiba, Culebra, Fajardo, Luquillo y Vieques",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877654573",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito para personas que cualifiquen",
+      "requirements": "Para casos civiles. El programa evalúa ingresos y otros criterios de elegibilidad. Existen excepciones en situaciones de violencia doméstica o trata.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.servicioslegales.org/donde-estamos/",
+          "https://www.servicioslegales.org/solicite/"
+        ]
+      }
+    },
+    {
+      "id": "pr-slpr-humacao",
+      "organization": "Servicios Legales de Puerto Rico, Humacao",
+      "category": "migration-and-legal",
+      "service": "Centro regional de orientación y representación jurídica civil para personas elegibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Humacao, Las Piedras, Maunabo, Naguabo y Yabucoa",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17878520905",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito para personas que cualifiquen",
+      "requirements": "Para casos civiles. El programa evalúa ingresos y otros criterios de elegibilidad. Existen excepciones en situaciones de violencia doméstica o trata.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.servicioslegales.org/donde-estamos/",
+          "https://www.servicioslegales.org/solicite/"
+        ]
+      }
+    },
+    {
+      "id": "pr-slpr-ponce",
+      "organization": "Servicios Legales de Puerto Rico, Ponce",
+      "category": "migration-and-legal",
+      "service": "Centro regional de orientación y representación jurídica civil para personas elegibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Ponce y municipios atendidos por el centro",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17878447335",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito para personas que cualifiquen",
+      "requirements": "Para casos civiles. El programa evalúa ingresos y otros criterios de elegibilidad. Existen excepciones en situaciones de violencia doméstica o trata.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.servicioslegales.org/donde-estamos/",
+          "https://www.servicioslegales.org/solicite/"
+        ]
+      }
+    },
+    {
+      "id": "pr-cmd",
+      "organization": "Centro de la Mujer Dominicana",
+      "category": "migration-and-legal",
+      "service": "Asesoría sobre posibles remedios migratorios y acompañamiento legal para mujeres inmigrantes sobrevivientes de violencia de género.",
+      "coverage": {
+        "scope": "national",
+        "area": "Puerto Rico",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877729251",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+17872816179",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://cmujerdominicana.org/contactanos/",
+          "https://cmujerdominicana.org/servicios/"
+        ]
+      }
+    },
+    {
+      "id": "pr-opm",
+      "organization": "Oficina de la Procuradora de las Mujeres",
+      "category": "protection",
+      "service": "Orienta y conecta con servicios de apoyo en situaciones de violencia contra las mujeres.",
+      "coverage": {
+        "scope": "national",
+        "area": "Puerto Rico",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877222977",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://pazparalasmujeres.org/directorio-ayuda/"
+        ]
+      }
+    },
+    {
+      "id": "pr-cavv",
+      "organization": "Centro de Ayuda a Víctimas de Violación",
+      "category": "protection",
+      "service": "Apoyo y orientación para sobrevivientes de violencia sexual.",
+      "coverage": {
+        "scope": "national",
+        "area": "Puerto Rico",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877652285",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://pazparalasmujeres.org/directorio-ayuda/",
+          "https://www.salud.pr.gov/CMS/104"
+        ]
+      }
+    },
+    {
+      "id": "pr-ninez",
+      "organization": "Departamento de la Familia, línea de maltrato",
+      "category": "protection",
+      "service": "Reporta sospechas de maltrato contra niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Puerto Rico",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877491333",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+18009818333",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://childcare.familia.pr.gov/documents/Protocolo-Incidentes-Maltrato.pdf"
+        ]
+      }
+    },
+    {
+      "id": "pr-victimas-aguadilla",
+      "organization": "Oficina de Servicios a Víctimas y Testigos de Delitos, Aguadilla",
+      "category": "protection",
+      "service": "Solicita orientación y apoyo a la oficina de la región judicial correspondiente.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Región judicial de Aguadilla",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17876339602",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.justicia.pr.gov/secretarias-y-oficinas/servicios-a-las-victimas-y-testigos-de-delitos/"
+        ]
+      }
+    },
+    {
+      "id": "pr-victimas-arecibo",
+      "organization": "Oficina de Servicios a Víctimas y Testigos de Delitos, Arecibo",
+      "category": "protection",
+      "service": "Solicita orientación y apoyo a la oficina de la región judicial correspondiente.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Región judicial de Arecibo",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17876339634",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.justicia.pr.gov/secretarias-y-oficinas/servicios-a-las-victimas-y-testigos-de-delitos/"
+        ]
+      }
+    },
+    {
+      "id": "pr-victimas-bayamon",
+      "organization": "Oficina de Servicios a Víctimas y Testigos de Delitos, Bayamón",
+      "category": "protection",
+      "service": "Solicita orientación y apoyo a la oficina de la región judicial correspondiente.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Región judicial de Bayamón",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17876339474",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.justicia.pr.gov/secretarias-y-oficinas/servicios-a-las-victimas-y-testigos-de-delitos/"
+        ]
+      }
+    },
+    {
+      "id": "pr-victimas-caguas",
+      "organization": "Oficina de Servicios a Víctimas y Testigos de Delitos, Caguas",
+      "category": "protection",
+      "service": "Solicita orientación y apoyo a la oficina de la región judicial correspondiente.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Región judicial de Caguas",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17876339628",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.justicia.pr.gov/secretarias-y-oficinas/servicios-a-las-victimas-y-testigos-de-delitos/"
+        ]
+      }
+    },
+    {
+      "id": "pr-victimas-fajardo",
+      "organization": "Oficina de Servicios a Víctimas y Testigos de Delitos, Fajardo",
+      "category": "protection",
+      "service": "Solicita orientación y apoyo a la oficina de la región judicial correspondiente.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Región judicial de Fajardo",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17876339631",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.justicia.pr.gov/secretarias-y-oficinas/servicios-a-las-victimas-y-testigos-de-delitos/"
+        ]
+      }
+    },
+    {
+      "id": "pr-victimas-humacao",
+      "organization": "Oficina de Servicios a Víctimas y Testigos de Delitos, Humacao",
+      "category": "protection",
+      "service": "Solicita orientación y apoyo a la oficina de la región judicial correspondiente.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Región judicial de Humacao",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17876339657",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.justicia.pr.gov/secretarias-y-oficinas/servicios-a-las-victimas-y-testigos-de-delitos/"
+        ]
+      }
+    },
+    {
+      "id": "pr-victimas-mayaguez",
+      "organization": "Oficina de Servicios a Víctimas y Testigos de Delitos, Mayagüez",
+      "category": "protection",
+      "service": "Solicita orientación y apoyo a la oficina de la región judicial correspondiente.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Región judicial de Mayagüez",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17876339659",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.justicia.pr.gov/secretarias-y-oficinas/servicios-a-las-victimas-y-testigos-de-delitos/"
+        ]
+      }
+    },
+    {
+      "id": "pr-victimas-ponce",
+      "organization": "Oficina de Servicios a Víctimas y Testigos de Delitos, Ponce",
+      "category": "protection",
+      "service": "Solicita orientación y apoyo a la oficina de la región judicial correspondiente.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Región judicial de Ponce",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17876339679",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.justicia.pr.gov/secretarias-y-oficinas/servicios-a-las-victimas-y-testigos-de-delitos/"
+        ]
+      }
+    },
+    {
+      "id": "pr-victimas-utuado",
+      "organization": "Oficina de Servicios a Víctimas y Testigos de Delitos, Utuado",
+      "category": "protection",
+      "service": "Solicita orientación y apoyo a la oficina de la región judicial correspondiente.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Región judicial de Utuado",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17876339621",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.justicia.pr.gov/secretarias-y-oficinas/servicios-a-las-victimas-y-testigos-de-delitos/"
+        ]
+      }
+    },
+    {
+      "id": "pr-assmca-ponce",
+      "organization": "ASSMCA, centro de Ponce",
+      "category": "health-and-psychosocial",
+      "service": "Consulta por los programas clínicos y la admisión al centro de tratamiento.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ponce, Puerto Rico",
+        "municipality": "Ponce"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17878406630",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://assmca.pr.gov/tratamientos"
+        ]
+      }
+    },
+    {
+      "id": "pr-assmca-sj",
+      "organization": "ASSMCA, centro de San Juan",
+      "category": "health-and-psychosocial",
+      "service": "Consulta por los programas clínicos y la admisión al centro de tratamiento.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Juan, Puerto Rico",
+        "municipality": "San Juan"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17877544100",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://assmca.pr.gov/tratamientos"
+        ]
+      }
+    },
+    {
+      "id": "pr-assmca-fajardo",
+      "organization": "ASSMCA, centro de Fajardo",
+      "category": "health-and-psychosocial",
+      "service": "Consulta por los programas clínicos y la admisión al centro de tratamiento.",
+      "coverage": {
+        "scope": "local",
+        "area": "Fajardo, Puerto Rico",
+        "municipality": "Fajardo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+17878600967",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://assmca.pr.gov/tratamientos"
+        ]
+      }
+    }
+  ]
+}
+
