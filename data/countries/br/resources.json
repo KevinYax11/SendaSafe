@@ -1,0 +1,1278 @@
+{
+  "country": "BR",
+  "language": "es",
+  "resources": [
+    {
+      "id": "policia-militar",
+      "organization": "Polícia Militar",
+      "category": "emergency",
+      "service": "Atiende emergencias de seguridad pública que requieren intervención policial inmediata.",
+      "coverage": {
+        "scope": "national",
+        "area": "Brasil",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "190",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.br/mcom/pt-br/noticias/2026/setembro/emergencia-voce-sabe-para-quem-ligar-quando-precisa-de-ajuda/"
+        ]
+      }
+    },
+    {
+      "id": "policia-vial",
+      "organization": "Polícia Rodoviária Federal",
+      "category": "emergency",
+      "service": "Recibe reportes de accidentes e incidentes en carreteras federales.",
+      "coverage": {
+        "scope": "national",
+        "area": "Brasil",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "191",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.br/mcom/pt-br/noticias/2026/setembro/emergencia-voce-sabe-para-quem-ligar-quando-precisa-de-ajuda/"
+        ]
+      }
+    },
+    {
+      "id": "samu",
+      "organization": "Serviço de Atendimento Móvel de Urgência — SAMU",
+      "category": "emergency",
+      "service": "Central de asistencia médica prehospitalaria para urgencias y emergencias.",
+      "coverage": {
+        "scope": "national",
+        "area": "Brasil",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "192",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.br/saude/pt-br/composicao/saes/samu-192/samu-192"
+        ]
+      }
+    },
+    {
+      "id": "bomberos",
+      "organization": "Corpo de Bombeiros",
+      "category": "emergency",
+      "service": "Atiende incendios, rescates y otras emergencias que requieren bomberos.",
+      "coverage": {
+        "scope": "national",
+        "area": "Brasil",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "193",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.br/mcom/pt-br/noticias/2026/setembro/emergencia-voce-sabe-para-quem-ligar-quando-precisa-de-ajuda/"
+        ]
+      }
+    },
+    {
+      "id": "defensa-civil",
+      "organization": "Defesa Civil",
+      "category": "emergency",
+      "service": "Canal para reportar riesgos y desastres, como inundaciones o deslizamientos, a la defensa civil local.",
+      "coverage": {
+        "scope": "national",
+        "area": "Brasil",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "199",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.br/mcom/pt-br/noticias/2026/setembro/emergencia-voce-sabe-para-quem-ligar-quando-precisa-de-ajuda/"
+        ]
+      }
+    },
+    {
+      "id": "ouvsus",
+      "organization": "Ouvidoria-Geral do SUS — OuvSUS",
+      "category": "health-and-psychosocial",
+      "service": "Recibe consultas, solicitudes y reclamos sobre el Sistema Único de Salud.",
+      "coverage": {
+        "scope": "national",
+        "area": "Brasil",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "136",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.br/saude/pt-br/canais-de-atendimento/ouvsus136"
+        ]
+      }
+    },
+    {
+      "id": "caps-matriz",
+      "organization": "CAPS III Territorial Matriz",
+      "category": "health-and-psychosocial",
+      "service": "Centro de atención psicosocial. Consulta disponibilidad y población de referencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Curitiba, Paraná",
+        "municipality": "Curitiba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+554133630492",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://saude.curitiba.pr.gov.br/conteudo/distrito-sanitario-matriz/1320"
+        ]
+      }
+    },
+    {
+      "id": "caps-cajuru",
+      "organization": "CAPS Territorial Cajuru",
+      "category": "health-and-psychosocial",
+      "service": "Centro de atención psicosocial. Consulta disponibilidad y población de referencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Curitiba, Paraná",
+        "municipality": "Curitiba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+554132965800",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://locais.curitiba.pr.gov.br/centro-de-atencao-psicossocial-territorial-cajuru/639"
+        ]
+      }
+    },
+    {
+      "id": "caps-boa-vista",
+      "organization": "CAPSi Boa Vista",
+      "category": "health-and-psychosocial",
+      "service": "Centro de atención psicosocial. Consulta disponibilidad y población de referencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Curitiba, Paraná",
+        "municipality": "Curitiba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+554133574968",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mid.curitiba.pr.gov.br/2024/00459409.pdf"
+        ]
+      }
+    },
+    {
+      "id": "caps-pinheirinho",
+      "organization": "CAPSi Pinheirinho",
+      "category": "health-and-psychosocial",
+      "service": "Centro de atención psicosocial. Consulta disponibilidad y población de referencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Curitiba, Paraná",
+        "municipality": "Curitiba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+554132121433",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mid.curitiba.pr.gov.br/2024/00459075.pdf"
+        ]
+      }
+    },
+    {
+      "id": "caps-santa-felicidade",
+      "organization": "CAPS Santa Felicidade",
+      "category": "health-and-psychosocial",
+      "service": "Centro de atención psicosocial. Consulta disponibilidad y población de referencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Curitiba, Paraná",
+        "municipality": "Curitiba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5541995592258",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mid.curitiba.pr.gov.br/2024/00459409.pdf"
+        ]
+      }
+    },
+    {
+      "id": "caps-cic",
+      "organization": "CAPS Cidade Industrial",
+      "category": "health-and-psychosocial",
+      "service": "Centro de atención psicosocial. Consulta disponibilidad y población de referencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Curitiba, Paraná",
+        "municipality": "Curitiba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5541995591341",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mid.curitiba.pr.gov.br/2024/00459409.pdf"
+        ]
+      }
+    },
+    {
+      "id": "caps-brasilia",
+      "organization": "CAPS III Brasília",
+      "category": "health-and-psychosocial",
+      "service": "Centro público de atención psicosocial. Consulta cobertura y modalidad de atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Brasília, Distrito Federal",
+        "municipality": "Brasília"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5561920017779",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.saude.df.gov.br/documents/37101/0/Lista-Telefonica.pdf"
+        ]
+      }
+    },
+    {
+      "id": "caps-santa-maria",
+      "organization": "CAPS AD Santa Maria",
+      "category": "health-and-psychosocial",
+      "service": "Centro especializado en salud mental y atención relacionada con el consumo de alcohol y otras drogas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santa Maria, Distrito Federal",
+        "municipality": "Santa Maria"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5561994252746",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta los requisitos de atención.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.saude.df.gov.br/documents/37101/0/Lista-Telefonica.pdf"
+        ]
+      }
+    },
+    {
+      "id": "caps-sobradinho",
+      "organization": "CAPS AD Sobradinho II",
+      "category": "health-and-psychosocial",
+      "service": "Recepción del centro de atención psicosocial especializado en alcohol y otras drogas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Sobradinho II, Distrito Federal",
+        "municipality": "Sobradinho II"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+556120171145",
+          "routing": "switchboard",
+          "extension": "2115"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.saude.df.gov.br/documents/37101/93910/doc.pdf/c076c5d1-0219-04cc-23a2-dbc086cc62f7?download=true&t=1648648757401"
+        ]
+      }
+    },
+    {
+      "id": "centro-pop-solidariedade",
+      "organization": "Centro POP Solidariedade",
+      "category": "shelter-and-food",
+      "service": "Atiende a personas en situación de calle y facilita acceso a alimentación, higiene y derivaciones.",
+      "coverage": {
+        "scope": "local",
+        "area": "Curitiba, Paraná",
+        "municipality": "Curitiba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+554133631634",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=211"
+        ]
+      }
+    },
+    {
+      "id": "centro-pop-boqueirao",
+      "organization": "Centro POP Boqueirão",
+      "category": "shelter-and-food",
+      "service": "Atiende a personas en situación de calle y facilita acceso a asistencia social y derivaciones.",
+      "coverage": {
+        "scope": "local",
+        "area": "Curitiba, Paraná",
+        "municipality": "Curitiba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+554132771092",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=211"
+        ]
+      }
+    },
+    {
+      "id": "casa-acolhida-curitiba",
+      "organization": "Casa da Acolhida e do Regresso",
+      "category": "shelter-and-food",
+      "service": "Orienta y atiende a personas en tránsito, migrantes o sin alojamiento temporal.",
+      "coverage": {
+        "scope": "local",
+        "area": "Curitiba, Paraná",
+        "municipality": "Curitiba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+554133212705",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://locais.curitiba.pr.gov.br/casa-da-acolhida-e-do-regresso-de-curitiba/146"
+        ]
+      }
+    },
+    {
+      "id": "republica-familia-migrante",
+      "organization": "República para Família Migrante",
+      "category": "shelter-and-food",
+      "service": "Unidad municipal de acogida para familias migrantes que necesitan asistencia social.",
+      "coverage": {
+        "scope": "local",
+        "area": "Curitiba, Paraná",
+        "municipality": "Curitiba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+554133760281",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta disponibilidad y procedimiento de ingreso.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://locais.curitiba.pr.gov.br/republica-para-familia-migrante/2542/"
+        ]
+      }
+    },
+    {
+      "id": "restaurantes-populares",
+      "organization": "Restaurantes Populares de Curitiba",
+      "category": "shelter-and-food",
+      "service": "Red de comedores con almuerzos a precio subsidiado.",
+      "coverage": {
+        "scope": "local",
+        "area": "Curitiba, Paraná",
+        "municipality": "Curitiba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+554133503815",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes. Consulta el horario de cada comedor.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.curitiba.pr.gov.br/servicos/restaurante-popular-de-curitiba/informacoes-e-indicadores-socioeconomicos-de-curitiba/86"
+        ]
+      }
+    },
+    {
+      "id": "abordagem-sp",
+      "organization": "SP156 — Atención social en calle",
+      "category": "shelter-and-food",
+      "service": "Solicita una intervención de los equipos de asistencia para personas en situación de calle.",
+      "coverage": {
+        "scope": "local",
+        "area": "São Paulo",
+        "municipality": "São Paulo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "156",
+          "routing": "short-code"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+551132305156",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://smartsampa.prefeitura.sp.gov.br/web/assistencia_social/w/prefeitura-de-s%C3%A3o-paulo-inicia-opera%C3%A7%C3%A3o-baixas-temperaturas-2026-neste-domingo-10-com-refor%C3%A7o-no-atendimento-%C3%A0-popula%C3%A7%C3%A3o-em-situa%C3%A7%C3%A3o-de-rua"
+        ]
+      }
+    },
+    {
+      "id": "acolhimento-rio",
+      "organization": "Rio 1746 — Acogida para personas en situación de calle",
+      "category": "shelter-and-food",
+      "service": "Consulta sobre atención social, centros de referencia y acceso a servicios de acogida.",
+      "coverage": {
+        "scope": "local",
+        "area": "Rio de Janeiro",
+        "municipality": "Rio de Janeiro"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1746",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.1746.rio/hc/pt-br/articles/10221121590427-Informa%C3%A7%C3%B5es-sobre-a%C3%A7%C3%B5es-de-acolhimento-a-pessoas-em-situa%C3%A7%C3%A3o-de-rua"
+        ]
+      }
+    },
+    {
+      "id": "caritas-foz",
+      "organization": "Cáritas Diocesana de Foz do Iguaçu",
+      "category": "shelter-and-food",
+      "service": "Orienta sobre centros de recepción, alojamiento y asistencia para personas en movilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Foz do Iguaçu, Paraná",
+        "municipality": "Foz do Iguaçu"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5545984135742",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta cupo y condiciones de ingreso.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/brazil/onde-encontrar-ajuda/organizacoes-parceiras-da-sociedade-civil/"
+        ]
+      }
+    },
+    {
+      "id": "hermanitos",
+      "organization": "Hermanitos",
+      "category": "migration-and-legal",
+      "service": "Informa sobre inserción laboral, formación e integración de personas migrantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Manaus, Amazonas",
+        "municipality": "Manaus"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5592994315431",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/brazil/onde-encontrar-ajuda/organizacoes-parceiras-da-sociedade-civil/"
+        ]
+      }
+    },
+    {
+      "id": "sjmr-manaus",
+      "organization": "Serviço Jesuíta a Migrantes e Refugiados — Manaus",
+      "category": "migration-and-legal",
+      "service": "Apoyo social y orientación sobre acceso a servicios e integración.",
+      "coverage": {
+        "scope": "local",
+        "area": "Manaus, Amazonas",
+        "municipality": "Manaus"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5592991576097",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/brazil/onde-encontrar-ajuda/organizacoes-parceiras-da-sociedade-civil/"
+        ]
+      }
+    },
+    {
+      "id": "pastoral-manaus",
+      "organization": "Serviço Pastoral do Migrante",
+      "category": "migration-and-legal",
+      "service": "Orienta sobre documentación y acceso a servicios para personas migrantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Manaus, Amazonas",
+        "municipality": "Manaus"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+559232327257",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/brazil/onde-encontrar-ajuda/organizacoes-parceiras-da-sociedade-civil/"
+        ]
+      }
+    },
+    {
+      "id": "imdh",
+      "organization": "Instituto Migrações e Direitos Humanos",
+      "category": "migration-and-legal",
+      "service": "Ofrece orientación jurídica y social y facilita derivaciones a servicios públicos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Brasília, Distrito Federal",
+        "municipality": "Brasília"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+556133402689",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/brazil/onde-encontrar-ajuda/organizacoes-parceiras-da-sociedade-civil/"
+        ]
+      }
+    },
+    {
+      "id": "cesupa",
+      "organization": "Clínica de Direitos Humanos — CESUPA",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación y asistencia en derechos humanos para personas migrantes o refugiadas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Belém, Pará",
+        "municipality": "Belém"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+559140099112",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/brazil/onde-encontrar-ajuda/organizacoes-parceiras-da-sociedade-civil/"
+        ]
+      }
+    },
+    {
+      "id": "caritas-cascavel",
+      "organization": "Cáritas Arquidiocesana de Cascavel",
+      "category": "migration-and-legal",
+      "service": "Contacto local de la red de orientación y apoyo de ACNUR.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cascavel, Paraná",
+        "municipality": "Cascavel"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5545991085103",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/brazil/onde-encontrar-ajuda/organizacoes-parceiras-da-sociedade-civil/"
+        ]
+      }
+    },
+    {
+      "id": "caritas-campo-mourao",
+      "organization": "Cáritas — Atención en Campo Mourão",
+      "category": "migration-and-legal",
+      "service": "Contacto local de la red de orientación y apoyo de ACNUR.",
+      "coverage": {
+        "scope": "local",
+        "area": "Campo Mourão, Paraná",
+        "municipality": "Campo Mourão"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5544999874887",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/brazil/onde-encontrar-ajuda/organizacoes-parceiras-da-sociedade-civil/"
+        ]
+      }
+    },
+    {
+      "id": "caritas-sp",
+      "organization": "Cáritas Arquidiocesana de São Paulo",
+      "category": "migration-and-legal",
+      "service": "Ofrece orientación jurídica, social y psicosocial para personas en movilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "São Paulo",
+        "municipality": "São Paulo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5511976289621",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/brazil/onde-encontrar-ajuda/organizacoes-parceiras-da-sociedade-civil/"
+        ]
+      }
+    },
+    {
+      "id": "missao-paz",
+      "organization": "Missão Paz",
+      "category": "migration-and-legal",
+      "service": "Atiende a personas migrantes y facilita orientación sobre servicios de apoyo.",
+      "coverage": {
+        "scope": "local",
+        "area": "São Paulo",
+        "municipality": "São Paulo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+551133406950",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/brazil/onde-encontrar-ajuda/organizacoes-parceiras-da-sociedade-civil/"
+        ]
+      }
+    },
+    {
+      "id": "crai-sp",
+      "organization": "Centro de Referência e Atendimento para Imigrantes",
+      "category": "migration-and-legal",
+      "service": "Orienta sobre documentación, derechos y servicios dirigidos a población migrante.",
+      "coverage": {
+        "scope": "local",
+        "area": "São Paulo",
+        "municipality": "São Paulo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+551123613780",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/brazil/onde-encontrar-ajuda/organizacoes-parceiras-da-sociedade-civil/"
+        ]
+      }
+    },
+    {
+      "id": "cic-sp",
+      "organization": "Centro de Integração da Cidadania do Imigrante",
+      "category": "migration-and-legal",
+      "service": "Facilita el acceso a orientación y servicios para personas en movilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "São Paulo",
+        "municipality": "São Paulo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+551131152048",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/brazil/onde-encontrar-ajuda/organizacoes-parceiras-da-sociedade-civil/"
+        ]
+      }
+    },
+    {
+      "id": "compassiva",
+      "organization": "Compassiva",
+      "category": "migration-and-legal",
+      "service": "Brinda asistencia jurídica y apoyo con trámites de revalidación de títulos.",
+      "coverage": {
+        "scope": "local",
+        "area": "São Paulo",
+        "municipality": "São Paulo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+551125373441",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/brazil/onde-encontrar-ajuda/organizacoes-parceiras-da-sociedade-civil/"
+        ]
+      }
+    },
+    {
+      "id": "acnur-boa-vista",
+      "organization": "ACNUR — Boa Vista",
+      "category": "migration-and-legal",
+      "service": "Oficina de referencia para consultas sobre protección internacional y acceso a servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Boa Vista, Roraima",
+        "municipality": "Boa Vista"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5595991127076",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/brazil/onde-encontrar-ajuda/escritorios-do-acnur/"
+        ]
+      }
+    },
+    {
+      "id": "acnur-brasilia",
+      "organization": "ACNUR — Brasília",
+      "category": "migration-and-legal",
+      "service": "Oficina de referencia para consultas sobre protección internacional y acceso a servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Brasília, Distrito Federal",
+        "municipality": "Brasília"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5561996804413",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/brazil/onde-encontrar-ajuda/escritorios-do-acnur/"
+        ]
+      }
+    },
+    {
+      "id": "acnur-sao-paulo",
+      "organization": "ACNUR — São Paulo",
+      "category": "migration-and-legal",
+      "service": "Oficina de referencia para consultas sobre protección internacional y acceso a servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "São Paulo",
+        "municipality": "São Paulo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5511976394070",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/brazil/onde-encontrar-ajuda/escritorios-do-acnur/"
+        ]
+      }
+    },
+    {
+      "id": "disque-100",
+      "organization": "Disque 100",
+      "category": "protection",
+      "service": "Recibe reportes de violaciones de derechos humanos y los deriva a las autoridades correspondientes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Brasil",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "100",
+          "routing": "short-code"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+5561996110100",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.br/cnca/pt-br/para-o-cidadao/denunciar-nas-redes"
+        ]
+      }
+    },
+    {
+      "id": "ligue-180",
+      "organization": "Ligue 180 — Central de Atendimento à Mulher",
+      "category": "protection",
+      "service": "Orienta a mujeres en situaciones de violencia y registra reportes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Brasil",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "180",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.br/mulheres/pt-br/ligue180"
+        ]
+      }
+    },
+    {
+      "id": "casa-mulher-curitiba",
+      "organization": "Casa da Mulher Brasileira de Curitiba",
+      "category": "protection",
+      "service": "Ofrece acogida, orientación y coordinación de servicios para mujeres afectadas por violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Curitiba, Paraná",
+        "municipality": "Curitiba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+554132212701",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.curitiba.pr.gov.br/servicos/casa-da-mulher-brasileira-de-curitiba/dam-refic-plano-de-recuperacao-fiscal/400"
+        ]
+      }
+    },
+    {
+      "id": "crm-eliane-grammont",
+      "organization": "Casa da Mulher Eliane de Grammont",
+      "category": "protection",
+      "service": "Ofrece orientación y atención psicosocial, social y jurídica a mujeres en situación de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "São Paulo",
+        "municipality": "São Paulo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+551155499339",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://prefeitura.sp.gov.br/web/direitos_humanos/w/mulheres/equipamentos/271105"
+        ]
+      }
+    },
+    {
+      "id": "crm-brasilandia",
+      "organization": "Casa da Mulher de Brasilândia",
+      "category": "protection",
+      "service": "Ofrece orientación y atención psicosocial, social y jurídica a mujeres en situación de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "São Paulo",
+        "municipality": "São Paulo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+551139834294",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://prefeitura.sp.gov.br/web/direitos_humanos/w/mulheres/equipamentos/271105"
+        ]
+      }
+    },
+    {
+      "id": "crm-25-marco",
+      "organization": "Casa da Mulher 25 de Março",
+      "category": "protection",
+      "service": "Ofrece orientación y atención psicosocial, social y jurídica a mujeres en situación de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "São Paulo",
+        "municipality": "São Paulo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+551131061100",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://prefeitura.sp.gov.br/web/direitos_humanos/w/mulheres/equipamentos/271105"
+        ]
+      }
+    },
+    {
+      "id": "crm-maria-rodrigues",
+      "organization": "Casa da Mulher Maria de Lourdes Rodrigues",
+      "category": "protection",
+      "service": "Ofrece orientación y atención psicosocial, social y jurídica a mujeres en situación de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "São Paulo",
+        "municipality": "São Paulo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+551155244782",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://prefeitura.sp.gov.br/web/direitos_humanos/w/mulheres/equipamentos/271105"
+        ]
+      }
+    }
+  ]
+}
+
