@@ -42,7 +42,8 @@ jobs:
           node-version: "22"
       - run: docker build --tag sendasafe:ci .
       - run: docker run --detach --name sendasafe-ci --publish 127.0.0.1:3000:3000 sendasafe:ci
-      - run: curl --fail --silent --show-error --retry 15 --retry-delay 2 --retry-connrefused http://127.0.0.1:3000/api/v1/countries --output /dev/null
+      - name: Wait for the container API
+        run: curl --fail --silent --show-error --max-time 5 --retry 20 --retry-delay 2 --retry-max-time 45 --retry-all-errors http://127.0.0.1:3000/api/v1/countries --output /dev/null
       - run: node scripts/check-deployment.mjs
       - if: failure()
         run: docker logs sendasafe-ci
