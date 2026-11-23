@@ -1,0 +1,649 @@
+{
+  "country": "CR",
+  "language": "es",
+  "resources": [
+    {
+      "id": "emergencias",
+      "organization": "Sistema de Emergencias 9-1-1",
+      "category": "emergency",
+      "service": "Coordina la atención de emergencias médicas, policiales y de bomberos.",
+      "coverage": {
+        "scope": "national",
+        "area": "Costa Rica",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "911",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://diccionariousual.poder-judicial.go.cr/index.php/diccionario/sistema-de-emergencias-9-1-1"
+        ]
+      }
+    },
+    {
+      "id": "oij-linea-confidencial",
+      "organization": "Organismo de Investigación Judicial",
+      "category": "protection",
+      "service": "Línea confidencial para aportar información sobre posibles delitos.",
+      "coverage": {
+        "scope": "national",
+        "area": "Costa Rica",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "8008000645",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://sitiooij.poder-judicial.go.cr/index.php/45-preguntas-frecuentes/3113-diferencia-entre-911-y-800-8000-645?field_responsive=52&module_id=366&page=2&sj_class_responsive=10344641971773129818"
+        ]
+      }
+    },
+    {
+      "id": "pani",
+      "organization": "Patronato Nacional de la Infancia",
+      "category": "protection",
+      "service": "Orientación a niños, niñas y adolescentes y recepción de consultas sobre sus derechos.",
+      "coverage": {
+        "scope": "national",
+        "area": "Costa Rica",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1147",
+          "routing": "short-code"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+50689891147",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://pani.go.cr/atencion/"
+        ]
+      }
+    },
+    {
+      "id": "inamu-delegacion-mujer",
+      "organization": "INAMU, Delegación de la Mujer",
+      "category": "protection",
+      "service": "Atención especializada a mujeres que enfrentan situaciones de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "San José",
+        "municipality": "San José"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50622551368",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50622337895",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.inamu.go.cr/consulta-sobre-violencia-contra-las-mujeres-delegacion-de-la-mujer",
+          "https://formatos.inamu.go.cr/SIDOC/archivosDesplegable/brochure_delegacion_de_la_mujer_final_636179310376610121.pdf"
+        ]
+      }
+    },
+    {
+      "id": "defensoria-habitantes",
+      "organization": "Defensoría de los Habitantes",
+      "category": "protection",
+      "service": "Contacto institucional para consultas sobre derechos de población migrante y refugiada.",
+      "coverage": {
+        "scope": "national",
+        "area": "Costa Rica",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50640008500",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.dhr.go.cr/defensoria_transparente/participacion_ciudadana/migracion_refugio/"
+        ]
+      }
+    },
+    {
+      "id": "acnur",
+      "organization": "ACNUR Costa Rica",
+      "category": "migration-and-legal",
+      "service": "Información por WhatsApp para personas solicitantes de asilo o refugiadas.",
+      "coverage": {
+        "scope": "national",
+        "area": "Costa Rica",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+50640023796",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/costarica/sobre-el-sitio/contacto"
+        ]
+      }
+    },
+    {
+      "id": "unidad-refugio",
+      "organization": "Dirección General de Migración, Unidad de Refugio",
+      "category": "migration-and-legal",
+      "service": "Orientación para solicitar refugio y comunicarse con la unidad.",
+      "coverage": {
+        "scope": "national",
+        "area": "Costa Rica",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1311",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": "La llamada puede tener costo según la operadora.",
+      "requirements": "Selecciona la opción 2 y después la 1.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/costarica/refugiocostarica"
+        ]
+      }
+    },
+    {
+      "id": "servicio-jesuita-migrantes",
+      "organization": "Servicio Jesuita para Migrantes",
+      "category": "migration-and-legal",
+      "service": "Asesoría en regularización migratoria, documentación y naturalización.",
+      "coverage": {
+        "scope": "local",
+        "area": "San José",
+        "municipality": "San José"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50622804439",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+50687290521",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Atención gratuita",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/costarica/asistencialegal"
+        ]
+      }
+    },
+    {
+      "id": "cmm-san-jose",
+      "organization": "Centro Municipal para Migrantes, San José y La Carpio",
+      "category": "migration-and-legal",
+      "service": "Orientación a personas migrantes en los puntos de San José y La Carpio.",
+      "coverage": {
+        "scope": "local",
+        "area": "San José",
+        "municipality": "San José"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50664760582",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mtss.go.cr/dml/servicios/"
+        ]
+      }
+    },
+    {
+      "id": "cmm-los-chiles",
+      "organization": "Centro Municipal para Migrantes, Los Chiles",
+      "category": "migration-and-legal",
+      "service": "Orientación a personas migrantes en la terminal de buses de Los Chiles.",
+      "coverage": {
+        "scope": "local",
+        "area": "Los Chiles, Alajuela",
+        "municipality": "Los Chiles"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50660985418",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mtss.go.cr/dml/servicios/"
+        ]
+      }
+    },
+    {
+      "id": "cmm-limon",
+      "organization": "Centro Municipal para Migrantes, Limón",
+      "category": "migration-and-legal",
+      "service": "Orientación local a personas migrantes en el parque Vargas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Limón",
+        "municipality": "Limón"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50660931399",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mtss.go.cr/dml/servicios/"
+        ]
+      }
+    },
+    {
+      "id": "cmm-desamparados",
+      "organization": "Centro Municipal para Migrantes, Desamparados",
+      "category": "migration-and-legal",
+      "service": "Orientación a personas migrantes en la sede Casa de Derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Desamparados, San José",
+        "municipality": "Desamparados"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50663383636",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mtss.go.cr/dml/servicios/"
+        ]
+      }
+    },
+    {
+      "id": "cenderos-san-jose",
+      "organization": "CENDEROS, San José",
+      "category": "protection",
+      "service": "Atención psicosocial y acompañamiento a sobrevivientes de violencia de género.",
+      "coverage": {
+        "scope": "local",
+        "area": "San José",
+        "municipality": "San José"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50622480424",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+50688850196",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mtss.go.cr/dml/servicios/",
+          "https://help.unhcr.org/costarica/serviciosacnur"
+        ]
+      }
+    },
+    {
+      "id": "cenderos-upala",
+      "organization": "CENDEROS, Upala",
+      "category": "protection",
+      "service": "Atención psicosocial y protección para mujeres desplazadas y sobrevivientes de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Upala, Alajuela",
+        "municipality": "Upala"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50624702122",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+50684874487",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mtss.go.cr/dml/servicios/",
+          "https://help.unhcr.org/costarica/serviciosacnur"
+        ]
+      }
+    },
+    {
+      "id": "cenderos-los-chiles",
+      "organization": "CENDEROS, Los Chiles",
+      "category": "protection",
+      "service": "Contacto local para servicios de apoyo psicosocial y atención a sobrevivientes de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Los Chiles, Alajuela",
+        "municipality": "Los Chiles"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+50686587250",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/costarica/serviciosacnur"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-ucr",
+      "organization": "Clínica de Refugio, Migración y Protección Internacional, UCR",
+      "category": "health-and-psychosocial",
+      "service": "Asesoría sobre refugio y regularización y apoyo psicológico para personas migrantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Montes de Oca, San José",
+        "municipality": "Montes de Oca"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50625111553",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+50683178481",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+50683553244",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Dirigida a personas sin recursos para contratar asesoría jurídica.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mtss.go.cr/dml/servicios/",
+          "https://help.unhcr.org/costarica/asistencialegal"
+        ]
+      }
+    },
+    {
+      "id": "imas",
+      "organization": "Instituto Mixto de Ayuda Social",
+      "category": "shelter-and-food",
+      "service": "Información sobre apoyo para cubrir necesidades básicas, como alimentación y vivienda.",
+      "coverage": {
+        "scope": "national",
+        "area": "Costa Rica",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "8000004627",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "La ayuda depende de la evaluación del programa.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/costarica/asistencia-social-y-economica"
+        ]
+      }
+    },
+    {
+      "id": "irca-casa-abierta",
+      "organization": "IRCA Casa Abierta",
+      "category": "migration-and-legal",
+      "service": "Acompañamiento a población migrante y refugiada LGBTIQ+.",
+      "coverage": {
+        "scope": "local",
+        "area": "Zapote, San José",
+        "municipality": "Zapote"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50622341007",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mtss.go.cr/dml/servicios/",
+          "https://www.dhr.go.cr/defensoria_transparente/participacion_ciudadana/migracion_refugio/"
+        ]
+      }
+    },
+    {
+      "id": "fundacion-omar-dengo",
+      "organization": "Fundación Omar Dengo",
+      "category": "migration-and-legal",
+      "service": "Orientación para acceder a empleo, capacitación digital y acompañamiento a emprendimientos.",
+      "coverage": {
+        "scope": "local",
+        "area": "San José",
+        "municipality": "San José"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50625276081",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50625276003",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+50670725670",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/costarica/serviciosacnur"
+        ]
+      }
+    },
+    {
+      "id": "centro-derechos-laborales",
+      "organization": "Centro de Derechos Laborales sin Fronteras",
+      "category": "migration-and-legal",
+      "service": "Orientación sobre derechos laborales de personas migrantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Alajuelita, San José",
+        "municipality": "Alajuelita"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50622142726",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+50684558166",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mtss.go.cr/dml/servicios/"
+        ]
+      }
+    },
+    {
+      "id": "inamu-golfito",
+      "organization": "INAMU, Oficina Regional Brunca",
+      "category": "protection",
+      "service": "Orientación regional sobre derechos y servicios para mujeres.",
+      "coverage": {
+        "scope": "local",
+        "area": "Golfito, Puntarenas",
+        "municipality": "Golfito"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50625273725",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.inamu.go.cr/web/inamu/contacto"
+        ]
+      }
+    }
+  ]
+}
