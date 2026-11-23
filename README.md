@@ -9,7 +9,7 @@ A Spanish-language, mobile-first directory of emergency services, health resourc
 | Colombia | 23 | [CO](data/countries/co/resources.json) |
 | Costa Rica | 21 | [CR](data/countries/cr/resources.json) |
 | El Salvador | 23 | [SV](data/countries/sv/resources.json) |
-| Guatemala | 23 | [GT](data/countries/gt/resources.json) |
+| Guatemala | 49 | [GT](data/countries/gt/resources.json) |
 | Honduras | 22 | [HN](data/countries/hn/resources.json) |
 | Mexico | 23 | [MX](data/countries/mx/resources.json) |
 | Panama | 23 | [PA](data/countries/pa/resources.json) |
@@ -62,12 +62,10 @@ Each resource card shows the sources, date and verification method. Initial revi
 
 ### Correcting directory entries
 
-The report link in each card opens a public GitHub issue draft with the country code and resource ID. Use it for publicly available service information.
-
-1. Review the report against the provider's current information. Prioritize emergency and shelter contacts. Use published administrative numbers for routine verification of emergency services.
-2. Correct the entry and update its sources and review date. Use `phone-confirmed` only after a conversation with the provider confirms the listed details. Record the date and the role of the person confirming the update in the issue, without personal identifiers.
-3. Remove unavailable or unsafe contacts promptly. Remove the entry if it no longer has a reliable public contact channel, and document the reason in the issue.
-4. Run the directory validator and close the issue once the update is available to users.
+1. Compare the entry with the provider's current public information. Prioritize emergency and shelter contacts. Use published administrative numbers for routine verification of emergency services.
+2. Correct the entry and update its sources and review date. Use `phone-confirmed` only after a conversation with the provider confirms the listed details.
+3. Remove unavailable or unsafe contacts promptly. Keep an entry only while it has a reliable public contact channel.
+4. Run the directory validator before publishing updated entries.
 
 ## Checks
 

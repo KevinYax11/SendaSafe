@@ -157,7 +157,7 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
                   )}
                   {results && results.length > 0 && (
                     <div className="resource-grid">
-                      {results.map(resource => <ResourceCard key={resource.id} country={selectedCountry.code} resource={resource} />)}
+                      {results.map(resource => <ResourceCard key={resource.id} resource={resource} />)}
                     </div>
                   )}
                   {results?.length === 0 && (

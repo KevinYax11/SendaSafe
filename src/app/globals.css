@@ -351,19 +351,6 @@ select {
   text-decoration: underline;
 }
 
-.resource-report {
-  border-top: 1px solid var(--line);
-  margin-top: 0.75rem;
-  font-size: 0.875rem;
-}
-
-.resource-report a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 2.75rem;
-  text-decoration: underline;
-}
-
 .guidance h2 { margin-bottom: 1rem; }
 .guidance p { margin-top: 0.5rem; }
 

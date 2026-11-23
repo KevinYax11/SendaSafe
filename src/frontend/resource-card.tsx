@@ -1,4 +1,4 @@
-import { categories, type ContactChannel, type Country, type Resource } from '../shared/directory'
+import { categories, type ContactChannel, type Resource } from '../shared/directory'
 
 function contactLabel(channel: ContactChannel) {
   const action = channel.type === 'whatsapp'
@@ -20,23 +20,7 @@ const dateFormat = new Intl.DateTimeFormat('es', {
   timeZone: 'UTC',
 })
 
-function reportHref(country: Country, resource: Resource) {
-  const params = new URLSearchParams({
-    title: `[Directorio] Corregir ${resource.organization}`,
-    body: [
-      `Ficha: ${country}/${resource.id}`,
-      '',
-      '¿Qué dato público del servicio cambió?',
-      '',
-      'Fuente pública que permite comprobarlo:',
-      '',
-      'Incluye solo información pública del servicio. Este reporte es público.',
-    ].join('\n'),
-  })
-  return `https://github.com/KevinYax11/SendaSafe/issues/new?${params}`
-}
-
-export function ResourceCard({ country, resource }: Readonly<{ country: Country; resource: Resource }>) {
+export function ResourceCard({ resource }: Readonly<{ resource: Resource }>) {
   const { coverage, verification } = resource
 
   return (
@@ -73,12 +57,6 @@ export function ResourceCard({ country, resource }: Readonly<{ country: Country;
             <li key={source}><a href={source}>{new URL(source).hostname.replace(/^www\./, '')}</a></li>
           ))}
         </ul>
-        <div className="resource-report">
-          <a href={reportHref(country, resource)} aria-label={`Reportar un dato de ${resource.organization} en GitHub`}>
-            Reportar un dato en GitHub
-          </a>
-          <p>El reporte es público. Incluye solo datos del servicio.</p>
-        </div>
       </details>
     </article>
   )

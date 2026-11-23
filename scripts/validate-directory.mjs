@@ -12,7 +12,17 @@ const routes = new Set(['short-code', 'direct', 'switchboard'])
 const verificationMethods = new Set(['institutional-source', 'phone-confirmed'])
 const shortCodePattern = /^[1-9]\d{2,3}$/
 const countries = {
-  GT: { name: 'Guatemala', numberPattern: /^\+502[2-7]\d{7}$/ },
+  GT: {
+    name: 'Guatemala',
+    numberPattern: /^\+502[2-7]\d{7}$/,
+    minimumNumbers: {
+      emergency: 13,
+      'health-and-psychosocial': 11,
+      'shelter-and-food': 8,
+      'migration-and-legal': 16,
+      protection: 9,
+    },
+  },
   CO: { name: 'Colombia', numberPattern: /^(?:\+57[36]\d{9}|018000\d{6})$/ },
   PA: { name: 'Panamá', numberPattern: /^\+507(?:[2-9]\d{6}|6\d{7})$/ },
   CR: { name: 'Costa Rica', numberPattern: /^(?:\+506[2-8]\d{7}|800\d{7})$/ },
@@ -101,7 +111,7 @@ function validateResource(resource, location, ids, channels, country) {
 }
 
 async function validateCatalog(country) {
-  const { name } = countries[country]
+  const { name, minimumNumbers } = countries[country]
   const path = new URL(`../data/countries/${country.toLowerCase()}/resources.json`, import.meta.url)
   const catalog = JSON.parse(await readFile(path, 'utf8'))
   requireValid(isObject(catalog) && catalog.country === country && catalog.language === 'es', `${name}: país o idioma inválido.`)
@@ -113,6 +123,12 @@ async function validateCatalog(country) {
   resources.forEach((resource, index) => {
     validateResource(resource, `${country}.resources[${index}]`, ids, channels, country)
   })
+  for (const [category, minimum] of Object.entries(minimumNumbers ?? {})) {
+    const numbers = new Set(resources
+      .filter(resource => resource.category === category)
+      .flatMap(resource => resource.channels.map(channel => channel.number)))
+    requireValid(numbers.size >= minimum, `${name}: ${category} requiere al menos ${minimum} números distintos.`)
+  }
   console.log(`${name}: ${ids.size} fichas válidas y ${channels.size} canales de contacto.`)
 }
 

@@ -700,6 +700,740 @@
           "https://hro.gob.gt/"
         ]
       }
+    },
+    {
+      "id": "igss-ambulancias",
+      "organization": "IGSS, Ambulancias",
+      "category": "emergency",
+      "service": "Solicitud de ambulancia de la seguridad social.",
+      "coverage": {
+        "scope": "national",
+        "area": "Guatemala",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "128",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para personas con derecho a atención del IGSS.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.congreso.gob.gt/noticias_congreso/12561/2024/4",
+          "https://portal.ric.gob.gt/sites/default/files/2024-02/MANUAL%20DE%20HIGIENE%20Y%20SEGURIDAD%20RIC.pdf"
+        ]
+      }
+    },
+    {
+      "id": "pmt-capital",
+      "organization": "Policía Municipal de Tránsito, Ciudad de Guatemala",
+      "category": "emergency",
+      "service": "Contacto de la policía de tránsito para incidentes viales en la capital.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Guatemala",
+        "municipality": "Guatemala"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50222832222",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.congreso.gob.gt/noticias_congreso/12561/2024/4"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-antigua",
+      "organization": "Bomberos Voluntarios, Antigua Guatemala",
+      "category": "emergency",
+      "service": "Contacto de la compañía local de bomberos para emergencias y rescates.",
+      "coverage": {
+        "scope": "local",
+        "area": "Antigua Guatemala, Sacatepéquez",
+        "municipality": "Antigua Guatemala"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50278320234",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://siplan.segeplan.gob.gt/documentos/44823_37000_plan%20estrategico%202024.pdf"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-escuintla",
+      "organization": "Bomberos Voluntarios, Escuintla",
+      "category": "emergency",
+      "service": "Contacto de la compañía local de bomberos para emergencias y rescates.",
+      "coverage": {
+        "scope": "local",
+        "area": "Escuintla",
+        "municipality": "Escuintla"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50278881122",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://siplan.segeplan.gob.gt/documentos/44823_37000_plan%20estrategico%202024.pdf"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-huehuetenango",
+      "organization": "Bomberos Voluntarios, Huehuetenango",
+      "category": "emergency",
+      "service": "Contacto de la compañía local de bomberos para emergencias y rescates.",
+      "coverage": {
+        "scope": "local",
+        "area": "Huehuetenango",
+        "municipality": "Huehuetenango"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50277641553",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://siplan.segeplan.gob.gt/documentos/44823_37000_plan%20estrategico%202024.pdf"
+        ]
+      }
+    },
+    {
+      "id": "clinica-unis",
+      "organization": "Clínica UNIS Misha Maegli",
+      "category": "health-and-psychosocial",
+      "service": "Atención psicológica programada para personas a partir de siete años.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Guatemala",
+        "municipality": "Guatemala"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50266714310",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Solicita una cita. La tarifa se informa en la entrevista inicial.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://unis.edu.gt/facultad-de-humanidades/clinica-unis-misha-maegli/clinica-unis-misha-maegli/"
+        ]
+      }
+    },
+    {
+      "id": "centro-asistencia-social",
+      "organization": "Centro de Asistencia Social, Bienestar Emocional",
+      "category": "health-and-psychosocial",
+      "service": "Contacto institucional para consultar sus servicios de atención psicoterapéutica.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Guatemala",
+        "municipality": "Guatemala"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50222322584",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://casgt.org/salud-mental/"
+        ]
+      }
+    },
+    {
+      "id": "cip-landivar-zona-nueve",
+      "organization": "Centro Landivariano Integral de Proyección, Padre Ignacio Scheifler",
+      "category": "health-and-psychosocial",
+      "service": "Atención médica general, atención psicológica y otros servicios de salud.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Guatemala",
+        "municipality": "Guatemala"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50223606339",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 12:00 y de 13:00 a 17:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://principal.url.edu.gt/cip-landivar/cip-cd-guatemala/"
+        ]
+      }
+    },
+    {
+      "id": "demi-psicologia",
+      "organization": "Defensoría de la Mujer Indígena",
+      "category": "health-and-psychosocial",
+      "service": "Atención psicológica con pertinencia cultural para mujeres indígenas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Guatemala",
+        "municipality": "Guatemala"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50223158610",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Pide que te comuniquen con Atención Psicológica.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://demi.gob.gt/contacto-.html",
+          "https://www.demi.gob.gt/simplificacion/servicios.html"
+        ]
+      }
+    },
+    {
+      "id": "psicologia-villa-nueva",
+      "organization": "Municipalidad de Villa Nueva, Atención Psicológica",
+      "category": "health-and-psychosocial",
+      "service": "Orientación sobre la consulta psicológica municipal para vecinos de Villa Nueva.",
+      "coverage": {
+        "scope": "local",
+        "area": "Villa Nueva, Guatemala",
+        "municipality": "Villa Nueva"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1581",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Llama a la central y solicita la extensión 420 o 732. Consulta los requisitos vigentes.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.villanueva.gob.gt/atencion-psicologica/"
+        ]
+      }
+    },
+    {
+      "id": "casa-el-ceibo",
+      "organization": "Casa del Migrante Belén, El Ceibo",
+      "category": "shelter-and-food",
+      "service": "Consulta sobre refugio temporal, alimentación y asistencia humanitaria para personas migrantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "El Ceibo, La Libertad, Petén",
+        "municipality": "La Libertad"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50247485962",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://migrants-refugees.va/es/wp-content/uploads/sites/4/2022/03/Report-Centro-America-2021-ES-Legal.pdf",
+          "https://xn--sistemaproteccionniez-ubc.gt/wp-content/uploads/2024/11/Material-comunitario-PMH-1.pdf"
+        ]
+      }
+    },
+    {
+      "id": "casa-esquipulas",
+      "organization": "Casa del Migrante San José",
+      "category": "shelter-and-food",
+      "service": "Atención humanitaria para personas migrantes en Esquipulas. Consulta cupo con el albergue.",
+      "coverage": {
+        "scope": "local",
+        "area": "Esquipulas, Chiquimula",
+        "municipality": "Esquipulas"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50259330760",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://xn--sistemaproteccionniez-ubc.gt/wp-content/uploads/2024/11/Material-comunitario-PMH-1.pdf"
+        ]
+      }
+    },
+    {
+      "id": "casa-entre-rios",
+      "organization": "Casa del Migrante de Entre Ríos",
+      "category": "shelter-and-food",
+      "service": "Albergue de paso para personas migrantes cerca de la frontera con Honduras.",
+      "coverage": {
+        "scope": "local",
+        "area": "Entre Ríos, Izabal",
+        "municipality": "Puerto Barrios"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50279475173",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://xn--sistemaproteccionniez-ubc.gt/wp-content/uploads/2024/11/Material-comunitario-PMH-1.pdf",
+          "https://dipecholac.net/docs/files/Servicios%20en%20ruta%20migratoria%20GT.pdf"
+        ]
+      }
+    },
+    {
+      "id": "casa-betania",
+      "organization": "Casa del Migrante Betania",
+      "category": "shelter-and-food",
+      "service": "Consulta sobre acogida temporal para personas migrantes en Santa Elena.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santa Elena, Flores, Petén",
+        "municipality": "Flores"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50250150683",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://xn--sistemaproteccionniez-ubc.gt/wp-content/uploads/2024/11/Material-comunitario-PMH-1.pdf"
+        ]
+      }
+    },
+    {
+      "id": "casa-emaus",
+      "organization": "Casa del Migrante Emaús",
+      "category": "shelter-and-food",
+      "service": "Consulta sobre los servicios de acogida para personas migrantes en Ixcán.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ixcán, Quiché",
+        "municipality": "Ixcán"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50258075163",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://xn--sistemaproteccionniez-ubc.gt/wp-content/uploads/2024/11/Material-comunitario-PMH-1.pdf"
+        ]
+      }
+    },
+    {
+      "id": "comedores-sociales",
+      "organization": "MIDES, Comedores Sociales",
+      "category": "shelter-and-food",
+      "service": "La central ministerial puede orientar sobre los puntos del programa de alimentación.",
+      "coverage": {
+        "scope": "national",
+        "area": "Guatemala",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50223005400",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": "Central de lunes a viernes, de 08:00 a 16:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://snis.mides.gob.gt/comedor-social/",
+          "https://www.mides.gob.gt/pages/contact/2-contact/"
+        ]
+      }
+    },
+    {
+      "id": "idpp-nebaj",
+      "organization": "Instituto de la Defensa Pública Penal, Nebaj",
+      "category": "migration-and-legal",
+      "service": "Defensa pública penal en esta sede. Consulta la asignación de un defensor según el caso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Nebaj, Quiché",
+        "municipality": "Nebaj"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50277558108",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://idpp.gob.gt/index.php/cobertura-a-nivel-nacional-idpp/sedes-departamentales"
+        ]
+      }
+    },
+    {
+      "id": "idpp-chichicastenango",
+      "organization": "Instituto de la Defensa Pública Penal, Chichicastenango",
+      "category": "migration-and-legal",
+      "service": "Defensa pública penal en esta sede. Consulta la asignación de un defensor según el caso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Chichicastenango, Quiché",
+        "municipality": "Chichicastenango"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50231244722",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://idpp.gob.gt/index.php/cobertura-a-nivel-nacional-idpp/sedes-departamentales"
+        ]
+      }
+    },
+    {
+      "id": "idpp-joyabaj",
+      "organization": "Instituto de la Defensa Pública Penal, Joyabaj",
+      "category": "migration-and-legal",
+      "service": "Defensa pública penal en esta sede. Consulta la asignación de un defensor según el caso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Joyabaj, Quiché",
+        "municipality": "Joyabaj"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50231255946",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://idpp.gob.gt/index.php/cobertura-a-nivel-nacional-idpp/sedes-departamentales"
+        ]
+      }
+    },
+    {
+      "id": "idpp-champerico",
+      "organization": "Instituto de la Defensa Pública Penal, Champerico",
+      "category": "migration-and-legal",
+      "service": "Defensa pública penal en esta sede. Consulta la asignación de un defensor según el caso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Champerico, Retalhuleu",
+        "municipality": "Champerico"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50230001915",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://idpp.gob.gt/index.php/cobertura-a-nivel-nacional-idpp/sedes-departamentales"
+        ]
+      }
+    },
+    {
+      "id": "bufete-ixcan",
+      "organization": "Bufete Popular, Centro de Justicia de Ixcán",
+      "category": "migration-and-legal",
+      "service": "Asistencia jurídica gratuita que ofrece el Bufete Popular del Centro de Administración de Justicia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ixcán, Quiché",
+        "municipality": "Ixcán"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50231240767",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://seij.gob.gt/centros-de-justicia/",
+          "https://seij.gob.gt/cajs2024/"
+        ]
+      }
+    },
+    {
+      "id": "pdh-denuncias",
+      "organization": "Procuraduría de los Derechos Humanos",
+      "category": "protection",
+      "service": "Recibe denuncias por posibles vulneraciones de derechos humanos.",
+      "coverage": {
+        "scope": "national",
+        "area": "Guatemala",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1555",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/guatemala/acnur-en-guatemala-2/instituciones-nacionales-con-las-que-trabajamos/"
+        ]
+      }
+    },
+    {
+      "id": "fundacion-sobrevivientes",
+      "organization": "Fundación Sobrevivientes",
+      "category": "protection",
+      "service": "Atención integral a sobrevivientes de violencia, incluida orientación legal y atención especializada.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Guatemala",
+        "municipality": "Guatemala"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50222453000",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://sobrevivientes.org/atencion-integral/"
+        ]
+      }
+    },
+    {
+      "id": "pgn-sacatepequez",
+      "organization": "Procuraduría General de la Nación, Sacatepéquez",
+      "category": "protection",
+      "service": "Recibe reportes de vulneraciones de derechos de niñas, niños y adolescentes en Sacatepéquez.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Sacatepéquez",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50278329454",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://pgn.gob.gt/2026/04/pgn-actua-a-favor-de-20-ninas-ninos-y-adolescentes-expuestos-a-trabajo-infantil-en-antigua-guatemala/"
+        ]
+      }
+    },
+    {
+      "id": "caimus-escuintla",
+      "organization": "Grupo Guatemalteco de Mujeres, CAIMUS Escuintla",
+      "category": "protection",
+      "service": "Orientación social, psicológica y jurídica para mujeres sobrevivientes de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Escuintla",
+        "municipality": "Escuintla"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50278899952",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://ggm.org.gt/caimus/"
+        ]
+      }
+    },
+    {
+      "id": "caimus-rabinal",
+      "organization": "Grupo Guatemalteco de Mujeres, CAIMUS Rabinal",
+      "category": "protection",
+      "service": "Orientación social, psicológica y jurídica para mujeres sobrevivientes de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Rabinal, Baja Verapaz",
+        "municipality": "Rabinal"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50279388979",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://ggm.org.gt/caimus/"
+        ]
+      }
     }
   ]
 }
