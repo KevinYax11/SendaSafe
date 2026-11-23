@@ -1,0 +1,315 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --canvas: #faf9f6;
+  --surface: #fff;
+  --ink: #1e322b;
+  --muted: #4e6259;
+  --green: #2f5d50;
+  --wash: #e8f0eb;
+  --line: #d7e0d9;
+  --alert: #963b20;
+}
+
+body {
+  background: var(--canvas);
+  color: var(--ink);
+  font: 1rem/1.55 system-ui, sans-serif;
+}
+
+a { color: var(--green); }
+a:hover { text-decoration: underline; }
+
+:is(a, button, summary, input, select):focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 3px;
+}
+
+.shell {
+  width: min(100% - 2.5rem, 72rem);
+  margin-inline: auto;
+}
+
+.skip-link {
+  position: absolute;
+  z-index: 2;
+  top: 0.75rem;
+  left: 0.75rem;
+  padding: 0.75rem 1rem;
+  transform: translateY(-160%);
+  background: var(--surface);
+}
+
+.skip-link:focus { transform: none; }
+.site-header { border-bottom: 1px solid var(--line); }
+
+.header-content, .directory-heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem 1rem;
+}
+
+.header-content {
+  min-height: 4.5rem;
+  padding-block: 0.5rem;
+}
+
+.brand, .site-header nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+}
+
+.brand {
+  gap: 0.6rem;
+  color: var(--ink);
+  font-size: 1.15rem;
+  font-weight: 750;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--green);
+}
+
+.brand-mark span {
+  width: 0.7rem;
+  height: 1rem;
+  border: 2px solid white;
+  border-radius: 65% 18% 65% 18%;
+  transform: rotate(25deg);
+}
+
+.site-header nav {
+  display: flex;
+  gap: clamp(0.75rem, 4vw, 2rem);
+  font-size: 0.9rem;
+  font-weight: 650;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  gap: clamp(2rem, 7vw, 6rem);
+  padding-block: clamp(3rem, 9vw, 7rem);
+}
+
+h1, h2 {
+  font-family: Georgia, serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: clamp(2.9rem, 6vw, 5.6rem);
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+}
+
+h2 {
+  font-size: clamp(1.85rem, 4vw, 2.9rem);
+  line-height: 1.15;
+}
+
+.intro-copy p {
+  max-width: 36ch;
+  margin-top: 1.25rem;
+  color: var(--muted);
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+}
+
+.country-panel {
+  padding: clamp(1.25rem, 4vw, 2.25rem);
+  background: var(--wash);
+  border: 1px solid var(--line);
+  border-radius: 1.125rem;
+}
+
+.country-panel label {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.country-panel p, .result-count {
+  margin-top: 0.75rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+select, input {
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid #7f998d;
+  border-radius: 0.55rem;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+select {
+  appearance: none;
+  padding-inline-end: 2.25rem;
+  background-image: linear-gradient(45deg, transparent 50%, var(--green) 50%), linear-gradient(135deg, var(--green) 50%, transparent 50%);
+  background-position: calc(100% - 1.05rem) center, calc(100% - 0.75rem) center;
+  background-repeat: no-repeat;
+  background-size: 0.3rem 0.3rem;
+}
+
+.directory-section, .guidance { padding-block: clamp(2rem, 5vw, 4rem); }
+
+.directory-section {
+  border-block: 1px solid var(--line);
+  background: var(--wash);
+}
+
+.directory-heading { margin-bottom: 1.5rem; }
+
+.emergency-link {
+  padding: 0.65rem 0.85rem;
+  border: 1px solid #e2b29e;
+  border-radius: 0.55rem;
+  background: #fae9df;
+  color: var(--alert);
+  font-weight: 700;
+}
+
+.message, .resource-card, .guidance article {
+  padding: clamp(1rem, 2.5vw, 1.5rem);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 0.8rem;
+}
+
+.message, .resource-card p, .guidance p { color: var(--muted); }
+
+.message :is(a, button) {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  color: var(--green);
+  text-decoration: underline;
+  font-weight: 650;
+}
+
+.filters, .resource-grid, .guidance-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.filters { grid-template-columns: 1.5fr 1fr; }
+
+.filters label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.92rem;
+  font-weight: 650;
+}
+
+.result-count { margin-block: 1rem; }
+
+.resource-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.resource-meta, .resource-actions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resource-meta {
+  gap: 0.25rem 0.75rem;
+  color: var(--green);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.resource-meta span + span {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.resource-card h3, .guidance h3 {
+  font-size: 1.15rem;
+  font-weight: 750;
+  line-height: 1.3;
+}
+
+.resource-hours { font-size: 0.9rem; }
+
+.resource-actions {
+  gap: 0.5rem;
+  margin-top: auto;
+  padding-top: 0.35rem;
+}
+
+.resource-actions a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  max-width: 100%;
+  padding: 0.45rem 0.7rem;
+  border-radius: 0.45rem;
+  background: var(--green);
+  color: white;
+  font-size: 0.88rem;
+  font-weight: 650;
+}
+
+.resource-actions a:hover { background: var(--ink); }
+
+.resource-details {
+  margin-top: 0.25rem;
+  border-top: 1px solid var(--line);
+}
+
+.resource-details summary {
+  width: fit-content;
+  min-height: 2.75rem;
+  padding-block: 0.55rem;
+  color: var(--green);
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 650;
+}
+
+.resource-details dl, .resource-details ul {
+  display: grid;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.resource-details dt { font-weight: 650; }
+.resource-details dd { color: var(--muted); }
+
+.resource-details ul {
+  margin-top: 0.65rem;
+  overflow-wrap: anywhere;
+  text-decoration: underline;
+}
+
+.guidance h2 { margin-bottom: 1rem; }
+.guidance p { margin-top: 0.5rem; }
+
+.site-footer {
+  padding-block: 1rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 42rem) {
+  .intro, .filters, .resource-grid, .guidance-grid { grid-template-columns: 1fr; }
+  .desktop-break { display: none; }
+}

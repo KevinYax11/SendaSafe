@@ -1,0 +1,705 @@
+{
+  "country": "GT",
+  "language": "es",
+  "resources": [
+    {
+      "id": "conred",
+      "organization": "CONRED",
+      "category": "emergency",
+      "service": "Reportes de emergencias y desastres.",
+      "coverage": {
+        "scope": "national",
+        "area": "Guatemala",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "119",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://conred.gob.gt/sinaprese2026/"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-voluntarios",
+      "organization": "Bomberos Voluntarios",
+      "category": "emergency",
+      "service": "Reportes de incendios, accidentes y otras emergencias que requieren socorro.",
+      "coverage": {
+        "scope": "national",
+        "area": "Guatemala",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "122",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://conred.gob.gt/sinaprese2026/",
+          "https://bomberosvoluntarios.org.gt/locations"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-municipales",
+      "organization": "Cuerpo de Bomberos Municipales",
+      "category": "emergency",
+      "service": "Atención de emergencias de bomberos en la capital.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Guatemala",
+        "municipality": "Guatemala"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "123",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas, todos los días",
+      "cost": "Atención gratuita",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://bomberosmunicipales.org.gt/centro-de-coordinacion-de-emergencias-del-cbm/",
+          "https://www.muniguate.com/bomberos-municipales/"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-departamentales",
+      "organization": "Bomberos Municipales Departamentales",
+      "category": "emergency",
+      "service": "Atención de emergencias a través de la red de estaciones departamentales.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Municipios atendidos por las estaciones de ASONBOMD",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1554",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://asonbomd.org/contacto/",
+          "https://conred.gob.gt/sinaprese2026/"
+        ]
+      }
+    },
+    {
+      "id": "cruz-roja",
+      "organization": "Cruz Roja Guatemalteca",
+      "category": "emergency",
+      "service": "Línea de emergencias con asistencia telefónica mientras llega la ayuda.",
+      "coverage": {
+        "scope": "national",
+        "area": "Guatemala",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "125",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas, todos los días",
+      "cost": "Llamada gratuita",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://www.cruzroja.gt/centro-de-operaciones-de-emergencia/"
+        ]
+      }
+    },
+    {
+      "id": "provial",
+      "organization": "PROVIAL",
+      "category": "emergency",
+      "service": "Asistencia vial y reporte de incidentes en carretera.",
+      "coverage": {
+        "scope": "national",
+        "area": "Carreteras de Guatemala",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1520",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://conred.gob.gt/sinaprese2026/"
+        ]
+      }
+    },
+    {
+      "id": "policia-nacional-civil",
+      "organization": "Policía Nacional Civil",
+      "category": "emergency",
+      "service": "Atención de emergencias policiales.",
+      "coverage": {
+        "scope": "national",
+        "area": "Guatemala",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "110",
+          "routing": "short-code"
+        },
+        {
+          "type": "phone",
+          "number": "120",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://conred.gob.gt/sinaprese2026/"
+        ]
+      }
+    },
+    {
+      "id": "alba-keneth",
+      "organization": "Sistema de Alerta ALBA-KENETH",
+      "category": "protection",
+      "service": "Recepción de reportes de desaparición de niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Guatemala",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1546",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas, todos los días",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://albakeneth.gob.gt/"
+        ]
+      }
+    },
+    {
+      "id": "pgn-ninez",
+      "organization": "Procuraduría General de la Nación",
+      "category": "protection",
+      "service": "Recepción de denuncias por vulneración de los derechos de niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Guatemala",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1584",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://pgn.gob.gt/2023/05/pgn-habilita-opcion-para-realizar-denuncias-en-pagina-web/",
+          "https://svet.gob.gt/vs/"
+        ]
+      }
+    },
+    {
+      "id": "mp-violencia-contra-la-mujer",
+      "organization": "Ministerio Público",
+      "category": "protection",
+      "service": "Línea de atención para mujeres víctimas de violencia.",
+      "coverage": {
+        "scope": "national",
+        "area": "Guatemala",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1572",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Servicio dirigido a mujeres víctimas de violencia.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://www.mp.gob.gt/contactanos/"
+        ]
+      }
+    },
+    {
+      "id": "instituto-de-la-victima",
+      "organization": "Instituto de la Víctima",
+      "category": "protection",
+      "service": "Asistencia legal y atención especializada para víctimas de delitos. La central puede orientar sobre las sedes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Guatemala",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50223145800",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": "Atención gratuita",
+      "requirements": "Dirigido a víctimas de delitos.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://institutodelavictima.gob.gt/contacto/",
+          "https://institutodelavictima.gob.gt/quienes-somos/"
+        ]
+      }
+    },
+    {
+      "id": "acnur-odhag",
+      "organization": "ACNUR Guatemala / ODHAG",
+      "category": "migration-and-legal",
+      "service": "Orientación para personas refugiadas y solicitantes de asilo. ODHAG gestiona la línea de atención.",
+      "coverage": {
+        "scope": "national",
+        "area": "Guatemala",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50240346109",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:30 a 16:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://help.unhcr.org/guatemala/acnur-en-guatemala-2/nuestras-oficinas/guatemala/",
+          "https://help.unhcr.org/guatemala/"
+        ]
+      }
+    },
+    {
+      "id": "igm-proteccion",
+      "organization": "Instituto Guatemalteco de Migración",
+      "category": "migration-and-legal",
+      "service": "Central institucional para solicitar orientación sobre atención y protección a personas migrantes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Guatemala",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50224112411",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://proteccion.igm.gob.gt/index.php/es"
+        ]
+      }
+    },
+    {
+      "id": "casa-migrante-guatemala",
+      "organization": "Casa del Migrante Scalabrini, Ciudad de Guatemala",
+      "category": "shelter-and-food",
+      "service": "Contacto del albergue para consultar atención humanitaria y alojamiento en la capital.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Guatemala",
+        "municipality": "Guatemala"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50222302781",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://scalabriniguate.org/contacto/",
+          "https://vicepresidencia.gob.gt/noticias/2025-02-06/vicepresidenta-converso-con-migrantes-albergados-en-la-casa-del-migrante"
+        ]
+      }
+    },
+    {
+      "id": "casa-migrante-tecun-uman",
+      "organization": "Casa del Migrante Scalabrini, Tecún Umán",
+      "category": "shelter-and-food",
+      "service": "Albergue y asistencia humanitaria para personas migrantes en Tecún Umán.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tecún Umán, San Marcos",
+        "municipality": "Ayutla"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50277768416",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50277768417",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a domingo, de 06:00 a 22:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://scalabriniguate.org/contacto/",
+          "https://www.simn-global.org/centros-scalabrinianos/centro/ym-hamburger/"
+        ]
+      }
+    },
+    {
+      "id": "bufete-landivar-guatemala",
+      "organization": "Bufete Popular de la Universidad Rafael Landívar, Ciudad de Guatemala",
+      "category": "migration-and-legal",
+      "service": "Asesoría jurídica gratuita para personas de escasos recursos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Guatemala",
+        "municipality": "Guatemala"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50222305111",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50222305117",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50222305213",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50222305093",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 17:00",
+      "cost": "Atención gratuita",
+      "requirements": "Para representación legal, el bufete evalúa ingresos y solicita documentos.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://principal.url.edu.gt/acerca-de/servicios/bufete-popular/"
+        ]
+      }
+    },
+    {
+      "id": "bufete-landivar-coban",
+      "organization": "Bufete Popular de la Universidad Rafael Landívar, Cobán",
+      "category": "migration-and-legal",
+      "service": "Asesoría jurídica gratuita para personas de escasos recursos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cobán, Alta Verapaz",
+        "municipality": "Cobán"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50266756687",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50266756692",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50266756693",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 17:00",
+      "cost": "Atención gratuita",
+      "requirements": "Para representación legal, el bufete evalúa ingresos y solicita documentos.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://principal.url.edu.gt/acerca-de/servicios/bufete-popular/"
+        ]
+      }
+    },
+    {
+      "id": "bufete-landivar-huehuetenango",
+      "organization": "Bufete Popular de la Universidad Rafael Landívar, Huehuetenango",
+      "category": "migration-and-legal",
+      "service": "Asesoría jurídica gratuita para personas de escasos recursos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Huehuetenango",
+        "municipality": "Huehuetenango"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50277361267",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50277361286",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 17:00",
+      "cost": "Atención gratuita",
+      "requirements": "Para representación legal, el bufete evalúa ingresos y solicita documentos.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://principal.url.edu.gt/acerca-de/servicios/bufete-popular/"
+        ]
+      }
+    },
+    {
+      "id": "cipa-uvg",
+      "organization": "Centro Integral de Psicología Aplicada, Universidad del Valle de Guatemala",
+      "category": "health-and-psychosocial",
+      "service": "Atención psicológica programada. El centro indica que puede haber lista de espera.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Guatemala",
+        "municipality": "Guatemala"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50225071524",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+50235692127",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a jueves, de 08:30 a 19:00, y sábados, de 08:00 a 15:00",
+      "cost": null,
+      "requirements": "Solicitar una cita por teléfono o WhatsApp.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://www.uvg.edu.gt/servicios/cipa/"
+        ]
+      }
+    },
+    {
+      "id": "psicologia-landivar-guatemala",
+      "organization": "Centro Landivariano de Práctica y Servicios de Psicología",
+      "category": "health-and-psychosocial",
+      "service": "Apoyo psicológico individual para niñas, niños, adolescentes y adultos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Guatemala",
+        "municipality": "Guatemala"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50224262635",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 16:30, y sábados, de 08:00 a 13:00",
+      "cost": null,
+      "requirements": "Completar solicitud. Para adultos, copia del DPI. Para menores, copia del certificado de nacimiento y del DPI de la persona responsable.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://principal.url.edu.gt/acerca-de/servicios/centro-landivariano-de-practica-y-servicios-de-psicologia/"
+        ]
+      }
+    },
+    {
+      "id": "cip-landivar-quetzaltenango",
+      "organization": "Centro Landivariano Integral de Proyección, Quetzaltenango",
+      "category": "health-and-psychosocial",
+      "service": "Atención psicológica, terapia física y ocupacional y orientación jurídica.",
+      "coverage": {
+        "scope": "local",
+        "area": "Quetzaltenango",
+        "municipality": "Quetzaltenango"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50277229900",
+          "routing": "switchboard",
+          "extension": "9938"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 17:00",
+      "cost": "Atención gratuita",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://principal.url.edu.gt/cip-landivar/cip-quetzaltenango/"
+        ]
+      }
+    },
+    {
+      "id": "caism-igss",
+      "organization": "Centro de Atención Integral de Salud Mental, IGSS",
+      "category": "health-and-psychosocial",
+      "service": "Atención en salud mental para derechohabientes del IGSS. Contacto por central telefónica.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Guatemala",
+        "municipality": "Guatemala"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50223182424",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Dirigido a personas afiliadas o beneficiarias del IGSS.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://www.igssgt.org/wp-content/uploads/2025/03/2_Directorio_Metropolitano_Febrero_2025_IGSS.pdf",
+          "https://www.igssgt.org/noticias/2026/06/12/caism-25-anos-al-cuidado-de-la-salud-mental-de-nuestros-derechohabientes/"
+        ]
+      }
+    },
+    {
+      "id": "hospital-regional-occidente",
+      "organization": "Hospital Regional de Occidente",
+      "category": "health-and-psychosocial",
+      "service": "Hospital de referencia del occidente con urgencias de adultos, pediatría y obstetricia.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Occidente de Guatemala, sede en Quetzaltenango",
+        "municipality": "Quetzaltenango"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50279313636",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": "Emergencias: 24 horas, todos los días",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-22",
+        "sources": [
+          "https://hro.gob.gt/"
+        ]
+      }
+    }
+  ]
+}
