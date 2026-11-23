@@ -13,6 +13,7 @@ const verificationMethods = new Set(['institutional-source', 'phone-confirmed'])
 const shortCodePattern = /^[1-9]\d{2,3}$/
 const countries = {
   GT: { name: 'Guatemala', numberPattern: /^\+502[2-7]\d{7}$/ },
+  CO: { name: 'Colombia', numberPattern: /^(?:\+57[36]\d{9}|018000\d{6})$/ },
   PA: { name: 'Panamá', numberPattern: /^\+507(?:[2-9]\d{6}|6\d{7})$/ },
   CR: { name: 'Costa Rica', numberPattern: /^(?:\+506[2-8]\d{7}|800\d{7})$/ },
   SV: { name: 'El Salvador', numberPattern: /^\+503[267]\d{7}$/ },

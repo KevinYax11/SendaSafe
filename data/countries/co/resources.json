@@ -1,0 +1,698 @@
+{
+  "country": "CO",
+  "language": "es",
+  "resources": [
+    {
+      "id": "emergencias",
+      "organization": "Línea Única de Emergencias",
+      "category": "emergency",
+      "service": "Recibe reportes de incidentes que requieren atención de emergencia.",
+      "coverage": {
+        "scope": "national",
+        "area": "Colombia",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "123",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.policia.gov.co/sites/default/files/2024-10/Recomendaciones%20COP%2016.pdf"
+        ]
+      }
+    },
+    {
+      "id": "icbf",
+      "organization": "Instituto Colombiano de Bienestar Familiar",
+      "category": "protection",
+      "service": "Orientación y reportes sobre amenazas o vulneraciones de derechos de la niñez y adolescencia.",
+      "coverage": {
+        "scope": "national",
+        "area": "Colombia",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "141",
+          "routing": "short-code"
+        },
+        {
+          "type": "phone",
+          "number": "018000918080",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.icbf.gov.co/noticias/linea-141",
+          "https://www.icbf.gov.co/mis-manos-te-ensenan/como-saber-si-soy-victima-de-violencia-intrafamiliar"
+        ]
+      }
+    },
+    {
+      "id": "salvia",
+      "organization": "Línea 155, orientación ante violencia de género",
+      "category": "protection",
+      "service": "Orientación confidencial sobre protección y rutas de atención ante violencia de género.",
+      "coverage": {
+        "scope": "national",
+        "area": "Colombia",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "155",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas",
+      "cost": "Llamada gratuita",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.policia.gov.co/sites/default/files/2025-08/linea-155-orientacion-a-personas-victimas-de-violencias-basadas-en-genero.pdf"
+        ]
+      }
+    },
+    {
+      "id": "fiscalia",
+      "organization": "Fiscalía General de la Nación",
+      "category": "protection",
+      "service": "Orientación y recepción de denuncias penales.",
+      "coverage": {
+        "scope": "national",
+        "area": "Colombia",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "122",
+          "routing": "short-code"
+        },
+        {
+          "type": "phone",
+          "number": "018000919748",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.fiscalia.gov.co/colombia/servicios-de-informacion-al-ciudadano/donde-y-como-denunciar/",
+          "https://bogota.gov.co/mi-ciudad/mujer/ruta-de-atencion-mujeres-victimas-de-violencias-y-feminicidio"
+        ]
+      }
+    },
+    {
+      "id": "defensoria",
+      "organization": "Defensoría del Pueblo",
+      "category": "protection",
+      "service": "Orientación y protección ante posibles vulneraciones de derechos humanos.",
+      "coverage": {
+        "scope": "national",
+        "area": "Colombia",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "018000914814",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Llamada gratuita",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/proteccion-en-colombia/denuncias-y-medidas-de-proteccion/"
+        ]
+      }
+    },
+    {
+      "id": "acnur-pao",
+      "organization": "ACNUR, Puntos de Atención y Orientación",
+      "category": "migration-and-legal",
+      "service": "Chat automático que orienta sobre protección de derechos y acceso a servicios.",
+      "coverage": {
+        "scope": "national",
+        "area": "Colombia",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+573146525326",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/pqrs/"
+        ]
+      }
+    },
+    {
+      "id": "migracion-colombia",
+      "organization": "Migración Colombia",
+      "category": "migration-and-legal",
+      "service": "Orientación telefónica sobre los trámites y servicios migratorios.",
+      "coverage": {
+        "scope": "national",
+        "area": "Colombia",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573009133992",
+          "routing": "switchboard"
+        },
+        {
+          "type": "phone",
+          "number": "018000515515",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 07:00 a 17:00. Sábados, de 08:00 a 13:00.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.migracioncolombia.gov.co/acerca-de-migracion-colombia/directorios/puntos-de-atencion"
+        ]
+      }
+    },
+    {
+      "id": "salud-bogota",
+      "organization": "Secretaría Distrital de Salud de Bogotá",
+      "category": "health-and-psychosocial",
+      "service": "Orientación sobre afiliación y acceso a programas y servicios de salud.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bogotá D.C.",
+        "municipality": "Bogotá D.C."
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+576013295090",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+573022331823",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 07:00 a 17:00. Sábados, de 07:00 a 12:00.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.saludcapital.gov.co/Paginas2/Linea-serv-ciudadania.aspx"
+        ]
+      }
+    },
+    {
+      "id": "famig",
+      "organization": "Fundación de Atención al Migrante",
+      "category": "shelter-and-food",
+      "service": "Acompañamiento humanitario y orientación sobre alojamiento temporal.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bogotá D.C.",
+        "municipality": "Bogotá D.C."
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+576019054834",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://migrasegura.org/organizacao/fundacion-atencion-al-migrante-2/",
+          "https://centrodse.arquibogota.org.co/node/1024"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-uninorte",
+      "organization": "Universidad del Norte, Consultorio Jurídico",
+      "category": "migration-and-legal",
+      "service": "Asesoría jurídica sobre refugio, regularización migratoria y acceso a derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Barranquilla, Atlántico",
+        "municipality": "Barranquilla"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573155602693",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:30 a 12:30 y de 14:30 a 16:30",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-san-buenaventura",
+      "organization": "Universidad de San Buenaventura, Consultorio Jurídico",
+      "category": "migration-and-legal",
+      "service": "Asesoría jurídica sobre refugio, regularización migratoria y acceso a derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bello, Antioquia",
+        "municipality": "Bello"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573156012821",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+576045145600",
+          "routing": "switchboard",
+          "extension": "4330"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:30 a 12:30 y de 14:30 a 16:30",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
+        ]
+      }
+    },
+    {
+      "id": "clinica-uniandes",
+      "organization": "Universidad de los Andes, Clínica Jurídica para Migrantes",
+      "category": "migration-and-legal",
+      "service": "Asesoría jurídica sobre refugio, regularización migratoria y acceso a derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bogotá D.C.",
+        "municipality": "Bogotá D.C."
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573175537614",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+576013394949",
+          "routing": "switchboard",
+          "extension": "2392"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 12:00",
+      "cost": null,
+      "requirements": "La atención presencial tiene cupos limitados.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/",
+          "https://derecho.uniandes.edu.co/consultorio-juridico/clinicas-juridicas/cj-migrantes/"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-rosario",
+      "organization": "Universidad del Rosario, Consultorio Jurídico",
+      "category": "migration-and-legal",
+      "service": "Asesoría jurídica sobre refugio, regularización migratoria y acceso a derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bogotá D.C.",
+        "municipality": "Bogotá D.C."
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573188562467",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 07:00 a 16:00 durante el periodo académico",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-javeriana",
+      "organization": "Pontificia Universidad Javeriana, Consultorio Jurídico",
+      "category": "migration-and-legal",
+      "service": "Asesoría jurídica sobre refugio, regularización migratoria y acceso a derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bogotá D.C.",
+        "municipality": "Bogotá D.C."
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573155858939",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/",
+          "https://cienciasjuridicas.javeriana.edu.co/consultorio-juridico"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-uis",
+      "organization": "Universidad Industrial de Santander, Consultorio Jurídico",
+      "category": "migration-and-legal",
+      "service": "Asesoría jurídica sobre refugio, regularización migratoria y acceso a derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bucaramanga, Santander",
+        "municipality": "Bucaramanga"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573163045169",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-icesi",
+      "organization": "Universidad Icesi, Consultorio Jurídico",
+      "category": "migration-and-legal",
+      "service": "Asesoría jurídica sobre refugio, regularización migratoria y acceso a derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cali, Valle del Cauca",
+        "municipality": "Cali"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573173447698",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+573137373612",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+576028821093",
+          "routing": "switchboard",
+          "extension": "101"
+        }
+      ],
+      "hours": "Lunes a viernes, de 14:30 a 16:20",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-unichoco",
+      "organization": "Universidad Tecnológica del Chocó, Consultorio Jurídico",
+      "category": "migration-and-legal",
+      "service": "Asesoría jurídica sobre refugio, regularización migratoria y acceso a derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Quibdó, Chocó",
+        "municipality": "Quibdó"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573154484110",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 11:30 y de 14:00 a 17:30",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-unilibre",
+      "organization": "Universidad Libre, Consultorio Jurídico",
+      "category": "migration-and-legal",
+      "service": "Asesoría jurídica sobre refugio, regularización migratoria y acceso a derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cúcuta, Norte de Santander",
+        "municipality": "Cúcuta"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573155510397",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-udea",
+      "organization": "Universidad de Antioquia, Consultorio Jurídico",
+      "category": "migration-and-legal",
+      "service": "Asesoría jurídica sobre refugio, regularización migratoria y acceso a derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Medellín, Antioquia",
+        "municipality": "Medellín"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573167066242",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-cervantes",
+      "organization": "Fundación Universitaria Cervantes San Agustín",
+      "category": "migration-and-legal",
+      "service": "Asesoría jurídica sobre refugio, regularización migratoria y acceso a derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Mocoa, Putumayo",
+        "municipality": "Mocoa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573175168851",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-uniguajira",
+      "organization": "Universidad de La Guajira, Consultorio Jurídico",
+      "category": "migration-and-legal",
+      "service": "Asesoría jurídica sobre refugio, regularización migratoria y acceso a derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Riohacha, La Guajira",
+        "municipality": "Riohacha"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573102132898",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 12:00 y de 15:00 a 19:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-unimagdalena",
+      "organization": "Universidad del Magdalena, Consultorio Jurídico",
+      "category": "migration-and-legal",
+      "service": "Asesoría jurídica sobre refugio, regularización migratoria y acceso a derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santa Marta, Magdalena",
+        "municipality": "Santa Marta"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573178930337",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 12:00 y de 14:00 a 18:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-ucc",
+      "organization": "Universidad Cooperativa de Colombia, Consultorio Jurídico",
+      "category": "migration-and-legal",
+      "service": "Asesoría jurídica sobre refugio, regularización migratoria y acceso a derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bogotá D.C.",
+        "municipality": "Bogotá D.C."
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573174345182",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 12:00 y de 14:00 a 18:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
+        ]
+      }
+    }
+  ]
+}
