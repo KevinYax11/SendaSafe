@@ -1,30 +1,54 @@
 'use client'
 
-import { useState } from 'react'
-import { categories, countries, matchesSearch, type Category, type Country, type Resource } from '../lib/directory'
+import { useEffect, useState } from 'react'
+import { categories, maxSearchLength, type Category, type Country, type DirectoryCountry, type DirectoryResults } from '../shared/directory'
+import { getResourcesUrl, loadResources } from './directory-api'
 import { ResourceCard } from './resource-card'
 
-type DirectoryProps = {
-  catalogs: Partial<Record<Country, Resource[]>>
+type RequestState = {
+  url: string
+  attempt: number
+  result: DirectoryResults | null
 }
 
-const countryCodes = Object.keys(countries) as Country[]
 const categoryCodes = Object.keys(categories) as Category[]
 
-export function Directory({ catalogs }: Readonly<DirectoryProps>) {
+export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[] }>) {
   const [country, setCountry] = useState<Country | ''>('')
   const [query, setQuery] = useState('')
   const [category, setCategory] = useState<Category | ''>('')
-  const countryName = country ? countries[country] : ''
-  const resources = country ? catalogs[country] : undefined
-  const results = resources?.filter(resource => (
-    (!category || resource.category === category) && matchesSearch(resource, query)
-  ))
+  const [attempt, setAttempt] = useState(0)
+  const [request, setRequest] = useState<RequestState | null>(null)
+  const selectedCountry = countries.find(option => option.code === country)
+  const search = query.trim()
+  const url = selectedCountry?.hasCoverage ? getResourcesUrl(selectedCountry.code, category, search) : null
+  const currentRequest = request?.url === url && request.attempt === attempt ? request : null
+  const results = currentRequest?.result?.resources
+
+  useEffect(() => {
+    if (!url) return
+
+    const controller = new AbortController()
+    const timer = window.setTimeout(async () => {
+      try {
+        const result = await loadResources(url, controller.signal)
+        if (!controller.signal.aborted) setRequest({ url, attempt, result })
+      } catch {
+        if (!controller.signal.aborted) setRequest({ url, attempt, result: null })
+      }
+    }, search ? 200 : 0)
+
+    return () => {
+      window.clearTimeout(timer)
+      controller.abort()
+    }
+  }, [url, search, attempt])
 
   function selectCountry(value: Country | '') {
     setCountry(value)
     setQuery('')
     setCategory('')
+    setAttempt(value => value + 1)
   }
 
   function applyCategory(value: Category | '') {
@@ -59,8 +83,8 @@ export function Directory({ catalogs }: Readonly<DirectoryProps>) {
             <label htmlFor="country">¿En qué país estás ahora?</label>
             <select id="country" value={country} onChange={event => selectCountry(event.target.value as Country | '')}>
               <option value="">Selecciona un país</option>
-              {countryCodes.map(code => (
-                <option value={code} key={code}>{countries[code]}</option>
+              {countries.map(option => (
+                <option value={option.code} key={option.code}>{option.name}</option>
               ))}
             </select>
             <p>Puedes cambiar de país en cualquier momento.</p>
@@ -70,28 +94,28 @@ export function Directory({ catalogs }: Readonly<DirectoryProps>) {
         <section className="directory-section" id="directorio" aria-labelledby="directory-title" tabIndex={-1}>
           <div className="shell">
             <div className="directory-heading">
-              <h2 id="directory-title">{countryName ? `Directorio de ${countryName}` : 'Directorio de ayuda'}</h2>
-              {resources && (
+              <h2 id="directory-title">{selectedCountry ? `Directorio de ${selectedCountry.name}` : 'Directorio de ayuda'}</h2>
+              {selectedCountry?.hasEmergencyResources && (
                 <a className="emergency-link" href="#resultados" onClick={() => applyCategory('emergency')}>
                   Ver contactos de emergencia
                 </a>
               )}
             </div>
 
-            {!country && <p className="message" role="status">Selecciona tu país para consultar los recursos disponibles. El directorio de Guatemala ya está disponible.</p>}
-            {country && !resources && (
+            {!selectedCountry && <p className="message" role="status">Selecciona tu país para consultar los recursos disponibles. El directorio de Guatemala ya está disponible.</p>}
+            {selectedCountry && !selectedCountry.hasCoverage && (
               <div className="message">
-                <p role="status">Aún no tenemos contactos verificados para {countryName}.</p>
+                <p role="status">Aún no tenemos contactos verificados para {selectedCountry.name}.</p>
                 <a href="#orientacion">Ver orientación general</a>
               </div>
             )}
 
-            {resources && results && (
+            {selectedCountry?.hasCoverage && (
               <>
                 <div className="filters">
                   <div>
                     <label htmlFor="search">Buscar recursos</label>
-                    <input id="search" type="search" placeholder="Municipio, entidad o servicio" value={query} onChange={event => setQuery(event.target.value)} />
+                    <input id="search" type="search" placeholder="Municipio, entidad o servicio" maxLength={maxSearchLength} value={query} onChange={event => setQuery(event.target.value)} />
                   </div>
                   <div>
                     <label htmlFor="category">Tipo de ayuda</label>
@@ -104,12 +128,22 @@ export function Directory({ catalogs }: Readonly<DirectoryProps>) {
                   </div>
                 </div>
                 <div id="resultados" tabIndex={-1}>
-                  <p className="result-count" role="status">{results.length === 1 ? '1 recurso disponible' : `${results.length} recursos disponibles`}</p>
-                  {results.length > 0 ? (
+                  <p className="result-count" role="status">
+                    {!currentRequest && 'Cargando recursos…'}
+                    {results && (results.length === 1 ? '1 recurso disponible' : `${results.length} recursos disponibles`)}
+                  </p>
+                  {currentRequest?.result === null && (
+                    <div className="message">
+                      <p role="alert">No pudimos cargar los recursos.</p>
+                      <button type="button" onClick={() => setAttempt(value => value + 1)}>Reintentar</button>
+                    </div>
+                  )}
+                  {results && results.length > 0 && (
                     <div className="resource-grid">
                       {results.map(resource => <ResourceCard key={resource.id} resource={resource} />)}
                     </div>
-                  ) : (
+                  )}
+                  {results?.length === 0 && (
                     <div className="message">
                       <p>No encontramos recursos con esos filtros.</p>
                       <button type="button" onClick={() => applyCategory('')}>Quitar filtros</button>

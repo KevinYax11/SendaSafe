@@ -1,0 +1,47 @@
+import 'server-only'
+
+import guatemala from '../../../data/countries/gt/resources.json'
+import { categories, countries, type Category, type Country, type DirectoryCountry, type DirectoryResults, type Resource } from '../../shared/directory'
+
+const catalogs: Partial<Record<Country, Resource[]>> = {
+  GT: guatemala.resources as Resource[],
+}
+
+function describeCountry(code: Country): DirectoryCountry {
+  const resources = catalogs[code] ?? []
+  return {
+    code,
+    name: countries[code],
+    hasCoverage: resources.length > 0,
+    hasEmergencyResources: resources.some(resource => resource.category === 'emergency'),
+  }
+}
+
+export function listCountries(): DirectoryCountry[] {
+  return (Object.keys(countries) as Country[]).map(describeCountry)
+}
+
+function normalizeSearch(value: string) {
+  return value.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLocaleLowerCase('es')
+}
+
+function matchesSearch(resource: Resource, terms: string[]) {
+  const text = normalizeSearch([
+    resource.organization,
+    resource.service,
+    resource.coverage.area,
+    resource.coverage.municipality,
+    categories[resource.category],
+  ].join(' '))
+
+  return terms.every(term => text.includes(term))
+}
+
+export function searchResources(code: Country, category: Category | undefined, query: string): DirectoryResults {
+  const terms = normalizeSearch(query).split(/\s+/).filter(Boolean)
+  const resources = (catalogs[code] ?? []).filter(resource => (
+    (!category || resource.category === category) && matchesSearch(resource, terms)
+  ))
+
+  return { country: describeCountry(code), resources }
+}

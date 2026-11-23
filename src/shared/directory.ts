@@ -32,6 +32,14 @@ export const categories = {
 
 export type Country = keyof typeof countries
 export type Category = keyof typeof categories
+export const maxSearchLength = 100
+
+export type DirectoryCountry = {
+  code: Country
+  name: string
+  hasCoverage: boolean
+  hasEmergencyResources: boolean
+}
 
 export type ContactChannel = {
   type: 'phone' | 'whatsapp'
@@ -61,18 +69,14 @@ export type Resource = {
   }
 }
 
-function normalizeSearch(value: string) {
-  return value.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLocaleLowerCase('es')
+export type DirectoryResults = {
+  country: DirectoryCountry
+  resources: Resource[]
 }
 
-export function matchesSearch(resource: Resource, query: string) {
-  const text = normalizeSearch([
-    resource.organization,
-    resource.service,
-    resource.coverage.area,
-    resource.coverage.municipality,
-    categories[resource.category],
-  ].join(' '))
-
-  return normalizeSearch(query).trim().split(/\s+/).every(term => text.includes(term))
+export type DirectoryError = {
+  error: {
+    code: 'country_not_supported' | 'invalid_category' | 'invalid_query'
+    message: string
+  }
 }

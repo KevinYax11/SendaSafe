@@ -1,4 +1,4 @@
-import { categories, type ContactChannel, type Resource } from '../lib/directory'
+import { categories, type ContactChannel, type Resource } from '../shared/directory'
 
 function contactLabel(channel: ContactChannel) {
   const action = channel.type === 'whatsapp'
