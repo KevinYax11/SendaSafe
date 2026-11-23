@@ -1,0 +1,682 @@
+{
+  "country": "SV",
+  "language": "es",
+  "resources": [
+    {
+      "id": "policia",
+      "organization": "Policía Nacional Civil",
+      "category": "emergency",
+      "service": "Recibe reportes de emergencias policiales.",
+      "coverage": {
+        "scope": "national",
+        "area": "El Salvador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "911",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/elsalvador/donde-encontrar-ayuda/numeros-de-telefonos-de-emergencia/"
+        ]
+      }
+    },
+    {
+      "id": "bomberos",
+      "organization": "Cuerpo de Bomberos de El Salvador",
+      "category": "emergency",
+      "service": "Atiende incendios y otras emergencias de rescate.",
+      "coverage": {
+        "scope": "national",
+        "area": "El Salvador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "913",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/elsalvador/donde-encontrar-ayuda/numeros-de-telefonos-de-emergencia/"
+        ]
+      }
+    },
+    {
+      "id": "sem",
+      "organization": "Sistema de Emergencias Médicas",
+      "category": "emergency",
+      "service": "Coordina la atención de urgencias médicas.",
+      "coverage": {
+        "scope": "national",
+        "area": "El Salvador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "132",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/elsalvador/donde-encontrar-ayuda/numeros-de-telefonos-de-emergencia/"
+        ]
+      }
+    },
+    {
+      "id": "proteccion-civil",
+      "organization": "Dirección General de Protección Civil",
+      "category": "emergency",
+      "service": "Contacto para emergencias relacionadas con desastres.",
+      "coverage": {
+        "scope": "national",
+        "area": "El Salvador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322012424",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/elsalvador/donde-encontrar-ayuda/numeros-de-telefonos-de-emergencia/"
+        ]
+      }
+    },
+    {
+      "id": "cruz-roja",
+      "organization": "Cruz Roja Salvadoreña",
+      "category": "emergency",
+      "service": "Centro de emergencias y socorro.",
+      "coverage": {
+        "scope": "national",
+        "area": "El Salvador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322394930",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/elsalvador/donde-encontrar-ayuda/numeros-de-telefonos-de-emergencia/"
+        ]
+      }
+    },
+    {
+      "id": "comandos-salvamento",
+      "organization": "Comandos de Salvamento",
+      "category": "emergency",
+      "service": "Asistencia de emergencia y rescate.",
+      "coverage": {
+        "scope": "national",
+        "area": "El Salvador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50321330000",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/elsalvador/donde-encontrar-ayuda/numeros-de-telefonos-de-emergencia/"
+        ]
+      }
+    },
+    {
+      "id": "cruz-verde",
+      "organization": "Cruz Verde Salvadoreña",
+      "category": "emergency",
+      "service": "Servicio de socorro y asistencia ante emergencias.",
+      "coverage": {
+        "scope": "national",
+        "area": "El Salvador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322845792",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/elsalvador/donde-encontrar-ayuda/numeros-de-telefonos-de-emergencia/"
+        ]
+      }
+    },
+    {
+      "id": "isdemu",
+      "organization": "ISDEMU, Centro de Llamadas",
+      "category": "protection",
+      "service": "Orientación y atención para mujeres que enfrentan violencia.",
+      "coverage": {
+        "scope": "national",
+        "area": "El Salvador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "126",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://isdemu.gob.sv/servicios/centro-de-llamadas-126/"
+        ]
+      }
+    },
+    {
+      "id": "conapina",
+      "organization": "CONAPINA",
+      "category": "protection",
+      "service": "Atiende denuncias sobre amenazas o vulneraciones de derechos de la niñez y adolescencia.",
+      "coverage": {
+        "scope": "national",
+        "area": "El Salvador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "119",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.conapina.gob.sv/servicios/denuncias/"
+        ]
+      }
+    },
+    {
+      "id": "fiscalia",
+      "organization": "Fiscalía General de la República",
+      "category": "protection",
+      "service": "Contacto institucional para orientación sobre denuncias.",
+      "coverage": {
+        "scope": "national",
+        "area": "El Salvador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50325937000",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/elsalvador/donde-encontrar-ayuda/numeros-de-telefonos-de-emergencia/"
+        ]
+      }
+    },
+    {
+      "id": "pddh",
+      "organization": "Procuraduría para la Defensa de los Derechos Humanos",
+      "category": "protection",
+      "service": "Atención ante posibles vulneraciones de derechos humanos.",
+      "coverage": {
+        "scope": "national",
+        "area": "El Salvador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50325204300",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50325204301",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/elsalvador/donde-encontrar-ayuda/numeros-de-telefonos-de-emergencia/",
+          "https://www.pddh.gob.sv/procuraduria-adjunta-migrantes/"
+        ]
+      }
+    },
+    {
+      "id": "comcavis-trans",
+      "organization": "COMCAVIS TRANS",
+      "category": "protection",
+      "service": "Apoyo y orientación a personas trans y otras personas LGBTIQ+ en situación de vulnerabilidad.",
+      "coverage": {
+        "scope": "national",
+        "area": "El Salvador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50375106072",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/elsalvador/donde-encontrar-ayuda/numeros-de-telefonos-de-emergencia/"
+        ]
+      }
+    },
+    {
+      "id": "dike",
+      "organization": "DIKÉ LGBTIQ+",
+      "category": "protection",
+      "service": "Contacto de la organización de apoyo a población LGBTIQ+ que incluye ACNUR en su directorio.",
+      "coverage": {
+        "scope": "national",
+        "area": "El Salvador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50370043453",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/elsalvador/donde-encontrar-ayuda/numeros-de-telefonos-de-emergencia/"
+        ]
+      }
+    },
+    {
+      "id": "migracion",
+      "organization": "Dirección General de Migración y Extranjería",
+      "category": "migration-and-legal",
+      "service": "Atiende dudas sobre trámites y servicios migratorios.",
+      "coverage": {
+        "scope": "national",
+        "area": "El Salvador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322137778",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+50370700663",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.migracion.gob.sv/noticias/migracion-y-extranjeria-aclara-rumores-sobre-cierre-de-fronteras-durante-estado-de-excepcion/"
+        ]
+      }
+    },
+    {
+      "id": "gami",
+      "organization": "Gerencia de Atención al Migrante",
+      "category": "migration-and-legal",
+      "service": "Coordina la recepción y orientación de personas salvadoreñas retornadas.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Salvador",
+        "municipality": "San Salvador"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50321337900",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.migracion.gob.sv/programa-bienvenido-a-casa/"
+        ]
+      }
+    },
+    {
+      "id": "casa-migrante-scalabrini",
+      "organization": "Casa del Migrante Scalabrini",
+      "category": "shelter-and-food",
+      "service": "Alojamiento temporal, alimentos y orientación para personas migrantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Salvador",
+        "municipality": "San Salvador"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322219725",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 17:00. Sábados, de 08:00 a 12:00.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.simn-global.org/centros-scalabrinianos/centro/casa-del-migrante-scalabrini-el-salvador/"
+        ]
+      }
+    },
+    {
+      "id": "telecentros-salud",
+      "organization": "Ministerio de Salud, Telecentros Regionales",
+      "category": "health-and-psychosocial",
+      "service": "Teleorientación y derivación a servicios de salud, incluida atención psicológica según el caso.",
+      "coverage": {
+        "scope": "national",
+        "area": "El Salvador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "131",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Selecciona tu departamento en el menú.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://asp.salud.gob.sv/regulacion/pdf/lineamientos/lineamientostecnicosparalaatencionalapersonaenelcursodevidaatravesdetelesalud-Acuerdo-Ejecutivo-1578-04062025_v1.pdf",
+          "https://www.salud.gob.sv/wp-content/uploads/download-manager-files/MINSAL_Memoria_de_Labores_2023_2024.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ciudad-mujer-colon",
+      "organization": "Ciudad Mujer, Colón",
+      "category": "protection",
+      "service": "Centro de atención a mujeres que buscan apoyo ante violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Colón, La Libertad",
+        "municipality": "Colón"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50325650800",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/elsalvador/situacion_violencia/donde-buscar-ayuda/"
+        ]
+      }
+    },
+    {
+      "id": "ciudad-mujer-morazan",
+      "organization": "Ciudad Mujer, Morazán",
+      "category": "protection",
+      "service": "Centro de atención a mujeres que buscan apoyo ante violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "El Divisadero, Morazán",
+        "municipality": "El Divisadero"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50326096391",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/elsalvador/situacion_violencia/donde-buscar-ayuda/"
+        ]
+      }
+    },
+    {
+      "id": "ciudad-mujer-san-miguel",
+      "organization": "Ciudad Mujer, San Miguel",
+      "category": "protection",
+      "service": "Centro de atención a mujeres que buscan apoyo ante violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Miguel",
+        "municipality": "San Miguel"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50326600377",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50378543503",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50376082348",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/elsalvador/situacion_violencia/donde-buscar-ayuda/"
+        ]
+      }
+    },
+    {
+      "id": "ciudad-mujer-usulutan",
+      "organization": "Ciudad Mujer, Usulután",
+      "category": "protection",
+      "service": "Centro de atención a mujeres que buscan apoyo ante violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Usulután",
+        "municipality": "Usulután"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50326091200",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/elsalvador/situacion_violencia/donde-buscar-ayuda/"
+        ]
+      }
+    },
+    {
+      "id": "pgr-santa-tecla",
+      "organization": "Procuraduría General, Unidad Especializada de Mujeres",
+      "category": "migration-and-legal",
+      "service": "Orientación jurídica especializada para mujeres en Santa Tecla.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santa Tecla, La Libertad",
+        "municipality": "Santa Tecla"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322886382",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50370987910",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/elsalvador/situacion_violencia/donde-buscar-ayuda/"
+        ]
+      }
+    },
+    {
+      "id": "pgr-la-union",
+      "organization": "Procuraduría General, Unidad Especializada de Mujeres",
+      "category": "migration-and-legal",
+      "service": "Orientación jurídica especializada para mujeres en La Unión.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Unión",
+        "municipality": "La Unión"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50326042057",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50360628853",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/elsalvador/situacion_violencia/donde-buscar-ayuda/"
+        ]
+      }
+    }
+  ]
+}
