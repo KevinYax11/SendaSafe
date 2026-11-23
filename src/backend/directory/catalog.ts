@@ -3,7 +3,7 @@ import 'server-only'
 import guatemala from '../../../data/countries/gt/resources.json'
 import py from '../../../data/countries/py/resources.json'
 import pr from '../../../data/countries/pr/resources.json'
-import do from '../../../data/countries/do/resources.json'
+import dominicanRepublic from '../../../data/countries/do/resources.json'
 import br from '../../../data/countries/br/resources.json'
 import ec from '../../../data/countries/ec/resources.json'
 import uy from '../../../data/countries/uy/resources.json'
@@ -22,7 +22,7 @@ const catalogs: Partial<Record<Country, Resource[]>> = {
   GT: guatemala.resources as Resource[],
   PY: py.resources as Resource[],
   PR: pr.resources as Resource[],
-  DO: do.resources as Resource[],
+  DO: dominicanRepublic.resources as Resource[],
   BR: br.resources as Resource[],
   EC: ec.resources as Resource[],
   UY: uy.resources as Resource[],
