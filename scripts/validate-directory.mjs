@@ -23,7 +23,17 @@ const countries = {
       protection: 9,
     },
   },
-  CO: { name: 'Colombia', numberPattern: /^(?:\+57[36]\d{9}|018000\d{6})$/ },
+  CO: {
+    name: 'Colombia',
+    numberPattern: /^(?:\+57[36]\d{9}|018000\d{6})$/,
+    minimumNumbers: {
+      emergency: 6,
+      'health-and-psychosocial': 7,
+      'shelter-and-food': 6,
+      'migration-and-legal': 26,
+      protection: 11,
+    },
+  },
   PA: { name: 'Panamá', numberPattern: /^\+507(?:[2-9]\d{6}|6\d{7})$/ },
   CR: { name: 'Costa Rica', numberPattern: /^(?:\+506[2-8]\d{7}|800\d{7})$/ },
   SV: { name: 'El Salvador', numberPattern: /^\+503[267]\d{7}$/ },

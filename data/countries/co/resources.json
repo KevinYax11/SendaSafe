@@ -693,6 +693,688 @@
           "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
         ]
       }
+    },
+    {
+      "id": "bomberos-chapinero",
+      "organization": "Bomberos de Bogotá — Chapinero",
+      "category": "emergency",
+      "service": "Teléfono de la estación de bomberos que atiende emergencias en Chapinero.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bogotá, Distrito Capital",
+        "municipality": "Bogotá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+576013485420",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas.",
+      "cost": null,
+      "requirements": "Para despacho de emergencias, usa la línea 123.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bomberosbogota.gov.co/transparencia/atencion-ciudadano/estaciones"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-central",
+      "organization": "Bomberos de Bogotá — Estación Central",
+      "category": "emergency",
+      "service": "Teléfono de la Estación Central del Cuerpo Oficial de Bomberos de Bogotá.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bogotá, Distrito Capital",
+        "municipality": "Bogotá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+576013602845",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas.",
+      "cost": null,
+      "requirements": "Para despacho de emergencias, usa la línea 123.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bomberosbogota.gov.co/transparencia/atencion-ciudadano/estaciones"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-restrepo",
+      "organization": "Bomberos de Bogotá — Restrepo",
+      "category": "emergency",
+      "service": "Contacto de la estación de bomberos de Restrepo.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bogotá, Distrito Capital",
+        "municipality": "Bogotá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+576012727721",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas.",
+      "cost": null,
+      "requirements": "Para despacho de emergencias, usa la línea 123.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bomberosbogota.gov.co/transparencia/atencion-ciudadano/estaciones"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-puente-aranda",
+      "organization": "Bomberos de Bogotá — Puente Aranda",
+      "category": "emergency",
+      "service": "Contacto de la estación de bomberos de Puente Aranda.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bogotá, Distrito Capital",
+        "municipality": "Bogotá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+576012600106",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas.",
+      "cost": null,
+      "requirements": "Para despacho de emergencias, usa la línea 123.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bomberosbogota.gov.co/transparencia/atencion-ciudadano/estaciones"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-kennedy",
+      "organization": "Bomberos de Bogotá — Kennedy",
+      "category": "emergency",
+      "service": "Contacto de la estación de bomberos de Kennedy.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bogotá, Distrito Capital",
+        "municipality": "Bogotá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+576012648343",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas.",
+      "cost": null,
+      "requirements": "Para despacho de emergencias, usa la línea 123.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bomberosbogota.gov.co/transparencia/atencion-ciudadano/estaciones"
+        ]
+      }
+    },
+    {
+      "id": "psicologia-unicoc",
+      "organization": "Consultorio Psicológico UNICOC — Sede Centro",
+      "category": "health-and-psychosocial",
+      "service": "Consultas de atención psicológica con cita.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bogotá, Distrito Capital",
+        "municipality": "Bogotá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573168320815",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.unicoc.edu.co/noticias-unicoc.aspx?nid=10891"
+        ]
+      }
+    },
+    {
+      "id": "psicologia-universitaria-colombia",
+      "organization": "Consultorio Psicológico de la Universitaria de Colombia",
+      "category": "health-and-psychosocial",
+      "service": "Servicio de psicología con solicitud de admisión para iniciar atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bogotá, Distrito Capital",
+        "municipality": "Bogotá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573115148383",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://universitariadecolombia.edu.co/consultorio-psicologico/"
+        ]
+      }
+    },
+    {
+      "id": "psicologia-luis-amigo",
+      "organization": "Consultorio Psicológico — Universidad Católica Luis Amigó",
+      "category": "health-and-psychosocial",
+      "service": "Ofrece acompañamiento psicológico a la comunidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Medellín, Antioquia",
+        "municipality": "Medellín"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+576044487666",
+          "routing": "switchboard",
+          "extension": "9654"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.funlam.edu.co/modules/consultoriopsicologico/item.php?itemid=11"
+        ]
+      }
+    },
+    {
+      "id": "psicologia-univalle",
+      "organization": "Servicio Psicológico de la Universidad del Valle",
+      "category": "health-and-psychosocial",
+      "service": "Asesoría psicológica para asuntos personales, familiares o académicos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cali, Valle del Cauca",
+        "municipality": "Cali"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+576023212100",
+          "routing": "switchboard",
+          "extension": "7686"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para estudiantes y para cotizantes y beneficiarios del Servicio de Salud de la Universidad del Valle.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://vicebienestar.univalle.edu.co/index.php/servicio-medico-estudiantil/servicio-psicologico/asesoria-psicologica"
+        ]
+      }
+    },
+    {
+      "id": "psicologia-fucn",
+      "organization": "Centro de Servicios Psicológicos — Fundación Universitaria Católica del Norte",
+      "category": "health-and-psychosocial",
+      "service": "Ofrece atención psicológica comunitaria. Solicita el Centro de Servicios Psicológicos en el conmutador.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Medellín y Santa Rosa de Osos, Antioquia",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+576046051535",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://ucn.edu.co/centros-y-servicios/centros-virtuales/centro-de-servicios-psicologicos/informacion-del-csp/"
+        ]
+      }
+    },
+    {
+      "id": "scalabrini-cucuta",
+      "organization": "Centro de Migraciones Scalabrini",
+      "category": "shelter-and-food",
+      "service": "Albergue para personas migrantes. La línea informa de la disponibilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cúcuta, Norte de Santander",
+        "municipality": "Cúcuta"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+576075799685",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta por teléfono antes de ir.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.infopalante.org/es-es/services/5145"
+        ]
+      }
+    },
+    {
+      "id": "scalabrini-villa-rosario",
+      "organization": "Albergue Scalabrini de Villa del Rosario",
+      "category": "shelter-and-food",
+      "service": "Centro de acogida y asistencia humanitaria para población en movilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Villa del Rosario, Norte de Santander",
+        "municipality": "Villa del Rosario"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573167647450",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta disponibilidad con el albergue.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.simn-global.org/centros-scalabrinianos/centro/albergue-villa-del-rosario/"
+        ]
+      }
+    },
+    {
+      "id": "comedores-cali",
+      "organization": "Comedores Comunitarios de Cali",
+      "category": "shelter-and-food",
+      "service": "Consulta por el programa municipal de comedores comunitarios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cali, Valle del Cauca",
+        "municipality": "Cali"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+576028896332",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Pide orientación sobre el comedor más cercano y los requisitos de ingreso.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cali.gov.co/bienestar/publicaciones/172419/comedores-comunitarios/"
+        ]
+      }
+    },
+    {
+      "id": "comedores-bogota",
+      "organization": "Comedores Comunitarios de Bogotá",
+      "category": "shelter-and-food",
+      "service": "La Secretaría Distrital de Integración Social orienta sobre el ingreso al servicio de comedores comunitarios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bogotá, Distrito Capital",
+        "municipality": "Bogotá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+576013808330",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta los criterios de ingreso y priorización.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.integracionsocial.gov.co/index.php/noticias/99-noticias-seguridad-alimentaria/7072-resolucion-0048-del-10-de-enero-de-2025-sobre-poblacion-objetivo-comedores-comunitarios",
+          "https://bogota.gov.co/sites/default/files/inline-files/servicio-compromiso-por-una-alimentacion-incluyente-.pdf"
+        ]
+      }
+    },
+    {
+      "id": "banco-alimentos-bogota",
+      "organization": "Banco de Alimentos de Bogotá — Gestión Social",
+      "category": "shelter-and-food",
+      "service": "Orienta sobre la vinculación al banco para distribuir alimentos a través de organizaciones sociales.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bogotá, Distrito Capital",
+        "municipality": "Bogotá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573125014578",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para organizaciones de carácter social sin ánimo de lucro que acrediten los requisitos del programa.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bancodealimentos.org.co/contactenos/",
+          "https://www.bancodealimentos.org.co/beneficiarios/quiero-ser-beneficiario/"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-simon-bolivar-cucuta",
+      "organization": "Consultorio Jurídico de la Universidad Simón Bolívar — Cúcuta",
+      "category": "migration-and-legal",
+      "service": "Parte de la red de asistencia legal para personas con necesidad de protección internacional.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cúcuta, Norte de Santander",
+        "municipality": "Cúcuta"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573182915402",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-umanizales",
+      "organization": "Consultorio Jurídico de la Universidad de Manizales",
+      "category": "migration-and-legal",
+      "service": "Orientación en la red de asistencia legal para personas que necesitan protección internacional.",
+      "coverage": {
+        "scope": "local",
+        "area": "Manizales, Caldas",
+        "municipality": "Manizales"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573186702286",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-ufps-ocana",
+      "organization": "Consultorio Jurídico de la Universidad Francisco de Paula Santander — Ocaña",
+      "category": "migration-and-legal",
+      "service": "Parte de la red de asistencia legal que orienta a solicitantes de refugio.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ocaña, Norte de Santander",
+        "municipality": "Ocaña"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573163894992",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-areandina-pereira",
+      "organization": "Consultorio Jurídico de Areandina — Pereira",
+      "category": "migration-and-legal",
+      "service": "Brinda orientación dentro de la red de asistencia legal a personas con necesidad de protección internacional.",
+      "coverage": {
+        "scope": "local",
+        "area": "Pereira, Risaralda",
+        "municipality": "Pereira"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573182063974",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-autonoma-cauca",
+      "organization": "Consultorio Jurídico de la Corporación Universitaria Autónoma del Cauca",
+      "category": "migration-and-legal",
+      "service": "Ofrece asistencia legal dentro de la red de apoyo para personas con necesidad de protección internacional.",
+      "coverage": {
+        "scope": "local",
+        "area": "Popayán, Cauca",
+        "municipality": "Popayán"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573186126718",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/"
+        ]
+      }
+    },
+    {
+      "id": "linea-purpura-bogota",
+      "organization": "Línea Púrpura Distrital",
+      "category": "protection",
+      "service": "Orientación y acompañamiento psicosocial para mujeres que viven violencias.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bogotá, Distrito Capital",
+        "municipality": "Bogotá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "018000112137",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+573007551846",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.sdmujer.gov.co/noticias/3-de-cada-10-atenciones-de-la-linea-purpura-distrital-ya-se-realizan-por-whatsapp"
+        ]
+      }
+    },
+    {
+      "id": "linea-contra-trata-colombia",
+      "organization": "Línea Nacional contra la Trata de Personas",
+      "category": "protection",
+      "service": "Recibe reportes de posibles casos de trata y orienta sobre el acceso a la atención.",
+      "coverage": {
+        "scope": "national",
+        "area": "Colombia",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "018000522020",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mininterior.gov.co/grupo-de-lucha-contra-la-trata-de-personas/linea-de-atencion-gratuita/",
+          "https://portal.migracioncolombia.gov.co/tramites-y-servicios/aplicaciones"
+        ]
+      }
+    },
+    {
+      "id": "dignidad-mujer-santander",
+      "organization": "Casa para la Dignidad de la Mujer",
+      "category": "protection",
+      "service": "Ofrece orientación y acompañamiento jurídico, psicológico y social frente a la violencia de género.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Santander",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+576076746065",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://santander.gov.co/publicaciones/11847/ninguna-mujer-puede-ser-victima-de-violencia-secretaria-de-la-mujer-y-equidad-de-genero/"
+        ]
+      }
+    },
+    {
+      "id": "linea-facil-cali",
+      "organization": "Línea Fácil de Cali",
+      "category": "protection",
+      "service": "Atención gratuita a mujeres en riesgo de feminicidio.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cali, Valle del Cauca",
+        "municipality": "Cali"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+573116120000",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cali.gov.co/boletines/publicaciones/193713/la-emergencia-no-detiene-tus-derechos-alcaldia-de-cali-activa-puntos-violetas-para-proteger-a-mujeres-y-ninas-tras-el-terremoto/"
+        ]
+      }
     }
   ]
 }
