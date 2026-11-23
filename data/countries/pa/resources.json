@@ -674,6 +674,709 @@
           "https://help.unhcr.org/panama/donde-encontrar-ayuda/"
         ]
       }
+    },
+    {
+      "id": "bomberos-calidonia",
+      "organization": "Estación de Bomberos de Calidonia",
+      "category": "emergency",
+      "service": "Contacto de la estación local del Benemérito Cuerpo de Bomberos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Panamá",
+        "municipality": "Ciudad de Panamá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5075126148",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para despacho de bomberos, marca 103.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bomberos.gob.pa/estaciones/servicios/comandancia/"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-colon",
+      "organization": "Estación de Bomberos de Colón",
+      "category": "emergency",
+      "service": "Contacto de la estación local del Benemérito Cuerpo de Bomberos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Colón",
+        "municipality": "Colón"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5074753030",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para despacho de bomberos, marca 103.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bomberos.gob.pa/estaciones/servicios/comandancia/"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-la-villa",
+      "organization": "Estación de Bomberos de La Villa de Los Santos",
+      "category": "emergency",
+      "service": "Contacto de la estación local del Benemérito Cuerpo de Bomberos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Los Santos",
+        "municipality": "Los Santos"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5079260514",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para despacho de bomberos, marca 103.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bomberos.gob.pa/estaciones/servicios/comandancia/"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-david",
+      "organization": "Estación de Bomberos de David",
+      "category": "emergency",
+      "service": "Contacto de la estación local del Benemérito Cuerpo de Bomberos.",
+      "coverage": {
+        "scope": "local",
+        "area": "David, Chiriquí",
+        "municipality": "David"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5077754212",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para despacho de bomberos, marca 103.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bomberos.gob.pa/estaciones/servicios/comandancia/"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-santiago",
+      "organization": "Estación de Bomberos de Santiago",
+      "category": "emergency",
+      "service": "Contacto de la estación local del Benemérito Cuerpo de Bomberos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santiago, Veraguas",
+        "municipality": "Santiago"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5079984444",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para despacho de bomberos, marca 103.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bomberos.gob.pa/estaciones/servicios/comandancia/"
+        ]
+      }
+    },
+    {
+      "id": "clinica-psicologica-up",
+      "organization": "Clínica Psicológica y de Desarrollo Humano — Universidad de Panamá",
+      "category": "health-and-psychosocial",
+      "service": "Atención psicológica en la Facultad de Psicología. Consulta el proceso para obtener una cita.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Panamá",
+        "municipality": "Ciudad de Panamá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5075237471",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://facpsicologia.up.ac.pa/directorio"
+        ]
+      }
+    },
+    {
+      "id": "clinica-psicologica-usma",
+      "organization": "Clínica Psicológica — Universidad Católica Santa María La Antigua",
+      "category": "health-and-psychosocial",
+      "service": "Ofrece atención psicológica y terapia familiar.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Panamá",
+        "municipality": "Ciudad de Panamá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5072308328",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 8:00 a 17:00.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://usma.ac.pa/directorio/"
+        ]
+      }
+    },
+    {
+      "id": "salud-boquete",
+      "organization": "Centro de Salud de Boquete",
+      "category": "health-and-psychosocial",
+      "service": "Centro público de salud. Llama para consultar disponibilidad y acceso a la atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Boquete, Chiriquí",
+        "municipality": "Boquete"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5077280402",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.minsa.gob.pa/centro-de-prensa/noticias/reiteran-recomendaciones-sanitarias-en-la-provincia-de-chiriqui"
+        ]
+      }
+    },
+    {
+      "id": "salud-tole",
+      "organization": "Centro de Salud de Tolé",
+      "category": "health-and-psychosocial",
+      "service": "Centro público de salud. Llama para consultar disponibilidad y acceso a la atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tolé, Chiriquí",
+        "municipality": "Tolé"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5077260040",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.minsa.gob.pa/centro-de-prensa/noticias/reiteran-recomendaciones-sanitarias-en-la-provincia-de-chiriqui"
+        ]
+      }
+    },
+    {
+      "id": "salud-volcan",
+      "organization": "MINSA-CAPSI de Volcán",
+      "category": "health-and-psychosocial",
+      "service": "Centro público de salud. Llama para consultar disponibilidad y acceso a la atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tierras Altas, Chiriquí",
+        "municipality": "Tierras Altas"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5077283880",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.minsa.gob.pa/centro-de-prensa/noticias/reiteran-recomendaciones-sanitarias-en-la-provincia-de-chiriqui"
+        ]
+      }
+    },
+    {
+      "id": "albergue-juan-pablo-ii",
+      "organization": "Albergue San Juan Pablo II",
+      "category": "shelter-and-food",
+      "service": "Apoya a personas en situación de calle con alimentación y orientación. Cuenta con un hogar para adultos mayores.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Panamá",
+        "municipality": "Ciudad de Panamá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5072259571",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta la sede, el servicio y el cupo.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://pges.org.pa/wp-content/uploads/Dir_OM_Julio2024.pdf",
+          "https://usma.ac.pa/wp-content/uploads/2025/10/MATRIZ-DE-OPCIONES-PANAMA-Y-SEDES-Actualizada-24-de-octubre-2025.pdf"
+        ]
+      }
+    },
+    {
+      "id": "banco-alimentos-panama",
+      "organization": "Banco de Alimentos Panamá — Gestión Social",
+      "category": "shelter-and-food",
+      "service": "Orienta a organizaciones que distribuyen apoyo alimentario.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Panamá",
+        "municipality": "Ciudad de Panamá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5079103477",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta los requisitos de afiliación para organizaciones.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://banalimentospanama.org/contacto/",
+          "https://banalimentospanama.org/beneficiarios/"
+        ]
+      }
+    },
+    {
+      "id": "casa-hogar-samaritano",
+      "organization": "Casa Hogar El Buen Samaritano",
+      "category": "shelter-and-food",
+      "service": "Alojamiento temporal, alimentación y atención integral para personas con VIH en situación vulnerable.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Panamá",
+        "municipality": "Ciudad de Panamá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5072205815",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta los criterios de ingreso y disponibilidad.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://chebspanama.org/inicio/contactenos/",
+          "https://www.fundacionbancogeneral.com/nuestras-alianzas/"
+        ]
+      }
+    },
+    {
+      "id": "casita-mausi",
+      "organization": "Fundación Casita de Mausi",
+      "category": "shelter-and-food",
+      "service": "Albergue temporal para personas en tratamiento por cáncer y sus acompañantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Panamá",
+        "municipality": "Ciudad de Panamá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5073925757",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para pacientes que vienen de lejos y necesitan apoyo para alojamiento y alimentación.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.fundacionbancogeneral.com/nuestras-alianzas/"
+        ]
+      }
+    },
+    {
+      "id": "nutre-hogar",
+      "organization": "Nutre Hogar",
+      "category": "shelter-and-food",
+      "service": "Apoya la recuperación nutricional de niñas y niños con desnutrición.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Panamá",
+        "municipality": "Ciudad de Panamá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5072320177",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta el proceso de valoración y el centro correspondiente.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.fundacionbancogeneral.com/nuestras-alianzas/"
+        ]
+      }
+    },
+    {
+      "id": "migracion-colon",
+      "organization": "Servicio Nacional de Migración — Colón",
+      "category": "migration-and-legal",
+      "service": "Atención regional para orientación sobre trámites migratorios.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Colón",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5074754611",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.migracion.gob.pa/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "migracion-veraguas",
+      "organization": "Servicio Nacional de Migración — Veraguas",
+      "category": "migration-and-legal",
+      "service": "Atención regional para orientación sobre trámites migratorios.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Veraguas",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5079350576",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.migracion.gob.pa/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "migracion-cocle",
+      "organization": "Servicio Nacional de Migración — Coclé",
+      "category": "migration-and-legal",
+      "service": "Atención regional para orientación sobre trámites migratorios.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Coclé",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5079060695",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.migracion.gob.pa/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "migracion-herrera",
+      "organization": "Servicio Nacional de Migración — Herrera",
+      "category": "migration-and-legal",
+      "service": "Atención regional para orientación sobre trámites migratorios.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Herrera",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5079131459",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.migracion.gob.pa/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "migracion-los-santos",
+      "organization": "Servicio Nacional de Migración — Los Santos",
+      "category": "migration-and-legal",
+      "service": "Atención regional para orientación sobre trámites migratorios.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Los Santos",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5079261034",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.migracion.gob.pa/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "mujer-panama",
+      "organization": "Centro de Atención Integral para Mujeres — Panamá",
+      "category": "protection",
+      "service": "Orientación y acceso a servicios de atención para mujeres víctimas de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Panamá",
+        "municipality": "Ciudad de Panamá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5075060506",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mujer.gob.pa/"
+        ]
+      }
+    },
+    {
+      "id": "mujer-arraijan",
+      "organization": "Centro de Atención Integral para Mujeres — Arraiján",
+      "category": "protection",
+      "service": "Orientación y acceso a servicios de atención para mujeres víctimas de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Arraiján, Panamá Oeste",
+        "municipality": "Arraiján"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5073462593",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mujer.gob.pa/"
+        ]
+      }
+    },
+    {
+      "id": "mujer-veraguas",
+      "organization": "Centro de Atención Integral para Mujeres — Veraguas",
+      "category": "protection",
+      "service": "Orientación y acceso a servicios de atención para mujeres víctimas de violencia.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Veraguas",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5079352414",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mujer.gob.pa/"
+        ]
+      }
+    },
+    {
+      "id": "mujer-cocle",
+      "organization": "Centro de Atención Integral para Mujeres — Coclé",
+      "category": "protection",
+      "service": "Orientación y acceso a servicios de atención para mujeres víctimas de violencia.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Coclé",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5079060095",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mujer.gob.pa/"
+        ]
+      }
+    },
+    {
+      "id": "mujer-herrera",
+      "organization": "Centro de Atención Integral para Mujeres — Herrera",
+      "category": "protection",
+      "service": "Orientación y acceso a servicios de atención para mujeres víctimas de violencia.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Herrera",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5079131461",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mujer.gob.pa/"
+        ]
+      }
     }
   ]
 }

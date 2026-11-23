@@ -34,7 +34,17 @@ const countries = {
       protection: 11,
     },
   },
-  PA: { name: 'Panamá', numberPattern: /^\+507(?:[2-9]\d{6}|6\d{7})$/ },
+  PA: {
+    name: 'Panamá',
+    numberPattern: /^\+507(?:[2-9]\d{6}|6\d{7})$/,
+    minimumNumbers: {
+      emergency: 8,
+      'health-and-psychosocial': 10,
+      'shelter-and-food': 6,
+      'migration-and-legal': 17,
+      protection: 12,
+    },
+  },
   CR: {
     name: 'Costa Rica',
     numberPattern: /^(?:\+506[2-8]\d{7}|800\d{7})$/,

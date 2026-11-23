@@ -13,7 +13,7 @@ A Spanish-language, mobile-first directory of emergency services, health resourc
 | Guatemala | 49 | [GT](data/countries/gt/resources.json) |
 | Honduras | 22 | [HN](data/countries/hn/resources.json) |
 | Mexico | 49 | [MX](data/countries/mx/resources.json) |
-| Panama | 23 | [PA](data/countries/pa/resources.json) |
+| Panama | 48 | [PA](data/countries/pa/resources.json) |
 
 The country selector also offers general guidance when a local directory is unavailable.
 
