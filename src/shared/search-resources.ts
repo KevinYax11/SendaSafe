@@ -1,7 +1,8 @@
 import { categories, type Category, type Resource } from './directory'
 
-function normalizeSearch(value: string) {
+export function normalizeSearch(value: string) {
   return value.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLocaleLowerCase('es')
+    .replace(/[^\p{L}\p{N}]+/gu, ' ').trim()
 }
 
 export function filterResources(resources: Resource[], category: Category | undefined, query: string) {

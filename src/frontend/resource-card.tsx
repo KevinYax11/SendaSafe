@@ -61,9 +61,11 @@ export function ResourceCard({ resource, distance }: Readonly<{ resource: Resour
             ? 'WhatsApp'
             : channel.routing === 'switchboard' ? 'Llamar a central' : 'Llamar'
           const number = contactNumber(channel)
+          const spokenNumber = [number.prefix, number.number].filter(Boolean).join(' ')
           return (
             <a className="contact-link" key={`${channel.type}:${channel.number}:${channel.extension ?? ''}`}
-              href={contactHref(channel)} data-channel={channel.type}>
+              href={contactHref(channel)} data-channel={channel.type}
+              aria-label={`${label} al ${spokenNumber}${channel.extension ? `, extensión ${channel.extension}` : ''}`}>
               <span className="contact-content">
                 <bdi className="contact-number" dir="ltr">
                   {number.prefix && <span className="contact-prefix">{number.prefix}</span>}

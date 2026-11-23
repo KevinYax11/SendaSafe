@@ -1,5 +1,6 @@
 import type { Country, DirectoryResults } from '../shared/directory'
 import { countryCode } from '../shared/forms'
+import { geographyUrl } from './directory-geography'
 
 const cacheName = 'sendasafe-directory-v1'
 export type SavedDirectory = { result: DirectoryResults; savedAt: string }
@@ -20,7 +21,12 @@ export async function saveDirectory(country: Country): Promise<SavedDirectory> {
   if (result.country.code !== country || !Array.isArray(result.resources)) throw new Error('Invalid directory')
   if (!(await (await caches.open('sendasafe-shell-v1')).match('/'))) throw new Error('Offline app is not ready')
   const saved = { result, savedAt: new Date().toISOString() }
-  await (await caches.open(cacheName)).put(key(country), Response.json(saved))
+  const cache = await caches.open(cacheName)
+  await cache.put(key(country), Response.json(saved))
+  try {
+    const geography = await fetch(geographyUrl(country), { signal: AbortSignal.timeout(8000) })
+    if (geography.ok) await cache.put(geographyUrl(country), geography)
+  } catch { /* The contacts remain available when the additional lookup data is unavailable. */ }
   return saved
 }
 

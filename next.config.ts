@@ -8,7 +8,6 @@ const config: NextConfig = {
     '/admin': sqliteNative,
     '/community': sqliteNative,
     '/api/v1/countries/*/resources': sqliteNative,
-    '/api/v1/geography/*': ['./data/geography/*.json'],
   },
   async headers() {
     const privateHeaders = [

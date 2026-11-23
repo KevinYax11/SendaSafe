@@ -10,8 +10,8 @@ export default function manifest(): MetadataRoute.Manifest {
     start_url: '/',
     scope: '/',
     display: 'standalone',
-    background_color: '#faf9f6',
-    theme_color: '#244a44',
+    background_color: '#faf6ef',
+    theme_color: '#39213f',
     icons: [
       { src: '/icons/sendasafe-192.png', sizes: '192x192', type: 'image/png' },
       { src: '/icons/sendasafe-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },

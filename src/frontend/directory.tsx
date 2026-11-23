@@ -1,16 +1,18 @@
 'use client'
 
-import dynamic from 'next/dynamic'
-import { useDeferredValue, useEffect, useMemo, useState } from 'react'
+import { useDeferredValue, useEffect, useMemo, useRef, useState } from 'react'
 import { categories, maxSearchLength, type Category, type Country, type DirectoryCountry, type DirectoryResults } from '../shared/directory'
 import { countryCode } from '../shared/forms'
 import { filterResources } from '../shared/search-resources'
+import { CityChoices } from './city-choices'
 import { getResourcesUrl, loadResources } from './directory-api'
-import { orderResources, type Boundary, type Municipality, type Point } from './directory-geography'
+import { cityLabel, cityResources, exactCities, loadCountryGeography, rankResources, suggestCities, type City, type Geography, type Point } from './directory-geography'
+import { Guidance } from './guidance'
 import { InstallApp } from './install-app'
 import { readSavedDirectory, refreshSavedDirectories, saveDirectory } from './offline-directory'
 import { ResourceCard } from './resource-card'
 import { SectionHeader } from './section-header'
+import { countryAt, devicePosition, loadWorld } from './world-geography'
 
 type RequestState = {
   url: string
@@ -18,14 +20,9 @@ type RequestState = {
   result: DirectoryResults | null
   savedAt?: string
 }
-type Geography = { country: Country; places: Municipality[]; boundaries: Boundary[] }
 const savedDate = new Intl.DateTimeFormat('es', { dateStyle: 'medium', timeStyle: 'short' })
 
 const categoryCodes = Object.keys(categories) as Category[]
-const DirectoryMap = dynamic(() => import('./directory-map').then(module => module.DirectoryMap), {
-  ssr: false,
-  loading: () => <p className="map-loading" role="status">Cargando mapa…</p>,
-})
 
 export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[] }>) {
   const [country, setCountry] = useState<Country | ''>('')
@@ -33,9 +30,12 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
   const [category, setCategory] = useState<Category | ''>('')
   const [attempt, setAttempt] = useState(0)
   const [request, setRequest] = useState<RequestState | null>(null)
-  const [showMap, setShowMap] = useState(false)
   const [origin, setOrigin] = useState<Point | null>(null)
-  const [geography, setGeography] = useState<Geography | null>(null)
+  const [locationStatus, setLocationStatus] = useState('')
+  const [locating, setLocating] = useState(false)
+  const locationRequest = useRef(0)
+  const [geography, setGeography] = useState<{ country: Country; index: Geography | null } | null>(null)
+  const [cityChoice, setCityChoice] = useState<City | null>(null)
   const [download, setDownload] = useState<{ country: Country; savedAt?: string; error?: string; pending?: boolean } | null>(null)
   const selectedCountry = countries.find(option => option.code === country)
   const availableCountries = countries.filter(option => option.hasCoverage)
@@ -43,10 +43,14 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
   const url = selectedCountry?.hasCoverage ? getResourcesUrl(selectedCountry.code, '', '') : null
   const currentRequest = request?.url === url && request.attempt === attempt ? request : null
   const resources = currentRequest?.result?.resources
+  const places = geography?.country === country ? geography.index : null
+  const exact = useMemo(() => places && search ? exactCities(places, search) : [], [places, search])
+  const city = cityChoice ?? (exact.length === 1 ? exact[0] : null)
+  const suggestions = useMemo(() => places && search && !city ? suggestCities(places, search) : [], [places, search, city])
   const results = useMemo(() => resources && filterResources(resources, category || undefined, search), [resources, category, search])
-  const map = geography?.country === country ? geography : null
-  const places = map?.places ?? []
-  const rankedResults = results ? orderResources(results, places, origin) : []
+  const rankedResults = useMemo(() => results ? rankResources(results, places, origin) : [], [results, places, origin])
+  const cityMatches = useMemo(() => city && places && resources ? cityResources(resources, category || undefined, places, city) : null,
+    [city, places, resources, category])
   const saved = download?.country === country ? download : null
 
   useEffect(() => {
@@ -54,7 +58,8 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
     void Promise.resolve().then(() => {
       if (!active) return
       try {
-        const last = countryCode(localStorage.getItem('sendasafe-country'))
+        const requested = countryCode(new URLSearchParams(location.search).get('country'))
+        const last = requested ?? countryCode(localStorage.getItem('sendasafe-country'))
         if (last) setCountry(previous => previous || last)
       } catch { /* The directory also works with storage disabled. */ }
     })
@@ -79,16 +84,13 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
   }, [country, attempt])
 
   useEffect(() => {
-    if (!showMap || !country) return
+    if (!country) return
     const controller = new AbortController()
-    void fetch(`/api/v1/geography/${country}`, { signal: controller.signal })
-      .then(async response => response.ok ? await response.json() as Omit<Geography, 'country'> : null)
-      .catch(() => null)
-      .then(data => {
-        if (!controller.signal.aborted) setGeography({ country, places: data?.places ?? [], boundaries: data?.boundaries ?? [] })
-      })
+    void loadCountryGeography(country, controller.signal).then(index => {
+      if (!controller.signal.aborted) setGeography({ country, index })
+    })
     return () => controller.abort()
-  }, [showMap, country])
+  }, [country, attempt])
 
   useEffect(() => {
     if (!url || !country) return
@@ -114,18 +116,46 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
   }, [url, attempt, country])
 
   function selectCountry(value: Country | '') {
+    locationRequest.current += 1
     try { localStorage.setItem('sendasafe-country', value) } catch { /* Optional preference. */ }
     setCountry(value)
     setQuery('')
     setCategory('')
-    setShowMap(false)
+    setCityChoice(null)
     setOrigin(null)
+    setLocationStatus('')
+    setLocating(false)
     setAttempt(value => value + 1)
   }
 
   function applyCategory(value: Category | '') {
     setCategory(value)
     setQuery('')
+    setCityChoice(null)
+  }
+
+  async function locate() {
+    const id = ++locationRequest.current
+    setLocating(true)
+    setLocationStatus('Solicitando permiso de ubicación…')
+    try {
+      const [point, world] = await Promise.all([devicePosition(), loadWorld()])
+      if (id !== locationRequest.current) return
+      const matched = countryAt(world, point, 4)
+      const option = countries.find(entry => entry.code === matched && entry.hasCoverage)
+      if (!option) {
+        setLocationStatus(matched ? `Aún no tenemos directorio para ${world[matched][0]}.`
+          : 'No pudimos identificar el país. Puedes elegirlo manualmente.')
+        return
+      }
+      selectCountry(option.code)
+      setOrigin(point)
+      setLocationStatus(`Ubicación aplicada en ${option.name}. Los recursos con municipio aparecen ordenados por distancia.`)
+    } catch (error) {
+      if (id === locationRequest.current) setLocationStatus(error instanceof Error ? error.message : 'Ubicación no disponible.')
+    } finally {
+      if (id === locationRequest.current) setLocating(false)
+    }
   }
 
   async function downloadCountry(code: Country) {
@@ -148,7 +178,7 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
         <section className="hero" aria-labelledby="title">
           <div className="shell intro">
             <div className="intro-copy">
-              <h1 id="title">Encuentra ayuda<br className="desktop-break" /> donde estás.</h1>
+              <h1 id="title">Encuentra ayuda<br className="desktop-break" /> <span className="hero-location">donde estás.</span></h1>
               <p>Contactos de emergencia, salud y apoyo para personas migrantes en Latinoamérica.</p>
             </div>
 
@@ -158,7 +188,7 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
                 <option value="">Selecciona un país</option>
                 {countries.map(option => (
                   <option value={option.code} key={option.code}>
-                    {option.hasCoverage ? `${option.name} · con directorio` : option.name}
+                    {option.name}
                   </option>
                 ))}
               </select>
@@ -166,11 +196,13 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
                 <a className="emergency-link" href="#resultados" onClick={() => applyCategory('emergency')}>
                   Ver emergencias en {selectedCountry.name}
                 </a>
-              ) : (
-                <p>Puedes cambiar de país en cualquier momento.</p>
-              )}
+              ) : null}
+              <div className="offline-tools">
+                <button className="feature-button secondary" type="button" disabled={locating} onClick={() => void locate()}>Usar mi ubicación</button>
+                {locationStatus && <p role="status">{locationStatus}</p>}
+              </div>
               {country && selectedCountry?.hasCoverage && process.env.NODE_ENV === 'production' && (
-                <div className="offline-tools">
+                <div className="offline-tools" id="guardar-directorio" tabIndex={-1}>
                   <button type="button" className="feature-button secondary" disabled={saved?.pending} onClick={() => void downloadCountry(country)}>
                     {saved?.pending ? 'Guardando…' : saved?.savedAt ? 'Actualizar copia sin conexión' : 'Descargar para usar sin conexión'}
                   </button>
@@ -184,7 +216,7 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
 
         <section className="directory-section" id="directorio" aria-labelledby="directory-title" tabIndex={-1}>
           <div className="shell">
-            <h2 className="directory-heading" id="directory-title" tabIndex={-1}>{selectedCountry ? `Directorio de ${selectedCountry.name}` : 'Países con directorio'}</h2>
+            <h2 className="directory-heading" id="directory-title" tabIndex={-1}>{selectedCountry ? `Directorio de ${selectedCountry.name}` : 'Elige un país'}</h2>
 
             {!selectedCountry && (
               <ul className="coverage-list">
@@ -213,7 +245,10 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
                   <div className="filters">
                     <div>
                       <label htmlFor="search">Buscar recursos</label>
-                      <input id="search" type="search" placeholder="Municipio, entidad o servicio" maxLength={maxSearchLength} value={query} onChange={event => setQuery(event.target.value)} />
+                      <input id="search" type="search" placeholder="Municipio, entidad o servicio" maxLength={maxSearchLength} value={query} onChange={event => {
+                        setCityChoice(null)
+                        setQuery(event.target.value)
+                      }} />
                     </div>
                     <div>
                       <label htmlFor="category">Tipo de ayuda</label>
@@ -224,23 +259,18 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
                         ))}
                       </select>
                     </div>
-                    <button className="map-toggle" type="button" aria-expanded={showMap} aria-controls="directory-map" onClick={() => setShowMap(open => !open)}>
-                      {showMap ? 'Ocultar mapa' : 'Buscar en el mapa'}
-                    </button>
+                    <a className="feature-button secondary" href={`/map?country=${selectedCountry.code}`}>Ver en el mapa</a>
                   </div>
-                  <div id="directory-map" hidden={!showMap}>
-                    {(showMap || origin) && map && places.length > 0 && (
-                      <DirectoryMap key={selectedCountry.code} country={selectedCountry.code} places={places} boundaries={map.boundaries} origin={origin} onOriginChange={setOrigin} />
-                    )}
-                    {showMap && (!map || places.length === 0) && <p className="map-loading" role="status">
-                      {!map ? 'Cargando mapa…' : 'El mapa no está disponible para este país. Puedes buscar por municipio.'}
-                    </p>}
-                  </div>
+                  <CityChoices cities={suggestions} onChoose={choice => {
+                    setCityChoice(choice)
+                    setQuery(cityLabel(choice))
+                  }} />
                 </div>
                 <div id="resultados" tabIndex={-1}>
                   <p className="result-count" role="status">
                     {!currentRequest && 'Cargando recursos…'}
-                    {results && (results.length === 1 ? '1 recurso disponible' : `${results.length} recursos disponibles`)}
+                    {city && cityMatches ? `Resultados para ${cityLabel(city)}` : results
+                      && (results.length === 1 ? '1 recurso disponible' : `${results.length} recursos disponibles`)}
                   </p>
                   {currentRequest?.savedAt && <p className="feature-notice">Copia sin conexión del {savedDate.format(new Date(currentRequest.savedAt))}. Los contactos pueden haber cambiado.</p>}
                   {currentRequest?.result === null && (
@@ -249,23 +279,42 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
                       <button type="button" onClick={() => setAttempt(value => value + 1)}>Reintentar</button>
                     </div>
                   )}
-                  {results && results.length > 0 && (
+                  {cityMatches && city && (
+                    <div className="city-results">
+                      {!cityMatches.local.length && <p className="feature-notice">Aún no tenemos una ficha local de {city.name} con estos filtros.</p>}
+                      {([
+                        ['En el municipio', cityMatches.local],
+                        ['Recursos más cercanos', cityMatches.nearby],
+                        ['Cobertura regional o nacional', cityMatches.coverage],
+                      ] as const).map(([heading, entries]) => entries.length > 0 && (
+                        <section key={heading}>
+                          <h3>{heading}</h3>
+                          <div className="resource-grid">
+                            {entries.map(({ resource, distance }) => <ResourceCard key={resource.id} resource={resource} distance={distance} />)}
+                          </div>
+                        </section>
+                      ))}
+                    </div>
+                  )}
+                  {!cityMatches && results && results.length > 0 && (
                     <>
                       {origin && (
-                        <p className="proximity-note" role="status">
-                          {rankedResults[0]?.distance === undefined
-                            ? 'Los resultados actuales no tienen un municipio ubicado en el mapa.'
-                            : 'Primero aparecen los recursos de los municipios más próximos. Las opciones de cobertura general aparecen después.'}
-                        </p>
+                        <div className="feature-row proximity-note">
+                          <p>Distancia aproximada en línea recta hasta el centro del municipio.</p>
+                          <button className="feature-button secondary" type="button" onClick={() => {
+                            setOrigin(null)
+                            setLocationStatus('')
+                          }}>Quitar ubicación</button>
+                        </div>
                       )}
                       <div className="resource-grid">
                         {rankedResults.map(({ resource, distance }) => <ResourceCard key={resource.id} resource={resource} distance={distance} />)}
                       </div>
                     </>
                   )}
-                  {results?.length === 0 && (
+                  {!cityMatches && results?.length === 0 && (
                     <div className="message">
-                      <p>No encontramos recursos con esos filtros.</p>
+                      <p>No encontramos coincidencias. Puedes elegir una ciudad sugerida o usar el mapa para ubicar recursos cercanos.</p>
                       <button type="button" onClick={() => applyCategory('')}>Quitar filtros</button>
                     </div>
                   )}
@@ -275,19 +324,7 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
           </div>
         </section>
 
-        <section id="orientacion" className="shell guidance" aria-labelledby="guidance-title" tabIndex={-1}>
-          <h2 id="guidance-title">Orientación general</h2>
-          <div className="guidance-grid">
-            <article>
-              <h3>Si necesitas ayuda inmediata</h3>
-              <p>Contacta a los servicios de emergencia del lugar donde estás. Si te es posible, indica tu municipio y una referencia cercana.</p>
-            </article>
-            <article>
-              <h3>Antes de ir a un centro</h3>
-              <p>Confirma el horario, los documentos requeridos y si necesitas cita. Si buscas un albergue, consulta también si hay cupo.</p>
-            </article>
-          </div>
-        </section>
+        <Guidance country={selectedCountry} showEmergencies={() => applyCategory('emergency')} />
       </main>
 
       <footer className="site-footer">
