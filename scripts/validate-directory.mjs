@@ -56,7 +56,17 @@ const countries = {
       protection: 17,
     },
   },
-  SV: { name: 'El Salvador', numberPattern: /^\+503[267]\d{7}$/ },
+  SV: {
+    name: 'El Salvador',
+    numberPattern: /^\+503[267]\d{7}$/,
+    minimumNumbers: {
+      emergency: 12,
+      'health-and-psychosocial': 6,
+      'shelter-and-food': 6,
+      'migration-and-legal': 12,
+      protection: 18,
+    },
+  },
   HN: { name: 'Honduras', numberPattern: /^\+504[2389]\d{7}$/ },
   MX: {
     name: 'México',

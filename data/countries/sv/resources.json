@@ -677,6 +677,713 @@
           "https://help.unhcr.org/elsalvador/situacion_violencia/donde-buscar-ayuda/"
         ]
       }
+    },
+    {
+      "id": "bomberos-ahuachapan",
+      "organization": "Estación de Bomberos de Ahuachapán",
+      "category": "emergency",
+      "service": "Contacto de la estación del Cuerpo de Bomberos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ahuachapán",
+        "municipality": "Ahuachapán"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50324430066",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para despacho de bomberos, marca 913.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gobernacion.gob.sv/oficinas/"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-usulutan",
+      "organization": "Estación de Bomberos de Usulután",
+      "category": "emergency",
+      "service": "Contacto de la estación del Cuerpo de Bomberos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Usulután",
+        "municipality": "Usulután"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50326620800",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para despacho de bomberos, marca 913.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gobernacion.gob.sv/oficinas/"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-santa-ana",
+      "organization": "Estación de Bomberos de Santa Ana",
+      "category": "emergency",
+      "service": "Contacto de la estación del Cuerpo de Bomberos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santa Ana",
+        "municipality": "Santa Ana"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50324411223",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para despacho de bomberos, marca 913.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gobernacion.gob.sv/oficinas/"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-san-miguel",
+      "organization": "Estación de Bomberos de San Miguel",
+      "category": "emergency",
+      "service": "Contacto de la estación del Cuerpo de Bomberos.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Miguel",
+        "municipality": "San Miguel"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50326695019",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para despacho de bomberos, marca 913.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gobernacion.gob.sv/oficinas/"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-sonsonate",
+      "organization": "Estación de Bomberos de Sonsonate",
+      "category": "emergency",
+      "service": "Contacto de la estación del Cuerpo de Bomberos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Sonsonate",
+        "municipality": "Sonsonate"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50324512222",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para despacho de bomberos, marca 913.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gobernacion.gob.sv/oficinas/"
+        ]
+      }
+    },
+    {
+      "id": "clinica-psicologica-uca",
+      "organization": "Clínica de Asistencia Psicológica — UCA",
+      "category": "health-and-psychosocial",
+      "service": "La clínica universitaria ofrece asistencia psicológica.",
+      "coverage": {
+        "scope": "local",
+        "area": "Antiguo Cuscatlán, La Libertad",
+        "municipality": "Antiguo Cuscatlán"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322106600",
+          "routing": "switchboard",
+          "extension": "429"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta disponibilidad de citas.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://uca.edu.sv/psicologia/clinica-de-asistencia-psicologica/",
+          "https://uca.edu.sv/psicologia/quiero-ser-voluntario/"
+        ]
+      }
+    },
+    {
+      "id": "apoyo-psicosocial-santa-ana",
+      "organization": "Unidad de Atención Psicosocial de la PGR — Santa Ana",
+      "category": "health-and-psychosocial",
+      "service": "Atención psicosocial de la procuraduría auxiliar. Consulta la modalidad de atención disponible.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santa Ana",
+        "municipality": "Santa Ana"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322014112",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.pgr.gob.sv/procuraduria-auxiliar-de-santa-ana/"
+        ]
+      }
+    },
+    {
+      "id": "apoyo-psicosocial-san-miguel",
+      "organization": "Unidad de Atención Psicosocial de la PGR — San Miguel",
+      "category": "health-and-psychosocial",
+      "service": "Atención psicosocial de la procuraduría auxiliar. Consulta la modalidad de atención disponible.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Miguel",
+        "municipality": "San Miguel"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50325277412",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.pgr.gob.sv/procuraduria-auxiliar-de-san-miguel/"
+        ]
+      }
+    },
+    {
+      "id": "apoyo-psicosocial-usulutan",
+      "organization": "Unidad de Atención Psicosocial de la PGR — Usulután",
+      "category": "health-and-psychosocial",
+      "service": "Atención psicosocial de la procuraduría auxiliar. Consulta la modalidad de atención disponible.",
+      "coverage": {
+        "scope": "local",
+        "area": "Usulután",
+        "municipality": "Usulután"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322014188",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.pgr.gob.sv/procuraduria-auxiliar-de-usulutan/"
+        ]
+      }
+    },
+    {
+      "id": "apoyo-psicosocial-soyapango",
+      "organization": "Unidad de Atención Psicosocial de la PGR — Soyapango",
+      "category": "health-and-psychosocial",
+      "service": "Atención psicosocial de la procuraduría auxiliar. Consulta la modalidad de atención disponible.",
+      "coverage": {
+        "scope": "local",
+        "area": "Soyapango, San Salvador",
+        "municipality": "Soyapango"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322458926",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.pgr.gob.sv/procuraduria-auxiliar-de-soyapango/"
+        ]
+      }
+    },
+    {
+      "id": "albergue-divina-misericordia",
+      "organization": "Albergue Divina Misericordia",
+      "category": "shelter-and-food",
+      "service": "Servicio de alojamiento temporal en San Salvador.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Salvador",
+        "municipality": "San Salvador"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322714240",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta horario, cupo y criterios de ingreso.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cancilleria.gob.ec/wp-content/uploads/2024/06/catalogo.pdf",
+          "https://elsalvador.cuentanos.org/articles/5863720996637"
+        ]
+      }
+    },
+    {
+      "id": "comedor-abierto-agape",
+      "organization": "Comedor Abierto — Asociación Ágape",
+      "category": "shelter-and-food",
+      "service": "Programa de asistencia alimentaria para personas en situación vulnerable.",
+      "coverage": {
+        "scope": "local",
+        "area": "Sonsonate",
+        "municipality": "Sonsonate"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322812828",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Solicita información sobre el Comedor Abierto.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://agapesv.com/micrositio-comedor-abierto/",
+          "https://agapesv.com/como-ayudar/"
+        ]
+      }
+    },
+    {
+      "id": "atencion-nutricion-fosalud",
+      "organization": "Centro Integral de Atención Materno Infantil y de Nutrición",
+      "category": "shelter-and-food",
+      "service": "Programa de atención nutricional materno-infantil de Fosalud.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Julián, Sonsonate",
+        "municipality": "San Julián"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50325289700",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": "Información telefónica de lunes a viernes, de 7:30 a 15:30.",
+      "cost": null,
+      "requirements": "Consulta las condiciones de ingreso al centro.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://fosalud.gob.sv/servicios/centro-integral-de-atencion-materno-infantil-y-de-nutricion/"
+        ]
+      }
+    },
+    {
+      "id": "albergue-lluvia-gracias",
+      "organization": "Asociación Lluvia de Gracias",
+      "category": "shelter-and-food",
+      "service": "Ofrece cuidado residencial y alimentación para personas adultas mayores.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Salvador",
+        "municipality": "San Salvador"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50321025810",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta modalidad, disponibilidad y costo.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.asiloenelsalvadorlluviadegracias.com/servicios"
+        ]
+      }
+    },
+    {
+      "id": "albergue-solo-por-hoy",
+      "organization": "Asociación Casa Albergue Solo por Hoy",
+      "category": "shelter-and-food",
+      "service": "Alojamiento vinculado a un programa de atención para personas con problemas de consumo.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Salvador",
+        "municipality": "San Salvador"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322359521",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta requisitos y disponibilidad antes de acudir.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.seguridad.gob.sv/cna/?page_id=5825"
+        ]
+      }
+    },
+    {
+      "id": "pgr-santa-ana",
+      "organization": "Procuraduría Auxiliar de Santa Ana",
+      "category": "migration-and-legal",
+      "service": "Orientación y servicios de la Procuraduría General de la República en asuntos de familia, laborales o de defensa pública según el caso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santa Ana",
+        "municipality": "Santa Ana"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322014101",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.pgr.gob.sv/procuraduria-auxiliar-de-santa-ana/"
+        ]
+      }
+    },
+    {
+      "id": "pgr-san-miguel",
+      "organization": "Procuraduría Auxiliar de San Miguel",
+      "category": "migration-and-legal",
+      "service": "Orientación y servicios de la Procuraduría General de la República en asuntos de familia, laborales o de defensa pública según el caso.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Miguel",
+        "municipality": "San Miguel"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50325277401",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.pgr.gob.sv/procuraduria-auxiliar-de-san-miguel/"
+        ]
+      }
+    },
+    {
+      "id": "pgr-usulutan",
+      "organization": "Procuraduría Auxiliar de Usulután",
+      "category": "migration-and-legal",
+      "service": "Orientación y servicios de la Procuraduría General de la República en asuntos de familia, laborales o de defensa pública según el caso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Usulután",
+        "municipality": "Usulután"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322014178",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.pgr.gob.sv/procuraduria-auxiliar-de-usulutan/"
+        ]
+      }
+    },
+    {
+      "id": "pgr-ahuachapan",
+      "organization": "Procuraduría Auxiliar de Ahuachapán",
+      "category": "migration-and-legal",
+      "service": "Orientación y servicios de la Procuraduría General de la República en asuntos de familia, laborales o de defensa pública según el caso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ahuachapán",
+        "municipality": "Ahuachapán"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322014135",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.pgr.gob.sv/procuraduria-auxiliar-de-ahuachapan/"
+        ]
+      }
+    },
+    {
+      "id": "pgr-metapan",
+      "organization": "Procuraduría Auxiliar de Metapán",
+      "category": "migration-and-legal",
+      "service": "Orientación y servicios de la Procuraduría General de la República en asuntos de familia, laborales o de defensa pública según el caso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Metapán, Santa Ana",
+        "municipality": "Metapán"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322458944",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.pgr.gob.sv/procuraduria-auxiliar-de-metapan/"
+        ]
+      }
+    },
+    {
+      "id": "atencion-victimas-san-salvador",
+      "organization": "Sección de Atención Integral a Víctimas — San Salvador",
+      "category": "protection",
+      "service": "Orienta a víctimas sobre los servicios y el acceso a la justicia en la sede correspondiente.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Salvador",
+        "municipality": "San Salvador"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322318600",
+          "routing": "switchboard",
+          "extension": "3665"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.csj.gob.sv/unidad-tecnica-de-atencion-integral-a-victimas-y-genero-contactenos/"
+        ]
+      }
+    },
+    {
+      "id": "atencion-victimas-soyapango",
+      "organization": "Sección de Atención Integral a Víctimas — Soyapango",
+      "category": "protection",
+      "service": "Orienta a víctimas sobre los servicios y el acceso a la justicia en la sede correspondiente.",
+      "coverage": {
+        "scope": "local",
+        "area": "Soyapango, San Salvador",
+        "municipality": "Soyapango"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322979100",
+          "routing": "switchboard",
+          "extension": "2109"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.csj.gob.sv/unidad-tecnica-de-atencion-integral-a-victimas-y-genero-contactenos/"
+        ]
+      }
+    },
+    {
+      "id": "atencion-victimas-ciudad-delgado",
+      "organization": "Sección de Atención Integral a Víctimas — Ciudad Delgado",
+      "category": "protection",
+      "service": "Orienta a víctimas sobre los servicios y el acceso a la justicia en la sede correspondiente.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad Delgado, San Salvador",
+        "municipality": "Ciudad Delgado"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50325279800",
+          "routing": "switchboard",
+          "extension": "2063"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.csj.gob.sv/unidad-tecnica-de-atencion-integral-a-victimas-y-genero-contactenos/"
+        ]
+      }
+    },
+    {
+      "id": "atencion-victimas-chalatenango",
+      "organization": "Sección de Atención Integral a Víctimas — Chalatenango",
+      "category": "protection",
+      "service": "Orienta a víctimas sobre los servicios y el acceso a la justicia en la sede correspondiente.",
+      "coverage": {
+        "scope": "local",
+        "area": "Chalatenango",
+        "municipality": "Chalatenango"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50323011814",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.csj.gob.sv/unidad-tecnica-de-atencion-integral-a-victimas-y-genero-contactenos/"
+        ]
+      }
+    },
+    {
+      "id": "pgr-mujeres-usulutan",
+      "organization": "Unidad de Atención Especializada para las Mujeres — PGR Usulután",
+      "category": "protection",
+      "service": "Orienta a mujeres sobre sus derechos y sobre el acceso a servicios de protección y asistencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Usulután",
+        "municipality": "Usulután"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50322014187",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.pgr.gob.sv/procuraduria-auxiliar-de-usulutan/"
+        ]
+      }
     }
   ]
 }

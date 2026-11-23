@@ -9,7 +9,7 @@ A Spanish-language, mobile-first directory of emergency services, health resourc
 | Chile | 45 | [CL](data/countries/cl/resources.json) |
 | Colombia | 47 | [CO](data/countries/co/resources.json) |
 | Costa Rica | 46 | [CR](data/countries/cr/resources.json) |
-| El Salvador | 23 | [SV](data/countries/sv/resources.json) |
+| El Salvador | 48 | [SV](data/countries/sv/resources.json) |
 | Guatemala | 49 | [GT](data/countries/gt/resources.json) |
 | Honduras | 22 | [HN](data/countries/hn/resources.json) |
 | Mexico | 49 | [MX](data/countries/mx/resources.json) |
