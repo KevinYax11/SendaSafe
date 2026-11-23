@@ -1,0 +1,1275 @@
+{
+  "country": "UY",
+  "language": "es",
+  "resources": [
+    {
+      "id": "emergencias",
+      "organization": "Emergencia 9-1-1",
+      "category": "emergency",
+      "service": "Recibe solicitudes de respuesta inmediata por emergencias y coordina con los servicios correspondientes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Uruguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "911",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/tramites-y-servicios/servicios/emergencia-9-1-1"
+        ]
+      }
+    },
+    {
+      "id": "same-105",
+      "organization": "Sistema de Atención Médica de Emergencia — SAME",
+      "category": "emergency",
+      "service": "Canal de atención prehospitalaria de ASSE para urgencias y emergencias médicas.",
+      "coverage": {
+        "scope": "national",
+        "area": "Uruguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "105",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "La central coordina la respuesta según la ubicación y el caso.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.asse.com.uy/contenido/SAME-105-6305"
+        ]
+      }
+    },
+    {
+      "id": "prefectura",
+      "organization": "Prefectura Nacional Naval",
+      "category": "emergency",
+      "service": "Recibe avisos de emergencias y pedidos de asistencia en el ámbito marítimo y fluvial.",
+      "coverage": {
+        "scope": "national",
+        "area": "Uruguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "106",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/sistema-nacional-emergencias/sites/sistema-nacional-emergencias/files/documentos/publicaciones/GRE2016_web1.pdf"
+        ]
+      }
+    },
+    {
+      "id": "policia-caminera",
+      "organization": "Dirección Nacional de Policía Caminera",
+      "category": "emergency",
+      "service": "Contacto para incidentes y emergencias de tránsito en rutas.",
+      "coverage": {
+        "scope": "national",
+        "area": "Uruguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "108",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/sistema-nacional-emergencias/sites/sistema-nacional-emergencias/files/documentos/publicaciones/GRE2016_web1.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ciat",
+      "organization": "Centro de Información y Asesoramiento Toxicológico",
+      "category": "emergency",
+      "service": "Médico de guardia para consultas urgentes por sospecha de intoxicación.",
+      "coverage": {
+        "scope": "national",
+        "area": "Uruguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1722",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.hc.edu.uy/Varios/Horarios-y-telefonos-de-Interes-uc19"
+        ]
+      }
+    },
+    {
+      "id": "hospital-clinicas",
+      "organization": "Hospital de Clínicas — Agenda de policlínica",
+      "category": "health-and-psychosocial",
+      "service": "Solicita información y agenda para atención ambulatoria en el hospital universitario.",
+      "coverage": {
+        "scope": "local",
+        "area": "Montevideo",
+        "municipality": "Montevideo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "08001953",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 8:00 a 16:00.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.hc.edu.uy/Varios/Horarios-y-telefonos-de-Interes-uc19"
+        ]
+      }
+    },
+    {
+      "id": "hospital-maciel",
+      "organization": "Hospital Maciel — Atención al Usuario",
+      "category": "health-and-psychosocial",
+      "service": "Orienta a usuarios sobre acceso a los servicios del hospital público.",
+      "coverage": {
+        "scope": "local",
+        "area": "Montevideo",
+        "municipality": "Montevideo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59829153000",
+          "routing": "switchboard",
+          "extension": "1241"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.asse.com.uy/contenido/Hospital-Maciel-5212"
+        ]
+      }
+    },
+    {
+      "id": "hospital-colonia",
+      "organization": "Hospital de Colonia del Sacramento",
+      "category": "health-and-psychosocial",
+      "service": "Central del hospital público para consultar servicios y procedimientos de atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Colonia del Sacramento, Colonia",
+        "municipality": "Colonia del Sacramento"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59845236819",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.asse.com.uy/contenido/Hospital-de-Colonia-del-Sacramento-Colonia-2303"
+        ]
+      }
+    },
+    {
+      "id": "rap-florida",
+      "organization": "Centro de Salud Florida — ASSE",
+      "category": "health-and-psychosocial",
+      "service": "Consulta sobre atención primaria y acceso a los servicios públicos de salud.",
+      "coverage": {
+        "scope": "local",
+        "area": "Florida",
+        "municipality": "Florida"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59843521368",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.asse.com.uy/contenido/RAP-Florida-5244"
+        ]
+      }
+    },
+    {
+      "id": "rap-salto-uba3",
+      "organization": "Policlínica UBA 3 — ASSE",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la red pública de atención primaria. Consulta por servicios, agenda y requisitos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Salto",
+        "municipality": "Salto"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59847378842",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.asse.com.uy/contenido/RAP-SALTO-5236"
+        ]
+      }
+    },
+    {
+      "id": "rap-salto-uba5",
+      "organization": "Policlínica UBA 5 — ASSE",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la red pública de atención primaria. Consulta por servicios, agenda y requisitos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Salto",
+        "municipality": "Salto"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59847340873",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.asse.com.uy/contenido/RAP-SALTO-5236"
+        ]
+      }
+    },
+    {
+      "id": "rap-salto-uba6",
+      "organization": "Policlínica UBA 6 — ASSE",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la red pública de atención primaria. Consulta por servicios, agenda y requisitos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Salto",
+        "municipality": "Salto"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59847353466",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.asse.com.uy/contenido/RAP-SALTO-5236"
+        ]
+      }
+    },
+    {
+      "id": "rap-salto-uba8",
+      "organization": "Policlínica UBA 8 — ASSE",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la red pública de atención primaria. Consulta por servicios, agenda y requisitos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Salto",
+        "municipality": "Salto"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59847324366",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.asse.com.uy/contenido/RAP-SALTO-5236"
+        ]
+      }
+    },
+    {
+      "id": "rap-salto-burton",
+      "organization": "Policlínica Burton — ASSE",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la red pública de atención primaria. Consulta por servicios, agenda y requisitos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Salto",
+        "municipality": "Salto"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59847379513",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.asse.com.uy/contenido/RAP-SALTO-5236"
+        ]
+      }
+    },
+    {
+      "id": "rap-salto-cien-manzanas",
+      "organization": "Policlínica Cien Manzanas — ASSE",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la red pública de atención primaria. Consulta por servicios, agenda y requisitos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Salto",
+        "municipality": "Salto"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59847341195",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.asse.com.uy/contenido/RAP-SALTO-5236"
+        ]
+      }
+    },
+    {
+      "id": "rap-salto-la-tablada",
+      "organization": "Policlínica La Tablada — ASSE",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la red pública de atención primaria. Consulta por servicios, agenda y requisitos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Salto",
+        "municipality": "Salto"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59847378462",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.asse.com.uy/contenido/RAP-SALTO-5236"
+        ]
+      }
+    },
+    {
+      "id": "rap-salto-hipodromo",
+      "organization": "Policlínica Hipódromo — ASSE",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la red pública de atención primaria. Consulta por servicios, agenda y requisitos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Salto",
+        "municipality": "Salto"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59847378737",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.asse.com.uy/contenido/RAP-SALTO-5236"
+        ]
+      }
+    },
+    {
+      "id": "red-calle",
+      "organization": "Red Calle 365 — MIDES",
+      "category": "shelter-and-food",
+      "service": "Recibe avisos sobre personas a la intemperie y activa equipos de atención en Montevideo.",
+      "coverage": {
+        "scope": "local",
+        "area": "Montevideo",
+        "municipality": "Montevideo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "08003650",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+59891365000",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-desarrollo-social/personas-en-calle"
+        ]
+      }
+    },
+    {
+      "id": "sistema-comedores",
+      "organization": "Sistema Nacional de Comedores — INDA",
+      "category": "shelter-and-food",
+      "service": "Orienta sobre acceso a asistencia alimentaria y a la red de comedores.",
+      "coverage": {
+        "scope": "national",
+        "area": "Uruguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59829162554",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta los requisitos de ingreso y el centro correspondiente.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-desarrollo-social/node/9810"
+        ]
+      }
+    },
+    {
+      "id": "comedores-florida",
+      "organization": "Servicio de comedores — Intendencia de Florida",
+      "category": "shelter-and-food",
+      "service": "Orienta sobre la solicitud de asistencia alimentaria mediante los comedores departamentales.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Florida",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59843529166",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta la documentación y condiciones de ingreso.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/tramites/servicio-comedores"
+        ]
+      }
+    },
+    {
+      "id": "comedor-rivera",
+      "organization": "Comedor N.º 50 — Intendencia de Rivera",
+      "category": "shelter-and-food",
+      "service": "Contacto del comedor para consultar condiciones y acceso a la prestación alimentaria.",
+      "coverage": {
+        "scope": "local",
+        "area": "Rivera",
+        "municipality": "Rivera"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59846227287",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.rivera.gub.uy/portal/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "politicas-nutricionales-maldonado",
+      "organization": "Intendencia de Maldonado — Políticas Nutricionales",
+      "category": "shelter-and-food",
+      "service": "Orienta sobre prestaciones alimentarias departamentales como el Bono Leche.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Maldonado",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59842231774",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta requisitos y fechas vigentes.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://maldonado.gub.uy/noticias/entrega-del-bono-leche-correspondiente-al-periodo-julio-agosto-comenzara-miercoles-12"
+        ]
+      }
+    },
+    {
+      "id": "alojamiento-perez-scremini",
+      "organization": "Fundación Pérez Scremini — Alojamiento familiar",
+      "category": "shelter-and-food",
+      "service": "Alojamiento para familias del interior vinculadas al tratamiento oncológico pediátrico.",
+      "coverage": {
+        "scope": "local",
+        "area": "Montevideo",
+        "municipality": "Montevideo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59827052649",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Pide orientación sobre admisión y disponibilidad.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://perezscremini.org/contacto/",
+          "https://perezscremini.org/nuevo-alojamiento-para-familias-del-interior/"
+        ]
+      }
+    },
+    {
+      "id": "mides-migrantes",
+      "organization": "Centro de Referencia para Personas Migrantes — MIDES",
+      "category": "migration-and-legal",
+      "service": "Orienta a personas migrantes sobre servicios y acceso a derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Montevideo",
+        "municipality": "Montevideo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59824000302",
+          "routing": "switchboard",
+          "extension": "1929"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-desarrollo-social/tramites-y-servicios/servicios/centro-referencia-para-personas-migrantes"
+        ]
+      }
+    },
+    {
+      "id": "sedhu",
+      "organization": "Servicio Ecuménico para la Dignidad Humana",
+      "category": "migration-and-legal",
+      "service": "Brinda orientación a personas refugiadas, solicitantes de refugio y migrantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Montevideo",
+        "municipality": "Montevideo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59824080934",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://sedhu.uy/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "migracion-central",
+      "organization": "Dirección Nacional de Migración — Oficina Central",
+      "category": "migration-and-legal",
+      "service": "Informa sobre servicios y trámites de la Dirección Nacional de Migración.",
+      "coverage": {
+        "scope": "national",
+        "area": "Uruguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59820301800",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/tramites-y-servicios/servicios/oficinas-direccion-nacional-migracion"
+        ]
+      }
+    },
+    {
+      "id": "migracion-artigas",
+      "organization": "Oficina de Migración — Artigas",
+      "category": "migration-and-legal",
+      "service": "Oficina local para consultas sobre trámites migratorios. Confirma con la sede si el trámite requiere agenda.",
+      "coverage": {
+        "scope": "local",
+        "area": "Artigas",
+        "municipality": "Artigas"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59820301924",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/tramites-y-servicios/servicios/oficinas-direccion-nacional-migracion"
+        ]
+      }
+    },
+    {
+      "id": "migracion-bella-union",
+      "organization": "Oficina de Migración — Bella Unión",
+      "category": "migration-and-legal",
+      "service": "Oficina local para consultas sobre trámites migratorios. Confirma con la sede si el trámite requiere agenda.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bella Unión, Artigas",
+        "municipality": "Bella Unión"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59820301926",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/tramites-y-servicios/servicios/oficinas-direccion-nacional-migracion"
+        ]
+      }
+    },
+    {
+      "id": "migracion-chuy",
+      "organization": "Oficina de Migración — Chuy",
+      "category": "migration-and-legal",
+      "service": "Oficina local para consultas sobre trámites migratorios. Confirma con la sede si el trámite requiere agenda.",
+      "coverage": {
+        "scope": "local",
+        "area": "Chuy, Rocha",
+        "municipality": "Chuy"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59844742072",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/tramites-y-servicios/servicios/oficinas-direccion-nacional-migracion"
+        ]
+      }
+    },
+    {
+      "id": "migracion-colonia",
+      "organization": "Oficina de Migración — Colonia del Sacramento",
+      "category": "migration-and-legal",
+      "service": "Oficina local para consultas sobre trámites migratorios. Confirma con la sede si el trámite requiere agenda.",
+      "coverage": {
+        "scope": "local",
+        "area": "Colonia del Sacramento, Colonia",
+        "municipality": "Colonia del Sacramento"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59820301932",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/tramites-y-servicios/servicios/oficinas-direccion-nacional-migracion"
+        ]
+      }
+    },
+    {
+      "id": "migracion-maldonado",
+      "organization": "Oficina de Migración — Maldonado",
+      "category": "migration-and-legal",
+      "service": "Oficina local para consultas sobre trámites migratorios. Confirma con la sede si el trámite requiere agenda.",
+      "coverage": {
+        "scope": "local",
+        "area": "Maldonado",
+        "municipality": "Maldonado"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59820301906",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/tramites-y-servicios/servicios/oficinas-direccion-nacional-migracion"
+        ]
+      }
+    },
+    {
+      "id": "migracion-paysandu",
+      "organization": "Oficina de Migración — Paysandú",
+      "category": "migration-and-legal",
+      "service": "Oficina local para consultas sobre trámites migratorios. Confirma con la sede si el trámite requiere agenda.",
+      "coverage": {
+        "scope": "local",
+        "area": "Paysandú",
+        "municipality": "Paysandú"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59820301940",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/tramites-y-servicios/servicios/oficinas-direccion-nacional-migracion"
+        ]
+      }
+    },
+    {
+      "id": "migracion-rivera",
+      "organization": "Oficina de Migración — Rivera",
+      "category": "migration-and-legal",
+      "service": "Oficina local para consultas sobre trámites migratorios. Confirma con la sede si el trámite requiere agenda.",
+      "coverage": {
+        "scope": "local",
+        "area": "Rivera",
+        "municipality": "Rivera"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59820301946",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/tramites-y-servicios/servicios/oficinas-direccion-nacional-migracion"
+        ]
+      }
+    },
+    {
+      "id": "migracion-salto",
+      "organization": "Oficina de Migración — Salto",
+      "category": "migration-and-legal",
+      "service": "Oficina local para consultas sobre trámites migratorios. Confirma con la sede si el trámite requiere agenda.",
+      "coverage": {
+        "scope": "local",
+        "area": "Salto",
+        "municipality": "Salto"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59820301972",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/tramites-y-servicios/servicios/oficinas-direccion-nacional-migracion"
+        ]
+      }
+    },
+    {
+      "id": "violencia-domestica",
+      "organization": "Orientación ante violencia doméstica — MIDES",
+      "category": "protection",
+      "service": "Orientación telefónica y derivación para mujeres en situación de violencia doméstica.",
+      "coverage": {
+        "scope": "national",
+        "area": "Uruguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "08004141",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-desarrollo-social/tramites-y-servicios/servicios/servicio-orientacion-telefonica-mujeres-situacion-violencia"
+        ]
+      }
+    },
+    {
+      "id": "linea-azul",
+      "organization": "Línea Azul — INAU",
+      "category": "protection",
+      "service": "Recibe consultas y avisos por vulneración de derechos de niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Uruguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "08005050",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.inau.gub.uy/linea-azul"
+        ]
+      }
+    },
+    {
+      "id": "violencia-artigas",
+      "organization": "Comisaría Especializada en Violencia Doméstica y de Género — Artigas",
+      "category": "protection",
+      "service": "Recibe denuncias y orienta a personas afectadas por violencia doméstica, sexual o de género.",
+      "coverage": {
+        "scope": "local",
+        "area": "Artigas",
+        "municipality": "Artigas"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59820306114",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para una emergencia inmediata, llama al 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/sites/ministerio-interior/files/documentos/publicaciones/GuiaDeRecursos2025Actualizada.pdf"
+        ]
+      }
+    },
+    {
+      "id": "violencia-bella-union",
+      "organization": "Comisaría Especializada en Violencia Doméstica y de Género — Bella Unión",
+      "category": "protection",
+      "service": "Recibe denuncias y orienta a personas afectadas por violencia doméstica, sexual o de género.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bella Unión, Artigas",
+        "municipality": "Bella Unión"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59820306215",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para una emergencia inmediata, llama al 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/sites/ministerio-interior/files/documentos/publicaciones/GuiaDeRecursos2025Actualizada.pdf"
+        ]
+      }
+    },
+    {
+      "id": "violencia-las-piedras",
+      "organization": "Comisaría Especializada en Violencia Doméstica y de Género — Las Piedras",
+      "category": "protection",
+      "service": "Recibe denuncias y orienta a personas afectadas por violencia doméstica, sexual o de género.",
+      "coverage": {
+        "scope": "local",
+        "area": "Las Piedras, Canelones",
+        "municipality": "Las Piedras"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59820300993",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para una emergencia inmediata, llama al 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/sites/ministerio-interior/files/documentos/publicaciones/GuiaDeRecursos2025Actualizada.pdf"
+        ]
+      }
+    },
+    {
+      "id": "violencia-pando",
+      "organization": "Comisaría Especializada en Violencia Doméstica y de Género — Pando",
+      "category": "protection",
+      "service": "Recibe denuncias y orienta a personas afectadas por violencia doméstica, sexual o de género.",
+      "coverage": {
+        "scope": "local",
+        "area": "Pando, Canelones",
+        "municipality": "Pando"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59820305002",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para una emergencia inmediata, llama al 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/sites/ministerio-interior/files/documentos/publicaciones/GuiaDeRecursos2025Actualizada.pdf"
+        ]
+      }
+    },
+    {
+      "id": "violencia-santa-lucia",
+      "organization": "Comisaría Especializada en Violencia Doméstica y de Género — Santa Lucía",
+      "category": "protection",
+      "service": "Recibe denuncias y orienta a personas afectadas por violencia doméstica, sexual o de género.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santa Lucía, Canelones",
+        "municipality": "Santa Lucía"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59820304807",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para una emergencia inmediata, llama al 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/sites/ministerio-interior/files/documentos/publicaciones/GuiaDeRecursos2025Actualizada.pdf"
+        ]
+      }
+    },
+    {
+      "id": "violencia-solymar",
+      "organization": "Comisaría Especializada en Violencia Doméstica y de Género — Lomas de Solymar",
+      "category": "protection",
+      "service": "Recibe denuncias y orienta a personas afectadas por violencia doméstica, sexual o de género.",
+      "coverage": {
+        "scope": "local",
+        "area": "Lomas de Solymar, Canelones",
+        "municipality": "Lomas de Solymar"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59820304963",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para una emergencia inmediata, llama al 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/sites/ministerio-interior/files/documentos/publicaciones/GuiaDeRecursos2025Actualizada.pdf"
+        ]
+      }
+    },
+    {
+      "id": "violencia-toledo",
+      "organization": "Comisaría Especializada en Violencia Doméstica y de Género — Toledo",
+      "category": "protection",
+      "service": "Recibe denuncias y orienta a personas afectadas por violencia doméstica, sexual o de género.",
+      "coverage": {
+        "scope": "local",
+        "area": "Toledo, Canelones",
+        "municipality": "Toledo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59820305054",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para una emergencia inmediata, llama al 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/sites/ministerio-interior/files/documentos/publicaciones/GuiaDeRecursos2025Actualizada.pdf"
+        ]
+      }
+    },
+    {
+      "id": "violencia-melo",
+      "organization": "Comisaría Especializada en Violencia Doméstica y de Género — Melo",
+      "category": "protection",
+      "service": "Recibe denuncias y orienta a personas afectadas por violencia doméstica, sexual o de género.",
+      "coverage": {
+        "scope": "local",
+        "area": "Melo, Cerro Largo",
+        "municipality": "Melo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59820305856",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para una emergencia inmediata, llama al 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/sites/ministerio-interior/files/documentos/publicaciones/GuiaDeRecursos2025Actualizada.pdf"
+        ]
+      }
+    },
+    {
+      "id": "violencia-rio-branco",
+      "organization": "Comisaría Especializada en Violencia Doméstica y de Género — Río Branco",
+      "category": "protection",
+      "service": "Recibe denuncias y orienta a personas afectadas por violencia doméstica, sexual o de género.",
+      "coverage": {
+        "scope": "local",
+        "area": "Río Branco, Cerro Largo",
+        "municipality": "Río Branco"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59820303286",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para una emergencia inmediata, llama al 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gub.uy/ministerio-interior/sites/ministerio-interior/files/documentos/publicaciones/GuiaDeRecursos2025Actualizada.pdf"
+        ]
+      }
+    }
+  ]
+}
+
