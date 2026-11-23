@@ -1,0 +1,657 @@
+{
+  "country": "HN",
+  "language": "es",
+  "resources": [
+    {
+      "id": "emergencias",
+      "organization": "Sistema Nacional de Emergencias",
+      "category": "emergency",
+      "service": "Coordina la respuesta a emergencias en Honduras.",
+      "coverage": {
+        "scope": "national",
+        "area": "Honduras",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "911",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://portalunico.iaip.gob.hn/438/62/"
+        ]
+      }
+    },
+    {
+      "id": "policia-mujer",
+      "organization": "Policía Nacional, Línea 114",
+      "category": "protection",
+      "service": "Recibe denuncias de violencia contra la mujer y ofrece orientación especializada.",
+      "coverage": {
+        "scope": "national",
+        "area": "Honduras",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "114",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://policianacional.gob.hn/linea-114/"
+        ]
+      }
+    },
+    {
+      "id": "inm",
+      "organization": "Instituto Nacional de Migración",
+      "category": "migration-and-legal",
+      "service": "Orientación sobre trámites, servicios y consultas migratorias.",
+      "coverage": {
+        "scope": "national",
+        "area": "Honduras",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50422327800",
+          "routing": "switchboard"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+50488750261",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://inm.gob.hn/contacto"
+        ]
+      }
+    },
+    {
+      "id": "acnur-nrc",
+      "organization": "ACNUR y Consejo Noruego para Refugiados",
+      "category": "migration-and-legal",
+      "service": "Orientación sobre protección para personas desplazadas y en riesgo.",
+      "coverage": {
+        "scope": "national",
+        "area": "Honduras",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50433735003",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50488145837",
+          "routing": "direct"
+        }
+      ],
+      "hours": "De 08:00 a 17:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.acnur.org/sites/default/files/2025-06/Guia_cobertura_desplazamiento_forzado_interno_ACNUR_UNAH_1.pdf"
+        ]
+      }
+    },
+    {
+      "id": "sedh-desplazamiento",
+      "organization": "Secretaría de Derechos Humanos, DIPPDIV",
+      "category": "protection",
+      "service": "Protección y orientación para personas desplazadas internamente por violencia.",
+      "coverage": {
+        "scope": "national",
+        "area": "Honduras",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50431838376",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Contacto disponible a cualquier hora",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.acnur.org/sites/default/files/2025-06/Guia_cobertura_desplazamiento_forzado_interno_ACNUR_UNAH_1.pdf"
+        ]
+      }
+    },
+    {
+      "id": "conadeh-desplazamiento",
+      "organization": "CONADEH, Unidad de Desplazamiento Forzado Interno",
+      "category": "protection",
+      "service": "Atiende consultas y casos de desplazamiento forzado interno.",
+      "coverage": {
+        "scope": "national",
+        "area": "Honduras",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50495811846",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Contacto disponible a cualquier hora",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.acnur.org/sites/default/files/2025-06/Guia_cobertura_desplazamiento_forzado_interno_ACNUR_UNAH_1.pdf"
+        ]
+      }
+    },
+    {
+      "id": "oim-san-pedro-sula",
+      "organization": "OIM, San Pedro Sula",
+      "category": "migration-and-legal",
+      "service": "Orienta a personas migrantes y retornadas y ofrece acompañamiento psicosocial.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Pedro Sula, Cortés",
+        "municipality": "San Pedro Sula"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50433049479",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50432522440",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.ciudadmujer.gob.hn/?page_id=4763"
+        ]
+      }
+    },
+    {
+      "id": "ciudad-mujer-choloma",
+      "organization": "Ciudad Mujer, Choloma",
+      "category": "protection",
+      "service": "Servicios de orientación y protección para mujeres.",
+      "coverage": {
+        "scope": "local",
+        "area": "Choloma, Cortés",
+        "municipality": "Choloma"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50496540694",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.ciudadmujer.gob.hn/?page_id=4763"
+        ]
+      }
+    },
+    {
+      "id": "casa-migrante-san-jose",
+      "organization": "Casa del Migrante San José",
+      "category": "shelter-and-food",
+      "service": "Asistencia humanitaria y alimentación para personas migrantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ocotepeque",
+        "municipality": "Ocotepeque"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50498777454",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mapeo-red-clamor.website/ajaxfile.php?pais=honduras"
+        ]
+      }
+    },
+    {
+      "id": "camr-la-lima",
+      "organization": "Centro de Atención del Migrante Retornado",
+      "category": "shelter-and-food",
+      "service": "Recepción, alimentación y orientación para personas hondureñas retornadas.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Lima, Cortés",
+        "municipality": "La Lima"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50426680264",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50427180328",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mapeo-red-clamor.website/ajaxfile.php?pais=honduras"
+        ]
+      }
+    },
+    {
+      "id": "pastoral-movilidad-humana",
+      "organization": "Pastoral de Movilidad Humana",
+      "category": "migration-and-legal",
+      "service": "Acompañamiento y orientación legal para personas migrantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tegucigalpa, Distrito Central",
+        "municipality": "Tegucigalpa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50496177728",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mapeo-red-clamor.website/ajaxfile.php?pais=honduras"
+        ]
+      }
+    },
+    {
+      "id": "unah-consultorio-juridico",
+      "organization": "Consultorio Jurídico Gratuito de la UNAH",
+      "category": "migration-and-legal",
+      "service": "Asesoría legal, conciliación y orientación psicosocial.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tegucigalpa, Distrito Central",
+        "municipality": "Tegucigalpa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50422165146",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50422165147",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Asesoría jurídica gratuita",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://consultoriojuridico.unah.edu.hn/"
+        ]
+      }
+    },
+    {
+      "id": "msf-danli",
+      "organization": "Médicos Sin Fronteras, Danlí",
+      "category": "health-and-psychosocial",
+      "service": "Atención médica y apoyo psicológico móvil en El Pescadero.",
+      "coverage": {
+        "scope": "local",
+        "area": "Danlí, El Paraíso",
+        "municipality": "Danlí"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50493672212",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Atención en El Pescadero de lunes a viernes, de 08:00 a 15:30",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Danli.pdf"
+        ]
+      }
+    },
+    {
+      "id": "medicos-del-mundo-danli",
+      "organization": "Médicos del Mundo, Danlí",
+      "category": "health-and-psychosocial",
+      "service": "Apoyo médico y psicológico en el espacio humanitario de El Pescadero.",
+      "coverage": {
+        "scope": "local",
+        "area": "Danlí, El Paraíso",
+        "municipality": "Danlí"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50433954734",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 06:00 a 12:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Danli.pdf"
+        ]
+      }
+    },
+    {
+      "id": "irc-danli",
+      "organization": "Comité Internacional de Rescate, Danlí",
+      "category": "health-and-psychosocial",
+      "service": "Apoyo psicosocial y atención para sobrevivientes de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Danlí, El Paraíso",
+        "municipality": "Danlí"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50492080069",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50492080049",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Danli.pdf"
+        ]
+      }
+    },
+    {
+      "id": "hias-danli",
+      "organization": "HIAS, Danlí",
+      "category": "migration-and-legal",
+      "service": "Información y orientación legal en El Pescadero y Cáritas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Danlí, El Paraíso",
+        "municipality": "Danlí"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50433189303",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Danli.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ministerio-publico-danli",
+      "organization": "Ministerio Público, Danlí",
+      "category": "protection",
+      "service": "Recepción de denuncias y derivación al módulo especializado.",
+      "coverage": {
+        "scope": "local",
+        "area": "Danlí, El Paraíso",
+        "municipality": "Danlí"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50427632144",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 16:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Danli.pdf"
+        ]
+      }
+    },
+    {
+      "id": "conadeh-danli",
+      "organization": "CONADEH, Danlí",
+      "category": "protection",
+      "service": "Orientación y atención ante vulneraciones de derechos o desplazamiento.",
+      "coverage": {
+        "scope": "local",
+        "area": "Danlí, El Paraíso",
+        "municipality": "Danlí"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50427633189",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 16:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Danli.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cicesct-danli",
+      "organization": "CICESCT, Danlí",
+      "category": "protection",
+      "service": "Orientación a víctimas de trata en el Centro de Atención al Migrante.",
+      "coverage": {
+        "scope": "local",
+        "area": "Danlí, El Paraíso",
+        "municipality": "Danlí"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50433782989",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 16:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Danli.pdf"
+        ]
+      }
+    },
+    {
+      "id": "red-mujeres-danli",
+      "organization": "Red de Mujeres Unidas por la Vida",
+      "category": "protection",
+      "service": "Orientación a mujeres afectadas por violencia y apoyo para acceder a servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Danlí, El Paraíso",
+        "municipality": "Danlí"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50498177004",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 16:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Danli.pdf"
+        ]
+      }
+    },
+    {
+      "id": "semujer-danli",
+      "organization": "SEMUJER, Danlí",
+      "category": "protection",
+      "service": "Orientación y apoyo psicosocial en los puntos indicados por la ruta local.",
+      "coverage": {
+        "scope": "local",
+        "area": "Danlí, El Paraíso",
+        "municipality": "Danlí"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50498205237",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50433488302",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Danli.pdf"
+        ]
+      }
+    },
+    {
+      "id": "policia-danli",
+      "organization": "Policía Nacional, Danlí",
+      "category": "protection",
+      "service": "Puesto local para denunciar situaciones de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Danlí, El Paraíso",
+        "municipality": "Danlí"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50427632063",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Danli.pdf"
+        ]
+      }
+    }
+  ]
+}
