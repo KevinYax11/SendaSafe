@@ -12,6 +12,7 @@ type RequestState = {
 }
 
 const categoryCodes = Object.keys(categories) as Category[]
+const countryNames = new Intl.ListFormat('es', { type: 'conjunction' })
 
 export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[] }>) {
   const [country, setCountry] = useState<Country | ''>('')
@@ -20,6 +21,7 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
   const [attempt, setAttempt] = useState(0)
   const [request, setRequest] = useState<RequestState | null>(null)
   const selectedCountry = countries.find(option => option.code === country)
+  const availableCountries = countries.filter(option => option.hasCoverage).map(option => option.name)
   const search = query.trim()
   const url = selectedCountry?.hasCoverage ? getResourcesUrl(selectedCountry.code, category, search) : null
   const currentRequest = request?.url === url && request.attempt === attempt ? request : null
@@ -84,25 +86,30 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
             <select id="country" value={country} onChange={event => selectCountry(event.target.value as Country | '')}>
               <option value="">Selecciona un país</option>
               {countries.map(option => (
-                <option value={option.code} key={option.code}>{option.name}</option>
+                <option value={option.code} key={option.code}>
+                  {option.hasCoverage ? `${option.name} · con directorio` : option.name}
+                </option>
               ))}
             </select>
-            <p>Puedes cambiar de país en cualquier momento.</p>
+            {selectedCountry?.hasEmergencyResources ? (
+              <a className="emergency-link" href="#resultados" onClick={() => applyCategory('emergency')}>
+                Ver emergencias en {selectedCountry.name}
+              </a>
+            ) : (
+              <p>Puedes cambiar de país en cualquier momento.</p>
+            )}
           </div>
         </section>
 
         <section className="directory-section" id="directorio" aria-labelledby="directory-title" tabIndex={-1}>
           <div className="shell">
-            <div className="directory-heading">
-              <h2 id="directory-title">{selectedCountry ? `Directorio de ${selectedCountry.name}` : 'Directorio de ayuda'}</h2>
-              {selectedCountry?.hasEmergencyResources && (
-                <a className="emergency-link" href="#resultados" onClick={() => applyCategory('emergency')}>
-                  Ver contactos de emergencia
-                </a>
-              )}
-            </div>
+            <h2 className="directory-heading" id="directory-title">{selectedCountry ? `Directorio de ${selectedCountry.name}` : 'Directorio de ayuda'}</h2>
 
-            {!selectedCountry && <p className="message" role="status">Selecciona tu país para consultar los recursos disponibles. El directorio de Guatemala ya está disponible.</p>}
+            {!selectedCountry && (
+              <p className="message" role="status">
+                Selecciona un país para consultar sus recursos. Cobertura disponible en {countryNames.format(availableCountries)}.
+              </p>
+            )}
             {selectedCountry && !selectedCountry.hasCoverage && (
               <div className="message">
                 <p role="status">Aún no tenemos contactos verificados para {selectedCountry.name}.</p>
@@ -140,7 +147,7 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
                   )}
                   {results && results.length > 0 && (
                     <div className="resource-grid">
-                      {results.map(resource => <ResourceCard key={resource.id} resource={resource} />)}
+                      {results.map(resource => <ResourceCard key={resource.id} country={selectedCountry.code} resource={resource} />)}
                     </div>
                   )}
                   {results?.length === 0 && (

@@ -1,0 +1,686 @@
+{
+  "country": "MX",
+  "language": "es",
+  "resources": [
+    {
+      "id": "emergencias-911",
+      "organization": "Servicio Nacional de Emergencias",
+      "category": "emergency",
+      "service": "Atiende emergencias médicas, de seguridad y de protección civil.",
+      "coverage": {
+        "scope": "national",
+        "area": "México",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "911",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas, todos los días",
+      "cost": "Llamada gratuita",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.mx/sspc/es/articulos/sabes-cual-es-la-diferencia-entre-los-numeros-088-089-y-911?idiom=es"
+        ]
+      }
+    },
+    {
+      "id": "capufe",
+      "organization": "Caminos y Puentes Federales (CAPUFE)",
+      "category": "emergency",
+      "service": "Auxilio vial e incidentes en autopistas operadas por CAPUFE.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Autopistas operadas por CAPUFE",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "074",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.mx/sict/prensa/activa-sict-campana-de-seguridad-en-carreteras-federales",
+          "https://www.gob.mx/capufe/articulos/quien-te-auxilia-durante-tu-viaje-por-carretera?idiom=es"
+        ]
+      }
+    },
+    {
+      "id": "angeles-verdes",
+      "organization": "Ángeles Verdes",
+      "category": "emergency",
+      "service": "Asistencia mecánica y orientación en las carreteras atendidas por Ángeles Verdes.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Carreteras atendidas por Ángeles Verdes",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "078",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.mx/sict/prensa/activa-sict-campana-de-seguridad-en-carreteras-federales"
+        ]
+      }
+    },
+    {
+      "id": "guardia-nacional",
+      "organization": "Guardia Nacional, Atención Ciudadana",
+      "category": "protection",
+      "service": "Recibe reportes y canaliza denuncias por posibles delitos o faltas administrativas.",
+      "coverage": {
+        "scope": "national",
+        "area": "México",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "088",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.mx/sspc/es/articulos/sabes-cual-es-la-diferencia-entre-los-numeros-088-089-y-911?idiom=es"
+        ]
+      }
+    },
+    {
+      "id": "denuncia-anonima",
+      "organization": "Servicio de Denuncia Anónima",
+      "category": "protection",
+      "service": "Recibe denuncias anónimas sobre posibles delitos que requieren investigación.",
+      "coverage": {
+        "scope": "national",
+        "area": "México",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "089",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.mx/sspc/es/articulos/sabes-cual-es-la-diferencia-entre-los-numeros-088-089-y-911?idiom=es"
+        ]
+      }
+    },
+    {
+      "id": "cndh",
+      "organization": "Comisión Nacional de los Derechos Humanos",
+      "category": "protection",
+      "service": "Orientación y recepción de quejas por posibles violaciones a derechos humanos.",
+      "coverage": {
+        "scope": "national",
+        "area": "México",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+528007152000",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas, todos los días",
+      "cost": "Llamada gratuita",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cndh.org.mx/conocenos/",
+          "https://hist.cndh.org.mx/cndh/preguntas-frecuentes"
+        ]
+      }
+    },
+    {
+      "id": "linea-contra-trata",
+      "organization": "Consejo Ciudadano, Línea Nacional contra la Trata de Personas",
+      "category": "protection",
+      "service": "Recibe reportes de posible trata y orienta para buscar atención.",
+      "coverage": {
+        "scope": "national",
+        "area": "México",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+528005533000",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas, todos los días",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://consejociudadanomx.org/media/pdf/linea-nacional-contra-la-trata-de-personas/capitulo-3-linea-nacional-contra-la-trata-de-personas_baja_compressed-1_compressed_compressed_compressed.pdf"
+        ]
+      }
+    },
+    {
+      "id": "casa-mambre",
+      "organization": "Casa Mambré",
+      "category": "protection",
+      "service": "Acompañamiento para personas migrantes y refugiadas que han sido víctimas de delitos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de México",
+        "municipality": "Ciudad de México"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+525592934509",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Se requiere cita previa.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/"
+        ]
+      }
+    },
+    {
+      "id": "imss-salud-mental",
+      "organization": "IMSS, Orientación Telefónica en Salud Mental",
+      "category": "health-and-psychosocial",
+      "service": "Primera ayuda psicológica y orientación sobre salud mental y consumo de sustancias.",
+      "coverage": {
+        "scope": "national",
+        "area": "México",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+528002222668",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": "Lunes a domingo, de 07:00 a 23:00",
+      "cost": null,
+      "requirements": "Selecciona la opción 4 en el menú telefónico.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.imss.gob.mx/prensa/archivo/202611/585",
+          "https://www.imss.gob.mx/prensa/archivo/202601/004"
+        ]
+      }
+    },
+    {
+      "id": "unam-apoyo-psicologico",
+      "organization": "Facultad de Psicología de la UNAM",
+      "category": "health-and-psychosocial",
+      "service": "Atención psicológica de primer contacto para la comunidad universitaria y el público general.",
+      "coverage": {
+        "scope": "national",
+        "area": "México",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+525550250855",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 18:00",
+      "cost": "Atención gratuita",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.fundacionunam.org.mx/unam-al-dia/el-invierno-provoca-depresion/",
+          "https://www.fundacionunam.org.mx/unam-al-dia/el-frio-no-te-enferma-conoce-las-verdaderas-razones/"
+        ]
+      }
+    },
+    {
+      "id": "acnur-mexico",
+      "organization": "ACNUR México",
+      "category": "migration-and-legal",
+      "service": "Información para personas refugiadas y solicitantes de asilo. Contacto disponible desde todo México.",
+      "coverage": {
+        "scope": "national",
+        "area": "México",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+528002268769",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+528002832718",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+525570055950",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+525525352950",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a jueves, de 09:00 a 16:30, y viernes, de 09:00 a 14:00",
+      "cost": "Líneas telefónicas gratuitas",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/donde-encontrar-ayuda/contacta-al-acnur/"
+        ]
+      }
+    },
+    {
+      "id": "programa-casa-refugiados",
+      "organization": "Programa Casa de Refugiados, Ciudad de México",
+      "category": "migration-and-legal",
+      "service": "Organización socia de ACNUR que presta servicios de apoyo a personas refugiadas en la Ciudad de México.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de México",
+        "municipality": "Miguel Hidalgo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+525578751749",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+525526147992",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/donde-encontrar-ayuda/contacta-al-acnur/"
+        ]
+      }
+    },
+    {
+      "id": "inm-atencion-migratoria",
+      "organization": "Instituto Nacional de Migración",
+      "category": "migration-and-legal",
+      "service": "Orienta sobre trámites migratorios, requisitos y ubicación de las oficinas del INM.",
+      "coverage": {
+        "scope": "national",
+        "area": "México",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+528000046264",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.inm.gob.mx/gobmx/word/index.php/acceso-a-la-informacion/"
+        ]
+      }
+    },
+    {
+      "id": "casa-migrante-tijuana",
+      "organization": "Casa del Migrante en Tijuana",
+      "category": "shelter-and-food",
+      "service": "Albergue para personas migrantes. Consulta disponibilidad y condiciones de ingreso por teléfono.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tijuana, Baja California",
+        "municipality": "Tijuana"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+526646825180",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://implan.tijuana.gob.mx/pdf/E-albergues.pdf",
+          "https://www.migrantes.com.mx/contacto"
+        ]
+      }
+    },
+    {
+      "id": "casa-tochan",
+      "organization": "Casa Tochán",
+      "category": "shelter-and-food",
+      "service": "Albergue para hombres con orientación paralegal y acompañamiento para la integración local.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de México",
+        "municipality": "Ciudad de México"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+525590321352",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 10:00 a 22:00",
+      "cost": null,
+      "requirements": "Se requiere cita previa.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/"
+        ]
+      }
+    },
+    {
+      "id": "cafemin",
+      "organization": "CAFEMIN",
+      "category": "shelter-and-food",
+      "service": "Alojamiento y acompañamiento para mujeres y familias migrantes, refugiadas o solicitantes de asilo.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de México",
+        "municipality": "Ciudad de México"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+525557594257",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 10:00 a 18:00",
+      "cost": null,
+      "requirements": "Se requiere cita previa.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/"
+        ]
+      }
+    },
+    {
+      "id": "casa-frida",
+      "organization": "Casa Frida",
+      "category": "shelter-and-food",
+      "service": "Refugio para personas LGBTIQ+.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de México",
+        "municipality": "Ciudad de México"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+525589260663",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+525589261694",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 09:00 a 18:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/"
+        ]
+      }
+    },
+    {
+      "id": "casa-migrante-saltillo",
+      "organization": "Casa del Migrante Saltillo",
+      "category": "shelter-and-food",
+      "service": "Albergue, comedor y orientación social para personas migrantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Saltillo, Coahuila",
+        "municipality": "Saltillo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+528441113273",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas, todos los días",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/"
+        ]
+      }
+    },
+    {
+      "id": "fm4-paso-libre",
+      "organization": "FM4 Paso Libre, Centro de Atención a Migrantes y Refugiados",
+      "category": "shelter-and-food",
+      "service": "Alimentación, higiene, descanso y acompañamiento psicológico, jurídico y médico.",
+      "coverage": {
+        "scope": "local",
+        "area": "Guadalajara, Jalisco",
+        "municipality": "Guadalajara"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+523313476034",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 09:00 a 17:00",
+      "cost": "Atención gratuita",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/",
+          "https://fm4pasolibre.org/"
+        ]
+      }
+    },
+    {
+      "id": "albergue-toribio-romo",
+      "organization": "Albergue para Migrantes Toribio Romo",
+      "category": "shelter-and-food",
+      "service": "Hospedaje, alimentación y atención médica básica.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santiago de Querétaro, Querétaro",
+        "municipality": "Querétaro"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+524422871195",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a domingo, de 08:00 a 18:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/"
+        ]
+      }
+    },
+    {
+      "id": "caritas-queretaro",
+      "organization": "Cáritas de Querétaro",
+      "category": "shelter-and-food",
+      "service": "Apoyo con alimentos, ropa y otros insumos. Puede orientar hacia un albergue.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santiago de Querétaro, Querétaro",
+        "municipality": "Querétaro"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+524422123319",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 09:00 a 16:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/"
+        ]
+      }
+    },
+    {
+      "id": "casa-clinica-lulu",
+      "organization": "Casa Clínica Lulu",
+      "category": "shelter-and-food",
+      "service": "Albergue de corta estancia con alimentos y apoyo en salud física y mental.",
+      "coverage": {
+        "scope": "local",
+        "area": "Reynosa, Tamaulipas",
+        "municipality": "Reynosa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+528995720307",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+528993063404",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a domingo, de 08:00 a 17:00",
+      "cost": null,
+      "requirements": "El WhatsApp recibe mensajes de texto.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/"
+        ]
+      }
+    },
+    {
+      "id": "el-refugio-tlaquepaque",
+      "organization": "El Refugio Casa del Migrante",
+      "category": "shelter-and-food",
+      "service": "Albergue para personas migrantes en San Pedro Tlaquepaque.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Pedro Tlaquepaque, Jalisco",
+        "municipality": "San Pedro Tlaquepaque"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+523336751475",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a domingo, de 07:00 a 22:30",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/"
+        ]
+      }
+    }
+  ]
+}

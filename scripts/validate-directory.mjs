@@ -11,7 +11,11 @@ const scopes = new Set(['national', 'regional', 'local'])
 const routes = new Set(['short-code', 'direct', 'switchboard'])
 const verificationMethods = new Set(['institutional-source', 'phone-confirmed'])
 const shortCodePattern = /^[1-9]\d{2,3}$/
-const guatemalaNumberPattern = /^\+502[2-7]\d{7}$/
+const countries = {
+  GT: { name: 'Guatemala', numberPattern: /^\+502[2-7]\d{7}$/ },
+  MX: { name: 'México', numberPattern: /^\+52[2-9]\d{9}$/ },
+}
+const mexicoShortCodePattern = /^0[1-9]\d$/
 const minimumResources = 20
 
 function requireValid(condition, message) {
@@ -36,18 +40,19 @@ function isCalendarDate(value) {
   return !Number.isNaN(date.getTime()) && date.toISOString().slice(0, 10) === value
 }
 
-function validateChannel(channel, location, channels) {
+function validateChannel(channel, location, channels, country) {
   requireValid(isObject(channel), `${location}: se esperaba un canal.`)
   const { type, number, routing, extension } = channel
   requireValid(type === 'phone' || type === 'whatsapp', `${location}: tipo inválido.`)
   requireValid(routes.has(routing), `${location}: enrutamiento inválido.`)
   requireValid(typeof number === 'string', `${location}: el número debe ser texto.`)
 
-  const isShortCode = shortCodePattern.test(number)
+  const isShortCode = shortCodePattern.test(number) || (country === 'MX' && mexicoShortCodePattern.test(number))
   const isPhone = type === 'phone'
   const validShortCode = isPhone && routing !== 'direct' && isShortCode
-  const validFullNumber = routing !== 'short-code' && guatemalaNumberPattern.test(number)
-  requireValid(validShortCode || validFullNumber, `${location}: número de Guatemala inválido.`)
+  const { name, numberPattern } = countries[country]
+  const validFullNumber = routing !== 'short-code' && numberPattern.test(number)
+  requireValid(validShortCode || validFullNumber, `${location}: número de ${name} inválido.`)
   requireValid(isPhone || routing === 'direct', `${location}: WhatsApp debe ser directo.`)
 
   if (extension !== undefined) {
@@ -60,7 +65,7 @@ function validateChannel(channel, location, channels) {
   channels.set(key, location)
 }
 
-function validateResource(resource, location, ids, channels) {
+function validateResource(resource, location, ids, channels, country) {
   requireValid(isObject(resource), `${location}: se esperaba una ficha.`)
   const { id, organization, category, service, coverage, verification } = resource
   requireValid(isText(id) && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id), `${location}: ID inválido.`)
@@ -86,27 +91,28 @@ function validateResource(resource, location, ids, channels) {
 
   requireValid(Array.isArray(resource.channels) && resource.channels.length > 0, `${id}: falta un canal de atención.`)
   resource.channels.forEach((channel, index) => {
-    validateChannel(channel, `${id}.channels[${index}]`, channels)
+    validateChannel(channel, `${id}.channels[${index}]`, channels, country)
   })
 }
 
-async function main() {
-  const path = new URL('../data/countries/gt/resources.json', import.meta.url)
+async function validateCatalog(country) {
+  const { name } = countries[country]
+  const path = new URL(`../data/countries/${country.toLowerCase()}/resources.json`, import.meta.url)
   const catalog = JSON.parse(await readFile(path, 'utf8'))
-  requireValid(isObject(catalog) && catalog.country === 'GT' && catalog.language === 'es', 'País o idioma inválido.')
+  requireValid(isObject(catalog) && catalog.country === country && catalog.language === 'es', `${name}: país o idioma inválido.`)
   const { resources } = catalog
-  requireValid(Array.isArray(resources) && resources.length >= minimumResources, `Se requieren al menos ${minimumResources} fichas.`)
+  requireValid(Array.isArray(resources) && resources.length >= minimumResources, `${name}: se requieren al menos ${minimumResources} fichas.`)
 
   const ids = new Set()
   const channels = new Map()
   resources.forEach((resource, index) => {
-    validateResource(resource, `resources[${index}]`, ids, channels)
+    validateResource(resource, `${country}.resources[${index}]`, ids, channels, country)
   })
-  console.log(`Guatemala: ${ids.size} fichas válidas y ${channels.size} canales de contacto.`)
+  console.log(`${name}: ${ids.size} fichas válidas y ${channels.size} canales de contacto.`)
 }
 
 try {
-  await main()
+  for (const country of Object.keys(countries)) await validateCatalog(country)
 } catch (error) {
   console.error(`Error al validar el directorio: ${error.message}`)
   process.exitCode = 1

@@ -1,4 +1,4 @@
-import { categories, type ContactChannel, type Resource } from '../shared/directory'
+import { categories, type ContactChannel, type Country, type Resource } from '../shared/directory'
 
 function contactLabel(channel: ContactChannel) {
   const action = channel.type === 'whatsapp'
@@ -20,7 +20,23 @@ const dateFormat = new Intl.DateTimeFormat('es', {
   timeZone: 'UTC',
 })
 
-export function ResourceCard({ resource }: Readonly<{ resource: Resource }>) {
+function reportHref(country: Country, resource: Resource) {
+  const params = new URLSearchParams({
+    title: `[Directorio] Corregir ${resource.organization}`,
+    body: [
+      `Ficha: ${country}/${resource.id}`,
+      '',
+      '¿Qué dato público del servicio cambió?',
+      '',
+      'Fuente pública que permite comprobarlo:',
+      '',
+      'Incluye solo información pública del servicio. Este reporte es público.',
+    ].join('\n'),
+  })
+  return `https://github.com/KevinYax11/SendaSafe/issues/new?${params}`
+}
+
+export function ResourceCard({ country, resource }: Readonly<{ country: Country; resource: Resource }>) {
   const { coverage, verification } = resource
 
   return (
@@ -31,7 +47,10 @@ export function ResourceCard({ resource }: Readonly<{ resource: Resource }>) {
       </div>
       <h3>{resource.organization}</h3>
       <p>{resource.service}</p>
-      {resource.hours && <p className="resource-hours">{resource.hours}</p>}
+      <dl className="resource-facts">
+        <div><dt>Horario</dt><dd>{resource.hours ?? 'Por confirmar'}</dd></div>
+        {resource.requirements && <div><dt>Requisitos</dt><dd>{resource.requirements}</dd></div>}
+      </dl>
       <div className="resource-actions">
         {resource.channels.map(channel => (
           <a key={`${channel.type}:${channel.number}:${channel.extension ?? ''}`} href={contactHref(channel)}>
@@ -42,9 +61,8 @@ export function ResourceCard({ resource }: Readonly<{ resource: Resource }>) {
       <details className="resource-details">
         <summary>Detalles y fuentes</summary>
         <dl>
-          <div><dt>Horario</dt><dd>{resource.hours ?? 'Por confirmar'}</dd></div>
           <div><dt>Costo</dt><dd>{resource.cost ?? 'Por confirmar'}</dd></div>
-          <div><dt>Requisitos</dt><dd>{resource.requirements ?? 'Por confirmar'}</dd></div>
+          {!resource.requirements && <div><dt>Requisitos</dt><dd>Por confirmar</dd></div>}
           <div>
             <dt>{verification.method === 'phone-confirmed' ? 'Confirmado por llamada' : 'Revisión de fuentes'}</dt>
             <dd><time dateTime={verification.reviewedOn}>{dateFormat.format(new Date(verification.reviewedOn))}</time></dd>
@@ -55,6 +73,12 @@ export function ResourceCard({ resource }: Readonly<{ resource: Resource }>) {
             <li key={source}><a href={source}>{new URL(source).hostname.replace(/^www\./, '')}</a></li>
           ))}
         </ul>
+        <div className="resource-report">
+          <a href={reportHref(country, resource)} aria-label={`Reportar un dato de ${resource.organization} en GitHub`}>
+            Reportar un dato en GitHub
+          </a>
+          <p>El reporte es público. Incluye solo datos del servicio.</p>
+        </div>
       </details>
     </article>
   )
