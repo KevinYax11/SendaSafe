@@ -6,6 +6,7 @@ A Spanish-language, mobile-first directory of emergency services, health resourc
 
 | Country | Resources | Catalog |
 | --- | ---: | --- |
+| Argentina | 45 | [AR](data/countries/ar/resources.json) |
 | Chile | 45 | [CL](data/countries/cl/resources.json) |
 | Colombia | 47 | [CO](data/countries/co/resources.json) |
 | Costa Rica | 46 | [CR](data/countries/cr/resources.json) |
@@ -16,6 +17,8 @@ A Spanish-language, mobile-first directory of emergency services, health resourc
 | Panama | 48 | [PA](data/countries/pa/resources.json) |
 
 The country selector also offers general guidance when a local directory is unavailable.
+
+Each published catalog has at least 45 resources and five distinct numbers in each category. The validator also enforces the expanded per-category totals in the original catalogs.
 
 ## Run locally
 
@@ -53,6 +56,7 @@ Try `/api/v1/countries/GT/resources?q=coban&category=migration-and-legal`. A cou
 
 Each resource card shows the sources, date and verification method. Initial reviews use public institutional records. The catalog stores contact details as strings to preserve domestic short codes, including leading zeroes.
 
+- Argentina. [National emergency services](https://www.argentina.gob.ar/node/9642), [ACNUR Argentina](https://help.unhcr.org/argentina/donde-y-como-solicitar-orientacion-y-ayuda-en-argentina/acnurysocios/) and [Bancos de Alimentos Argentina](https://redbda.org.ar/que-hacemos/).
 - Chile. [ACNUR Chile](https://help.unhcr.org/chile/ayuda-y-orientacion/), [Corporación de Asistencia Judicial de Tarapacá y Antofagasta](https://www.cajta.cl/index.php/nuestras-oficinas) and [Chilean emergency services](https://www.consulado.gob.cl/emergencias-en-chile).
 - Colombia. [ACNUR Colombia](https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/) and [Migración Colombia](https://www.migracioncolombia.gov.co/acerca-de-migracion-colombia/directorios/puntos-de-atencion).
 - Costa Rica. [Ministry of Labor](https://www.mtss.go.cr/dml/servicios/) and [ACNUR Costa Rica](https://help.unhcr.org/costarica/serviciosacnur).

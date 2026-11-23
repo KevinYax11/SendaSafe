@@ -89,15 +89,11 @@ const countries = {
       protection: 10,
     },
   },
-  CL: {
-    name: 'Chile',
-    numberPattern: /^(?:\+56[2-9]\d{8}|600\d{7})$/,
-    minimumResources: 45,
-    minimumNumbers: Object.fromEntries([...categories].map(category => [category, 5])),
-  },
+  AR: { name: 'Argentina', numberPattern: /^(?:\+549?[123]\d{9}|0800\d{7})$/ },
+  CL: { name: 'Chile', numberPattern: /^(?:\+56[2-9]\d{8}|600\d{7})$/ },
 }
 const mexicoShortCodePattern = /^0[1-9]\d$/
-const minimumResources = 20
+const minimumResources = 20 + categories.size * 5
 
 function requireValid(condition, message) {
   if (!condition) throw new Error(message)
@@ -177,19 +173,20 @@ function validateResource(resource, location, ids, channels, country) {
 }
 
 async function validateCatalog(country) {
-  const { name, minimumNumbers, minimumResources: requiredResources = minimumResources } = countries[country]
+  const { name, minimumNumbers } = countries[country]
   const path = new URL(`../data/countries/${country.toLowerCase()}/resources.json`, import.meta.url)
   const catalog = JSON.parse(await readFile(path, 'utf8'))
   requireValid(isObject(catalog) && catalog.country === country && catalog.language === 'es', `${name}: país o idioma inválido.`)
   const { resources } = catalog
-  requireValid(Array.isArray(resources) && resources.length >= requiredResources, `${name}: se requieren al menos ${requiredResources} fichas.`)
+  requireValid(Array.isArray(resources) && resources.length >= minimumResources, `${name}: se requieren al menos ${minimumResources} fichas.`)
 
   const ids = new Set()
   const channels = new Map()
   resources.forEach((resource, index) => {
     validateResource(resource, `${country}.resources[${index}]`, ids, channels, country)
   })
-  for (const [category, minimum] of Object.entries(minimumNumbers ?? {})) {
+  for (const category of categories) {
+    const minimum = minimumNumbers?.[category] ?? 5
     const numbers = new Set(resources
       .filter(resource => resource.category === category)
       .flatMap(resource => resource.channels.map(channel => channel.number)))

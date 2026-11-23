@@ -1,0 +1,1270 @@
+{
+  "country": "AR",
+  "language": "es",
+  "resources": [
+    {
+      "id": "central-emergencias",
+      "organization": "Central de Emergencias",
+      "category": "emergency",
+      "service": "Coordina la respuesta policial ante emergencias de seguridad.",
+      "coverage": {
+        "scope": "national",
+        "area": "Argentina",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "911",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/node/9642"
+        ]
+      }
+    },
+    {
+      "id": "bomberos",
+      "organization": "Bomberos",
+      "category": "emergency",
+      "service": "Atiende incendios, rescates y otras emergencias que requieren bomberos.",
+      "coverage": {
+        "scope": "national",
+        "area": "Argentina",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "100",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/node/9642"
+        ]
+      }
+    },
+    {
+      "id": "defensa-civil",
+      "organization": "Defensa Civil",
+      "category": "emergency",
+      "service": "Responde ante desastres y emergencias como derrumbes o inundaciones.",
+      "coverage": {
+        "scope": "national",
+        "area": "Argentina",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "103",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/node/9642"
+        ]
+      }
+    },
+    {
+      "id": "emergencia-ambiental",
+      "organization": "Emergencias Ambientales",
+      "category": "emergency",
+      "service": "Recibe avisos de posibles catástrofes ambientales.",
+      "coverage": {
+        "scope": "national",
+        "area": "Argentina",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "105",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/node/9642"
+        ]
+      }
+    },
+    {
+      "id": "prefectura",
+      "organization": "Prefectura Naval Argentina",
+      "category": "emergency",
+      "service": "Para pedir auxilio ante emergencias náuticas.",
+      "coverage": {
+        "scope": "national",
+        "area": "Argentina",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "106",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/node/9642"
+        ]
+      }
+    },
+    {
+      "id": "same",
+      "organization": "SAME",
+      "category": "emergency",
+      "service": "Solicita una ambulancia ante una emergencia médica.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Ciudad de Buenos Aires y localidades de la provincia de Buenos Aires",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "107",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/node/9642"
+        ]
+      }
+    },
+    {
+      "id": "salud-mental-nacional",
+      "organization": "Línea Nacional de Orientación y Apoyo en Salud Mental",
+      "category": "health-and-psychosocial",
+      "service": "Escucha, orienta y articula atención ante urgencias de salud mental.",
+      "coverage": {
+        "scope": "national",
+        "area": "Argentina",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "08009990091",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/node/513585"
+        ]
+      }
+    },
+    {
+      "id": "salud-sexual",
+      "organization": "0800 Salud Sexual",
+      "category": "health-and-psychosocial",
+      "service": "Canal de consulta sobre salud sexual y reproductiva y acceso a estos servicios.",
+      "coverage": {
+        "scope": "national",
+        "area": "Argentina",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "08002223444",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/salud/0800saludresponde"
+        ]
+      }
+    },
+    {
+      "id": "alvear",
+      "organization": "Hospital de Emergencias Psiquiátricas Torcuato de Alvear",
+      "category": "health-and-psychosocial",
+      "service": "Hospital público especializado en urgencias psiquiátricas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Buenos Aires",
+        "municipality": "Ciudad de Buenos Aires"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+541145210273",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta cómo acceder al servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://buenosaires.gob.ar/salud/hospitales-y-establecimientos-de-salud/hospitales-especializados"
+        ]
+      }
+    },
+    {
+      "id": "borda",
+      "organization": "Hospital de Salud Mental José T. Borda",
+      "category": "health-and-psychosocial",
+      "service": "Hospital público con atención especializada en salud mental.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Buenos Aires",
+        "municipality": "Ciudad de Buenos Aires"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+541143067704",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta cómo acceder al servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://buenosaires.gob.ar/salud/hospitales-y-establecimientos-de-salud/hospitales-especializados"
+        ]
+      }
+    },
+    {
+      "id": "moyano",
+      "organization": "Hospital de Salud Mental Braulio Moyano",
+      "category": "health-and-psychosocial",
+      "service": "Hospital público con atención especializada en salud mental.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Buenos Aires",
+        "municipality": "Ciudad de Buenos Aires"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+541143013655",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta cómo acceder al servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://buenosaires.gob.ar/salud/hospitales-y-establecimientos-de-salud/hospitales-especializados"
+        ]
+      }
+    },
+    {
+      "id": "tobar-garcia",
+      "organization": "Hospital de Salud Mental Infanto-Juvenil Tobar García",
+      "category": "health-and-psychosocial",
+      "service": "Brinda atención de salud mental a niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Buenos Aires",
+        "municipality": "Ciudad de Buenos Aires"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+541143056178",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta cómo acceder al servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://buenosaires.gob.ar/salud/hospitales-y-establecimientos-de-salud/hospitales-especializados"
+        ]
+      }
+    },
+    {
+      "id": "talleres-rehabilitacion",
+      "organization": "Talleres de Rehabilitación en Salud Mental",
+      "category": "health-and-psychosocial",
+      "service": "Ofrece servicios de rehabilitación en salud mental.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Buenos Aires",
+        "municipality": "Ciudad de Buenos Aires"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+541143015571",
+          "routing": "switchboard",
+          "extension": "301"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta cómo acceder al servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://buenosaires.gob.ar/salud/hospitales-y-establecimientos-de-salud/hospitales-especializados"
+        ]
+      }
+    },
+    {
+      "id": "marie-curie",
+      "organization": "Hospital Municipal de Oncología María Curie",
+      "category": "health-and-psychosocial",
+      "service": "Hospital público especializado en atención de pacientes con cáncer.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Buenos Aires",
+        "municipality": "Ciudad de Buenos Aires"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+541149821731",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta cómo acceder al servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://buenosaires.gob.ar/salud/hospitales-y-establecimientos-de-salud/hospitales-especializados"
+        ]
+      }
+    },
+    {
+      "id": "muniz",
+      "organization": "Hospital de Infecciosas Francisco J. Muñiz",
+      "category": "health-and-psychosocial",
+      "service": "Hospital público especializado en enfermedades infecciosas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Buenos Aires",
+        "municipality": "Ciudad de Buenos Aires"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+541143042180",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta cómo acceder al servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://buenosaires.gob.ar/salud/hospitales-y-establecimientos-de-salud/hospitales-especializados"
+        ]
+      }
+    },
+    {
+      "id": "sarda",
+      "organization": "Hospital Materno Infantil Ramón Sardá",
+      "category": "health-and-psychosocial",
+      "service": "Hospital público con atención materna y neonatal.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Buenos Aires",
+        "municipality": "Ciudad de Buenos Aires"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+541149433567",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta cómo acceder al servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://buenosaires.gob.ar/salud/hospitales-y-establecimientos-de-salud/hospitales-especializados"
+        ]
+      }
+    },
+    {
+      "id": "buenos-aires-presente",
+      "organization": "Línea 108 — Red de Atención",
+      "category": "shelter-and-food",
+      "service": "Recibe pedidos de asistencia y deriva a servicios para personas en situación de calle.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Buenos Aires",
+        "municipality": "Ciudad de Buenos Aires"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "108",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://buenosaires.gob.ar/desarrollohumanoyhabitat/red-de-atencion/red-de-atencion"
+        ]
+      }
+    },
+    {
+      "id": "alojamiento-cordoba",
+      "organization": "Municipalidad de Córdoba — Alojamiento y acompañamiento",
+      "category": "shelter-and-food",
+      "service": "Canal para informar sobre personas en situación de calle y solicitar valoración municipal.",
+      "coverage": {
+        "scope": "local",
+        "area": "Córdoba",
+        "municipality": "Córdoba"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+5493515950589",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://cordoba.gob.ar/alojamiento-a-personas-en-situacion-de-calle/"
+        ]
+      }
+    },
+    {
+      "id": "emergencia-social-mendoza",
+      "organization": "Emergencia Social — Ciudad de Mendoza",
+      "category": "shelter-and-food",
+      "service": "Orienta y acompaña ante emergencias sociales o habitacionales.",
+      "coverage": {
+        "scope": "local",
+        "area": "Mendoza",
+        "municipality": "Mendoza"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+5492614694546",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://ciudaddemendoza.gob.ar/area-municipal/emergencia-social/"
+        ]
+      }
+    },
+    {
+      "id": "banco-buenos-aires",
+      "organization": "Banco de Alimentos Buenos Aires",
+      "category": "shelter-and-food",
+      "service": "Contacto para comedores y organizaciones que distribuyen apoyo alimentario.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tigre, Buenos Aires",
+        "municipality": "Tigre"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+541162441371",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta las condiciones de vinculación para organizaciones.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bancodealimentos.org.ar/contacto/",
+          "https://www.bancodealimentos.org.ar/inscribi-a-tu-organizacion-social/"
+        ]
+      }
+    },
+    {
+      "id": "banco-cordoba",
+      "organization": "Fundación Banco de Alimentos Córdoba",
+      "category": "shelter-and-food",
+      "service": "Contacto para comedores y organizaciones que distribuyen apoyo alimentario.",
+      "coverage": {
+        "scope": "local",
+        "area": "Córdoba",
+        "municipality": "Córdoba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+543514969221",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta las condiciones de vinculación para organizaciones.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://bancodealimentoscba.org.ar/contacto/",
+          "https://bancodealimentoscba.org.ar/suma-a-tu-comedor/"
+        ]
+      }
+    },
+    {
+      "id": "banco-rosario",
+      "organization": "Banco de Alimentos Rosario",
+      "category": "shelter-and-food",
+      "service": "Contacto para comedores y organizaciones que distribuyen apoyo alimentario.",
+      "coverage": {
+        "scope": "local",
+        "area": "Rosario, Santa Fe",
+        "municipality": "Rosario"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+543416368886",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta las condiciones de vinculación para organizaciones.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://barosario.org.ar/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "banco-berisso",
+      "organization": "Banco Alimentario de La Plata",
+      "category": "shelter-and-food",
+      "service": "Contacto para comedores y organizaciones que distribuyen apoyo alimentario.",
+      "coverage": {
+        "scope": "local",
+        "area": "Berisso, Buenos Aires",
+        "municipality": "Berisso"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+542214224988",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta las condiciones de vinculación para organizaciones.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://redbda.org.ar/que-hacemos/"
+        ]
+      }
+    },
+    {
+      "id": "banco-mendoza",
+      "organization": "Banco de Alimentos Mendoza",
+      "category": "shelter-and-food",
+      "service": "Contacto para comedores y organizaciones que distribuyen apoyo alimentario.",
+      "coverage": {
+        "scope": "local",
+        "area": "Godoy Cruz, Mendoza",
+        "municipality": "Godoy Cruz"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+542614244044",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta las condiciones de vinculación para organizaciones.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://redbda.org.ar/que-hacemos/"
+        ]
+      }
+    },
+    {
+      "id": "banco-neuquen",
+      "organization": "Banco Patagónico de Alimentos",
+      "category": "shelter-and-food",
+      "service": "Contacto para comedores y organizaciones que distribuyen apoyo alimentario.",
+      "coverage": {
+        "scope": "local",
+        "area": "Neuquén",
+        "municipality": "Neuquén"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+542994875431",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta las condiciones de vinculación para organizaciones.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://redbda.org.ar/que-hacemos/"
+        ]
+      }
+    },
+    {
+      "id": "acnur",
+      "organization": "ACNUR Argentina",
+      "category": "migration-and-legal",
+      "service": "Orienta y deriva a servicios de apoyo para personas refugiadas y solicitantes de asilo.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Buenos Aires",
+        "municipality": "Ciudad de Buenos Aires"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+541140141600",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/argentina/donde-y-como-solicitar-orientacion-y-ayuda-en-argentina/acnurysocios/"
+        ]
+      }
+    },
+    {
+      "id": "mirares",
+      "organization": "Fundación Mirares",
+      "category": "migration-and-legal",
+      "service": "Brinda orientación a personas refugiadas y migrantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Buenos Aires",
+        "municipality": "Ciudad de Buenos Aires"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+5491136551003",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/argentina/donde-y-como-solicitar-orientacion-y-ayuda-en-argentina/acnurysocios/"
+        ]
+      }
+    },
+    {
+      "id": "caref",
+      "organization": "Comisión Argentina para Refugiados y Migrantes — CAREF",
+      "category": "migration-and-legal",
+      "service": "Ofrece orientación social y migratoria a personas refugiadas y migrantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Buenos Aires",
+        "municipality": "Ciudad de Buenos Aires"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+5491157973566",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/argentina/donde-y-como-solicitar-orientacion-y-ayuda-en-argentina/acnurysocios/"
+        ]
+      }
+    },
+    {
+      "id": "centro-integracion-migrantes",
+      "organization": "Centro de Integración para Personas Migrantes y Refugiadas",
+      "category": "migration-and-legal",
+      "service": "Acompaña trámites migratorios y orienta sobre acceso a derechos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Buenos Aires",
+        "municipality": "Ciudad de Buenos Aires"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+5491136979655",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "El WhatsApp admite mensajes de texto.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/derechoshumanos/promocion/centros-de-integracion-para-personas-migrantes-y-refugiadas"
+        ]
+      }
+    },
+    {
+      "id": "conare",
+      "organization": "Comisión Nacional para los Refugiados",
+      "category": "migration-and-legal",
+      "service": "Contacto de la Secretaría Ejecutiva para orientación sobre el trámite de refugio.",
+      "coverage": {
+        "scope": "national",
+        "area": "Argentina",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+541143170200",
+          "routing": "switchboard",
+          "extension": "74022"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/migraciones/comision-nacional-para-los-refugiados/informacion-general-y-contacto"
+        ]
+      }
+    },
+    {
+      "id": "direccion-migraciones",
+      "organization": "Dirección Nacional de Migraciones",
+      "category": "migration-and-legal",
+      "service": "Contacto para orientación sobre radicación y trámites migratorios.",
+      "coverage": {
+        "scope": "national",
+        "area": "Argentina",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+541143170234",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/sites/default/files/guiadeinformacion_personasmigrantes_0.pdf"
+        ]
+      }
+    },
+    {
+      "id": "defensoria-refugio",
+      "organization": "Comisión para la Asistencia Integral y Protección al Refugiado y Peticionante de Refugio",
+      "category": "migration-and-legal",
+      "service": "Orienta sobre acceso a asistencia jurídica en trámites de refugio.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Buenos Aires",
+        "municipality": "Ciudad de Buenos Aires"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+541170904920",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/migraciones/comision-nacional-para-los-refugiados/direcciones-utiles"
+        ]
+      }
+    },
+    {
+      "id": "adra",
+      "organization": "Centro de Apoyo al Refugiado — ADRA Argentina",
+      "category": "migration-and-legal",
+      "service": "Brinda información y apoyo a personas migrantes, refugiadas y solicitantes de asilo.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Buenos Aires",
+        "municipality": "Ciudad de Buenos Aires"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+5491127813915",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://adra.org.ar/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "capem-cordoba",
+      "organization": "Centro de Atención a Personas Migrantes y Refugiadas — CAPeM",
+      "category": "migration-and-legal",
+      "service": "Atención municipal para orientación y acceso a servicios a personas migrantes y refugiadas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Córdoba",
+        "municipality": "Córdoba"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+5493513037186",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Atención presencial de lunes a viernes, de 8:00 a 14:00.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://capem.cordoba.gob.ar/2026/11/17/capem-estara-presente-en-japon-en-cordoba-con-un-espacio-de-informacion-y-orientacion-para-personas-migrantes-y-refugiadas/"
+        ]
+      }
+    },
+    {
+      "id": "defensoria-pueblo-caba",
+      "organization": "Defensoría del Pueblo de la Ciudad de Buenos Aires",
+      "category": "migration-and-legal",
+      "service": "Orienta a personas migrantes sobre sus derechos y recibe consultas y reclamos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Buenos Aires",
+        "municipality": "Ciudad de Buenos Aires"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "08009993722",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://defensoria.org.ar/derechos/grupos-prioritarios/personas-migrantes-2/"
+        ]
+      }
+    },
+    {
+      "id": "linea-144",
+      "organization": "Línea 144",
+      "category": "protection",
+      "service": "Orientación y contención ante violencia por motivos de género.",
+      "coverage": {
+        "scope": "national",
+        "area": "Argentina",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "144",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/aplicaciones/linea-144-atencion-mujeres-y-LGBTI"
+        ]
+      }
+    },
+    {
+      "id": "linea-137",
+      "organization": "Línea 137",
+      "category": "protection",
+      "service": "Brinda apoyo y acompañamiento ante violencia familiar, sexual o acoso digital a menores.",
+      "coverage": {
+        "scope": "national",
+        "area": "Argentina",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "137",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/justicia/violencia-familiar-sexual"
+        ]
+      }
+    },
+    {
+      "id": "linea-145",
+      "organization": "Línea 145",
+      "category": "protection",
+      "service": "Recibe denuncias por sospecha de trata y explotación de personas.",
+      "coverage": {
+        "scope": "national",
+        "area": "Argentina",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "145",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/seguridad/linea-145"
+        ]
+      }
+    },
+    {
+      "id": "linea-149",
+      "organization": "Centro Nacional de Asistencia a las Víctimas de Delitos",
+      "category": "protection",
+      "service": "Brinda contención y orientación a víctimas de delitos.",
+      "coverage": {
+        "scope": "national",
+        "area": "Argentina",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "149",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": null,
+      "requirements": "Selecciona la opción 1 para asistencia general.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/sites/default/files/2018/05/12_2025_-_lineas_de_atencion_a_victimas_de_violencias_137-144-149.pdf"
+        ]
+      }
+    },
+    {
+      "id": "linea-102",
+      "organization": "Línea 102",
+      "category": "protection",
+      "service": "Orienta sobre los derechos de niñas, niños y adolescentes y recibe consultas ante posibles vulneraciones.",
+      "coverage": {
+        "scope": "national",
+        "area": "Argentina",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "102",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/capital-humano/familia/analisis-de-la-informacion-social/area-central-linea-102"
+        ]
+      }
+    },
+    {
+      "id": "linea-142",
+      "organization": "Registro Nacional de Chicas y Chicos Extraviados",
+      "category": "protection",
+      "service": "Recibe avisos y consultas sobre chicas y chicos extraviados.",
+      "coverage": {
+        "scope": "national",
+        "area": "Argentina",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "142",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.argentina.gob.ar/justicia/chicosextraviados"
+        ]
+      }
+    },
+    {
+      "id": "telefono-verde-rosario",
+      "organization": "Teléfono Verde — Municipalidad de Rosario",
+      "category": "protection",
+      "service": "Asesoramiento y acompañamiento ante violencia de género.",
+      "coverage": {
+        "scope": "local",
+        "area": "Rosario, Santa Fe",
+        "municipality": "Rosario"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "08004440420",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.rosario.gob.ar/inicio/telefono-verde"
+        ]
+      }
+    },
+    {
+      "id": "polo-mujer-cordoba",
+      "organization": "Polo Integral de la Mujer — Córdoba",
+      "category": "protection",
+      "service": "Orienta y conecta con atención provincial cuando hay violencia de género.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Córdoba",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "08008889898",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mujer.cba.gov.ar/wp-content/uploads/2022/05/Red-de-Acompanantes-Comunitarias-contra-las-violenciasde-genero-1.pdf"
+        ]
+      }
+    },
+    {
+      "id": "proteger-mayores",
+      "organization": "Programa Proteger — Ciudad de Buenos Aires",
+      "category": "protection",
+      "service": "Orienta y acompaña a personas mayores que viven abuso, maltrato o violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Buenos Aires",
+        "municipality": "Ciudad de Buenos Aires"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "08002224567",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 9:00 a 16:00.",
+      "cost": null,
+      "requirements": "Para residentes de la ciudad de 60 años o más.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://static.buenosaires.gob.ar/sites/default/files/2026-09/20260921_GUIA%20DE%20SERVICIOS%20SOCIALES%202026.pdf"
+        ]
+      }
+    },
+    {
+      "id": "genero-diversidad-mendoza",
+      "organization": "Dirección de Género y Diversidad de Mendoza",
+      "category": "protection",
+      "service": "Orientación y asistencia ante violencia por motivos de género.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Mendoza",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+542612629249",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mpfmza.jus.mendoza.gov.ar/wp-content/uploads/2025/02/GRILLA-DE-RECURSOS-telefonosdirecciones-2024_FINAL.pdf"
+        ]
+      }
+    }
+  ]
+}
