@@ -11,7 +11,8 @@
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "next typegen && tsc --noEmit",
-    "validate:directory": "node scripts/validate-directory.mjs"
+    "validate:directory": "node scripts/validate-directory.mjs",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@libsql/client": "^0.18.0",
@@ -21,6 +22,7 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.65.1",
     "@tailwindcss/postcss": "^4.0.0",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",

@@ -41,14 +41,53 @@ jobs:
         with:
           node-version: "22"
       - run: docker build --tag sendasafe:ci .
-      - run: docker run --detach --name sendasafe-ci --publish 127.0.0.1:3000:3000 sendasafe:ci
+      - run: docker run --detach --name sendasafe-ci --publish 127.0.0.1:3000:3000 --volume sendasafe-ci-data:/app/storage sendasafe:ci
       - name: Wait for the container API
         run: curl --fail --silent --show-error --max-time 5 --retry 20 --retry-delay 2 --retry-max-time 45 --retry-all-errors http://127.0.0.1:3000/api/v1/countries --output /dev/null
       - run: node scripts/check-deployment.mjs
+      - name: Verify SQLite survives container replacement
+        run: |
+          docker exec sendasafe-ci node -e '
+            const { DatabaseSync } = require("node:sqlite");
+            const db = new DatabaseSync("/app/storage/sendasafe.sqlite");
+            db.prepare("INSERT INTO community_comments (country, body, status, created_at) VALUES (?, ?, ?, ?)").run("GT", "Comentario de persistencia de CI", "published", new Date().toISOString());
+            db.close();
+          '
+          docker rm --force sendasafe-ci
+          docker run --detach --name sendasafe-ci --publish 127.0.0.1:3000:3000 --volume sendasafe-ci-data:/app/storage sendasafe:ci
+          curl --fail --silent --show-error --max-time 5 --retry 20 --retry-delay 2 --retry-max-time 45 --retry-all-errors 'http://127.0.0.1:3000/community?country=GT' --output /tmp/sendasafe-ci-community.html
+          node -e 'require("node:assert/strict").match(require("node:fs").readFileSync("/tmp/sendasafe-ci-community.html", "utf8"), /Comentario de persistencia de CI/)'
       - name: Verify the Vercel preview without a database
         run: |
           docker run --detach --name sendasafe-readonly-ci --publish 127.0.0.1:3001:3000 --env VERCEL=1 sendasafe:ci
           curl --fail --silent --show-error --max-time 5 --retry 20 --retry-delay 2 --retry-max-time 45 --retry-all-errors http://127.0.0.1:3001/api/v1/countries --output /dev/null
-          node scripts/check-deployment.mjs http://127.0.0.1:3001
+          node scripts/check-deployment.mjs http://127.0.0.1:3001 --read-only
       - if: failure()
-        run: docker logs sendasafe-ci
+        run: |
+          docker logs sendasafe-ci || true
+          docker logs sendasafe-readonly-ci || true
+
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      NEXT_TELEMETRY_DISABLED: "1"
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build
+      - run: npm run test:e2e
+      - if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: playwright-report
+          path: playwright-report/
+          if-no-files-found: ignore
+          retention-days: 7

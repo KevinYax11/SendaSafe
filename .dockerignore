@@ -9,3 +9,5 @@ out
 *.log
 *.tsbuildinfo
 storage
+playwright-report
+test-results

@@ -1,0 +1,63 @@
+import { expect, test } from '@playwright/test'
+
+test('mobile city search offers nearby contacts and preserves native calling', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 })
+  await page.goto('/')
+  const country = page.getByLabel('¿En qué país estás ahora?')
+  await expect(country.locator('option[value="GT"]')).toHaveText('Guatemala')
+  await country.selectOption('GT')
+  await page.getByRole('searchbox', { name: 'Buscar recursos' }).fill('Salama')
+  await expect(page.getByText('Resultados para Salamá, Baja Verapaz')).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Recursos más cercanos' })).toBeVisible()
+  const rabinal = page.getByRole('article').filter({ has: page.getByRole('heading', { name: /CAIMUS Rabinal/ }) })
+  await expect(rabinal.getByRole('link', { name: /^Llamar/ })).toHaveAttribute('href', /^tel:\+502\d+$/)
+  await expect(page.getByRole('heading', { name: 'Cobertura regional o nacional' })).toBeVisible()
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true)
+
+  const guidance = page.getByRole('region', { name: 'Orientación general' })
+  await guidance.getByRole('link', { name: 'Ver emergencias en Guatemala' }).click()
+  await expect(page.getByLabel('Tipo de ayuda')).toHaveValue('emergency')
+  await guidance.getByRole('link', { name: 'Ir a la descarga del directorio' }).click()
+  await expect(page).toHaveURL(/#guardar-directorio$/)
+})
+
+test('the map locates the country and exposes grouped and unpinned resources', async ({ page, context }) => {
+  await context.grantPermissions(['geolocation'])
+  await context.setGeolocation({ latitude: 15.4703, longitude: -90.3745 })
+  await page.goto('/map')
+  await expect(page.getByRole('img', { name: /^Mapa mundial/ })).toBeVisible()
+  await page.getByRole('button', { name: 'Usar mi ubicación' }).click()
+  await expect(page.getByText('Ubicación aplicada en Guatemala.')).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Recursos de Guatemala' })).toBeVisible()
+
+  const cards = page.locator('.resource-grid article')
+  await expect(cards).toHaveCount(49)
+  const pin = page.getByRole('button', { name: /^Guatemala City, Guatemala, 12 recursos$/ })
+  await pin.click()
+  await expect(pin).toHaveAttribute('aria-pressed', 'true')
+  await expect(cards).toHaveCount(12)
+  await page.getByLabel('Mostrar recursos').selectOption('unmapped')
+  await expect(cards).toHaveCount(16)
+  await page.getByLabel('Mostrar recursos').selectOption('all')
+  await expect(cards).toHaveCount(49)
+})
+
+test('a downloaded directory reopens and searches with the network disabled', async ({ page, context }) => {
+  await page.goto('/')
+  await page.evaluate(async () => { await navigator.serviceWorker.ready })
+  await page.getByText('Instalar en tu dispositivo', { exact: true }).click()
+  for (const platform of ['Android · Chrome', 'iPhone o iPad · Safari', 'Computadora · Chrome']) {
+    const guide = page.locator('.install-platforms details').filter({ has: page.getByText(platform, { exact: true }) })
+    await guide.locator('summary').click()
+    await expect(guide.getByRole('listitem')).toHaveCount(3)
+  }
+  await page.getByLabel('¿En qué país estás ahora?').selectOption('GT')
+  await page.getByRole('button', { name: 'Descargar para usar sin conexión' }).click()
+  await expect(page.getByText(/^Guardado el /)).toBeVisible()
+  await context.setOffline(true)
+  await page.reload()
+  await expect(page.getByText(/^Copia sin conexión del /)).toBeVisible()
+  await page.getByRole('searchbox', { name: 'Buscar recursos' }).fill('Coban')
+  await expect(page.getByRole('heading', { name: 'En el municipio' })).toBeVisible()
+  await expect(page.getByRole('link', { name: 'Llamar al +502 6675 6687' })).toHaveAttribute('href', 'tel:+50266756687')
+})
