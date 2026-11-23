@@ -35,7 +35,17 @@ const countries = {
     },
   },
   PA: { name: 'Panamá', numberPattern: /^\+507(?:[2-9]\d{6}|6\d{7})$/ },
-  CR: { name: 'Costa Rica', numberPattern: /^(?:\+506[2-8]\d{7}|800\d{7})$/ },
+  CR: {
+    name: 'Costa Rica',
+    numberPattern: /^(?:\+506[2-8]\d{7}|800\d{7})$/,
+    minimumNumbers: {
+      emergency: 6,
+      'health-and-psychosocial': 8,
+      'shelter-and-food': 6,
+      'migration-and-legal': 19,
+      protection: 17,
+    },
+  },
   SV: { name: 'El Salvador', numberPattern: /^\+503[267]\d{7}$/ },
   HN: { name: 'Honduras', numberPattern: /^\+504[2389]\d{7}$/ },
   MX: {

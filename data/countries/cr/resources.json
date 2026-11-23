@@ -644,6 +644,718 @@
           "https://www.inamu.go.cr/web/inamu/contacto"
         ]
       }
+    },
+    {
+      "id": "bomberos-alajuela",
+      "organization": "Estación de Bomberos de Alajuela",
+      "category": "emergency",
+      "service": "Contacto de la estación local del Benemérito Cuerpo de Bomberos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Alajuela",
+        "municipality": "Alajuela"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50624406521",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas.",
+      "cost": null,
+      "requirements": "Para despacho de emergencias, marca 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bomberos.go.cr/wp-content/uploads/2023/07/Directorio-Institucional.pdf"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-cartago",
+      "organization": "Estación de Bomberos de Cartago",
+      "category": "emergency",
+      "service": "Contacto de la estación local del Benemérito Cuerpo de Bomberos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cartago",
+        "municipality": "Cartago"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50625912890",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas.",
+      "cost": null,
+      "requirements": "Para despacho de emergencias, marca 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bomberos.go.cr/wp-content/uploads/2023/07/Directorio-Institucional.pdf"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-esparza",
+      "organization": "Estación de Bomberos de Esparza",
+      "category": "emergency",
+      "service": "Contacto de la estación local del Benemérito Cuerpo de Bomberos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Esparza, Puntarenas",
+        "municipality": "Esparza"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50626355121",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas.",
+      "cost": null,
+      "requirements": "Para despacho de emergencias, marca 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bomberos.go.cr/wp-content/uploads/2023/07/Directorio-Institucional.pdf"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-canas",
+      "organization": "Estación de Bomberos de Cañas",
+      "category": "emergency",
+      "service": "Contacto de la estación local del Benemérito Cuerpo de Bomberos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cañas, Guanacaste",
+        "municipality": "Cañas"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50626690072",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas.",
+      "cost": null,
+      "requirements": "Para despacho de emergencias, marca 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bomberos.go.cr/wp-content/uploads/2023/07/Directorio-Institucional.pdf"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-bribri",
+      "organization": "Estación de Bomberos de Bribri",
+      "category": "emergency",
+      "service": "Contacto de la estación local del Benemérito Cuerpo de Bomberos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Talamanca, Limón",
+        "municipality": "Talamanca"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50627510347",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas.",
+      "cost": null,
+      "requirements": "Para despacho de emergencias, marca 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bomberos.go.cr/wp-content/uploads/2023/07/Directorio-Institucional.pdf"
+        ]
+      }
+    },
+    {
+      "id": "psicologia-latina",
+      "organization": "Clínica de Psicología de la Universidad Latina",
+      "category": "health-and-psychosocial",
+      "service": "Ofrece atención psicológica, valoración psicodiagnóstica y terapia para personas con recursos limitados.",
+      "coverage": {
+        "scope": "local",
+        "area": "Montes de Oca, San José",
+        "municipality": "Montes de Oca"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50622076142",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito para la población atendida.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.ulatina.ac.cr/servicios-a-la-comunidad/"
+        ]
+      }
+    },
+    {
+      "id": "psicologia-cusi",
+      "organization": "Centro Universitario de Servicio e Investigación — UCACIS",
+      "category": "health-and-psychosocial",
+      "service": "Brinda consultas de psicología bajo supervisión docente.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santo Domingo, Heredia",
+        "municipality": "Santo Domingo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50622391603",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+50688667611",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta el costo y agenda una cita.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://ucacis.ac.cr/atencionclinica/",
+          "https://ucacis.ac.cr/ubicacion/"
+        ]
+      }
+    },
+    {
+      "id": "clinica-los-cipreses",
+      "organization": "Clínica de Salud Integral Los Cipreses — UACA",
+      "category": "health-and-psychosocial",
+      "service": "Clínica universitaria con consultas de psicología y otros servicios de salud.",
+      "coverage": {
+        "scope": "local",
+        "area": "Curridabat, San José",
+        "municipality": "Curridabat"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50622729129",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.uaca.ac.cr/clinica-de-salud-integral-los-cipreses/"
+        ]
+      }
+    },
+    {
+      "id": "psicologia-ucr-occidente",
+      "organization": "Servicio de Psicología de la UCR — Sede de Occidente",
+      "category": "health-and-psychosocial",
+      "service": "Ofrece valoración y apoyo psicológico para estudiantes que necesitan acompañamiento.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Ramón, Alajuela",
+        "municipality": "San Ramón"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50625117193",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Completa el formulario de solicitud de la sede.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.so.ucr.ac.cr/es/tramite/solicitud-de-atencion-en-servicio-de-psicologia"
+        ]
+      }
+    },
+    {
+      "id": "psicologia-cuc",
+      "organization": "Psicología Clínica del Colegio Universitario de Cartago",
+      "category": "health-and-psychosocial",
+      "service": "Servicio de psicología clínica para la comunidad institucional.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cartago",
+        "municipality": "Cartago"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50625506222",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Solicita cita y confirma los requisitos con Bienestar Estudiantil.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cuc.ac.cr/asuntos-estudiantiles/bienestar-estudiantil-y-calidad-de-vida/"
+        ]
+      }
+    },
+    {
+      "id": "dormitorio-municipal-san-jose",
+      "organization": "Centro Dormitorio Municipal de San José",
+      "category": "shelter-and-food",
+      "service": "Espacio para pernoctar y recibir orientación social si vives en situación de calle.",
+      "coverage": {
+        "scope": "local",
+        "area": "San José",
+        "municipality": "San José"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50622483654",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta cupo e ingreso con el centro.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.msj.go.cr/servciud/servsoci/Paginas/centro_dormitorio_municipal.aspx"
+        ]
+      }
+    },
+    {
+      "id": "dormitorio-solidario-magis",
+      "organization": "Dormitorio Solidario — Fundación Magis",
+      "category": "shelter-and-food",
+      "service": "Alojamiento temporal, alimentación y acompañamiento para personas en situación de calle.",
+      "coverage": {
+        "scope": "local",
+        "area": "San José",
+        "municipality": "San José"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+50685920001",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Confirma disponibilidad antes de acudir.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://fundacionmagiscr.org/servicios/"
+        ]
+      }
+    },
+    {
+      "id": "casa-hogar-san-jose",
+      "organization": "Asociación Casa Hogar San José",
+      "category": "shelter-and-food",
+      "service": "Consulta de internamiento y atención residencial para personas en situación de calle que necesitan rehabilitación.",
+      "coverage": {
+        "scope": "local",
+        "area": "San José",
+        "municipality": "San José"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50622321115",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 8:00 a 17:00.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.pscaritasarquisj.org/",
+          "https://iafa.go.cr/wp-content/uploads/2026/11/11.DIRECTORIO-NOVIEMBRE-2026.pdf"
+        ]
+      }
+    },
+    {
+      "id": "albergue-buen-samaritano",
+      "organization": "Albergue Hogar El Buen Samaritano",
+      "category": "shelter-and-food",
+      "service": "Ofrece albergue y acompañamiento a personas adultas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Alajuela",
+        "municipality": "Alajuela"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50624437661",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta cupo y condiciones de ingreso.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://iafa.go.cr/wp-content/uploads/2026/11/11.DIRECTORIO-NOVIEMBRE-2026.pdf"
+        ]
+      }
+    },
+    {
+      "id": "hogar-esperanza-cartago",
+      "organization": "Hogar Nuestra Señora de la Esperanza",
+      "category": "shelter-and-food",
+      "service": "Albergue para personas adultas con servicios de reducción de riesgos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cartago",
+        "municipality": "Cartago"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50625534048",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Llama para confirmar disponibilidad y criterios de ingreso.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://iafa.go.cr/wp-content/uploads/2026/11/11.DIRECTORIO-NOVIEMBRE-2026.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cmm-la-cruz",
+      "organization": "Centro Municipal para Migrantes de La Cruz",
+      "category": "migration-and-legal",
+      "service": "Orienta a personas migrantes y refugiadas sobre trámites y acceso a servicios municipales.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Cruz, Guanacaste",
+        "municipality": "La Cruz"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50663435208",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mtss.go.cr/dml/servicios/"
+        ]
+      }
+    },
+    {
+      "id": "cmm-upala",
+      "organization": "Centro Municipal para Migrantes de Upala",
+      "category": "migration-and-legal",
+      "service": "Orienta a personas migrantes y refugiadas sobre trámites y acceso a servicios municipales.",
+      "coverage": {
+        "scope": "local",
+        "area": "Upala, Alajuela",
+        "municipality": "Upala"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50661213043",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mtss.go.cr/dml/servicios/"
+        ]
+      }
+    },
+    {
+      "id": "cmm-talamanca",
+      "organization": "Centro Municipal para Migrantes de Talamanca",
+      "category": "migration-and-legal",
+      "service": "Orienta a personas migrantes y refugiadas sobre trámites y acceso a servicios municipales.",
+      "coverage": {
+        "scope": "local",
+        "area": "Talamanca, Limón",
+        "municipality": "Talamanca"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50660042313",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mtss.go.cr/dml/servicios/"
+        ]
+      }
+    },
+    {
+      "id": "cmm-tarrazu",
+      "organization": "Centro Municipal para Migrantes de Tarrazú",
+      "category": "migration-and-legal",
+      "service": "Orienta a personas migrantes y refugiadas sobre trámites y acceso a servicios municipales.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tarrazú, San José",
+        "municipality": "Tarrazú"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50687396838",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mtss.go.cr/dml/servicios/"
+        ]
+      }
+    },
+    {
+      "id": "cmm-san-carlos",
+      "organization": "Centro Municipal para Migrantes de San Carlos",
+      "category": "migration-and-legal",
+      "service": "Orienta a personas migrantes y refugiadas sobre trámites y acceso a servicios municipales.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Carlos, Alajuela",
+        "municipality": "San Carlos"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50661628934",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Atención virtual.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mtss.go.cr/dml/servicios/"
+        ]
+      }
+    },
+    {
+      "id": "inamu-linea-nacional",
+      "organization": "INAMU — Línea 1125",
+      "category": "protection",
+      "service": "Atiende consultas y orienta a mujeres en situaciones de violencia.",
+      "coverage": {
+        "scope": "national",
+        "area": "Costa Rica",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1125",
+          "routing": "short-code"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+50683218678",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.inamu.go.cr/-/noticias-lineas-atencion-consultas-violencia-gratuitas"
+        ]
+      }
+    },
+    {
+      "id": "inamu-liberia",
+      "organization": "INAMU — Regional Chorotega",
+      "category": "protection",
+      "service": "Oficina regional para orientación y acceso a los servicios de atención del INAMU.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Guanacaste",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50625278573",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.inamu.go.cr/web/inamu/contacto"
+        ]
+      }
+    },
+    {
+      "id": "inamu-limon",
+      "organization": "INAMU — Regional Huetar Caribe",
+      "category": "protection",
+      "service": "Oficina regional para orientación y acceso a los servicios de atención del INAMU.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Limón",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50625273749",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.inamu.go.cr/web/inamu/contacto"
+        ]
+      }
+    },
+    {
+      "id": "inamu-puntarenas",
+      "organization": "INAMU — Regional Pacífico Central",
+      "category": "protection",
+      "service": "Oficina regional para orientación y acceso a los servicios de atención del INAMU.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Pacífico Central",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50625273736",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.inamu.go.cr/web/inamu/contacto"
+        ]
+      }
+    },
+    {
+      "id": "inamu-san-carlos",
+      "organization": "INAMU — Regional Huetar Norte",
+      "category": "protection",
+      "service": "Oficina regional para orientación y acceso a los servicios de atención del INAMU.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Zona norte",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50625273700",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.inamu.go.cr/web/inamu/contacto"
+        ]
+      }
     }
   ]
 }
