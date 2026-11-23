@@ -1,4 +1,5 @@
 import { readFile } from 'node:fs/promises'
+import { isShortCode, numberPatterns } from '../src/shared/contact-numbers.mjs'
 
 const categories = new Set([
   'emergency',
@@ -10,22 +11,20 @@ const categories = new Set([
 const scopes = new Set(['national', 'regional', 'local'])
 const routes = new Set(['short-code', 'direct', 'switchboard'])
 const verificationMethods = new Set(['institutional-source', 'phone-confirmed'])
-const shortCodePattern = /^[1-9]\d{2,3}$/
 const countries = {
-  HT: { name: 'Haití', numberPattern: /^\+509[2-5]\d{7}$/ },
-  CU: { name: 'Cuba', numberPattern: /^\+53[2-7]\d{7}$/ },
-  VE: { name: 'Venezuela', numberPattern: /^(?:\+58[24]\d{9}|0800\d{7})$/ },
-  NI: { name: 'Nicaragua', numberPattern: /^\+505[2578]\d{7}$/ },
-  BO: { name: 'Bolivia', numberPattern: /^(?:\+591[23467]\d{7}|800\d{6})$/ },
-  PY: { name: 'Paraguay', numberPattern: /^\+595(?:[2-7]\d{7,8}|9\d{8})$/ },
-  PR: { name: 'Puerto Rico', numberPattern: /^\+1(?:787|939|800|844)[2-9]\d{6}$/ },
-  DO: { name: 'República Dominicana', numberPattern: /^\+1(?:809|829|849)[2-9]\d{6}$/ },
-  BR: { name: 'Brasil', numberPattern: /^(?:\+55[1-9]\d(?:[2-5]\d{7}|9\d{8})|0800\d{7})$/ },
-  EC: { name: 'Ecuador', numberPattern: /^(?:\+593(?:[2-7]\d{7}|9\d{8})|1800\d{6})$/ },
-  UY: { name: 'Uruguay', numberPattern: /^(?:\+598[249]\d{7}|0800\d{4})$/ },
+  HT: { name: 'Haití' },
+  CU: { name: 'Cuba' },
+  VE: { name: 'Venezuela' },
+  NI: { name: 'Nicaragua' },
+  BO: { name: 'Bolivia' },
+  PY: { name: 'Paraguay' },
+  PR: { name: 'Puerto Rico' },
+  DO: { name: 'República Dominicana' },
+  BR: { name: 'Brasil' },
+  EC: { name: 'Ecuador' },
+  UY: { name: 'Uruguay' },
   GT: {
     name: 'Guatemala',
-    numberPattern: /^\+502[2-7]\d{7}$/,
     minimumNumbers: {
       emergency: 13,
       'health-and-psychosocial': 11,
@@ -36,7 +35,6 @@ const countries = {
   },
   CO: {
     name: 'Colombia',
-    numberPattern: /^(?:\+57[36]\d{9}|018000\d{6})$/,
     minimumNumbers: {
       emergency: 6,
       'health-and-psychosocial': 7,
@@ -47,7 +45,6 @@ const countries = {
   },
   PA: {
     name: 'Panamá',
-    numberPattern: /^\+507(?:[2-9]\d{6}|6\d{7})$/,
     minimumNumbers: {
       emergency: 8,
       'health-and-psychosocial': 10,
@@ -58,7 +55,6 @@ const countries = {
   },
   CR: {
     name: 'Costa Rica',
-    numberPattern: /^(?:\+506[2-8]\d{7}|800\d{7})$/,
     minimumNumbers: {
       emergency: 6,
       'health-and-psychosocial': 8,
@@ -69,7 +65,6 @@ const countries = {
   },
   SV: {
     name: 'El Salvador',
-    numberPattern: /^\+503[267]\d{7}$/,
     minimumNumbers: {
       emergency: 12,
       'health-and-psychosocial': 6,
@@ -80,7 +75,6 @@ const countries = {
   },
   HN: {
     name: 'Honduras',
-    numberPattern: /^\+504[2389]\d{7}$/,
     minimumNumbers: {
       emergency: 6,
       'health-and-psychosocial': 9,
@@ -91,7 +85,6 @@ const countries = {
   },
   MX: {
     name: 'México',
-    numberPattern: /^\+52[2-9]\d{9}$/,
     minimumNumbers: {
       emergency: 8,
       'health-and-psychosocial': 7,
@@ -100,11 +93,10 @@ const countries = {
       protection: 10,
     },
   },
-  AR: { name: 'Argentina', numberPattern: /^(?:\+549?[123]\d{9}|0800\d{7})$/ },
-  PE: { name: 'Perú', numberPattern: /^(?:\+51(?:[1-8]\d{7}|9\d{8})|0800\d{5})$/ },
-  CL: { name: 'Chile', numberPattern: /^(?:\+56[2-9]\d{8}|600\d{7})$/ },
+  AR: { name: 'Argentina' },
+  PE: { name: 'Perú' },
+  CL: { name: 'Chile' },
 }
-const mexicoShortCodePattern = /^0[1-9]\d$/
 const minimumResources = 20 + categories.size * 5
 
 function requireValid(condition, message) {
@@ -136,11 +128,10 @@ function validateChannel(channel, location, channels, country) {
   requireValid(routes.has(routing), `${location}: enrutamiento inválido.`)
   requireValid(typeof number === 'string', `${location}: el número debe ser texto.`)
 
-  const isShortCode = shortCodePattern.test(number) || (country === 'MX' && mexicoShortCodePattern.test(number))
   const isPhone = type === 'phone'
-  const validShortCode = isPhone && routing !== 'direct' && isShortCode
-  const { name, numberPattern } = countries[country]
-  const validFullNumber = routing !== 'short-code' && numberPattern.test(number)
+  const validShortCode = isPhone && routing !== 'direct' && isShortCode(country, number)
+  const { name } = countries[country]
+  const validFullNumber = routing !== 'short-code' && numberPatterns[country].test(number)
   requireValid(validShortCode || validFullNumber, `${location}: número de ${name} inválido.`)
   requireValid(isPhone || routing === 'direct', `${location}: WhatsApp debe ser directo.`)
 

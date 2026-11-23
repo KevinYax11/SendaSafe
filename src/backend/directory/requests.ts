@@ -11,7 +11,7 @@ export function countriesResponse() {
   return Response.json({ countries: listCountries() })
 }
 
-export function resourcesResponse(url: string, country: string) {
+export async function resourcesResponse(url: string, country: string) {
   const code = country.toUpperCase()
   if (!Object.hasOwn(countries, code)) {
     return errorResponse(404, 'country_not_supported', 'El país no está en el directorio.')
@@ -30,5 +30,5 @@ export function resourcesResponse(url: string, country: string) {
     return errorResponse(400, 'invalid_query', `La búsqueda admite hasta ${maxSearchLength} caracteres en un solo parámetro.`)
   }
 
-  return Response.json(searchResources(code as Country, category as Category | undefined, query), { headers: searchHeaders })
+  return Response.json(await searchResources(code as Country, category as Category | undefined, query), { headers: searchHeaders })
 }

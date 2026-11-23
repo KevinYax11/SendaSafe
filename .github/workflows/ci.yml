@@ -45,5 +45,10 @@ jobs:
       - name: Wait for the container API
         run: curl --fail --silent --show-error --max-time 5 --retry 20 --retry-delay 2 --retry-max-time 45 --retry-all-errors http://127.0.0.1:3000/api/v1/countries --output /dev/null
       - run: node scripts/check-deployment.mjs
+      - name: Verify the Vercel preview without a database
+        run: |
+          docker run --detach --name sendasafe-readonly-ci --publish 127.0.0.1:3001:3000 --env VERCEL=1 sendasafe:ci
+          curl --fail --silent --show-error --max-time 5 --retry 20 --retry-delay 2 --retry-max-time 45 --retry-all-errors http://127.0.0.1:3001/api/v1/countries --output /dev/null
+          node scripts/check-deployment.mjs http://127.0.0.1:3001
       - if: failure()
         run: docker logs sendasafe-ci

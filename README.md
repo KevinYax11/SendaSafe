@@ -34,24 +34,50 @@ Each published catalog has at least 45 resources and five distinct numbers in ea
 
 ## Run locally
 
-Requires Node.js 22 or later.
+Requires Node.js 22 or later. A clone of the repository runs the full app locally.
 
 ```sh
 npm ci
-npm run dev
+node scripts/setup-local.mjs
+npm run build
+npm start
 ```
 
-Open [SendaSafe locally](http://localhost:3000).
+Open [SendaSafe locally](http://localhost:3000). Use `npm run dev` for live code changes. Installation and the service worker are enabled in the production build.
+
+### Install and save the directory
+
+On Android, use the in-app install button or the browser menu. On iOS, open the site in Safari and use Share → Add to Home Screen. On supported desktop browsers, use the install option in the address bar. Installation requires HTTPS or localhost.
+
+Choose a country while online and use **Descargar para usar sin conexión**. After saving, you can reopen SendaSafe, search that country's saved resources, and look up phone numbers while offline. Download each needed country separately. The app shows when the local copy was saved and refreshes it when the connection returns. Calls require phone service and WhatsApp requires an internet connection. Community, administration, and map lookup require a connection to the app server.
+
+### Community and administration
+
+Community requires a country for each comment and uses that country to filter published messages. Comments do not require an account. The app stores the text, country, timestamp and moderation state. Comments are public only after approval. Avoid posting names, phone numbers or other identifying details. Infrastructure may maintain its own access logs.
+
+Open `/admin` from the footer. The country switch takes effect as soon as you select a country. Administrators can review, publish, hide or delete comments, create entities, and publish, edit, withdraw or restore resources. Resource changes require a contact channel, verification date and HTTPS source.
+
+The setup script writes a random admin password and a separate session secret to the ignored `.env.local` file. Read your password there. Administrative sessions expire after eight hours. The cookie is HTTP-only, uses SameSite Strict and is restricted to `/admin`. HTTPS is required for administrative login outside localhost. Keep both values private and use `node scripts/setup-local.mjs --rotate` to generate new values.
+
+SQLite stores comments and administrative changes in `storage/sendasafe.sqlite` by default. To use another location, set `SENDASAFE_DB_PATH`. Keep backups of the database before moving or upgrading it. Stop the single local app instance and back up the database together with any matching WAL and SHM files. Restore them together to the configured path before restarting.
 
 ### Run with Docker
 
-With Docker Engine and Docker Compose running, start the frontend and API together.
+With Docker and Docker Compose running, start the frontend and API together.
 
 ```sh
+node scripts/setup-local.mjs --compose
 docker compose up --build
 ```
 
-Open [SendaSafe locally](http://localhost:3000). The multi-stage image runs the Next.js standalone server as a non-root user on port 3000. The container has an HTTP health check.
+Open [SendaSafe locally](http://localhost:3000). The first command writes the admin credentials to the ignored Compose `.env` file. The image runs the Next.js standalone server as a non-root user. The named volume `sendasafe-storage` keeps changes across restarts and container replacements. Preserve the volume when removing containers.
+
+### Optional map data
+
+To enable the map, provide `municipalities.json` and `boundaries.json` in `data/geography` before building. A Node server can use another folder via `SENDASAFE_GEOGRAPHY_PATH`. For Docker, bundle the files before building or mount the folder read-only and pass its container path in that variable.
+
+`municipalities.json` maps country codes to lists of objects containing `municipality`, `area`, `latitude` and `longitude`. Use the catalog's local coverage area for `area`. `boundaries.json` is a list of objects containing `code` and polygon `rings` made of coordinate pairs in longitude, latitude order. The browser requests location only when the user asks to use it. The map ranks listed resources using approximate distance to their municipality. Without the files, the standard municipality search is available.
+
 
 ## Architecture
 
@@ -106,8 +132,13 @@ npm run typecheck
 npm run build
 ```
 
-GitHub Actions runs these checks on pushes and pull requests targeting `develop` or `main`. A separate job builds the container and checks that the home page, stylesheet, and public API work from the running image. To repeat the container check locally while it is running, use `node scripts/check-deployment.mjs`. [CI runs](https://github.com/KevinYax11/SendaSafe/actions)
+GitHub Actions runs these checks on pushes and pull requests targeting `develop` or `main`. A separate job builds the container and checks the public routes and PWA assets in both local and Vercel read-only modes. To repeat the container check locally while it is running, use `node scripts/check-deployment.mjs`. [CI runs](https://github.com/KevinYax11/SendaSafe/actions)
 
-## Deployment
+## Prepare a Vercel deployment
 
-Import the repository as a Next.js project in Vercel and use `main` as the production branch. The current directory can run without environment variables. After deploying a preview, check that the home page and both API endpoints respond before promoting to production. [Next.js on Vercel](https://vercel.com/docs/frameworks/full-stack/nextjs)
+The repository includes a Vercel configuration for Next.js. Running on localhost or Docker needs no paid service. Keeping the repository on GitHub makes the source and CI available. Running the app online requires an active deployment. Vercel Hobby covers eligible personal, non-commercial use within its limits. Turso has a free tier with usage limits. [Vercel Hobby](https://vercel.com/docs/plans/hobby) · [Turso plans](https://turso.tech/pricing)
+
+1. Import the GitHub repository in Vercel and select **Next.js**. Use `main` as the production branch and `develop` for preview when configured. Use Node.js 22 and keep the default Next.js build settings. [Next.js on Vercel](https://vercel.com/docs/frameworks/full-stack/nextjs)
+2. For a portfolio demo, the directory, guidance and offline downloads work on Vercel with the versioned catalog and no environment variables. To enable persistent comments and directory edits, connect a Turso database and set `TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN` in the Vercel environment. Use separate Preview and Production databases. The app creates its tables on first use. Local Docker uses its SQLite volume, while Vercel uses the configured database. [Vercel Turso integration](https://vercel.com/marketplace/tursocloud/database)
+3. To enable Administration, also set `SENDASAFE_ADMIN_PASSWORD` (at least 16 characters) and `SENDASAFE_SESSION_SECRET` (at least 32 characters) as server-only variables. Generate a unique pair for each environment. Keep them out of Git and use the HTTPS preview URL for sign-in.
+4. In the preview, run `node scripts/check-deployment.mjs <preview-url>`. Verify the country selector, navigation, and a saved country offline. With Turso configured, submit and moderate a sample comment and verify it persists after redeploying the preview.

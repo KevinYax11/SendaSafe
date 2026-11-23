@@ -7,13 +7,15 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "next typegen && tsc --noEmit",
     "validate:directory": "node scripts/validate-directory.mjs"
   },
   "dependencies": {
+    "@libsql/client": "^0.18.0",
+    "libphonenumber-js": "^1.13.17",
     "next": "^16.0.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"

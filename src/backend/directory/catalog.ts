@@ -21,7 +21,9 @@ import cr from '../../../data/countries/cr/resources.json'
 import sv from '../../../data/countries/sv/resources.json'
 import hn from '../../../data/countries/hn/resources.json'
 import mexico from '../../../data/countries/mx/resources.json'
-import { categories, countries, type Category, type Country, type DirectoryCountry, type DirectoryResults, type Resource } from '../../shared/directory'
+import { countries, type Category, type Country, type DirectoryCountry, type DirectoryResults, type Resource } from '../../shared/directory'
+import { filterResources } from '../../shared/search-resources'
+import { managedResources } from './overrides'
 
 const catalogs: Partial<Record<Country, Resource[]>> = {
   GT: guatemala.resources as Resource[],
@@ -47,8 +49,11 @@ const catalogs: Partial<Record<Country, Resource[]>> = {
   MX: mexico.resources as Resource[],
 }
 
-function describeCountry(code: Country): DirectoryCountry {
-  const resources = catalogs[code] ?? []
+export function baseResources(code: Country) {
+  return catalogs[code] ?? []
+}
+
+function describeCountry(code: Country, resources = baseResources(code)): DirectoryCountry {
   return {
     code,
     name: countries[code],
@@ -58,30 +63,13 @@ function describeCountry(code: Country): DirectoryCountry {
 }
 
 export function listCountries(): DirectoryCountry[] {
-  return (Object.keys(countries) as Country[]).map(describeCountry)
+  return (Object.keys(countries) as Country[]).map(code => describeCountry(code))
 }
 
-function normalizeSearch(value: string) {
-  return value.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLocaleLowerCase('es')
-}
+export async function searchResources(code: Country, category: Category | undefined, query: string): Promise<DirectoryResults> {
+  const available = (await managedResources(code, baseResources(code)))
+    .filter(entry => !entry.archived).map(entry => entry.resource)
+  const resources = filterResources(available, category, query)
 
-function matchesSearch(resource: Resource, terms: string[]) {
-  const text = normalizeSearch([
-    resource.organization,
-    resource.service,
-    resource.coverage.area,
-    resource.coverage.municipality,
-    categories[resource.category],
-  ].join(' '))
-
-  return terms.every(term => text.includes(term))
-}
-
-export function searchResources(code: Country, category: Category | undefined, query: string): DirectoryResults {
-  const terms = normalizeSearch(query).split(/\s+/).filter(Boolean)
-  const resources = (catalogs[code] ?? []).filter(resource => (
-    (!category || resource.category === category) && matchesSearch(resource, terms)
-  ))
-
-  return { country: describeCountry(code), resources }
+  return { country: describeCountry(code, available), resources }
 }

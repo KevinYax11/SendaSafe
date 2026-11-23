@@ -3,3 +3,12 @@ services:
     build: .
     ports:
       - "127.0.0.1:3000:3000"
+    environment:
+      SENDASAFE_ADMIN_PASSWORD: ${SENDASAFE_ADMIN_PASSWORD:-}
+      SENDASAFE_SESSION_SECRET: ${SENDASAFE_SESSION_SECRET:-}
+      SENDASAFE_DB_PATH: /app/storage/sendasafe.sqlite
+    volumes:
+      - sendasafe-storage:/app/storage
+
+volumes:
+  sendasafe-storage:

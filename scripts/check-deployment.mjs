@@ -14,6 +14,17 @@ const stylesheet = home.match(/href="(\/_next\/static\/[^"]+\.css)"/)
 assert.ok(stylesheet, 'The home page includes its stylesheet')
 await request(stylesheet[1])
 
+const manifest = await (await request('/manifest.webmanifest')).json()
+assert.equal(manifest.display, 'standalone')
+assert.equal(manifest.start_url, '/')
+for (const { src } of manifest.icons) {
+  assert.match((await request(src)).headers.get('content-type') ?? '', /image\/png/)
+}
+assert.match(await (await request('/service-worker.js')).text(), /addEventListener\('fetch'/)
+const community = await (await request('/community')).text()
+assert.match(community, /href="\/#orientacion"/)
+assert.match((await request('/admin')).headers.get('cache-control') ?? '', /no-store/)
+
 const { countries } = await (await request('/api/v1/countries')).json()
 const covered = countries.filter(country => country.hasCoverage)
 assert.ok(countries.length > 0)
