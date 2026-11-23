@@ -1,6 +1,7 @@
 import 'server-only'
 
 import guatemala from '../../../data/countries/gt/resources.json'
+import pa from '../../../data/countries/pa/resources.json'
 import cr from '../../../data/countries/cr/resources.json'
 import sv from '../../../data/countries/sv/resources.json'
 import hn from '../../../data/countries/hn/resources.json'
@@ -9,6 +10,7 @@ import { categories, countries, type Category, type Country, type DirectoryCount
 
 const catalogs: Partial<Record<Country, Resource[]>> = {
   GT: guatemala.resources as Resource[],
+  PA: pa.resources as Resource[],
   CR: cr.resources as Resource[],
   SV: sv.resources as Resource[],
   HN: hn.resources as Resource[],

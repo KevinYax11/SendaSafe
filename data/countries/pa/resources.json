@@ -1,0 +1,679 @@
+{
+  "country": "PA",
+  "language": "es",
+  "resources": [
+    {
+      "id": "sume",
+      "organization": "Sistema Único de Manejo de Emergencias",
+      "category": "emergency",
+      "service": "Atiende urgencias médicas y coordina atención prehospitalaria.",
+      "coverage": {
+        "scope": "national",
+        "area": "Panamá",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "911",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gacetaoficial.gob.pa/storage/gacetas/2024/10/30131_A/GacetaNo_30131a_20241002.pdf"
+        ]
+      }
+    },
+    {
+      "id": "policia",
+      "organization": "Policía Nacional",
+      "category": "emergency",
+      "service": "Recibe reportes de emergencias policiales.",
+      "coverage": {
+        "scope": "national",
+        "area": "Panamá",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "104",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://policia.gob.pa/home25.php"
+        ]
+      }
+    },
+    {
+      "id": "bomberos",
+      "organization": "Benemérito Cuerpo de Bomberos",
+      "category": "emergency",
+      "service": "Atiende incendios y otras emergencias de rescate.",
+      "coverage": {
+        "scope": "national",
+        "area": "Panamá",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "103",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bomberos.gob.pa/2025/08/05/vas-a-llamar-al-103-estas-son-las-recomendaciones-clave-para-una-atencion-rapida-y-efectiva/"
+        ]
+      }
+    },
+    {
+      "id": "acnur",
+      "organization": "ACNUR Panamá",
+      "category": "migration-and-legal",
+      "service": "Información y orientación para personas refugiadas y solicitantes de protección.",
+      "coverage": {
+        "scope": "national",
+        "area": "Panamá",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50764400564",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/panama/donde-encontrar-ayuda/"
+        ]
+      }
+    },
+    {
+      "id": "onpar",
+      "organization": "Oficina Nacional para la Atención de Refugiados",
+      "category": "migration-and-legal",
+      "service": "Recepción y orientación institucional sobre el procedimiento de refugio.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Panamá",
+        "municipality": "Ciudad de Panamá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5075127228",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+5075127230",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+5075127227",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mingob.gob.pa/directorio-telefonico/"
+        ]
+      }
+    },
+    {
+      "id": "migracion",
+      "organization": "Servicio Nacional de Migración",
+      "category": "migration-and-legal",
+      "service": "Central para consultas sobre servicios y trámites migratorios.",
+      "coverage": {
+        "scope": "national",
+        "area": "Panamá",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5075043580",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": "Lunes a viernes, de 07:00 a 15:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.migracion.gob.pa/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "migracion-darien",
+      "organization": "Servicio Nacional de Migración, Darién",
+      "category": "migration-and-legal",
+      "service": "Contacto de la oficina regional para orientación migratoria.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Darién",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5072996947",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.migracion.gob.pa/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "migracion-chiriqui",
+      "organization": "Servicio Nacional de Migración, Chiriquí",
+      "category": "migration-and-legal",
+      "service": "Contacto de la oficina regional para orientación migratoria.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Chiriquí",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5077283959",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.migracion.gob.pa/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "migracion-bocas",
+      "organization": "Servicio Nacional de Migración, Bocas del Toro",
+      "category": "migration-and-legal",
+      "service": "Contacto de la oficina regional para orientación migratoria.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Bocas del Toro",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5077500634",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.migracion.gob.pa/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "nrc",
+      "organization": "Consejo Noruego para Refugiados",
+      "category": "migration-and-legal",
+      "service": "Información, orientación y asistencia para acceder a derechos y servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Panamá",
+        "municipality": "Ciudad de Panamá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5072641063",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50765895016",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 17:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/panama/donde-encontrar-ayuda/"
+        ]
+      }
+    },
+    {
+      "id": "hias",
+      "organization": "HIAS Panamá",
+      "category": "health-and-psychosocial",
+      "service": "Apoyo psicosocial y orientación para personas refugiadas y otras personas en movilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Panamá",
+        "municipality": "Ciudad de Panamá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5073915171",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50761201915",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 17:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/panama/donde-encontrar-ayuda/"
+        ]
+      }
+    },
+    {
+      "id": "cruz-roja-refugio",
+      "organization": "Cruz Roja Panameña, orientación sobre refugio",
+      "category": "migration-and-legal",
+      "service": "Orientación y atención humanitaria para personas refugiadas o solicitantes del reconocimiento de esa condición.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Panamá",
+        "municipality": "Ciudad de Panamá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5073150292",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50769839605",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/panama/donde-encontrar-ayuda/"
+        ]
+      }
+    },
+    {
+      "id": "hogar-luisa",
+      "organization": "Hogar Luisa, Pastoral de Movilidad Humana",
+      "category": "shelter-and-food",
+      "service": "Alojamiento temporal y apoyo social, psicológico y jurídico para personas refugiadas y migrantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Panamá",
+        "municipality": "Ciudad de Panamá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5072037600",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 08:00 a 16:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/panama/donde-encontrar-ayuda/",
+          "https://www.movilidadhumanapanama.org/hogar-luisa/",
+          "https://redclamor.org/wp-content/uploads/2021/09/Mapeo-Cuenta-con-Nosotros-Clamor-Mayo-15-2021.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ministerio-mujer",
+      "organization": "Ministerio de la Mujer, Línea 182",
+      "category": "protection",
+      "service": "Orientación y apoyo ante violencia doméstica, de género o sexual.",
+      "coverage": {
+        "scope": "national",
+        "area": "Panamá",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "182",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas",
+      "cost": "Llamada gratuita",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://app.mujer.gob.pa/lineas.php",
+          "https://mujer.gob.pa/wp-content/uploads/2025/07/INFORME-DE-GESTION-2024-FINAL.pdf"
+        ]
+      }
+    },
+    {
+      "id": "mujer-san-miguelito",
+      "organization": "Ministerio de la Mujer, CAI San Miguelito",
+      "category": "protection",
+      "service": "Centro regional de orientación y protección para mujeres.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Miguelito, Panamá",
+        "municipality": "San Miguelito"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5075199954",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://app.mujer.gob.pa/lineas.php"
+        ]
+      }
+    },
+    {
+      "id": "mujer-darien",
+      "organization": "Ministerio de la Mujer, CAI Darién",
+      "category": "protection",
+      "service": "Centro de atención integral para mujeres en Darién.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Darién",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5072870476",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://app.mujer.gob.pa/lineas.php"
+        ]
+      }
+    },
+    {
+      "id": "mujer-colon",
+      "organization": "Ministerio de la Mujer, CAI Colón",
+      "category": "protection",
+      "service": "Centro de atención integral para mujeres en Colón.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Colón",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5074753129",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://app.mujer.gob.pa/lineas.php"
+        ]
+      }
+    },
+    {
+      "id": "mujer-chiriqui",
+      "organization": "Ministerio de la Mujer, CAI Chiriquí",
+      "category": "protection",
+      "service": "Centro de atención integral para mujeres en Chiriquí.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Chiriquí",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5077284027",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://app.mujer.gob.pa/lineas.php"
+        ]
+      }
+    },
+    {
+      "id": "senniaf",
+      "organization": "SENNIAF, Sede Central",
+      "category": "protection",
+      "service": "Orientación institucional sobre protección de niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Panamá",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5075044052",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://senniaf.gob.pa/?page_id=7924"
+        ]
+      }
+    },
+    {
+      "id": "senniaf-colon",
+      "organization": "SENNIAF, Colón",
+      "category": "protection",
+      "service": "Contacto regional para servicios de protección de la niñez y adolescencia.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Colón",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5074754235",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://senniaf.gob.pa/?page_id=7924"
+        ]
+      }
+    },
+    {
+      "id": "hospital-santo-tomas",
+      "organization": "Hospital Santo Tomás",
+      "category": "health-and-psychosocial",
+      "service": "Atención hospitalaria para adultos. Consulta por la central de atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Panamá",
+        "municipality": "Ciudad de Panamá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5075075600",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.hospitalsantotomas.gob.pa/"
+        ]
+      }
+    },
+    {
+      "id": "hospital-nino",
+      "organization": "Hospital del Niño Dr. José Renán Esquivel",
+      "category": "health-and-psychosocial",
+      "service": "Atención hospitalaria especializada para niños, niñas y adolescentes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de Panamá",
+        "municipality": "Ciudad de Panamá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5075129801",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para citas con especialistas se solicita referencia de pediatría.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/panama/donde-encontrar-ayuda/",
+          "https://hn.sld.pa/directorio-medico-2/"
+        ]
+      }
+    },
+    {
+      "id": "hospital-amador-guerrero",
+      "organization": "Hospital Amador Guerrero",
+      "category": "health-and-psychosocial",
+      "service": "Contacto hospitalario para consultar servicios en Colón.",
+      "coverage": {
+        "scope": "local",
+        "area": "Colón",
+        "municipality": "Colón"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5074752207",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/panama/donde-encontrar-ayuda/"
+        ]
+      }
+    }
+  ]
+}
