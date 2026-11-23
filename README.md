@@ -15,6 +15,7 @@ A Spanish-language, mobile-first directory of emergency services, health resourc
 | Honduras | 47 | [HN](data/countries/hn/resources.json) |
 | Mexico | 49 | [MX](data/countries/mx/resources.json) |
 | Panama | 48 | [PA](data/countries/pa/resources.json) |
+| Peru | 45 | [PE](data/countries/pe/resources.json) |
 
 The country selector also offers general guidance when a local directory is unavailable.
 
@@ -65,6 +66,7 @@ Each resource card shows the sources, date and verification method. Initial revi
 - Honduras. [ACNUR Honduras](https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Danli.pdf) and the [National Migration Institute](https://inm.gob.hn/contacto).
 - [Mexico catalog](data/countries/mx/resources.json). Sources include [ACNUR México](https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/), the [Secretaría de Seguridad y Protección Ciudadana](https://www.gob.mx/sspc/es/articulos/sabes-cual-es-la-diferencia-entre-los-numeros-088-089-y-911?idiom=es) and [IMSS](https://www.imss.gob.mx/prensa/archivo/202611/585).
 - Panama. [ACNUR Panamá](https://help.unhcr.org/panama/donde-encontrar-ayuda/) and the [National Migration Service](https://www.migracion.gob.pa/contacto/).
+- Peru. [Presidency of the Council of Ministers](https://www.gob.pe/547-telefonos-de-emergencia), [Ministry of Health](https://www.gob.pe/saludmental) and [ACNUR Perú](https://help.unhcr.org/peru/donde-encontrar-ayuda/).
 
 ### Correcting directory entries
 

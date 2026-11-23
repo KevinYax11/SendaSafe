@@ -1,0 +1,1273 @@
+{
+  "country": "PE",
+  "language": "es",
+  "resources": [
+    {
+      "id": "central-policial",
+      "organization": "Central de Emergencias de la Policía Nacional",
+      "category": "emergency",
+      "service": "Atiende emergencias que requieren intervención policial.",
+      "coverage": {
+        "scope": "national",
+        "area": "Perú",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "105",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/547-telefonos-de-emergencia"
+        ]
+      }
+    },
+    {
+      "id": "samu",
+      "organization": "Servicio de Atención Móvil de Urgencia — SAMU",
+      "category": "emergency",
+      "service": "Solicita apoyo médico y ambulancia en la zona de cobertura.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Lima y regiones con cobertura del SAMU",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "106",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta las regiones disponibles en la fuente oficial.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/547-telefonos-de-emergencia"
+        ]
+      }
+    },
+    {
+      "id": "bomberos",
+      "organization": "Cuerpo General de Bomberos Voluntarios del Perú",
+      "category": "emergency",
+      "service": "Atiende incendios, rescates y otras emergencias.",
+      "coverage": {
+        "scope": "national",
+        "area": "Perú",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "116",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/547-telefonos-de-emergencia"
+        ]
+      }
+    },
+    {
+      "id": "defensa-civil",
+      "organization": "Defensa Civil",
+      "category": "emergency",
+      "service": "Canal de Defensa Civil para reportar emergencias por desastres.",
+      "coverage": {
+        "scope": "national",
+        "area": "Perú",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "115",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/547-telefonos-de-emergencia",
+          "https://www.gob.pe/37671"
+        ]
+      }
+    },
+    {
+      "id": "cruz-roja",
+      "organization": "Cruz Roja Peruana",
+      "category": "emergency",
+      "service": "Contacto de la Cruz Roja publicado en el directorio de emergencias.",
+      "coverage": {
+        "scope": "local",
+        "area": "Lima",
+        "municipality": "Lima"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5112660481",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/547-telefonos-de-emergencia"
+        ]
+      }
+    },
+    {
+      "id": "serenazgo-surco",
+      "organization": "Serenazgo de Santiago de Surco",
+      "category": "emergency",
+      "service": "Atiende reportes de seguridad ciudadana dentro del distrito.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santiago de Surco, Lima",
+        "municipality": "Santiago de Surco"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5114115555",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para una emergencia policial, marca 105.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/547-telefonos-de-emergencia"
+        ]
+      }
+    },
+    {
+      "id": "serenazgo-san-isidro",
+      "organization": "Serenazgo de San Isidro",
+      "category": "emergency",
+      "service": "Atiende reportes de seguridad ciudadana dentro del distrito.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Isidro, Lima",
+        "municipality": "San Isidro"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5113190450",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para una emergencia policial, marca 105.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/547-telefonos-de-emergencia"
+        ]
+      }
+    },
+    {
+      "id": "serenazgo-barranco",
+      "organization": "Serenazgo de Barranco",
+      "category": "emergency",
+      "service": "Atiende reportes de seguridad ciudadana dentro del distrito.",
+      "coverage": {
+        "scope": "local",
+        "area": "Barranco, Lima",
+        "municipality": "Barranco"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5112470366",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para una emergencia policial, marca 105.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/547-telefonos-de-emergencia"
+        ]
+      }
+    },
+    {
+      "id": "salud-mental-concepcion",
+      "organization": "Centro de Salud Mental Comunitaria Concepción",
+      "category": "health-and-psychosocial",
+      "service": "Brinda atención especializada en salud mental comunitaria. Consulta el procedimiento de ingreso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Concepción, Junín",
+        "municipality": "Concepción"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51985216065",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/10942-solicitar-atencion-en-centros-de-salud-mental-comunitaria-en-el-peru/"
+        ]
+      }
+    },
+    {
+      "id": "salud-mental-comas-junin",
+      "organization": "Centro de Salud Mental Comunitaria Comas",
+      "category": "health-and-psychosocial",
+      "service": "Brinda atención especializada en salud mental comunitaria. Consulta el procedimiento de ingreso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Comas, Junín",
+        "municipality": "Comas"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51928109538",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/10942-solicitar-atencion-en-centros-de-salud-mental-comunitaria-en-el-peru/"
+        ]
+      }
+    },
+    {
+      "id": "salud-mental-ahuac",
+      "organization": "Centro de Salud Mental Comunitaria Ahuac",
+      "category": "health-and-psychosocial",
+      "service": "Brinda atención especializada en salud mental comunitaria. Consulta el procedimiento de ingreso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ahuac, Junín",
+        "municipality": "Ahuac"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51976436825",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/10942-solicitar-atencion-en-centros-de-salud-mental-comunitaria-en-el-peru/"
+        ]
+      }
+    },
+    {
+      "id": "salud-mental-rio-tambo",
+      "organization": "Centro de Salud Mental Comunitaria Nuevo Puerto Prado",
+      "category": "health-and-psychosocial",
+      "service": "Brinda atención especializada en salud mental comunitaria. Consulta el procedimiento de ingreso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Río Tambo, Junín",
+        "municipality": "Río Tambo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51935395739",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/10942-solicitar-atencion-en-centros-de-salud-mental-comunitaria-en-el-peru/"
+        ]
+      }
+    },
+    {
+      "id": "salud-mental-naylamp",
+      "organization": "Centro de Salud Mental Comunitaria Naylamp",
+      "category": "health-and-psychosocial",
+      "service": "Brinda atención especializada en salud mental comunitaria. Consulta el procedimiento de ingreso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Lambayeque",
+        "municipality": "Lambayeque"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51956426284",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/10942-solicitar-atencion-en-centros-de-salud-mental-comunitaria-en-el-peru/"
+        ]
+      }
+    },
+    {
+      "id": "salud-mental-conexion-integral",
+      "organization": "Centro de Salud Mental Comunitaria Conexión Integral",
+      "category": "health-and-psychosocial",
+      "service": "Brinda atención especializada en salud mental comunitaria. Consulta el procedimiento de ingreso.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Victoria, Lambayeque",
+        "municipality": "La Victoria"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51956426460",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/10942-conocer-centros-de-salud"
+        ]
+      }
+    },
+    {
+      "id": "salud-mental-san-cosme",
+      "organization": "Centro de Salud Mental Comunitaria San Cosme",
+      "category": "health-and-psychosocial",
+      "service": "Brinda atención especializada en salud mental comunitaria. Consulta el procedimiento de ingreso.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Victoria, Lima",
+        "municipality": "La Victoria"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51997746795",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/institucion/minsa/pages/10942-recibir-atencion-en-centros-de-salud-mental-comunitaria-en-el-peru"
+        ]
+      }
+    },
+    {
+      "id": "salud-mental-lince",
+      "organization": "Centro de Salud Mental Comunitaria Lince",
+      "category": "health-and-psychosocial",
+      "service": "Brinda atención especializada en salud mental comunitaria. Consulta el procedimiento de ingreso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Lince, Lima",
+        "municipality": "Lince"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51997748646",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/10942-conocer-centros-de-salud"
+        ]
+      }
+    },
+    {
+      "id": "salud-mental-lurin",
+      "organization": "Centro de Salud Mental Comunitaria San Pedro de Lurín",
+      "category": "health-and-psychosocial",
+      "service": "Brinda atención especializada en salud mental comunitaria. Consulta el procedimiento de ingreso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Lurín, Lima",
+        "municipality": "Lurín"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51935682670",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/10942-conocer-centros-de-salud"
+        ]
+      }
+    },
+    {
+      "id": "salud-mental-san-borja",
+      "organization": "Centro de Salud Mental Comunitaria San Borja",
+      "category": "health-and-psychosocial",
+      "service": "Brinda atención especializada en salud mental comunitaria. Consulta el procedimiento de ingreso.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Borja, Lima",
+        "municipality": "San Borja"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51997748397",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/10942-conocer-centros-de-salud"
+        ]
+      }
+    },
+    {
+      "id": "salud-mental-nuevo-peru",
+      "organization": "Centro de Salud Mental Comunitaria Nuevo Perú",
+      "category": "health-and-psychosocial",
+      "service": "Brinda atención especializada en salud mental comunitaria. Consulta el procedimiento de ingreso.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Juan de Lurigancho, Lima",
+        "municipality": "San Juan de Lurigancho"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51949898207",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/saludmental"
+        ]
+      }
+    },
+    {
+      "id": "salud-mental-perpetuo-socorro",
+      "organization": "Centro de Salud Mental Comunitaria Madre del Perpetuo Socorro",
+      "category": "health-and-psychosocial",
+      "service": "Brinda atención especializada en salud mental comunitaria. Consulta el procedimiento de ingreso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bellavista, Piura",
+        "municipality": "Bellavista"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51926252045",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/institucion/minsa/pages/10942-solicitar-atencion-en-centros-de-salud-mental-comunitaria-en-el-peru"
+        ]
+      }
+    },
+    {
+      "id": "frieda-heller",
+      "organization": "Albergue Frieda Heller",
+      "category": "shelter-and-food",
+      "service": "Alojamiento vinculado al tratamiento oncológico.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santiago de Surco, Lima",
+        "municipality": "Santiago de Surco"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5113724242",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para pacientes en tratamiento oncológico con recursos limitados. Coordina el ingreso con Servicio Social del INEN.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://portal.inen.sld.pe/albergues-de-apoyo-al-inen/"
+        ]
+      }
+    },
+    {
+      "id": "casa-magia",
+      "organization": "Casa Magia",
+      "category": "shelter-and-food",
+      "service": "Alojamiento vinculado al tratamiento oncológico.",
+      "coverage": {
+        "scope": "local",
+        "area": "Surquillo, Lima",
+        "municipality": "Surquillo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5114445454",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Para niñas y niños con cáncer. Coordina el ingreso con Servicio Social del INEN.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://portal.inen.sld.pe/albergues-de-apoyo-al-inen/"
+        ]
+      }
+    },
+    {
+      "id": "fuente-vida",
+      "organization": "Casita Fuente de Vida — Inspira",
+      "category": "shelter-and-food",
+      "service": "Alojamiento vinculado al tratamiento oncológico.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santiago de Surco, Lima",
+        "municipality": "Santiago de Surco"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5117266504",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta los requisitos de alojamiento con Servicio Social del INEN.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://portal.inen.sld.pe/albergues-de-apoyo-al-inen/"
+        ]
+      }
+    },
+    {
+      "id": "comedor-santa-teresita",
+      "organization": "Comedor Santa Teresita — Beneficencia de Lima",
+      "category": "shelter-and-food",
+      "service": "Brinda alimentación dentro del programa de comedores de la Beneficencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Lima",
+        "municipality": "Lima"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5117418948",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta requisitos de atención y disponibilidad.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://beneficenciadelima.org/public/comedores-santateresita-y-rosa"
+        ]
+      }
+    },
+    {
+      "id": "comedor-santa-rosita",
+      "organization": "Comedor Santa Rosita — Beneficencia de Lima",
+      "category": "shelter-and-food",
+      "service": "Brinda alimentación dentro del programa de comedores de la Beneficencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Lima",
+        "municipality": "Lima"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5114276522",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta requisitos de atención y disponibilidad.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://beneficenciadelima.org/public/comedores-santateresita-y-rosa"
+        ]
+      }
+    },
+    {
+      "id": "caritas-lima",
+      "organization": "Cáritas Lima — Casos sociales",
+      "category": "shelter-and-food",
+      "service": "Orienta a familias vulnerables sobre programas de asistencia social, incluido apoyo alimentario.",
+      "coverage": {
+        "scope": "local",
+        "area": "Lima",
+        "municipality": "Lima"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5112037711",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta si hay atención o derivación disponible para tu situación.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://caritaslima.org.pe/contacto/",
+          "https://caritaslima.org.pe/campana-solidaria/"
+        ]
+      }
+    },
+    {
+      "id": "acnur-peru",
+      "organization": "InfoACNUR Perú",
+      "category": "migration-and-legal",
+      "service": "Información para personas refugiadas o solicitantes de refugio.",
+      "coverage": {
+        "scope": "national",
+        "area": "Perú",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "080071929",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+5116419396",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Teléfono de lunes a viernes, de 8:00 a 17:00. Chat automatizado disponible las 24 horas.",
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/peru/donde-encontrar-ayuda/"
+        ]
+      }
+    },
+    {
+      "id": "migraciones-peru",
+      "organization": "Superintendencia Nacional de Migraciones",
+      "category": "migration-and-legal",
+      "service": "Contacto para consultas sobre trámites migratorios.",
+      "coverage": {
+        "scope": "national",
+        "area": "Perú",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5112001000",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/institucion/migraciones/contacto-y-numeros-de-emergencias"
+        ]
+      }
+    },
+    {
+      "id": "cepr",
+      "organization": "Comisión Especial para los Refugiados",
+      "category": "migration-and-legal",
+      "service": "Atiende consultas relacionadas con la actualización de solicitudes de refugio.",
+      "coverage": {
+        "scope": "national",
+        "area": "Perú",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5112043127",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/115819-sobre-el-proceso-de-actualizacion-de-solicitud-de-refugio-2026"
+        ]
+      }
+    },
+    {
+      "id": "encuentros-tacna",
+      "organization": "Encuentros — Servicio Jesuita de la Solidaridad en Tacna",
+      "category": "migration-and-legal",
+      "service": "Orienta y ofrece asistencia legal y social a personas en movilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tacna",
+        "municipality": "Tacna"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+51913194490",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 8:30 a 13:00 y de 14:00 a 16:00.",
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/peru/donde-encontrar-ayuda/organizaciones-socias/"
+        ]
+      }
+    },
+    {
+      "id": "caritas-puerto-maldonado",
+      "organization": "Cáritas — Puerto Maldonado",
+      "category": "migration-and-legal",
+      "service": "Orienta a personas refugiadas y migrantes sobre el acceso a servicios del Estado.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puerto Maldonado, Madre de Dios",
+        "municipality": "Puerto Maldonado"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51953876312",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 8:00 a 13:00 y de 15:00 a 18:00.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/peru/donde-encontrar-ayuda/organizaciones-socias/"
+        ]
+      }
+    },
+    {
+      "id": "caritas-inapari",
+      "organization": "Cáritas — Iñapari",
+      "category": "migration-and-legal",
+      "service": "Orienta y acompaña a personas migrantes y refugiadas que necesitan acceder a servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Iñapari, Madre de Dios",
+        "municipality": "Iñapari"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51941591304",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Miércoles a viernes, de 8:00 a 13:00 y de 15:00 a 18:00.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/peru/donde-encontrar-ayuda/organizaciones-socias/"
+        ]
+      }
+    },
+    {
+      "id": "fono-alegra",
+      "organization": "Fono Alegra — Defensa Pública",
+      "category": "migration-and-legal",
+      "service": "Ofrece orientación jurídica gratuita ante vulneraciones de derechos.",
+      "coverage": {
+        "scope": "national",
+        "area": "Perú",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1884",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "Lunes a viernes, de 8:00 a 16:30.",
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/562"
+        ]
+      }
+    },
+    {
+      "id": "oim",
+      "organization": "Organización Internacional para las Migraciones — Perú",
+      "category": "migration-and-legal",
+      "service": "Contacto institucional para solicitar orientación sobre programas de atención a personas migrantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Lima",
+        "municipality": "Lima"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5116330000",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cancilleria.gob.ec/wp-content/uploads/2025/09/Catalogo-ServiciosV7.pdf"
+        ]
+      }
+    },
+    {
+      "id": "orientacion-escolar-smp",
+      "organization": "KFHI — Orientación para la matrícula escolar en San Martín de Porres",
+      "category": "migration-and-legal",
+      "service": "Orienta a familias migrantes, refugiadas y de acogida sobre acceso a la escuela.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Martín de Porres, Lima",
+        "municipality": "San Martín de Porres"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51922425201",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/peru/donde-encontrar-ayuda/organizaciones-socias/"
+        ]
+      }
+    },
+    {
+      "id": "orientacion-escolar-sjl",
+      "organization": "KFHI — Orientación para la matrícula escolar en San Juan de Lurigancho",
+      "category": "migration-and-legal",
+      "service": "Orienta a familias migrantes, refugiadas y de acogida sobre acceso a la escuela.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Juan de Lurigancho, Lima",
+        "municipality": "San Juan de Lurigancho"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51902375385",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/peru/donde-encontrar-ayuda/organizaciones-socias/"
+        ]
+      }
+    },
+    {
+      "id": "linea-100",
+      "organization": "Línea 100 — Programa Warmi Ñan",
+      "category": "protection",
+      "service": "Ofrece orientación y apoyo ante violencia contra mujeres o integrantes del grupo familiar.",
+      "coverage": {
+        "scope": "national",
+        "area": "Perú",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "100",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/479"
+        ]
+      }
+    },
+    {
+      "id": "linea-1810",
+      "organization": "Línea 1810 — Protección de niñas, niños y adolescentes",
+      "category": "protection",
+      "service": "Recibe consultas y reportes de posibles vulneraciones de los derechos de niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Perú",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1810",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/institucion/mimp/campa%C3%B1as/24130-linea-1810-vela-por-los-derechos-de-ninas-ninos-y-adolescentes"
+        ]
+      }
+    },
+    {
+      "id": "linea-1818",
+      "organization": "Central Única de Denuncias",
+      "category": "protection",
+      "service": "Recibe denuncias por trata de personas, violencia familiar y otras situaciones publicadas por el Ministerio del Interior.",
+      "coverage": {
+        "scope": "national",
+        "area": "Perú",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1818",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/908-central-unica-de-denuncias-cud"
+        ]
+      }
+    },
+    {
+      "id": "defensoria",
+      "organization": "Defensoría del Pueblo",
+      "category": "protection",
+      "service": "Atiende consultas y quejas por vulneración de derechos ante instituciones y prestadores de servicios públicos.",
+      "coverage": {
+        "scope": "national",
+        "area": "Perú",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "080015170",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.pe/10179-presentar-queja-ante-la-defensoria-del-pueblo"
+        ]
+      }
+    },
+    {
+      "id": "cem-arequipa",
+      "organization": "Centro Emergencia Mujer y Familia — Arequipa",
+      "category": "protection",
+      "service": "Brinda orientación y servicios de atención para personas afectadas por violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Arequipa",
+        "municipality": "Arequipa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51941524320",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mimp.gob.pe/omep/pdf/resumen2/Resumen-Arequipa.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cem-camana",
+      "organization": "Centro Emergencia Mujer y Familia — Camaná",
+      "category": "protection",
+      "service": "Brinda orientación y servicios de atención para personas afectadas por violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Camaná, Arequipa",
+        "municipality": "Camaná"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51941524318",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mimp.gob.pe/omep/pdf/resumen2/Resumen-Arequipa.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cem-miraflores",
+      "organization": "Centro Emergencia Mujer y Familia — Miraflores",
+      "category": "protection",
+      "service": "Brinda orientación y servicios de atención para personas afectadas por violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Miraflores, Arequipa",
+        "municipality": "Miraflores"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51994801200",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mimp.gob.pe/omep/pdf/resumen2/Resumen-Arequipa.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cem-islay",
+      "organization": "Centro Emergencia Mujer y Familia — Islay",
+      "category": "protection",
+      "service": "Brinda orientación y servicios de atención para personas afectadas por violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Mollendo, Arequipa",
+        "municipality": "Mollendo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51994840363",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mimp.gob.pe/omep/pdf/resumen2/Resumen-Arequipa.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cem-castilla",
+      "organization": "Centro Emergencia Mujer y Familia — Castilla",
+      "category": "protection",
+      "service": "Brinda orientación y servicios de atención para personas afectadas por violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Aplao, Arequipa",
+        "municipality": "Aplao"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+51941526975",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mimp.gob.pe/omep/pdf/resumen2/Resumen-Arequipa.pdf"
+        ]
+      }
+    }
+  ]
+}

@@ -90,6 +90,7 @@ const countries = {
     },
   },
   AR: { name: 'Argentina', numberPattern: /^(?:\+549?[123]\d{9}|0800\d{7})$/ },
+  PE: { name: 'Perú', numberPattern: /^(?:\+51(?:[1-8]\d{7}|9\d{8})|0800\d{5})$/ },
   CL: { name: 'Chile', numberPattern: /^(?:\+56[2-9]\d{8}|600\d{7})$/ },
 }
 const mexicoShortCodePattern = /^0[1-9]\d$/

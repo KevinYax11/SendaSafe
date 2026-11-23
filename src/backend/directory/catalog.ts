@@ -5,6 +5,7 @@ import ar from '../../../data/countries/ar/resources.json'
 import cl from '../../../data/countries/cl/resources.json'
 import co from '../../../data/countries/co/resources.json'
 import pa from '../../../data/countries/pa/resources.json'
+import pe from '../../../data/countries/pe/resources.json'
 import cr from '../../../data/countries/cr/resources.json'
 import sv from '../../../data/countries/sv/resources.json'
 import hn from '../../../data/countries/hn/resources.json'
@@ -17,6 +18,7 @@ const catalogs: Partial<Record<Country, Resource[]>> = {
   CL: cl.resources as Resource[],
   CO: co.resources as Resource[],
   PA: pa.resources as Resource[],
+  PE: pe.resources as Resource[],
   CR: cr.resources as Resource[],
   SV: sv.resources as Resource[],
   HN: hn.resources as Resource[],
