@@ -28,7 +28,17 @@ const countries = {
   CR: { name: 'Costa Rica', numberPattern: /^(?:\+506[2-8]\d{7}|800\d{7})$/ },
   SV: { name: 'El Salvador', numberPattern: /^\+503[267]\d{7}$/ },
   HN: { name: 'Honduras', numberPattern: /^\+504[2389]\d{7}$/ },
-  MX: { name: 'México', numberPattern: /^\+52[2-9]\d{9}$/ },
+  MX: {
+    name: 'México',
+    numberPattern: /^\+52[2-9]\d{9}$/,
+    minimumNumbers: {
+      emergency: 8,
+      'health-and-psychosocial': 7,
+      'shelter-and-food': 17,
+      'migration-and-legal': 12,
+      protection: 10,
+    },
+  },
   CL: {
     name: 'Chile',
     numberPattern: /^(?:\+56[2-9]\d{8}|600\d{7})$/,

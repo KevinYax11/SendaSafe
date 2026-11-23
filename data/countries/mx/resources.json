@@ -681,6 +681,749 @@
           "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/"
         ]
       }
+    },
+    {
+      "id": "cruz-verde-guadalajara",
+      "organization": "Cruz Verde Guadalajara",
+      "category": "emergency",
+      "service": "Atiende reportes de urgencias médicas en el municipio.",
+      "coverage": {
+        "scope": "local",
+        "area": "Guadalajara, Jalisco",
+        "municipality": "Guadalajara"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+523336145252",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://serviciosmedicos.guadalajara.gob.mx/Telefonos-de-Emergencia"
+        ]
+      }
+    },
+    {
+      "id": "cruz-roja-queretaro",
+      "organization": "Cruz Roja Querétaro",
+      "category": "emergency",
+      "service": "Contacto de emergencias de la Cruz Roja publicado por el gobierno estatal.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Querétaro",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+524422290505",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://queretaro.gob.mx/en/dir"
+        ]
+      }
+    },
+    {
+      "id": "policia-merida",
+      "organization": "Policía Municipal de Mérida",
+      "category": "emergency",
+      "service": "Recibe avisos de emergencias de seguridad en el municipio.",
+      "coverage": {
+        "scope": "local",
+        "area": "Mérida, Yucatán",
+        "municipality": "Mérida"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+529999420060",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.merida.gob.mx/policia/tips-seguridad.php"
+        ]
+      }
+    },
+    {
+      "id": "cruz-roja-merida",
+      "organization": "Cruz Roja de Mérida",
+      "category": "emergency",
+      "service": "Contacto municipal de la Cruz Roja para emergencias médicas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Mérida, Yucatán",
+        "municipality": "Mérida"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+529999830227",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+529999830306",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.merida.gob.mx/policia/tips-seguridad.php"
+        ]
+      }
+    },
+    {
+      "id": "bomberos-zapopan",
+      "organization": "Protección Civil y Bomberos de Zapopan",
+      "category": "emergency",
+      "service": "Recibe reportes para movilizar servicios de emergencia municipales.",
+      "coverage": {
+        "scope": "local",
+        "area": "Zapopan, Jalisco",
+        "municipality": "Zapopan"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+523338182203",
+          "routing": "switchboard",
+          "extension": "3790"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Indica qué ocurre y en qué lugar.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://retys.zapopan.gob.mx/tramites/193/formato"
+        ]
+      }
+    },
+    {
+      "id": "cecosam-iztapalapa",
+      "organization": "Centro Comunitario de Salud Mental Iztapalapa",
+      "category": "health-and-psychosocial",
+      "service": "Brinda atención psicológica y servicios de salud mental y adicciones para distintas edades.",
+      "coverage": {
+        "scope": "local",
+        "area": "Iztapalapa, Ciudad de México",
+        "municipality": "Iztapalapa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+525550621600",
+          "routing": "switchboard",
+          "extension": "50118"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta por teléfono los documentos para abrir el expediente.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.mx/conasama/es/articulos/centros-especializados"
+        ]
+      }
+    },
+    {
+      "id": "centro-los-volcanes",
+      "organization": "Centro Comunitario de Atención Psicológica Los Volcanes",
+      "category": "health-and-psychosocial",
+      "service": "La Facultad de Psicología de la UNAM ofrece evaluación, orientación y psicoterapia para el público general.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tlalpan, Ciudad de México",
+        "municipality": "Tlalpan"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+525556559196",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Confirma disponibilidad y costo antes de asistir.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://tutoria.unam.mx/assets/pdfs/DAD/DAD84.pdf"
+        ]
+      }
+    },
+    {
+      "id": "centro-guillermo-davila",
+      "organization": "Centro de Servicios Psicológicos Dr. Guillermo Dávila",
+      "category": "health-and-psychosocial",
+      "service": "Centro de la Facultad de Psicología de la UNAM para atención psicológica en Ciudad Universitaria.",
+      "coverage": {
+        "scope": "local",
+        "area": "Coyoacán, Ciudad de México",
+        "municipality": "Coyoacán"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+525556222309",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.fca.unam.mx/uig/docs/guia_estres_agudo_actualizado.pdf"
+        ]
+      }
+    },
+    {
+      "id": "centro-macgregor",
+      "organization": "Centro Comunitario Dr. Julián MacGregor y Sánchez Navarro",
+      "category": "health-and-psychosocial",
+      "service": "Brinda servicios de atención psicológica comunitaria de la UNAM.",
+      "coverage": {
+        "scope": "local",
+        "area": "Coyoacán, Ciudad de México",
+        "municipality": "Coyoacán"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+525556183861",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.fca.unam.mx/uig/docs/guia_estres_agudo_actualizado.pdf"
+        ]
+      }
+    },
+    {
+      "id": "jrs-tapachula-psicosocial",
+      "organization": "Servicio Jesuita a Refugiados — Atención psicosocial",
+      "category": "health-and-psychosocial",
+      "service": "Acompañamiento psicosocial para personas migrantes, refugiadas y solicitantes de refugio.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tapachula, Chiapas",
+        "municipality": "Tapachula"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+529622603141",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 9:00 a 14:00.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/wp-content/uploads/sites/22/2026/01/251223_SERVICIOS-TAPACHULA_ACNUR_MEXICO_WEB.pdf"
+        ]
+      }
+    },
+    {
+      "id": "albergues-constitucion-pena",
+      "organization": "Albergues Constitución 1917 y Peña",
+      "category": "shelter-and-food",
+      "service": "Contacto compartido para consultar alojamiento temporal para hombres en movilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de México",
+        "municipality": "Ciudad de México"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+525559703397",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+525556124835",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Llama antes de acudir para confirmar sede y cupo.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/"
+        ]
+      }
+    },
+    {
+      "id": "casa-fuente-refugio",
+      "organization": "Casa Fuente Refugio",
+      "category": "shelter-and-food",
+      "service": "Refugio para mujeres, personas LGBTIQ+ y menores no acompañados en movilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de México",
+        "municipality": "Ciudad de México"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+525526693533",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Con cita previa.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/"
+        ]
+      }
+    },
+    {
+      "id": "refugio-necesitados",
+      "organization": "Refugio de los Necesitados",
+      "category": "shelter-and-food",
+      "service": "Alojamiento, alimentos y atención social a personas en movilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Saltillo, Coahuila",
+        "municipality": "Saltillo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+528441358684",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Todos los días, de 8:00 a 20:00.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/"
+        ]
+      }
+    },
+    {
+      "id": "parroquia-verbo-encarnado",
+      "organization": "Parroquia Verbo Encarnado",
+      "category": "shelter-and-food",
+      "service": "Brinda acogida y asistencia humanitaria a personas en movilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Frontera, Coahuila",
+        "municipality": "Frontera"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+528666357636",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a sábado de 9:00 a 19:00 y domingo de 9:00 a 13:00.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/"
+        ]
+      }
+    },
+    {
+      "id": "centro-kaleo",
+      "organization": "Kaleo",
+      "category": "shelter-and-food",
+      "service": "Alojamiento breve para familias migrantes con menores de edad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Reynosa, Tamaulipas",
+        "municipality": "Reynosa"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+528993504821",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 9:00 a 16:00.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/"
+        ]
+      }
+    },
+    {
+      "id": "albergue-belen",
+      "organization": "Albergue Diocesano Belén",
+      "category": "shelter-and-food",
+      "service": "Alojamiento y asistencia humanitaria para personas en movilidad y quienes buscan protección.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tapachula, Chiapas",
+        "municipality": "Tapachula"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+529626254812",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Confirma el horario y cupo con el albergue.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/wp-content/uploads/sites/22/2026/01/251223_SERVICIOS-TAPACHULA_ACNUR_MEXICO_WEB.pdf"
+        ]
+      }
+    },
+    {
+      "id": "sin-fronteras",
+      "organization": "Sin Fronteras IAP",
+      "category": "migration-and-legal",
+      "service": "Orientación legal para personas migrantes y refugiadas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad de México",
+        "municipality": "Ciudad de México"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+525580953623",
+          "routing": "switchboard",
+          "extension": "112"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://sinfronteras.org.mx/quienes-somos/"
+        ]
+      }
+    },
+    {
+      "id": "asylum-access-tijuana",
+      "organization": "Asylum Access México — Tijuana",
+      "category": "migration-and-legal",
+      "service": "Asesoría y representación legal para personas refugiadas o que solicitan refugio.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tijuana, Baja California",
+        "municipality": "Tijuana"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+526648218008",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 9:00 a 17:00, excepto festivos.",
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://asylumaccess.org/contact-us/"
+        ]
+      }
+    },
+    {
+      "id": "asylum-access-villahermosa",
+      "organization": "Asylum Access México — Villahermosa",
+      "category": "migration-and-legal",
+      "service": "Asesoría y representación legal para personas refugiadas o que solicitan refugio.",
+      "coverage": {
+        "scope": "local",
+        "area": "Villahermosa, Tabasco",
+        "municipality": "Villahermosa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+529932218828",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 9:00 a 17:00, excepto festivos.",
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://asylumaccess.org/contact-us/"
+        ]
+      }
+    },
+    {
+      "id": "jrs-tapachula-legal",
+      "organization": "Servicio Jesuita a Refugiados — Atención legal",
+      "category": "migration-and-legal",
+      "service": "Acompañamiento legal a personas migrantes, refugiadas y solicitantes de refugio.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tapachula, Chiapas",
+        "municipality": "Tapachula"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+529621963717",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 9:00 a 14:00.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/wp-content/uploads/sites/22/2026/01/251223_SERVICIOS-TAPACHULA_ACNUR_MEXICO_WEB.pdf"
+        ]
+      }
+    },
+    {
+      "id": "defensoria-publica-tapachula",
+      "organization": "Instituto Federal de la Defensoría Pública — Tapachula",
+      "category": "migration-and-legal",
+      "service": "Brinda orientación y representación jurídica, incluida la atención en trámites migratorios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tapachula, Chiapas",
+        "municipality": "Tapachula"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+529626987434",
+          "routing": "switchboard",
+          "extension": "1014"
+        }
+      ],
+      "hours": "Lunes a viernes, de 9:00 a 15:00.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/mexico/wp-content/uploads/sites/22/2026/01/251223_SERVICIOS-TAPACHULA_ACNUR_MEXICO_WEB.pdf",
+          "https://www.scjn.gob.mx/derechos-humanos/sites/default/files/Publicaciones/archivos/2024-02/Folleto-migrantes.pdf"
+        ]
+      }
+    },
+    {
+      "id": "linea-mujeres-nacional",
+      "organization": "Línea de las Mujeres",
+      "category": "protection",
+      "service": "Orientación, acompañamiento y canalización de mujeres que viven violencia de género.",
+      "coverage": {
+        "scope": "national",
+        "area": "México",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "079",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": null,
+      "requirements": "Marca y selecciona la opción 1.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gob.mx/mujeres/prensa/si-vives-violencia-de-genero-no-estas-sola-llama-a-la-linea-de-las-mujeres-079-opcion-1-y-recibe-acompanamiento-integral"
+        ]
+      }
+    },
+    {
+      "id": "red-nacional-refugios",
+      "organization": "Red Nacional de Refugios — Línea nacional",
+      "category": "protection",
+      "service": "Atiende a mujeres que viven violencia y coordina acompañamiento y acceso a espacios de protección.",
+      "coverage": {
+        "scope": "national",
+        "area": "México",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+528008224460",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": "Gratuito.",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://rednacionalderefugios.org.mx/modelo-de-atencion-integral/"
+        ]
+      }
+    },
+    {
+      "id": "violeta-jalisco",
+      "organization": "Violeta — Red de Centros de Justicia para las Mujeres",
+      "category": "protection",
+      "service": "Chat automatizado para recibir orientación y acceso a servicios en casos de violencia de género.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Jalisco",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+523314151002",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://redcjm.jalisco.gob.mx/publicaciones_campos.php"
+        ]
+      }
+    },
+    {
+      "id": "cjm-azcapotzalco",
+      "organization": "Centro de Justicia para las Mujeres — Azcapotzalco",
+      "category": "protection",
+      "service": "Atención integral a mujeres, niñas y niños que viven violencia familiar o de género.",
+      "coverage": {
+        "scope": "local",
+        "area": "Azcapotzalco, Ciudad de México",
+        "municipality": "Azcapotzalco"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+525553468394",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://fgjcdmx.gob.mx/nuestros-servicios/en-linea/mp-virtual/centros-de-justicia-para-las-mujeres"
+        ]
+      }
+    },
+    {
+      "id": "linea-mujer-queretaro",
+      "organization": "Línea Mujer Querétaro",
+      "category": "protection",
+      "service": "Canal telefónico de la Secretaría de las Mujeres de Querétaro.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Querétaro",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+528000083568",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://queretaro.gob.mx/en/dir"
+        ]
+      }
     }
   ]
 }
