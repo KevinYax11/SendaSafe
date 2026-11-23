@@ -1,0 +1,1309 @@
+{
+  "country": "NI",
+  "language": "es",
+  "resources": [
+    {
+      "id": "ni-police",
+      "organization": "Policía Nacional",
+      "category": "emergency",
+      "service": "Solicita intervención policial ante una emergencia.",
+      "coverage": {
+        "scope": "national",
+        "area": "Nicaragua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "118",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.policia.gob.ni/wp-content/uploads/2026/03/POLIC%C3%8DA-NACIONAL-TEMPORADA-VERANIEGA-2026..pdf"
+        ]
+      }
+    },
+    {
+      "id": "ni-bomberos",
+      "organization": "Bomberos Unidos de Nicaragua",
+      "category": "emergency",
+      "service": "Solicita auxilio por incendios y otras emergencias de rescate.",
+      "coverage": {
+        "scope": "national",
+        "area": "Nicaragua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "115",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mapanicaragua.com/numeros-de-emergencias-otros/"
+        ]
+      }
+    },
+    {
+      "id": "ni-cruzblanca",
+      "organization": "Cruz Blanca",
+      "category": "emergency",
+      "service": "Contacto de auxilio y atención prehospitalaria.",
+      "coverage": {
+        "scope": "national",
+        "area": "Nicaragua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "128",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bcie.org/fileadmin/bcie/projects/501142/Perfil_Ambiental_Proyecto_AP_5_ciudades.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ni-sinapred",
+      "organization": "Sistema Nacional para la Prevención, Mitigación y Atención de Desastres",
+      "category": "emergency",
+      "service": "Contacto de la red nacional para emergencias y desastres.",
+      "coverage": {
+        "scope": "national",
+        "area": "Nicaragua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "100",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.minim.gob.ni/storage/documents/J01iZbNmWZdstDdXtJcWdTkB8wto87Mg1Na1Q8HV.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ni-energia",
+      "organization": "Disnorte-Dissur",
+      "category": "emergency",
+      "service": "Reporta averías eléctricas y cortes en las zonas cubiertas por la distribuidora.",
+      "coverage": {
+        "scope": "national",
+        "area": "Nicaragua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "125",
+          "routing": "short-code"
+        },
+        {
+          "type": "phone",
+          "number": "134",
+          "routing": "short-code"
+        },
+        {
+          "type": "phone",
+          "number": "135",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.disnorte-dissur.com.ni/index.php/contactenos"
+        ]
+      }
+    },
+    {
+      "id": "ni-h-pellas",
+      "organization": "Hospital Vivian Pellas",
+      "category": "health-and-psychosocial",
+      "service": "Comunícate con el hospital para consultar atención médica, disponibilidad y requisitos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Managua, Managua",
+        "municipality": "Managua"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522556900",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://managua.diplo.de/ni-de/service/2751738-2751738"
+        ]
+      }
+    },
+    {
+      "id": "ni-h-bautista",
+      "organization": "Hospital Bautista",
+      "category": "health-and-psychosocial",
+      "service": "Comunícate con el hospital para consultar atención médica, disponibilidad y requisitos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Managua, Managua",
+        "municipality": "Managua"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522649020",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.uk/government/publications/hospitals-in-nicaragua/nicaragua-list-of-medical-facilities"
+        ]
+      }
+    },
+    {
+      "id": "ni-h-integral",
+      "organization": "Hospital Salud Integral",
+      "category": "health-and-psychosocial",
+      "service": "Comunícate con el hospital para consultar atención médica, disponibilidad y requisitos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Managua, Managua",
+        "municipality": "Managua"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522512030",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://managua.diplo.de/ni-de/service/2751738-2751738"
+        ]
+      }
+    },
+    {
+      "id": "ni-h-militar",
+      "organization": "Hospital Militar Escuela Dr. Alejandro Dávila Bolaños",
+      "category": "health-and-psychosocial",
+      "service": "Comunícate con el hospital para consultar atención médica, disponibilidad y requisitos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Managua, Managua",
+        "municipality": "Managua"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522647570",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://managua.diplo.de/ni-de/service/2751738-2751738"
+        ]
+      }
+    },
+    {
+      "id": "ni-h-monte",
+      "organization": "Hospital Monte España",
+      "category": "health-and-psychosocial",
+      "service": "Comunícate con el hospital para consultar atención médica, disponibilidad y requisitos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Managua, Managua",
+        "municipality": "Managua"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522783920",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://managua.diplo.de/ni-de/service/2751738-2751738"
+        ]
+      }
+    },
+    {
+      "id": "ni-h-amador",
+      "organization": "Hospital Central César Amador Kühl",
+      "category": "health-and-psychosocial",
+      "service": "Comunícate con el hospital para consultar atención médica, disponibilidad y requisitos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Managua, Managua",
+        "municipality": "Managua"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522781566",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.uk/government/publications/hospitals-in-nicaragua/nicaragua-list-of-medical-facilities"
+        ]
+      }
+    },
+    {
+      "id": "ni-h-leon",
+      "organization": "Hospital Escuela Óscar Danilo Rosales",
+      "category": "health-and-psychosocial",
+      "service": "Comunícate con el hospital para consultar atención médica, disponibilidad y requisitos.",
+      "coverage": {
+        "scope": "local",
+        "area": "León, León",
+        "municipality": "León"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50523116912",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.uk/government/publications/hospitals-in-nicaragua/nicaragua-list-of-medical-facilities"
+        ]
+      }
+    },
+    {
+      "id": "ni-h-moyogalpa",
+      "organization": "Hospital de Moyogalpa",
+      "category": "health-and-psychosocial",
+      "service": "Comunícate con el hospital para consultar atención médica, disponibilidad y requisitos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Moyogalpa, Rivas",
+        "municipality": "Moyogalpa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50525693703",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.uk/government/publications/hospitals-in-nicaragua/nicaragua-list-of-medical-facilities"
+        ]
+      }
+    },
+    {
+      "id": "ni-apoyo-crea-managua",
+      "organization": "CREA Internacional",
+      "category": "health-and-psychosocial",
+      "service": "Consulta por apoyo para la recuperación de adicciones y las condiciones de atención del centro.",
+      "coverage": {
+        "scope": "local",
+        "area": "Managua, Managua",
+        "municipality": "Managua"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522602051",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aaosgnicaragua.org/directorio-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "ni-apoyo-cara",
+      "organization": "Centro de Ayuda y Rehabilitación del Alcohólico y Adicto a otras Drogas",
+      "category": "health-and-psychosocial",
+      "service": "Consulta por apoyo para la recuperación de adicciones y las condiciones de atención del centro.",
+      "coverage": {
+        "scope": "local",
+        "area": "Managua, Managua",
+        "municipality": "Managua"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522780578",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aaosgnicaragua.org/directorio-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "ni-apoyo-aguilas",
+      "organization": "Como las Águilas",
+      "category": "health-and-psychosocial",
+      "service": "Consulta por apoyo para la recuperación de adicciones y las condiciones de atención del centro.",
+      "coverage": {
+        "scope": "local",
+        "area": "Managua, Managua",
+        "municipality": "Managua"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522227277",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aaosgnicaragua.org/directorio-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "ni-apoyo-brazos",
+      "organization": "Centro Cristiano Brazos de Amor",
+      "category": "health-and-psychosocial",
+      "service": "Consulta por apoyo para la recuperación de adicciones y las condiciones de atención del centro.",
+      "coverage": {
+        "scope": "local",
+        "area": "Managua, Managua",
+        "municipality": "Managua"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522705471",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aaosgnicaragua.org/directorio-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "ni-apoyo-cenicsol",
+      "organization": "Centro Nicaragüense de Solidaridad",
+      "category": "health-and-psychosocial",
+      "service": "Consulta por apoyo para la recuperación de adicciones y las condiciones de atención del centro.",
+      "coverage": {
+        "scope": "local",
+        "area": "Managua, Managua",
+        "municipality": "Managua"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50587341697",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aaosgnicaragua.org/directorio-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "ni-apoyo-remar-managua",
+      "organization": "REMAR Managua",
+      "category": "health-and-psychosocial",
+      "service": "Consulta por apoyo para la recuperación de adicciones y las condiciones de atención del centro.",
+      "coverage": {
+        "scope": "local",
+        "area": "Managua, Managua",
+        "municipality": "Managua"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522224545",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aaosgnicaragua.org/directorio-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "ni-apoyo-mejor-camino",
+      "organization": "El Mejor Camino",
+      "category": "health-and-psychosocial",
+      "service": "Consulta por apoyo para la recuperación de adicciones y las condiciones de atención del centro.",
+      "coverage": {
+        "scope": "local",
+        "area": "Nandasmo, Masaya",
+        "municipality": "Nandasmo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50583609104",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aaosgnicaragua.org/directorio-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "ni-apoyo-prodigo",
+      "organization": "Grupo El Hijo Pródigo",
+      "category": "health-and-psychosocial",
+      "service": "Consulta por apoyo para la recuperación de adicciones y las condiciones de atención del centro.",
+      "coverage": {
+        "scope": "local",
+        "area": "Matiguás, Matagalpa",
+        "municipality": "Matiguás"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50588364042",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aaosgnicaragua.org/directorio-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "ni-apoyo-vida-esperanza",
+      "organization": "Centro de Vida y Esperanza",
+      "category": "health-and-psychosocial",
+      "service": "Consulta por apoyo para la recuperación de adicciones y las condiciones de atención del centro.",
+      "coverage": {
+        "scope": "local",
+        "area": "Jinotega, Jinotega",
+        "municipality": "Jinotega"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50587358204",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aaosgnicaragua.org/directorio-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "ni-apoyo-crea-esteli",
+      "organization": "CREA Estelí",
+      "category": "health-and-psychosocial",
+      "service": "Consulta por apoyo para la recuperación de adicciones y las condiciones de atención del centro.",
+      "coverage": {
+        "scope": "local",
+        "area": "Estelí, Estelí",
+        "municipality": "Estelí"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50527141390",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aaosgnicaragua.org/directorio-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "ni-aa",
+      "organization": "Oficina de Servicios Generales de Alcohólicos Anónimos de Nicaragua",
+      "category": "health-and-psychosocial",
+      "service": "Consulta grupos de ayuda mutua y contactos de apoyo para la recuperación del alcoholismo.",
+      "coverage": {
+        "scope": "national",
+        "area": "Nicaragua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50578693517",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aaosgnicaragua.org/directorio-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "ni-banco-alimentos",
+      "organization": "Banco de Alimentos de Nicaragua",
+      "category": "shelter-and-food",
+      "service": "Consulta por organizaciones asociadas que distribuyen alimentos a hogares en situación de vulnerabilidad.",
+      "coverage": {
+        "scope": "national",
+        "area": "Nicaragua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522257347",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://bancoalimentosnicaragua.org.ni/",
+          "https://bancoalimentosnicaragua.org.ni/como-trabajamos/"
+        ]
+      }
+    },
+    {
+      "id": "ni-zacarias",
+      "organization": "Hogar Zacarías Guerra",
+      "category": "shelter-and-food",
+      "service": "Consulta directamente al hogar por sus programas de apoyo y las condiciones de ingreso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Managua, Managua",
+        "municipality": "Managua"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522774784",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://hogarzacariasguerra.org/contactanos/"
+        ]
+      }
+    },
+    {
+      "id": "ni-rejesad",
+      "organization": "Refugio de Jesús Sacramento para el Alcohólico y Drogadicto Desamparado",
+      "category": "shelter-and-food",
+      "service": "Consulta por alojamiento y requisitos de ingreso para personas que necesitan apoyo en la recuperación de adicciones.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tipitapa, Managua",
+        "municipality": "Tipitapa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50589551318",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aaosgnicaragua.org/directorio-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "ni-amar",
+      "organization": "Albergue de Miembros Adictos en Recuperación",
+      "category": "shelter-and-food",
+      "service": "Consulta por alojamiento durante la recuperación de adicciones.",
+      "coverage": {
+        "scope": "local",
+        "area": "Catarina, Masaya",
+        "municipality": "Catarina"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50586499152",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aaosgnicaragua.org/directorio-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "ni-hodera",
+      "organization": "Hogar de Rehabilitación del Adicto",
+      "category": "shelter-and-food",
+      "service": "Consulta por ingreso al programa residencial de rehabilitación.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Marcos, Carazo",
+        "municipality": "San Marcos"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50525352786",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aaosgnicaragua.org/directorio-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "ni-resurreccion",
+      "organization": "Casa Hogar Resurrección",
+      "category": "shelter-and-food",
+      "service": "Consulta al hogar por apoyo residencial en el contexto de la rehabilitación de adicciones.",
+      "coverage": {
+        "scope": "local",
+        "area": "Managua, Managua",
+        "municipality": "Managua"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522528685",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aaosgnicaragua.org/directorio-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "ni-refugio-red-mujeres",
+      "organization": "Red de Mujeres Contra la Violencia",
+      "category": "shelter-and-food",
+      "service": "Solicita orientación para acceder a los albergues de la red en situaciones de violencia de alto riesgo.",
+      "coverage": {
+        "scope": "national",
+        "area": "Nicaragua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50589324624",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.consulado.gob.cl/consulado-contigo/redes-de-apoyo-en-managua"
+        ]
+      }
+    },
+    {
+      "id": "ni-migracion",
+      "organization": "Dirección General de Migración y Extranjería",
+      "category": "migration-and-legal",
+      "service": "Consulta requisitos y trámites de migración, residencia y documentación.",
+      "coverage": {
+        "scope": "national",
+        "area": "Nicaragua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522512271",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50522512272",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mapanicaragua.com/numeros-de-emergencias-otros/"
+        ]
+      }
+    },
+    {
+      "id": "ni-oim",
+      "organization": "Organización Internacional para las Migraciones, Nicaragua",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación sobre retorno voluntario asistido y servicios para personas migrantes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Nicaragua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522789569",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://americas.iom.int/sites/g/files/tmzbdl1446/files/documents/GUIA_RETORNOS_VOLUNTARIOS_SOLO_VISUALIZACION.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ni-minrex",
+      "organization": "Ministerio de Relaciones Exteriores",
+      "category": "migration-and-legal",
+      "service": "Contacto institucional para consultar trámites consulares o solicitar una derivación al área correspondiente.",
+      "coverage": {
+        "scope": "national",
+        "area": "Nicaragua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522448000",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mapanicaragua.com/numeros-de-emergencias-otros/"
+        ]
+      }
+    },
+    {
+      "id": "ni-pddh-leon",
+      "organization": "Procuraduría para la Defensa de los Derechos Humanos, Occidente",
+      "category": "migration-and-legal",
+      "service": "Contacta con la delegación para consultar cómo presentar una queja por vulneración de derechos.",
+      "coverage": {
+        "scope": "regional",
+        "area": "León",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50523154349",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.pddh.gob.ni/?p=2420"
+        ]
+      }
+    },
+    {
+      "id": "ni-pddh-rivas",
+      "organization": "Procuraduría para la Defensa de los Derechos Humanos, Rivas y Granada",
+      "category": "migration-and-legal",
+      "service": "Contacta con la delegación para consultar cómo presentar una queja por vulneración de derechos.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Rivas y Granada",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50525630762",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.pddh.gob.ni/?p=2420"
+        ]
+      }
+    },
+    {
+      "id": "ni-pddh-juigalpa",
+      "organization": "Procuraduría para la Defensa de los Derechos Humanos, Juigalpa",
+      "category": "migration-and-legal",
+      "service": "Contacta con la delegación para consultar cómo presentar una queja por vulneración de derechos.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Chontales",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50525124587",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.pddh.gob.ni/?p=2420"
+        ]
+      }
+    },
+    {
+      "id": "ni-pddh-matagalpa",
+      "organization": "Procuraduría para la Defensa de los Derechos Humanos, Matagalpa",
+      "category": "migration-and-legal",
+      "service": "Contacta con la delegación para consultar cómo presentar una queja por vulneración de derechos.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Matagalpa",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50527726344",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.pddh.gob.ni/?p=2420"
+        ]
+      }
+    },
+    {
+      "id": "ni-pddh-managua",
+      "organization": "Procuraduría para la Defensa de los Derechos Humanos, Managua",
+      "category": "migration-and-legal",
+      "service": "Contacta con la delegación para consultar cómo presentar una queja por vulneración de derechos.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Managua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522663257",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.pddh.gob.ni/?p=2420"
+        ]
+      }
+    },
+    {
+      "id": "ni-mifamilia",
+      "organization": "Ministerio de la Familia",
+      "category": "protection",
+      "service": "Orientación y acompañamiento en situaciones de violencia familiar, trata y riesgo para niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Nicaragua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "133",
+          "routing": "short-code"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+50583525121",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Línea 133 disponible las 24 horas",
+      "cost": "Llamada gratuita",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mifamilia.gob.ni/wp-content/uploads/2023/09/BOLETIN-INFORMATIVO-AGOSTO-MI-FAMILIA.pdf",
+          "https://www.minim.gob.ni/storage/documents/LXMFQnTEx63fzBnTwo9q1LEfQ80lZWsIovb0GQ2R.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ni-comisaria",
+      "organization": "Comisaría de la Mujer y la Niñez",
+      "category": "protection",
+      "service": "Solicita atención especializada por violencia de género o violencia contra niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Managua, Managua",
+        "municipality": "Managua"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522775168",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50585908323",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50587252787",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.consulado.gob.cl/consulado-contigo/redes-de-apoyo-en-managua"
+        ]
+      }
+    },
+    {
+      "id": "ni-mec",
+      "organization": "Movimiento de Mujeres María Elena Cuadra",
+      "category": "protection",
+      "service": "Solicita orientación sobre acompañamiento jurídico, psicológico o social para mujeres que han sufrido violencia.",
+      "coverage": {
+        "scope": "national",
+        "area": "Nicaragua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522668940",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.consulado.gob.cl/consulado-contigo/redes-de-apoyo-en-managua"
+        ]
+      }
+    },
+    {
+      "id": "ni-pddh-atencion",
+      "organization": "Procuraduría para la Defensa de los Derechos Humanos, línea de orientación",
+      "category": "protection",
+      "service": "Consulta por acompañamiento en situaciones de violencia y vulneración de derechos.",
+      "coverage": {
+        "scope": "national",
+        "area": "Nicaragua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50522641519",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50522643244",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mifamilia.gob.ni/wp-content/uploads/2023/02/Cartilla-Mujer-Dignidad-y-Derechos.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ni-domus",
+      "organization": "Domus Vitae Nicaragua",
+      "category": "protection",
+      "service": "Consulta al equipo por sus programas de acompañamiento a mujeres embarazadas en situación de vulnerabilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Managua, Managua",
+        "municipality": "Managua"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50587871084",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://soycasadevida.org/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "ni-trata",
+      "organization": "Red de la Vida Consagrada contra la Trata de Personas, Nicaragua",
+      "category": "protection",
+      "service": "Consulta a la red por orientación y acompañamiento ante una situación de trata de personas.",
+      "coverage": {
+        "scope": "national",
+        "area": "Nicaragua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50523417215",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50587394174",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mapeo-red-clamor.website/ajaxfile.php?pais=nicaragua"
+        ]
+      }
+    }
+  ]
+}
+
