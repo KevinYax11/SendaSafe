@@ -1,0 +1,1291 @@
+{
+  "country": "EC",
+  "language": "es",
+  "resources": [
+    {
+      "id": "ecu-911",
+      "organization": "Servicio Integrado de Seguridad ECU 911",
+      "category": "emergency",
+      "service": "Línea nacional para solicitar despacho de policía, bomberos o asistencia médica ante una emergencia.",
+      "coverage": {
+        "scope": "national",
+        "area": "Ecuador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "911",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.ecu911.gob.ec/como-reportar-al-9-1-1/"
+        ]
+      }
+    },
+    {
+      "id": "ciatox",
+      "organization": "Centro de Información y Asesoramiento Toxicológico — CIATOX",
+      "category": "emergency",
+      "service": "Orientación especializada ante sospecha de intoxicación.",
+      "coverage": {
+        "scope": "national",
+        "area": "Ecuador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1800836366",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Si se necesita despacho inmediato, marca 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.salud.gob.ec/centro-de-informacion-y-asesoramiento-toxiocologico/",
+          "https://www.salud.gob.ec/wp-content/uploads/2021/01/CIATOX-FOLLETO-1.pdf"
+        ]
+      }
+    },
+    {
+      "id": "centrosur-incidentes",
+      "organization": "CENTROSUR — Incidentes eléctricos",
+      "category": "emergency",
+      "service": "Recibe reportes de daños que afecten la red eléctrica de su zona de servicio.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Azuay, Cañar y Morona Santiago",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "136",
+          "routing": "short-code"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+593961203354",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas, todos los días.",
+      "cost": null,
+      "requirements": "Si hay peligro para personas, llama al 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.centrosur.gob.ec/centrosur-responde-con-rapidez-ante-incidentes-que-afectan-la-red-electrica/"
+        ]
+      }
+    },
+    {
+      "id": "eeq-danos",
+      "organization": "Empresa Eléctrica Quito — Reporte de daños",
+      "category": "emergency",
+      "service": "Recibe reportes de fallas y daños de la red eléctrica en su zona de servicio.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Área de servicio de la Empresa Eléctrica Quito",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59323956600",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Si hay peligro para personas, llama al 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.eeq.com.ec/web/empresa-electrica-quito/call-center"
+        ]
+      }
+    },
+    {
+      "id": "cnel-incidentes",
+      "organization": "CNEL EP — Reportes de daños eléctricos",
+      "category": "emergency",
+      "service": "Recibe avisos sobre fallas eléctricas en las localidades atendidas por CNEL EP.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Áreas de servicio de CNEL EP",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1800263537",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Si hay peligro para personas, llama al 911.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cnelep.gob.ec/category/noticias/page/10/"
+        ]
+      }
+    },
+    {
+      "id": "msp-citas",
+      "organization": "Ministerio de Salud Pública — Agendamiento",
+      "category": "health-and-psychosocial",
+      "service": "Agenda citas de primer nivel, incluida consulta de psicología según disponibilidad.",
+      "coverage": {
+        "scope": "national",
+        "area": "Ecuador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "171",
+          "routing": "short-code"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+593961171171",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.salud.gob.ec/linea-telefonica-del-msp-facilita-el-agendamiento-de-citas-medicas-en-centros-de-salud/"
+        ]
+      }
+    },
+    {
+      "id": "usfq-salud-mental",
+      "organization": "Centro de Salud Mental USFQ",
+      "category": "health-and-psychosocial",
+      "service": "Informa sobre evaluación, atención psicológica y el agendamiento de primera cita.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cumbayá, Pichincha",
+        "municipality": "Cumbayá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+593980435484",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta cobertura, modalidad y costo.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.usfq.edu.ec/es/campus-life/cora/centro-de-salud-mental"
+        ]
+      }
+    },
+    {
+      "id": "iess-eucatoriana",
+      "organization": "Unidad de Atención Ambulatoria La Ecuatoriana — IESS",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la unidad médica del IESS. Consulta la disponibilidad de servicios y el proceso de atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Quito, Pichincha",
+        "municipality": "Quito"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59322696712",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Confirma requisitos de afiliación o derivación, según el servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.iess.gob.ec/es/mapa-de-unidades-medicas"
+        ]
+      }
+    },
+    {
+      "id": "iess-san-lorenzo",
+      "organization": "Unidad de Atención Ambulatoria San Lorenzo — IESS",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la unidad médica del IESS. Consulta la disponibilidad de servicios y el proceso de atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Lorenzo, Esmeraldas",
+        "municipality": "San Lorenzo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59362780173",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Confirma requisitos de afiliación o derivación, según el servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.iess.gob.ec/es/mapa-de-unidades-medicas"
+        ]
+      }
+    },
+    {
+      "id": "iess-machachi",
+      "organization": "Unidad de Atención Ambulatoria Machachi — IESS",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la unidad médica del IESS. Consulta la disponibilidad de servicios y el proceso de atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Machachi, Pichincha",
+        "municipality": "Machachi"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59322314501",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Confirma requisitos de afiliación o derivación, según el servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.iess.gob.ec/es/mapa-de-unidades-medicas"
+        ]
+      }
+    },
+    {
+      "id": "iess-duran",
+      "organization": "Hospital Básico Durán — IESS",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la unidad médica del IESS. Consulta la disponibilidad de servicios y el proceso de atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Durán, Guayas",
+        "municipality": "Durán"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59342801023",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Confirma requisitos de afiliación o derivación, según el servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.iess.gob.ec/es/mapa-de-unidades-medicas"
+        ]
+      }
+    },
+    {
+      "id": "iess-quevedo",
+      "organization": "Centro de Atención Ambulatoria Quevedo — IESS",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la unidad médica del IESS. Consulta la disponibilidad de servicios y el proceso de atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Quevedo, Los Ríos",
+        "municipality": "Quevedo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59352757435",
+          "routing": "switchboard"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Confirma requisitos de afiliación o derivación, según el servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.iess.gob.ec/es/mapa-de-unidades-medicas"
+        ]
+      }
+    },
+    {
+      "id": "iess-daule",
+      "organization": "Unidad de Atención Ambulatoria Daule — IESS",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la unidad médica del IESS. Consulta la disponibilidad de servicios y el proceso de atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Daule, Guayas",
+        "municipality": "Daule"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59342795409",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Confirma requisitos de afiliación o derivación, según el servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.iess.gob.ec/es/mapa-de-unidades-medicas"
+        ]
+      }
+    },
+    {
+      "id": "iess-santa-cruz",
+      "organization": "Unidad de Atención Ambulatoria Santa Cruz — IESS",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la unidad médica del IESS. Consulta la disponibilidad de servicios y el proceso de atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puerto Ayora, Galápagos",
+        "municipality": "Puerto Ayora"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59352526310",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Confirma requisitos de afiliación o derivación, según el servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.iess.gob.ec/es/mapa-de-unidades-medicas"
+        ]
+      }
+    },
+    {
+      "id": "iess-azogues",
+      "organization": "Centro de Atención Ambulatoria de Azogues — IESS",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la unidad médica del IESS. Consulta la disponibilidad de servicios y el proceso de atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Azogues, Cañar",
+        "municipality": "Azogues"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59372240256",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Confirma requisitos de afiliación o derivación, según el servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.iess.gob.ec/es/mapa-de-unidades-medicas"
+        ]
+      }
+    },
+    {
+      "id": "iess-sucua",
+      "organization": "Unidad de Atención Ambulatoria Sucúa — IESS",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la unidad médica del IESS. Consulta la disponibilidad de servicios y el proceso de atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Sucúa, Morona Santiago",
+        "municipality": "Sucúa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59372740889",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Confirma requisitos de afiliación o derivación, según el servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.iess.gob.ec/es/mapa-de-unidades-medicas"
+        ]
+      }
+    },
+    {
+      "id": "iess-jipijapa",
+      "organization": "Centro de Atención Ambulatoria Jipijapa — IESS",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la unidad médica del IESS. Consulta la disponibilidad de servicios y el proceso de atención.",
+      "coverage": {
+        "scope": "local",
+        "area": "Jipijapa, Manabí",
+        "municipality": "Jipijapa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59352600337",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Confirma requisitos de afiliación o derivación, según el servicio.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.iess.gob.ec/es/mapa-de-unidades-medicas"
+        ]
+      }
+    },
+    {
+      "id": "polinal-quito",
+      "organization": "Fundación Polinal — Albergue Quito",
+      "category": "shelter-and-food",
+      "service": "Contacto de la sede de hospedaje de la fundación.",
+      "coverage": {
+        "scope": "local",
+        "area": "Quito, Pichincha",
+        "municipality": "Quito"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59322903771",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+593978999269",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta población atendida, cupo y condiciones antes de ir.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.fundacionpolinalecuador.com/index.php/contactanos"
+        ]
+      }
+    },
+    {
+      "id": "polinal-guayaquil",
+      "organization": "Fundación Polinal — Albergue Guayaquil",
+      "category": "shelter-and-food",
+      "service": "Contacto de la sede de hospedaje de la fundación.",
+      "coverage": {
+        "scope": "local",
+        "area": "Guayaquil, Guayas",
+        "municipality": "Guayaquil"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+593962141296",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta población atendida, cupo y condiciones antes de ir.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.fundacionpolinalecuador.com/index.php/contactanos"
+        ]
+      }
+    },
+    {
+      "id": "cristo-peregrino",
+      "organization": "Casa de acogida Cristo Peregrino",
+      "category": "shelter-and-food",
+      "service": "Acogida temporal de la Misión Scalabriniana para familias en movilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ibarra, Imbabura",
+        "municipality": "Ibarra"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+593987221049",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, de 8:30 a 16:00.",
+      "cost": null,
+      "requirements": "Consulta cupo antes de acudir.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://migrasegura.org/informacao/albergues-viaje/"
+        ]
+      }
+    },
+    {
+      "id": "nuestra-senora-paz",
+      "organization": "Casa de acogida Nuestra Señora de la Paz",
+      "category": "shelter-and-food",
+      "service": "Acogida temporal para mujeres solas o acompañadas de niñas, niños o adolescentes en movilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Quito, Pichincha",
+        "municipality": "Quito"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+593967915715",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Consulta disponibilidad y condiciones de ingreso.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://migrasegura.org/informacao/albergues-viaje/"
+        ]
+      }
+    },
+    {
+      "id": "refugio-matilde",
+      "organization": "Fundación Casa de Refugio Matilde",
+      "category": "shelter-and-food",
+      "service": "Contacto público para solicitar orientación sobre acogida ante violencia de género.",
+      "coverage": {
+        "scope": "local",
+        "area": "Quito, Pichincha",
+        "municipality": "Quito"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+593996696723",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Coordina el acceso por teléfono.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/ecuador/en/violencia-de-genero-explotacion-y-abuso-sexual/organizaciones-locales-que-atienden-casos-de-violencia-basada-en-genero/"
+        ]
+      }
+    },
+    {
+      "id": "acnur-ecuador",
+      "organization": "ACNUR Ecuador — Orientación sobre refugio",
+      "category": "migration-and-legal",
+      "service": "Informa sobre el trámite de refugio y la orientación disponible para personas que necesitan protección internacional.",
+      "coverage": {
+        "scope": "national",
+        "area": "Ecuador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+59323420120",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/ecuador/en/acceso-a-la-condicion-de-personas-refugiada-asilo-y-tramites-migratorios/solicitud-refugiado/"
+        ]
+      }
+    },
+    {
+      "id": "casa-migrante-cuenca",
+      "organization": "Casa del Migrante — Municipio de Cuenca",
+      "category": "migration-and-legal",
+      "service": "Ofrece orientación municipal y asesoría a personas en movilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cuenca, Azuay",
+        "municipality": "Cuenca"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59374134900",
+          "routing": "switchboard",
+          "extension": "2177"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cuenca.gob.ec/content/casa-del-migrante"
+        ]
+      }
+    },
+    {
+      "id": "caritas-movilidad",
+      "organization": "Cáritas Ecuador — Movilidad Humana",
+      "category": "migration-and-legal",
+      "service": "Contacto del área de movilidad humana para orientación y acceso a servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Quito, Pichincha",
+        "municipality": "Quito"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59322556727",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.igualdad.gob.ec/directorio-servicios-sociales/"
+        ]
+      }
+    },
+    {
+      "id": "defensoria-guayaquil",
+      "organization": "Defensoría Pública — Guayaquil",
+      "category": "migration-and-legal",
+      "service": "Orienta sobre el acceso a asesoría y patrocinio jurídico según el caso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Guayaquil, Guayas",
+        "municipality": "Guayaquil"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59342599190",
+          "routing": "switchboard",
+          "extension": "4101"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.ec/?page_id=22777"
+        ]
+      }
+    },
+    {
+      "id": "hias-integracion",
+      "organization": "HIAS Ecuador — Orientación para medios de vida",
+      "category": "migration-and-legal",
+      "service": "Contacto para orientación sobre trabajo e integración económica de personas refugiadas y migrantes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Ecuador",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+593992462019",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/ecuador/educacion-salud-alimentacion-y-otros-servicios/trabajo-y-emprendimiento/"
+        ]
+      }
+    },
+    {
+      "id": "defensoria-quito",
+      "organization": "Defensoría Pública — Quito",
+      "category": "migration-and-legal",
+      "service": "Consulta por asistencia o patrocinio jurídico gratuito según el caso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Quito, Pichincha",
+        "municipality": "Quito"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59323815270",
+          "routing": "switchboard",
+          "extension": "21014"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.ec/?page_id=22777"
+        ]
+      }
+    },
+    {
+      "id": "defensoria-macas",
+      "organization": "Defensoría Pública — Macas",
+      "category": "migration-and-legal",
+      "service": "Consulta por asistencia o patrocinio jurídico gratuito según el caso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Macas, Morona Santiago",
+        "municipality": "Macas"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59323815270",
+          "routing": "switchboard",
+          "extension": "7208"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.ec/?page_id=22777"
+        ]
+      }
+    },
+    {
+      "id": "defensoria-tena",
+      "organization": "Defensoría Pública — Tena",
+      "category": "migration-and-legal",
+      "service": "Consulta por asistencia o patrocinio jurídico gratuito según el caso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tena, Napo",
+        "municipality": "Tena"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59323815270",
+          "routing": "switchboard",
+          "extension": "6017"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.ec/?page_id=22777"
+        ]
+      }
+    },
+    {
+      "id": "defensoria-puyo",
+      "organization": "Defensoría Pública — Puyo",
+      "category": "migration-and-legal",
+      "service": "Consulta por asistencia o patrocinio jurídico gratuito según el caso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puyo, Pastaza",
+        "municipality": "Puyo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59323815270",
+          "routing": "switchboard",
+          "extension": "3105"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.ec/?page_id=22777"
+        ]
+      }
+    },
+    {
+      "id": "defensoria-santo-domingo",
+      "organization": "Defensoría Pública — Santo Domingo",
+      "category": "migration-and-legal",
+      "service": "Consulta por asistencia o patrocinio jurídico gratuito según el caso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santo Domingo",
+        "municipality": "Santo Domingo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59323815270",
+          "routing": "switchboard",
+          "extension": "2689"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.ec/?page_id=22777"
+        ]
+      }
+    },
+    {
+      "id": "defensoria-ambato",
+      "organization": "Defensoría Pública — Ambato",
+      "category": "migration-and-legal",
+      "service": "Consulta por asistencia o patrocinio jurídico gratuito según el caso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ambato, Tungurahua",
+        "municipality": "Ambato"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59323815270",
+          "routing": "switchboard",
+          "extension": "3101"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.defensoria.gob.ec/?page_id=22777"
+        ]
+      }
+    },
+    {
+      "id": "las-marias",
+      "organization": "Centro de Apoyo a la Mujer y a la Familia Las Marías",
+      "category": "protection",
+      "service": "Brinda orientación, atención o derivación a personas afectadas por violencia de género. Consulta los servicios disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Gualaceo y Paute, Azuay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+593995536589",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/ecuador/en/violencia-de-genero-explotacion-y-abuso-sexual/organizaciones-locales-que-atienden-casos-de-violencia-basada-en-genero/"
+        ]
+      }
+    },
+    {
+      "id": "maria-amor",
+      "organization": "Fundación María Amor",
+      "category": "protection",
+      "service": "Brinda orientación, atención o derivación a personas afectadas por violencia de género. Consulta los servicios disponibles.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cuenca, Azuay",
+        "municipality": "Cuenca"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+593958934487",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/ecuador/en/violencia-de-genero-explotacion-y-abuso-sexual/organizaciones-locales-que-atienden-casos-de-violencia-basada-en-genero/"
+        ]
+      }
+    },
+    {
+      "id": "patronato-tulcan",
+      "organization": "Patronato de Tulcán",
+      "category": "protection",
+      "service": "Brinda orientación, atención o derivación a personas afectadas por violencia de género. Consulta los servicios disponibles.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tulcán, Carchi",
+        "municipality": "Tulcán"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+593994185413",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/ecuador/en/violencia-de-genero-explotacion-y-abuso-sexual/organizaciones-locales-que-atienden-casos-de-violencia-basada-en-genero/"
+        ]
+      }
+    },
+    {
+      "id": "nosotras-equidad",
+      "organization": "Fundación Nosotras con Equidad",
+      "category": "protection",
+      "service": "Brinda orientación, atención o derivación a personas afectadas por violencia de género. Consulta los servicios disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Chimborazo",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+593984277871",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/ecuador/en/violencia-de-genero-explotacion-y-abuso-sexual/organizaciones-locales-que-atienden-casos-de-violencia-basada-en-genero/"
+        ]
+      }
+    },
+    {
+      "id": "mujeres-el-oro",
+      "organization": "Movimiento de Mujeres de El Oro",
+      "category": "protection",
+      "service": "Brinda orientación, atención o derivación a personas afectadas por violencia de género. Consulta los servicios disponibles.",
+      "coverage": {
+        "scope": "local",
+        "area": "Machala, El Oro",
+        "municipality": "Machala"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+593989486451",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/ecuador/en/violencia-de-genero-explotacion-y-abuso-sexual/organizaciones-locales-que-atienden-casos-de-violencia-basada-en-genero/"
+        ]
+      }
+    },
+    {
+      "id": "cdh-huaquillas",
+      "organization": "Centro de Derechos Humanos",
+      "category": "protection",
+      "service": "Brinda orientación, atención o derivación a personas afectadas por violencia de género. Consulta los servicios disponibles.",
+      "coverage": {
+        "scope": "local",
+        "area": "Huaquillas, El Oro",
+        "municipality": "Huaquillas"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+593967898963",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/ecuador/en/violencia-de-genero-explotacion-y-abuso-sexual/organizaciones-locales-que-atienden-casos-de-violencia-basada-en-genero/"
+        ]
+      }
+    },
+    {
+      "id": "foro-mujer-esmeraldas",
+      "organization": "Fundación Foro de Desarrollo Integral de la Mujer y la Familia",
+      "category": "protection",
+      "service": "Brinda orientación, atención o derivación a personas afectadas por violencia de género. Consulta los servicios disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Esmeraldas",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+593981383463",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/ecuador/en/violencia-de-genero-explotacion-y-abuso-sexual/organizaciones-locales-que-atienden-casos-de-violencia-basada-en-genero/"
+        ]
+      }
+    },
+    {
+      "id": "cepam-guayas",
+      "organization": "CEPAM Guayas",
+      "category": "protection",
+      "service": "Brinda orientación, atención o derivación a personas afectadas por violencia de género. Consulta los servicios disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Guayas",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+593994151219",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/ecuador/en/violencia-de-genero-explotacion-y-abuso-sexual/organizaciones-locales-que-atienden-casos-de-violencia-basada-en-genero/"
+        ]
+      }
+    },
+    {
+      "id": "nuevos-horizontes",
+      "organization": "Fundación Nuevos Horizontes",
+      "category": "protection",
+      "service": "Brinda orientación, atención o derivación a personas afectadas por violencia de género. Consulta los servicios disponibles.",
+      "coverage": {
+        "scope": "local",
+        "area": "Portoviejo, Manabí",
+        "municipality": "Portoviejo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+593992288246",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/ecuador/en/violencia-de-genero-explotacion-y-abuso-sexual/organizaciones-locales-que-atienden-casos-de-violencia-basada-en-genero/"
+        ]
+      }
+    },
+    {
+      "id": "surkuna",
+      "organization": "Surkuna",
+      "category": "protection",
+      "service": "Brinda orientación, atención o derivación a personas afectadas por violencia de género. Consulta los servicios disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Pichincha",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+593999928032",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/ecuador/en/violencia-de-genero-explotacion-y-abuso-sexual/organizaciones-locales-que-atienden-casos-de-violencia-basada-en-genero/"
+        ]
+      }
+    },
+    {
+      "id": "warmi-pichincha",
+      "organization": "Warmi Pichincha",
+      "category": "protection",
+      "service": "Brinda orientación, atención o derivación a personas afectadas por violencia de género. Consulta los servicios disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Pichincha",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+593987427448",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/ecuador/en/violencia-de-genero-explotacion-y-abuso-sexual/organizaciones-locales-que-atienden-casos-de-violencia-basada-en-genero/"
+        ]
+      }
+    },
+    {
+      "id": "wasi-pani",
+      "organization": "Casa Wasi Pani",
+      "category": "protection",
+      "service": "Brinda orientación, atención o derivación a personas afectadas por violencia de género. Consulta los servicios disponibles.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tena, Napo",
+        "municipality": "Tena"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+593987329945",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/ecuador/en/violencia-de-genero-explotacion-y-abuso-sexual/organizaciones-locales-que-atienden-casos-de-violencia-basada-en-genero/"
+        ]
+      }
+    }
+  ]
+}
+

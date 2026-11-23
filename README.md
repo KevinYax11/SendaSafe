@@ -17,6 +17,7 @@ A Spanish-language, mobile-first directory of emergency services, health resourc
 | Panama | 48 | [PA](data/countries/pa/resources.json) |
 | Peru | 45 | [PE](data/countries/pe/resources.json) |
 | Uruguay | 45 | [UY](data/countries/uy/resources.json) |
+| Ecuador | 45 | [EC](data/countries/ec/resources.json) |
 
 The country selector also offers general guidance when a local directory is unavailable.
 
@@ -69,6 +70,7 @@ Each resource card shows the sources, date and verification method. Initial revi
 - Panama. [ACNUR Panamá](https://help.unhcr.org/panama/donde-encontrar-ayuda/) and the [National Migration Service](https://www.migracion.gob.pa/contacto/).
 - Peru. [Presidency of the Council of Ministers](https://www.gob.pe/547-telefonos-de-emergencia), [Ministry of Health](https://www.gob.pe/saludmental) and [ACNUR Perú](https://help.unhcr.org/peru/donde-encontrar-ayuda/).
 - Uruguay. [MIDES](https://www.gub.uy/ministerio-desarrollo-social/personas-en-calle), [ASSE](https://www.asse.com.uy/contenido/RAP-SALTO-5236), [Ministerio del Interior](https://www.gub.uy/ministerio-interior/tramites-y-servicios/servicios/oficinas-direccion-nacional-migracion).
+- Ecuador. [ECU 911](https://www.ecu911.gob.ec/como-reportar-al-9-1-1/), [IESS](https://www.iess.gob.ec/es/mapa-de-unidades-medicas), [Defensoría Pública](https://www.defensoria.gob.ec/?page_id=22777), [ACNUR Ecuador](https://help.unhcr.org/ecuador/en/violencia-de-genero-explotacion-y-abuso-sexual/organizaciones-locales-que-atienden-casos-de-violencia-basada-en-genero/).
 
 ### Correcting directory entries
 
