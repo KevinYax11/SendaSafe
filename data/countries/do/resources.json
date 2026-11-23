@@ -1,0 +1,1279 @@
+{
+  "country": "DO",
+  "language": "es",
+  "resources": [
+    {
+      "id": "do-911",
+      "organization": "Sistema Nacional de Atención a Emergencias y Seguridad",
+      "category": "emergency",
+      "service": "Solicita respuesta de policía, bomberos o atención prehospitalaria ante una emergencia.",
+      "coverage": {
+        "scope": "national",
+        "area": "República Dominicana",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "911",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.sismap.gob.do/GestionPublica/uploads/evidencias/638581015687823389-Manual-de-Evacuacin-Defensa-Civil-Vigente-2024.pdf"
+        ]
+      }
+    },
+    {
+      "id": "do-coe",
+      "organization": "Centro de Operaciones de Emergencias",
+      "category": "emergency",
+      "service": "Contacto institucional para coordinación de incidentes y desastres. Para atención urgente individual, marca 911.",
+      "coverage": {
+        "scope": "national",
+        "area": "República Dominicana",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18094720909",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.sismap.gob.do/GestionPublica/uploads/evidencias/638581015687823389-Manual-de-Evacuacin-Defensa-Civil-Vigente-2024.pdf"
+        ]
+      }
+    },
+    {
+      "id": "do-bomberos-dn",
+      "organization": "Cuerpo de Bomberos del Distrito Nacional",
+      "category": "emergency",
+      "service": "Contacto del cuerpo municipal para incendios y labores de rescate.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santo Domingo, Distrito Nacional",
+        "municipality": "Santo Domingo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18096822000",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.sismap.gob.do/GestionPublica/uploads/evidencias/638581015687823389-Manual-de-Evacuacin-Defensa-Civil-Vigente-2024.pdf"
+        ]
+      }
+    },
+    {
+      "id": "do-bomberos-kennedy",
+      "organization": "Bomberos del Distrito Nacional, estación Kennedy",
+      "category": "emergency",
+      "service": "Contacta a la estación de bomberos de la avenida John F. Kennedy.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santo Domingo, Distrito Nacional",
+        "municipality": "Santo Domingo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18095655811",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.sismap.gob.do/GestionPublica/uploads/evidencias/638581015687823389-Manual-de-Evacuacin-Defensa-Civil-Vigente-2024.pdf"
+        ]
+      }
+    },
+    {
+      "id": "do-vial",
+      "organization": "Programa de Protección y Asistencia Vial",
+      "category": "emergency",
+      "service": "Auxilio en las vías cubiertas por el programa si tienes un accidente vial o tu vehículo queda averiado.",
+      "coverage": {
+        "scope": "national",
+        "area": "República Dominicana",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "511",
+          "routing": "short-code"
+        },
+        {
+          "type": "phone",
+          "number": "+18296881000",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mopc.gob.do/servicios/programa-de-protecci%C3%B3n-y-asistencia-vial"
+        ]
+      }
+    },
+    {
+      "id": "do-cruz-roja",
+      "organization": "Cruz Roja Dominicana",
+      "category": "emergency",
+      "service": "Canal de emergencias publicado por la Cruz Roja Dominicana.",
+      "coverage": {
+        "scope": "national",
+        "area": "República Dominicana",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18093384545",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://cruzroja.org.do/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "do-citas-sns",
+      "organization": "Servicio Nacional de Salud, gestión de citas",
+      "category": "health-and-psychosocial",
+      "service": "Agenda consultas en los hospitales incluidos en el programa de citas del SNS.",
+      "coverage": {
+        "scope": "national",
+        "area": "República Dominicana",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18092000025",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, 8:00–16:00",
+      "cost": "Gratuito desde línea fija",
+      "requirements": "Indica el hospital y la especialidad. Ten a mano tu número de cédula si lo tienes.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://sns.gob.do/servicios/gestion-de-citas-medicas/"
+        ]
+      }
+    },
+    {
+      "id": "do-moscoso",
+      "organization": "Hospital Docente Francisco E. Moscoso Puello",
+      "category": "health-and-psychosocial",
+      "service": "Contacto del hospital público para consultar servicios de salud.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santo Domingo, Distrito Nacional",
+        "municipality": "Santo Domingo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18096817828",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.sismap.gob.do/GestionPublica/uploads/evidencias/638581015687823389-Manual-de-Evacuacin-Defensa-Civil-Vigente-2024.pdf"
+        ]
+      }
+    },
+    {
+      "id": "do-plaza-salud",
+      "organization": "Hospital General Plaza de la Salud",
+      "category": "health-and-psychosocial",
+      "service": "Consulta al hospital por atención médica y disponibilidad de servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santo Domingo, Distrito Nacional",
+        "municipality": "Santo Domingo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18095657477",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.sismap.gob.do/GestionPublica/uploads/evidencias/638581015687823389-Manual-de-Evacuacin-Defensa-Civil-Vigente-2024.pdf"
+        ]
+      }
+    },
+    {
+      "id": "do-srs-norte",
+      "organization": "Servicio Regional de Salud Cibao Norte",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la red pública regional para consultar centros y servicios disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Santiago, Puerto Plata y Espaillat",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18095834047",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://sns.gob.do/regionales-de-salud/"
+        ]
+      }
+    },
+    {
+      "id": "do-srs-sur",
+      "organization": "Servicio Regional de Salud Cibao Sur",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la red pública regional para consultar centros y servicios disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "La Vega, Sánchez Ramírez y Monseñor Nouel",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18292424452",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://sns.gob.do/regionales-de-salud/"
+        ]
+      }
+    },
+    {
+      "id": "do-srs-nordeste",
+      "organization": "Servicio Regional de Salud Cibao Nordeste",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la red pública regional para consultar centros y servicios disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Duarte, Hermanas Mirabal, María Trinidad Sánchez y Samaná",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18092445559",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://sns.gob.do/regionales-de-salud/"
+        ]
+      }
+    },
+    {
+      "id": "do-srs-noroeste",
+      "organization": "Servicio Regional de Salud Cibao Noroeste",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la red pública regional para consultar centros y servicios disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Valverde, Santiago Rodríguez, Monte Cristi y Dajabón",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18095728286",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://sns.gob.do/regionales-de-salud/"
+        ]
+      }
+    },
+    {
+      "id": "do-srs-valdesia",
+      "organization": "Servicio Regional de Salud Valdesia",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la red pública regional para consultar centros y servicios disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "San Cristóbal, Peravia y San José de Ocoa",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18095277666",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://sns.gob.do/regionales-de-salud/"
+        ]
+      }
+    },
+    {
+      "id": "do-srs-enriquillo",
+      "organization": "Servicio Regional de Salud Enriquillo",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la red pública regional para consultar centros y servicios disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Barahona, Bahoruco, Independencia y Pedernales",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18095242734",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://sns.gob.do/regionales-de-salud/"
+        ]
+      }
+    },
+    {
+      "id": "do-srs-valle",
+      "organization": "Servicio Regional de Salud El Valle",
+      "category": "health-and-psychosocial",
+      "service": "Contacto de la red pública regional para consultar centros y servicios disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Azua, San Juan y Elías Piña",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18095573651",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://sns.gob.do/regionales-de-salud/"
+        ]
+      }
+    },
+    {
+      "id": "do-comedor-bohechio",
+      "organization": "Comedor Económico Bohechío",
+      "category": "shelter-and-food",
+      "service": "Consulta al comedor por horarios, disponibilidad y condiciones de acceso a las comidas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Bohechío, San Juan",
+        "municipality": "Bohechío"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18297455148",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://comedoreseconomicos.gob.do/dependencias/"
+        ]
+      }
+    },
+    {
+      "id": "do-comedor-san-juan",
+      "organization": "Comedor Económico UASD San Juan de la Maguana",
+      "category": "shelter-and-food",
+      "service": "Consulta al comedor por horarios, disponibilidad y condiciones de acceso a las comidas.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Juan de la Maguana, San Juan",
+        "municipality": "San Juan de la Maguana"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18299173940",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://comedoreseconomicos.gob.do/dependencias/"
+        ]
+      }
+    },
+    {
+      "id": "do-comedor-san-pedro",
+      "organization": "Comedor Económico San Pedro de Macorís",
+      "category": "shelter-and-food",
+      "service": "Consulta al comedor por horarios, disponibilidad y condiciones de acceso a las comidas.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Pedro de Macorís, San Pedro de Macorís",
+        "municipality": "San Pedro de Macorís"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18292229966",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://comedoreseconomicos.gob.do/dependencias/"
+        ]
+      }
+    },
+    {
+      "id": "do-comedor-quisqueya",
+      "organization": "Comedor Económico Quisqueya",
+      "category": "shelter-and-food",
+      "service": "Consulta al comedor por horarios, disponibilidad y condiciones de acceso a las comidas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Quisqueya, San Pedro de Macorís",
+        "municipality": "Quisqueya"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18294208325",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://comedoreseconomicos.gob.do/dependencias/"
+        ]
+      }
+    },
+    {
+      "id": "do-comedor-llanos",
+      "organization": "Comedor Económico Los Llanos",
+      "category": "shelter-and-food",
+      "service": "Consulta al comedor por horarios, disponibilidad y condiciones de acceso a las comidas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Los Llanos, San Pedro de Macorís",
+        "municipality": "Los Llanos"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18298653656",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://comedoreseconomicos.gob.do/dependencias/"
+        ]
+      }
+    },
+    {
+      "id": "do-comedor-cotui",
+      "organization": "Comedor Económico Cotuí",
+      "category": "shelter-and-food",
+      "service": "Consulta al comedor por horarios, disponibilidad y condiciones de acceso a las comidas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cotuí, Sánchez Ramírez",
+        "municipality": "Cotuí"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18294204477",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://comedoreseconomicos.gob.do/dependencias/"
+        ]
+      }
+    },
+    {
+      "id": "do-comedor-cevicos",
+      "organization": "Comedor Económico Cevicos",
+      "category": "shelter-and-food",
+      "service": "Consulta al comedor por horarios, disponibilidad y condiciones de acceso a las comidas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cevicos, Sánchez Ramírez",
+        "municipality": "Cevicos"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18295467284",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://comedoreseconomicos.gob.do/dependencias/"
+        ]
+      }
+    },
+    {
+      "id": "do-comedor-navarrete",
+      "organization": "Comedor Económico Navarrete",
+      "category": "shelter-and-food",
+      "service": "Consulta al comedor por horarios, disponibilidad y condiciones de acceso a las comidas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Villa Bisonó, Santiago",
+        "municipality": "Villa Bisonó"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18296434213",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://comedoreseconomicos.gob.do/dependencias/"
+        ]
+      }
+    },
+    {
+      "id": "do-comedor-villa-gonzalez",
+      "organization": "Comedor Económico Villa González",
+      "category": "shelter-and-food",
+      "service": "Consulta al comedor por horarios, disponibilidad y condiciones de acceso a las comidas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Villa González, Santiago",
+        "municipality": "Villa González"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18294203902",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://comedoreseconomicos.gob.do/dependencias/"
+        ]
+      }
+    },
+    {
+      "id": "do-comedor-alcarrizos",
+      "organization": "Comedor Económico Los Alcarrizos",
+      "category": "shelter-and-food",
+      "service": "Consulta al comedor por horarios, disponibilidad y condiciones de acceso a las comidas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Los Alcarrizos, Santo Domingo",
+        "municipality": "Los Alcarrizos"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18294201020",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://comedoreseconomicos.gob.do/dependencias/"
+        ]
+      }
+    },
+    {
+      "id": "do-acnur",
+      "organization": "ACNUR República Dominicana",
+      "category": "migration-and-legal",
+      "service": "Consulta por WhatsApp sobre refugio, asilo y apoyo disponible para personas refugiadas.",
+      "coverage": {
+        "scope": "national",
+        "area": "República Dominicana",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+18493360001",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/dominicanrepublic/contactanos/"
+        ]
+      }
+    },
+    {
+      "id": "do-acnur-legal",
+      "organization": "ACNUR, asistencia legal",
+      "category": "migration-and-legal",
+      "service": "Solicita información legal sobre la solicitud de refugio y los trámites asociados.",
+      "coverage": {
+        "scope": "national",
+        "area": "República Dominicana",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18294216407",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/dominicanrepublic/donde-encontrar-ayuda/solicitantes-asilo-refugio-refugiadas/"
+        ]
+      }
+    },
+    {
+      "id": "do-iddi",
+      "organization": "Instituto Dominicano de Desarrollo Integral",
+      "category": "migration-and-legal",
+      "service": "Asistencia jurídica para solicitantes de asilo y personas refugiadas por medio de una organización asociada a ACNUR.",
+      "coverage": {
+        "scope": "national",
+        "area": "República Dominicana",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18292133293",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/dominicanrepublic/donde-encontrar-ayuda/solicitantes-asilo-refugio-refugiadas/"
+        ]
+      }
+    },
+    {
+      "id": "do-migracion",
+      "organization": "Dirección General de Migración",
+      "category": "migration-and-legal",
+      "service": "Atención al usuario para consultar requisitos y trámites migratorios.",
+      "coverage": {
+        "scope": "national",
+        "area": "República Dominicana",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18095082555",
+          "routing": "switchboard",
+          "extension": "0"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://migracion.gob.do/wp-content/uploads/2025/08/Brochure-Migracion-2025.pdf"
+        ]
+      }
+    },
+    {
+      "id": "do-defensa",
+      "organization": "Oficina Nacional de Defensa Pública",
+      "category": "migration-and-legal",
+      "service": "Consulta el acceso a defensa pública en procesos penales.",
+      "coverage": {
+        "scope": "national",
+        "area": "República Dominicana",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18096860556",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://map.gob.do/COEDOM/Home/CreatePdf/244"
+        ]
+      }
+    },
+    {
+      "id": "do-defensor",
+      "organization": "Defensor del Pueblo",
+      "category": "migration-and-legal",
+      "service": "Orienta sobre quejas por actuaciones de organismos o servicios públicos.",
+      "coverage": {
+        "scope": "national",
+        "area": "República Dominicana",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18093814777",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://map.gob.do/COEDOM/Home/Details/24929?Ruta=1"
+        ]
+      }
+    },
+    {
+      "id": "do-mosctha",
+      "organization": "Movimiento Sociocultural para los Trabajadores Haitianos",
+      "category": "migration-and-legal",
+      "service": "Consulta por acompañamiento comunitario disponible para personas migrantes haitianas y sus familias.",
+      "coverage": {
+        "scope": "national",
+        "area": "República Dominicana",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18097411990",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/DownloadDraft.aspx?key=bFrszVia13pT5b%2FvU+PKZQWk210j+0rNjhPk85jeHEdRGcu520WnY66he+sMs4Gz"
+        ]
+      }
+    },
+    {
+      "id": "do-linea-mujer",
+      "organization": "Ministerio de la Mujer, Línea de Emergencia",
+      "category": "protection",
+      "service": "Atención a mujeres que sufren violencia y coordinación de protección para ellas y sus hijas e hijos.",
+      "coverage": {
+        "scope": "national",
+        "area": "República Dominicana",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18092007212",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+18096897212",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://observatoriojusticiaygenero.poderjudicial.gob.do/wp-content/uploads/2025/06/directorio_profamilia.pdf",
+          "https://www.mujer.gob.do/index.php/servicios/linea-mujer-212"
+        ]
+      }
+    },
+    {
+      "id": "do-conani",
+      "organization": "Consejo Nacional para la Niñez y la Adolescencia",
+      "category": "protection",
+      "service": "Contacto institucional para consultar el acceso al sistema de protección de niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "national",
+        "area": "República Dominicana",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18095672233",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://conani.gob.do/contactos/"
+        ]
+      }
+    },
+    {
+      "id": "do-pgr-ninez",
+      "organization": "Procuraduría General, atención a la violencia contra la niñez",
+      "category": "protection",
+      "service": "Canal especializado para reportar situaciones de violencia contra niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "national",
+        "area": "República Dominicana",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18092001202",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://observatoriojusticiaygenero.poderjudicial.gob.do/wp-content/uploads/2025/06/directorio_profamilia.pdf"
+        ]
+      }
+    },
+    {
+      "id": "do-pgr-azua",
+      "organization": "Unidad de Atención Integral a Víctimas, Azua",
+      "category": "protection",
+      "service": "Consulta atención y recepción de denuncias por violencia de género, violencia familiar o delitos sexuales.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Azua",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18095213673",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://observatoriojusticiaygenero.poderjudicial.gob.do/wp-content/uploads/2025/06/directorio_profamilia.pdf"
+        ]
+      }
+    },
+    {
+      "id": "do-pgr-bani",
+      "organization": "Unidad de Atención Integral a Víctimas, Baní",
+      "category": "protection",
+      "service": "Consulta atención y recepción de denuncias por violencia de género, violencia familiar o delitos sexuales.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Peravia",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18095228674",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://observatoriojusticiaygenero.poderjudicial.gob.do/wp-content/uploads/2025/06/directorio_profamilia.pdf"
+        ]
+      }
+    },
+    {
+      "id": "do-pgr-bonao",
+      "organization": "Unidad de Atención Integral a Víctimas, Bonao",
+      "category": "protection",
+      "service": "Consulta atención y recepción de denuncias por violencia de género, violencia familiar o delitos sexuales.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Monseñor Nouel",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18092960699",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://observatoriojusticiaygenero.poderjudicial.gob.do/wp-content/uploads/2025/06/directorio_profamilia.pdf"
+        ]
+      }
+    },
+    {
+      "id": "do-pgr-dajabon",
+      "organization": "Unidad de Atención Integral a Víctimas, Dajabón",
+      "category": "protection",
+      "service": "Consulta atención y recepción de denuncias por violencia de género, violencia familiar o delitos sexuales.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Dajabón",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18095798088",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://observatoriojusticiaygenero.poderjudicial.gob.do/wp-content/uploads/2025/06/directorio_profamilia.pdf"
+        ]
+      }
+    },
+    {
+      "id": "do-pgr-romana",
+      "organization": "Unidad de Atención Integral a Víctimas, La Romana",
+      "category": "protection",
+      "service": "Consulta atención y recepción de denuncias por violencia de género, violencia familiar o delitos sexuales.",
+      "coverage": {
+        "scope": "regional",
+        "area": "La Romana",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18098130919",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://observatoriojusticiaygenero.poderjudicial.gob.do/wp-content/uploads/2025/06/directorio_profamilia.pdf"
+        ]
+      }
+    },
+    {
+      "id": "do-pgr-vega",
+      "organization": "Unidad de Atención Integral a Víctimas, La Vega",
+      "category": "protection",
+      "service": "Consulta atención y recepción de denuncias por violencia de género, violencia familiar o delitos sexuales.",
+      "coverage": {
+        "scope": "regional",
+        "area": "La Vega",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18092422926",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://observatoriojusticiaygenero.poderjudicial.gob.do/wp-content/uploads/2025/06/directorio_profamilia.pdf"
+        ]
+      }
+    },
+    {
+      "id": "do-pgr-san-cristobal",
+      "organization": "Unidad de Atención Integral a Víctimas, San Cristóbal",
+      "category": "protection",
+      "service": "Consulta atención y recepción de denuncias por violencia de género, violencia familiar o delitos sexuales.",
+      "coverage": {
+        "scope": "regional",
+        "area": "San Cristóbal",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18095281772",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://observatoriojusticiaygenero.poderjudicial.gob.do/wp-content/uploads/2025/06/directorio_profamilia.pdf"
+        ]
+      }
+    },
+    {
+      "id": "do-pgr-san-juan",
+      "organization": "Unidad de Atención Integral a Víctimas, San Juan de la Maguana",
+      "category": "protection",
+      "service": "Consulta atención y recepción de denuncias por violencia de género, violencia familiar o delitos sexuales.",
+      "coverage": {
+        "scope": "regional",
+        "area": "San Juan",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18095575991",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://observatoriojusticiaygenero.poderjudicial.gob.do/wp-content/uploads/2025/06/directorio_profamilia.pdf"
+        ]
+      }
+    },
+    {
+      "id": "do-pgr-santiago",
+      "organization": "Unidad de Atención Integral a Víctimas, Santiago de los Caballeros",
+      "category": "protection",
+      "service": "Consulta atención y recepción de denuncias por violencia de género, violencia familiar o delitos sexuales.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Santiago",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+18095760151",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://observatoriojusticiaygenero.poderjudicial.gob.do/wp-content/uploads/2025/06/directorio_profamilia.pdf"
+        ]
+      }
+    }
+  ]
+}
+
