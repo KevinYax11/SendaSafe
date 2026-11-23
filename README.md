@@ -6,6 +6,7 @@ A Spanish-language, mobile-first directory of emergency services, health resourc
 
 | Country | Resources | Catalog |
 | --- | ---: | --- |
+| Chile | 45 | [CL](data/countries/cl/resources.json) |
 | Colombia | 23 | [CO](data/countries/co/resources.json) |
 | Costa Rica | 21 | [CR](data/countries/cr/resources.json) |
 | El Salvador | 23 | [SV](data/countries/sv/resources.json) |
@@ -52,6 +53,7 @@ Try `/api/v1/countries/GT/resources?q=coban&category=migration-and-legal`. A cou
 
 Each resource card shows the sources, date and verification method. Initial reviews use public institutional records. The catalog stores contact details as strings to preserve domestic short codes, including leading zeroes.
 
+- Chile. [ACNUR Chile](https://help.unhcr.org/chile/ayuda-y-orientacion/), [Corporación de Asistencia Judicial de Tarapacá y Antofagasta](https://www.cajta.cl/index.php/nuestras-oficinas) and [Chilean emergency services](https://www.consulado.gob.cl/emergencias-en-chile).
 - Colombia. [ACNUR Colombia](https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/) and [Migración Colombia](https://www.migracioncolombia.gov.co/acerca-de-migracion-colombia/directorios/puntos-de-atencion).
 - Costa Rica. [Ministry of Labor](https://www.mtss.go.cr/dml/servicios/) and [ACNUR Costa Rica](https://help.unhcr.org/costarica/serviciosacnur).
 - El Salvador. [ACNUR El Salvador](https://help.unhcr.org/elsalvador/donde-encontrar-ayuda/numeros-de-telefonos-de-emergencia/) and [Scalabrini International Migration Network](https://www.simn-global.org/centros-scalabrinianos/centro/casa-del-migrante-scalabrini-el-salvador/).

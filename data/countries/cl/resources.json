@@ -1,0 +1,1281 @@
+{
+  "country": "CL",
+  "language": "es",
+  "resources": [
+    {
+      "id": "samu",
+      "organization": "Servicio de Atención Médica de Urgencia",
+      "category": "emergency",
+      "service": "Solicitud de ambulancia para una emergencia médica.",
+      "coverage": {
+        "scope": "national",
+        "area": "Chile",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "131",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.consulado.gob.cl/emergencias-en-chile"
+        ]
+      }
+    },
+    {
+      "id": "bomberos",
+      "organization": "Bomberos de Chile",
+      "category": "emergency",
+      "service": "Atiende incendios, accidentes y otras situaciones de rescate.",
+      "coverage": {
+        "scope": "national",
+        "area": "Chile",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "132",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.consulado.gob.cl/emergencias-en-chile"
+        ]
+      }
+    },
+    {
+      "id": "carabineros",
+      "organization": "Carabineros de Chile",
+      "category": "emergency",
+      "service": "Línea de emergencias de seguridad pública.",
+      "coverage": {
+        "scope": "national",
+        "area": "Chile",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "133",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.consulado.gob.cl/emergencias-en-chile"
+        ]
+      }
+    },
+    {
+      "id": "pdi",
+      "organization": "Policía de Investigaciones de Chile",
+      "category": "emergency",
+      "service": "Línea de emergencia de la Policía de Investigaciones.",
+      "coverage": {
+        "scope": "national",
+        "area": "Chile",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "134",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.consulado.gob.cl/emergencias-en-chile"
+        ]
+      }
+    },
+    {
+      "id": "emergencia-maritima",
+      "organization": "Autoridad Marítima",
+      "category": "emergency",
+      "service": "Emergencias en playas y el borde costero.",
+      "coverage": {
+        "scope": "national",
+        "area": "Chile",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "137",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.consulado.gob.cl/emergencias-en-chile"
+        ]
+      }
+    },
+    {
+      "id": "rescate-aereo",
+      "organization": "Servicio de Búsqueda y Salvamento Aéreo",
+      "category": "emergency",
+      "service": "Canal para informar emergencias aéreas.",
+      "coverage": {
+        "scope": "national",
+        "area": "Chile",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "138",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.consulado.gob.cl/emergencias-en-chile"
+        ]
+      }
+    },
+    {
+      "id": "salud-responde",
+      "organization": "Ministerio de Salud, Salud Responde",
+      "category": "health-and-psychosocial",
+      "service": "Orientación de salud y apoyo para ubicar servicios de atención.",
+      "coverage": {
+        "scope": "national",
+        "area": "Chile",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "6003607777",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.chileatiende.gob.cl/fichas/2467/1/pdf"
+        ]
+      }
+    },
+    {
+      "id": "fono-senda",
+      "organization": "SENDA, Fono Drogas y Alcohol",
+      "category": "health-and-psychosocial",
+      "service": "Información y orientación sobre consumo de alcohol y otras drogas.",
+      "coverage": {
+        "scope": "national",
+        "area": "Chile",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1412",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas",
+      "cost": "Llamada gratuita",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.senda.gob.cl/noticia/cuando-llamar-al-fono-drogas-y-alcohol-1412/"
+        ]
+      }
+    },
+    {
+      "id": "fasic-psicosocial",
+      "organization": "Fundación de Ayuda Social de las Iglesias Cristianas",
+      "category": "health-and-psychosocial",
+      "service": "Apoyo psicosocial para personas refugiadas, solicitantes de asilo y migrantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santiago, Región Metropolitana",
+        "municipality": "Santiago"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56932663976",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/chile/ayuda-y-orientacion/santiago/"
+        ]
+      }
+    },
+    {
+      "id": "cruz-roja-chile",
+      "organization": "Cruz Roja Chilena, Programa Esperanza sin Fronteras",
+      "category": "health-and-psychosocial",
+      "service": "Ayuda humanitaria y atención médica por WhatsApp. El número telefónico ofrece apoyo psicosocial.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santiago, Región Metropolitana",
+        "municipality": "Santiago"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+56946348930",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+56965051364",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Ayuda médica de lunes a viernes, de 10:00 a 17:00. Apoyo psicosocial de 09:00 a 18:00.",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/chile/ayuda-y-orientacion/santiago/"
+        ]
+      }
+    },
+    {
+      "id": "cosam-ceif-centro",
+      "organization": "COSAM CEIF Centro, Puente Alto",
+      "category": "health-and-psychosocial",
+      "service": "Consulta sobre servicios de salud mental comunitaria.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puente Alto, Región Metropolitana",
+        "municipality": "Puente Alto"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56227975490",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes de 08:00 a 19:00, excepto feriados",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cmpuentealto.cl/cosam-ceif-centro/"
+        ]
+      }
+    },
+    {
+      "id": "cosam-ceif-norte",
+      "organization": "COSAM CEIF Norte, Puente Alto",
+      "category": "health-and-psychosocial",
+      "service": "Consulta sobre atención por consumo problemático de sustancias.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puente Alto, Región Metropolitana",
+        "municipality": "Puente Alto"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56227975493",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes de 08:00 a 20:00, excepto feriados",
+      "cost": null,
+      "requirements": "Atiende principalmente a adultos derivados de centros de salud familiar de la red municipal.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cmpuentealto.cl/cosam-ceif-centro/"
+        ]
+      }
+    },
+    {
+      "id": "scalabrini-providencia",
+      "organization": "Casa de Acogida Beato Scalabrini",
+      "category": "shelter-and-food",
+      "service": "Acogida y acompañamiento para personas migrantes. Consulta disponibilidad.",
+      "coverage": {
+        "scope": "local",
+        "area": "Providencia, Región Metropolitana",
+        "municipality": "Providencia"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56226659001",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.simn-global.org/centros-scalabrinianos/centro/centro-integrado-de-atencion-al-migrante-santiago-casa-de-acogida-beato-scalabrini/"
+        ]
+      }
+    },
+    {
+      "id": "scalabrini-arica",
+      "organization": "Casa de Acogida San Juan Bautista Scalabrini",
+      "category": "shelter-and-food",
+      "service": "Acogida y acompañamiento para personas migrantes en Arica.",
+      "coverage": {
+        "scope": "local",
+        "area": "Arica, Arica y Parinacota",
+        "municipality": "Arica"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56582310979",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+56975243416",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://scalabrinianos.com/casa-de-acogida-san-juan-bautista-scalabrini-arica/"
+        ]
+      }
+    },
+    {
+      "id": "remar-quinta-normal",
+      "organization": "REMAR, Casa de Matrimonios y Mujeres",
+      "category": "shelter-and-food",
+      "service": "Consulta la disponibilidad y las condiciones de ingreso al programa de acogida.",
+      "coverage": {
+        "scope": "local",
+        "area": "Quinta Normal, Región Metropolitana",
+        "municipality": "Quinta Normal"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56228792106",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://remarchile.cl/sedes-y-contacto/"
+        ]
+      }
+    },
+    {
+      "id": "remar-arica",
+      "organization": "REMAR, Casa de Varones de Arica",
+      "category": "shelter-and-food",
+      "service": "Consulta la disponibilidad y las condiciones de ingreso al programa de acogida.",
+      "coverage": {
+        "scope": "local",
+        "area": "Arica, Arica y Parinacota",
+        "municipality": "Arica"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56582286982",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://remarchile.cl/sedes-y-contacto/"
+        ]
+      }
+    },
+    {
+      "id": "remar-iquique",
+      "organization": "REMAR, Casa de Matrimonios y Niños",
+      "category": "shelter-and-food",
+      "service": "Consulta la disponibilidad y las condiciones de ingreso al programa de acogida.",
+      "coverage": {
+        "scope": "local",
+        "area": "Iquique, Tarapacá",
+        "municipality": "Iquique"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56572333106",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://remarchile.cl/sedes-y-contacto/"
+        ]
+      }
+    },
+    {
+      "id": "remar-antofagasta",
+      "organization": "REMAR, Casa de Matrimonios, Mujeres y Niños",
+      "category": "shelter-and-food",
+      "service": "Consulta la disponibilidad y las condiciones de ingreso al programa de acogida.",
+      "coverage": {
+        "scope": "local",
+        "area": "Antofagasta",
+        "municipality": "Antofagasta"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56993693126",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://remarchile.cl/sedes-y-contacto/"
+        ]
+      }
+    },
+    {
+      "id": "remar-la-serena",
+      "organization": "REMAR, Casa para Mujeres",
+      "category": "shelter-and-food",
+      "service": "Consulta la disponibilidad y las condiciones de ingreso al programa de acogida.",
+      "coverage": {
+        "scope": "local",
+        "area": "La Serena, Coquimbo",
+        "municipality": "La Serena"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56512272168",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://remarchile.cl/sedes-y-contacto/"
+        ]
+      }
+    },
+    {
+      "id": "remar-valparaiso",
+      "organization": "REMAR, Casa Pastoral y Matrimonios",
+      "category": "shelter-and-food",
+      "service": "Consulta la disponibilidad y las condiciones de ingreso al programa de acogida.",
+      "coverage": {
+        "scope": "local",
+        "area": "Valparaíso",
+        "municipality": "Valparaíso"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56322222658",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://remarchile.cl/sedes-y-contacto/"
+        ]
+      }
+    },
+    {
+      "id": "fono-ninos",
+      "organization": "Carabineros de Chile, Fono Niños",
+      "category": "protection",
+      "service": "Orientación y recepción de consultas sobre situaciones que afecten a niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Chile",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "147",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.chileatiende.gob.cl/fichas/385/1/pdf"
+        ]
+      }
+    },
+    {
+      "id": "fono-familia",
+      "organization": "Carabineros de Chile, Fono Familia",
+      "category": "protection",
+      "service": "Orientación para personas que enfrentan violencia intrafamiliar.",
+      "coverage": {
+        "scope": "national",
+        "area": "Chile",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "149",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/chile/ayuda-y-orientacion/atencion-a-nivel-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "sernameg",
+      "organization": "SernamEG, Orientación en Violencias de Género",
+      "category": "protection",
+      "service": "Orientación y contención para mujeres afectadas por violencia de género.",
+      "coverage": {
+        "scope": "national",
+        "area": "Chile",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "1455",
+          "routing": "short-code"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+56997007000",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.sernameg.gob.cl/sernameg-te-orienta/"
+        ]
+      }
+    },
+    {
+      "id": "programa-victimas",
+      "organization": "Programa de Apoyo a Víctimas",
+      "category": "protection",
+      "service": "Orientación especializada para personas que han sufrido delitos.",
+      "coverage": {
+        "scope": "national",
+        "area": "Chile",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "6008181000",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/chile/ayuda-y-orientacion/atencion-a-nivel-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "britrap",
+      "organization": "Policía de Investigaciones, Brigada contra la Trata de Personas",
+      "category": "protection",
+      "service": "Contacto para informar posibles casos de trata de personas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santiago, Región Metropolitana",
+        "municipality": "Santiago"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56227081043",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/chile/ayuda-y-orientacion/atencion-a-nivel-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "os9",
+      "organization": "Carabineros de Chile, Departamento OS9",
+      "category": "protection",
+      "service": "Contacto institucional que ACNUR lista para denuncias de trata y tráfico de personas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santiago, Región Metropolitana",
+        "municipality": "Santiago"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56292221070",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/chile/ayuda-y-orientacion/atencion-a-nivel-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "cavi-arica",
+      "organization": "Centro de Atención a Víctimas de Delitos Violentos, Arica",
+      "category": "protection",
+      "service": "Atención integral para víctimas de delitos violentos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Arica, Arica y Parinacota",
+        "municipality": "Arica"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56582583124",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cajta.cl/index.php/nuestras-oficinas"
+        ]
+      }
+    },
+    {
+      "id": "mi-abogado-arica",
+      "organization": "CAJTA, Programa Mi Abogado en Arica",
+      "category": "protection",
+      "service": "Consulta sobre defensa jurídica especializada para niñez y adolescencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Arica, Arica y Parinacota",
+        "municipality": "Arica"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56582594630",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cajta.cl/index.php/nuestras-oficinas"
+        ]
+      }
+    },
+    {
+      "id": "cavi-iquique",
+      "organization": "Centro de Atención a Víctimas de Delitos Violentos, Iquique",
+      "category": "protection",
+      "service": "Atención integral para víctimas de delitos violentos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Iquique, Tarapacá",
+        "municipality": "Iquique"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56572532234",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cajta.cl/index.php/nuestras-oficinas"
+        ]
+      }
+    },
+    {
+      "id": "mi-abogado-iquique",
+      "organization": "CAJTA, Programa Mi Abogado en Iquique",
+      "category": "protection",
+      "service": "Consulta sobre defensa jurídica especializada para niñez y adolescencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Iquique, Tarapacá",
+        "municipality": "Iquique"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56572577171",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cajta.cl/index.php/nuestras-oficinas"
+        ]
+      }
+    },
+    {
+      "id": "cavi-antofagasta",
+      "organization": "Centro de Atención a Víctimas de Delitos Violentos, Antofagasta",
+      "category": "protection",
+      "service": "Atención integral para víctimas de delitos violentos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Antofagasta",
+        "municipality": "Antofagasta"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56552590250",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cajta.cl/index.php/nuestras-oficinas"
+        ]
+      }
+    },
+    {
+      "id": "mi-abogado-antofagasta",
+      "organization": "CAJTA, Programa Mi Abogado en Antofagasta",
+      "category": "protection",
+      "service": "Consulta sobre defensa jurídica especializada para niñez y adolescencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Antofagasta",
+        "municipality": "Antofagasta"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56552578540",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cajta.cl/index.php/nuestras-oficinas"
+        ]
+      }
+    },
+    {
+      "id": "clinica-uah",
+      "organization": "Universidad Alberto Hurtado, Clínica Jurídica para Migrantes",
+      "category": "migration-and-legal",
+      "service": "Orientación jurídica especializada para personas migrantes y refugiadas.",
+      "coverage": {
+        "scope": "national",
+        "area": "Chile",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56920667141",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/chile/ayuda-y-orientacion/atencion-a-nivel-nacional/"
+        ]
+      }
+    },
+    {
+      "id": "madre-josefa",
+      "organization": "Fundación Madre Josefa, Puente Alto",
+      "category": "migration-and-legal",
+      "service": "Orientación y apoyo para la integración de personas migrantes.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puente Alto, Región Metropolitana",
+        "municipality": "Puente Alto"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56232887070",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/chile/ayuda-y-orientacion/santiago/"
+        ]
+      }
+    },
+    {
+      "id": "migracion-arica",
+      "organization": "CAJTA, Orientación Migratoria en Arica",
+      "category": "migration-and-legal",
+      "service": "Orientación jurídica migratoria.",
+      "coverage": {
+        "scope": "local",
+        "area": "Arica, Arica y Parinacota",
+        "municipality": "Arica"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56582594514",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cajta.cl/index.php/nuestras-oficinas"
+        ]
+      }
+    },
+    {
+      "id": "migracion-tarapaca",
+      "organization": "CAJTA, Orientación Migratoria en Tarapacá",
+      "category": "migration-and-legal",
+      "service": "Orientación jurídica migratoria.",
+      "coverage": {
+        "scope": "local",
+        "area": "Iquique, Tarapacá",
+        "municipality": "Iquique"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56572577170",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cajta.cl/index.php/nuestras-oficinas"
+        ]
+      }
+    },
+    {
+      "id": "migracion-antofagasta",
+      "organization": "CAJTA, Orientación Migratoria en Antofagasta",
+      "category": "migration-and-legal",
+      "service": "Orientación jurídica migratoria.",
+      "coverage": {
+        "scope": "local",
+        "area": "Antofagasta",
+        "municipality": "Antofagasta"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56552590703",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cajta.cl/index.php/nuestras-oficinas"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-arica",
+      "organization": "CAJTA, Consultorio Jurídico de Arica",
+      "category": "migration-and-legal",
+      "service": "Consulta sobre orientación jurídica en esta sede.",
+      "coverage": {
+        "scope": "local",
+        "area": "Arica, Arica y Parinacota",
+        "municipality": "Arica"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56582584420",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cajta.cl/index.php/nuestras-oficinas"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-alto-hospicio",
+      "organization": "CAJTA, Consultorio Jurídico de Alto Hospicio",
+      "category": "migration-and-legal",
+      "service": "Consulta sobre orientación jurídica en esta sede.",
+      "coverage": {
+        "scope": "local",
+        "area": "Alto Hospicio, Tarapacá",
+        "municipality": "Alto Hospicio"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56572532240",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cajta.cl/index.php/nuestras-oficinas"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-iquique",
+      "organization": "CAJTA, Consultorio Jurídico de Iquique",
+      "category": "migration-and-legal",
+      "service": "Consulta sobre orientación jurídica en esta sede.",
+      "coverage": {
+        "scope": "local",
+        "area": "Iquique, Tarapacá",
+        "municipality": "Iquique"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56572532186",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cajta.cl/index.php/nuestras-oficinas"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-pozo",
+      "organization": "CAJTA, Consultorio Jurídico de Pozo Almonte",
+      "category": "migration-and-legal",
+      "service": "Consulta sobre orientación jurídica en esta sede.",
+      "coverage": {
+        "scope": "local",
+        "area": "Pozo Almonte, Tarapacá",
+        "municipality": "Pozo Almonte"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56572576376",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cajta.cl/index.php/nuestras-oficinas"
+        ]
+      }
+    },
+    {
+      "id": "consultorio-antofagasta",
+      "organization": "CAJTA, Consultorio Jurídico de Antofagasta Centro",
+      "category": "migration-and-legal",
+      "service": "Consulta sobre orientación jurídica en esta sede.",
+      "coverage": {
+        "scope": "local",
+        "area": "Antofagasta",
+        "municipality": "Antofagasta"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56552590700",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cajta.cl/index.php/nuestras-oficinas"
+        ]
+      }
+    },
+    {
+      "id": "defensa-laboral-arica",
+      "organization": "CAJTA, Oficina de Defensa Laboral de Arica",
+      "category": "migration-and-legal",
+      "service": "Orientación y defensa jurídica en asuntos laborales.",
+      "coverage": {
+        "scope": "local",
+        "area": "Arica, Arica y Parinacota",
+        "municipality": "Arica"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56582583784",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cajta.cl/index.php/nuestras-oficinas"
+        ]
+      }
+    },
+    {
+      "id": "defensa-laboral-iquique",
+      "organization": "CAJTA, Oficina de Defensa Laboral de Tarapacá",
+      "category": "migration-and-legal",
+      "service": "Orientación y defensa jurídica en asuntos laborales.",
+      "coverage": {
+        "scope": "local",
+        "area": "Iquique, Tarapacá",
+        "municipality": "Iquique"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56572529620",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cajta.cl/index.php/nuestras-oficinas"
+        ]
+      }
+    },
+    {
+      "id": "defensa-laboral-antofagasta",
+      "organization": "CAJTA, Oficina de Defensa Laboral de Antofagasta",
+      "category": "migration-and-legal",
+      "service": "Orientación y defensa jurídica en asuntos laborales.",
+      "coverage": {
+        "scope": "local",
+        "area": "Antofagasta",
+        "municipality": "Antofagasta"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+56552410756",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.cajta.cl/index.php/nuestras-oficinas"
+        ]
+      }
+    }
+  ]
+}

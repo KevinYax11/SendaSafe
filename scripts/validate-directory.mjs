@@ -29,6 +29,12 @@ const countries = {
   SV: { name: 'El Salvador', numberPattern: /^\+503[267]\d{7}$/ },
   HN: { name: 'Honduras', numberPattern: /^\+504[2389]\d{7}$/ },
   MX: { name: 'México', numberPattern: /^\+52[2-9]\d{9}$/ },
+  CL: {
+    name: 'Chile',
+    numberPattern: /^(?:\+56[2-9]\d{8}|600\d{7})$/,
+    minimumResources: 45,
+    minimumNumbers: Object.fromEntries([...categories].map(category => [category, 5])),
+  },
 }
 const mexicoShortCodePattern = /^0[1-9]\d$/
 const minimumResources = 20
@@ -111,12 +117,12 @@ function validateResource(resource, location, ids, channels, country) {
 }
 
 async function validateCatalog(country) {
-  const { name, minimumNumbers } = countries[country]
+  const { name, minimumNumbers, minimumResources: requiredResources = minimumResources } = countries[country]
   const path = new URL(`../data/countries/${country.toLowerCase()}/resources.json`, import.meta.url)
   const catalog = JSON.parse(await readFile(path, 'utf8'))
   requireValid(isObject(catalog) && catalog.country === country && catalog.language === 'es', `${name}: país o idioma inválido.`)
   const { resources } = catalog
-  requireValid(Array.isArray(resources) && resources.length >= minimumResources, `${name}: se requieren al menos ${minimumResources} fichas.`)
+  requireValid(Array.isArray(resources) && resources.length >= requiredResources, `${name}: se requieren al menos ${requiredResources} fichas.`)
 
   const ids = new Set()
   const channels = new Map()
