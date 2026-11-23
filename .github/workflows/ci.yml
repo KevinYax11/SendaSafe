@@ -29,3 +29,20 @@ jobs:
       - run: npm run lint
       - run: npm run typecheck
       - run: npm run build
+
+  container:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+      - run: docker build --tag sendasafe:ci .
+      - run: docker run --detach --name sendasafe-ci --publish 127.0.0.1:3000:3000 sendasafe:ci
+      - run: curl --fail --silent --show-error --retry 15 --retry-delay 2 --retry-connrefused http://127.0.0.1:3000/api/v1/countries --output /dev/null
+      - run: node scripts/check-deployment.mjs
+      - if: failure()
+        run: docker logs sendasafe-ci

@@ -21,7 +21,7 @@ body {
 a { color: var(--green); }
 a:hover { text-decoration: underline; }
 
-:is(a, button, summary, input, select):focus-visible {
+:is(a, button, summary, input, select, [tabindex]):focus-visible {
   outline: 3px solid var(--green);
   outline-offset: 3px;
 }
@@ -42,7 +42,10 @@ a:hover { text-decoration: underline; }
 }
 
 .skip-link:focus { transform: none; }
-.site-header { border-bottom: 1px solid var(--line); }
+.site-header {
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
 
 .header-content {
   display: flex;
@@ -91,12 +94,16 @@ a:hover { text-decoration: underline; }
   font-weight: 650;
 }
 
+.hero {
+  background: radial-gradient(ellipse at 85% 20%, #d9e8de 0%, transparent 54%), var(--canvas);
+}
+
 .intro {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   align-items: center;
   gap: clamp(2rem, 7vw, 6rem);
-  padding-block: clamp(3rem, 9vw, 7rem);
+  padding-block: clamp(2.75rem, 8vw, 6rem);
 }
 
 h1, h2 {
@@ -124,9 +131,10 @@ h2 {
 
 .country-panel {
   padding: clamp(1.25rem, 4vw, 2.25rem);
-  background: var(--wash);
+  background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 1.125rem;
+  box-shadow: 0 16px 36px #1e322b12;
 }
 
 .country-panel label {
@@ -165,10 +173,32 @@ select {
 
 .directory-section {
   border-block: 1px solid var(--line);
-  background: var(--wash);
+  background: #eef3ef;
 }
 
 .directory-heading { margin-bottom: 1.5rem; }
+
+.coverage-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.coverage-list button {
+  min-height: 2.75rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #a5b8ae;
+  border-radius: 0.55rem;
+  background: var(--surface);
+  color: var(--green);
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.coverage-list button:hover {
+  border-color: var(--green);
+  background: var(--wash);
+}
 
 .emergency-link {
   display: inline-flex;
@@ -222,6 +252,8 @@ select {
   display: flex;
   flex-direction: column;
   gap: 0.65rem;
+  min-width: 0;
+  box-shadow: 0 4px 14px #1e322b08;
 }
 
 .resource-meta, .resource-actions {
@@ -230,10 +262,22 @@ select {
 }
 
 .resource-meta {
+  align-items: center;
   gap: 0.25rem 0.75rem;
   color: var(--green);
   font-size: 0.875rem;
   font-weight: 700;
+}
+
+.resource-meta span:first-child {
+  padding: 0.14rem 0.55rem;
+  border-radius: 0.35rem;
+  background: var(--wash);
+}
+
+.resource-card[data-category="emergency"] .resource-meta span:first-child {
+  background: #fae9df;
+  color: var(--alert);
 }
 
 .resource-meta span + span {

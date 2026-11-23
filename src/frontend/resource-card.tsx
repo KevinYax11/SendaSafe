@@ -40,7 +40,7 @@ export function ResourceCard({ country, resource }: Readonly<{ country: Country;
   const { coverage, verification } = resource
 
   return (
-    <article className="resource-card">
+    <article className="resource-card" data-category={resource.category}>
       <div className="resource-meta">
         <span>{categories[resource.category]}</span>
         <span>{coverage.scope === 'national' ? 'Cobertura nacional' : coverage.area}</span>

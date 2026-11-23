@@ -12,7 +12,6 @@ type RequestState = {
 }
 
 const categoryCodes = Object.keys(categories) as Category[]
-const countryNames = new Intl.ListFormat('es', { type: 'conjunction' })
 
 export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[] }>) {
   const [country, setCountry] = useState<Country | ''>('')
@@ -21,7 +20,7 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
   const [attempt, setAttempt] = useState(0)
   const [request, setRequest] = useState<RequestState | null>(null)
   const selectedCountry = countries.find(option => option.code === country)
-  const availableCountries = countries.filter(option => option.hasCoverage).map(option => option.name)
+  const availableCountries = countries.filter(option => option.hasCoverage)
   const search = query.trim()
   const url = selectedCountry?.hasCoverage ? getResourcesUrl(selectedCountry.code, category, search) : null
   const currentRequest = request?.url === url && request.attempt === attempt ? request : null
@@ -75,40 +74,51 @@ export function Directory({ countries }: Readonly<{ countries: DirectoryCountry[
       </header>
 
       <main id="main" tabIndex={-1}>
-        <section className="shell intro" aria-labelledby="title">
-          <div className="intro-copy">
-            <h1 id="title">Encuentra ayuda<br className="desktop-break" /> donde estás.</h1>
-            <p>Contactos de emergencia, salud y apoyo para personas migrantes en Latinoamérica.</p>
-          </div>
+        <section className="hero" aria-labelledby="title">
+          <div className="shell intro">
+            <div className="intro-copy">
+              <h1 id="title">Encuentra ayuda<br className="desktop-break" /> donde estás.</h1>
+              <p>Contactos de emergencia, salud y apoyo para personas migrantes en Latinoamérica.</p>
+            </div>
 
-          <div className="country-panel">
-            <label htmlFor="country">¿En qué país estás ahora?</label>
-            <select id="country" value={country} onChange={event => selectCountry(event.target.value as Country | '')}>
-              <option value="">Selecciona un país</option>
-              {countries.map(option => (
-                <option value={option.code} key={option.code}>
-                  {option.hasCoverage ? `${option.name} · con directorio` : option.name}
-                </option>
-              ))}
-            </select>
-            {selectedCountry?.hasEmergencyResources ? (
-              <a className="emergency-link" href="#resultados" onClick={() => applyCategory('emergency')}>
-                Ver emergencias en {selectedCountry.name}
-              </a>
-            ) : (
-              <p>Puedes cambiar de país en cualquier momento.</p>
-            )}
+            <div className="country-panel">
+              <label htmlFor="country">¿En qué país estás ahora?</label>
+              <select id="country" value={country} onChange={event => selectCountry(event.target.value as Country | '')}>
+                <option value="">Selecciona un país</option>
+                {countries.map(option => (
+                  <option value={option.code} key={option.code}>
+                    {option.hasCoverage ? `${option.name} · con directorio` : option.name}
+                  </option>
+                ))}
+              </select>
+              {selectedCountry?.hasEmergencyResources ? (
+                <a className="emergency-link" href="#resultados" onClick={() => applyCategory('emergency')}>
+                  Ver emergencias en {selectedCountry.name}
+                </a>
+              ) : (
+                <p>Puedes cambiar de país en cualquier momento.</p>
+              )}
+            </div>
           </div>
         </section>
 
         <section className="directory-section" id="directorio" aria-labelledby="directory-title" tabIndex={-1}>
           <div className="shell">
-            <h2 className="directory-heading" id="directory-title">{selectedCountry ? `Directorio de ${selectedCountry.name}` : 'Directorio de ayuda'}</h2>
+            <h2 className="directory-heading" id="directory-title" tabIndex={-1}>{selectedCountry ? `Directorio de ${selectedCountry.name}` : 'Países con directorio'}</h2>
 
             {!selectedCountry && (
-              <p className="message" role="status">
-                Selecciona un país para consultar sus recursos. Cobertura disponible en {countryNames.format(availableCountries)}.
-              </p>
+              <ul className="coverage-list">
+                {availableCountries.map(option => (
+                  <li key={option.code}>
+                    <button type="button" onClick={() => {
+                      selectCountry(option.code)
+                      document.getElementById('directory-title')?.focus()
+                    }}>
+                      {option.name}
+                    </button>
+                  </li>
+                ))}
+              </ul>
             )}
             {selectedCountry && !selectedCountry.hasCoverage && (
               <div className="message">

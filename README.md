@@ -1,6 +1,20 @@
 # SendaSafe
 
-A mobile-first directory of emergency services, health resources, and migrant support in Latin America. The directory currently covers Guatemala and Mexico.
+A Spanish-language, mobile-first directory of emergency services, health resources, and migrant support in Latin America. Visitors can choose the country they are in, search by municipality or service, and open public phone or WhatsApp contacts from each resource card.
+
+## Coverage
+
+| Country | Resources | Catalog |
+| --- | ---: | --- |
+| Colombia | 23 | [CO](data/countries/co/resources.json) |
+| Costa Rica | 21 | [CR](data/countries/cr/resources.json) |
+| El Salvador | 23 | [SV](data/countries/sv/resources.json) |
+| Guatemala | 23 | [GT](data/countries/gt/resources.json) |
+| Honduras | 22 | [HN](data/countries/hn/resources.json) |
+| Mexico | 23 | [MX](data/countries/mx/resources.json) |
+| Panama | 23 | [PA](data/countries/pa/resources.json) |
+
+The country selector also offers general guidance when a local directory is unavailable.
 
 ## Run locally
 
@@ -12,6 +26,16 @@ npm run dev
 ```
 
 Open [SendaSafe locally](http://localhost:3000).
+
+### Run with Docker
+
+With Docker Engine and Docker Compose running, start the frontend and API together.
+
+```sh
+docker compose up --build
+```
+
+Open [SendaSafe locally](http://localhost:3000). The multi-stage image runs the Next.js standalone server as a non-root user on port 3000. The container has an HTTP health check.
 
 ## Architecture
 
@@ -26,10 +50,15 @@ Try `/api/v1/countries/GT/resources?q=coban&category=migration-and-legal`. A cou
 
 ## Directory sources
 
-Each resource card shows the sources and date of review. The catalog stores contact details as strings to preserve domestic short codes, including leading zeroes.
+Each resource card shows the sources, date and verification method. Initial reviews use public institutional records. The catalog stores contact details as strings to preserve domestic short codes, including leading zeroes.
 
+- Colombia. [ACNUR Colombia](https://help.unhcr.org/colombia/bienvenido-a/donde-encontrar-ayuda/asistencia-legal/) and [Migración Colombia](https://www.migracioncolombia.gov.co/acerca-de-migracion-colombia/directorios/puntos-de-atencion).
+- Costa Rica. [Ministry of Labor](https://www.mtss.go.cr/dml/servicios/) and [ACNUR Costa Rica](https://help.unhcr.org/costarica/serviciosacnur).
+- El Salvador. [ACNUR El Salvador](https://help.unhcr.org/elsalvador/donde-encontrar-ayuda/numeros-de-telefonos-de-emergencia/) and [Scalabrini International Migration Network](https://www.simn-global.org/centros-scalabrinianos/centro/casa-del-migrante-scalabrini-el-salvador/).
 - [Guatemala catalog](data/countries/gt/resources.json). Sources include [CONRED](https://conred.gob.gt/sinaprese2026/), [ACNUR Guatemala](https://help.unhcr.org/guatemala/) and [Scalabrini migrant shelters](https://scalabriniguate.org/contacto/).
+- Honduras. [ACNUR Honduras](https://help.unhcr.org/honduras/wp-content/uploads/sites/56/2025/02/Ruta-de-Atencion-Danli.pdf) and the [National Migration Institute](https://inm.gob.hn/contacto).
 - [Mexico catalog](data/countries/mx/resources.json). Sources include [ACNUR México](https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/), the [Secretaría de Seguridad y Protección Ciudadana](https://www.gob.mx/sspc/es/articulos/sabes-cual-es-la-diferencia-entre-los-numeros-088-089-y-911?idiom=es) and [IMSS](https://www.imss.gob.mx/prensa/archivo/202611/585).
+- Panama. [ACNUR Panamá](https://help.unhcr.org/panama/donde-encontrar-ayuda/) and the [National Migration Service](https://www.migracion.gob.pa/contacto/).
 
 ### Correcting directory entries
 
@@ -49,7 +78,7 @@ npm run typecheck
 npm run build
 ```
 
-GitHub Actions runs these checks on pushes and pull requests targeting `develop` or `main`.
+GitHub Actions runs these checks on pushes and pull requests targeting `develop` or `main`. A separate job builds the container and checks that the home page, stylesheet, and public API work from the running image. To repeat the container check locally while it is running, use `node scripts/check-deployment.mjs`. [CI runs](https://github.com/KevinYax11/SendaSafe/actions)
 
 ## Deployment
 
