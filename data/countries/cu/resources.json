@@ -1,0 +1,1282 @@
+{
+  "country": "CU",
+  "language": "es",
+  "resources": [
+    {
+      "id": "cu-ambulancia",
+      "organization": "Servicio de ambulancias",
+      "category": "emergency",
+      "service": "Solicita una ambulancia ante una urgencia médica.",
+      "coverage": {
+        "scope": "national",
+        "area": "Cuba",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "104",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000330003PDFE.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-bomberos",
+      "organization": "Cuerpo de Bomberos",
+      "category": "emergency",
+      "service": "Solicita ayuda por incendios, rescates u otras emergencias atendidas por bomberos.",
+      "coverage": {
+        "scope": "national",
+        "area": "Cuba",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "105",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000330003PDFE.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-policia",
+      "organization": "Policía Nacional Revolucionaria",
+      "category": "emergency",
+      "service": "Solicita intervención policial inmediata.",
+      "coverage": {
+        "scope": "national",
+        "area": "Cuba",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "106",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000330003PDFE.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-mar",
+      "organization": "Servicio de emergencias marítimas",
+      "category": "emergency",
+      "service": "Canal de atención para emergencias marítimas.",
+      "coverage": {
+        "scope": "national",
+        "area": "Cuba",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "107",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000330003PDFE.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-cenatox",
+      "organization": "Centro Nacional de Toxicología",
+      "category": "emergency",
+      "service": "Solicita orientación especializada en caso de intoxicación o exposición a una sustancia tóxica.",
+      "coverage": {
+        "scope": "national",
+        "area": "Cuba",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5372601230",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+5372608751",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://retoxlac.org/wp-content/uploads/2024/07/Directorio-RETOXLAC-2024.pdf",
+          "https://havana.embassy.qa/es/cuba/tel%C3%A9fonos-%C3%BAtiles"
+        ]
+      }
+    },
+    {
+      "id": "cu-h-juan-manuel",
+      "organization": "Hospital Pediátrico Juan Manuel Márquez",
+      "category": "health-and-psychosocial",
+      "service": "Contacta al centro para consultar atención médica, disponibilidad y acceso a sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Marianao, La Habana",
+        "municipality": "Marianao"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5372602860",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Atención pediátrica.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://travel.state.gov/content/dam/NEWadoptionassets/pdfs/LOCAL%20HOSPITALS_Mar2025.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-h-ameijeiras",
+      "organization": "Hospital Hermanos Ameijeiras",
+      "category": "health-and-psychosocial",
+      "service": "Contacta al centro para consultar atención médica, disponibilidad y acceso a sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Centro Habana, La Habana",
+        "municipality": "Centro Habana"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5378761683",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.uk/government/publications/cuba-list-of-medical-facilitiespractitioners/list-of-medical-facilities-cuba"
+        ]
+      }
+    },
+    {
+      "id": "cu-h-faustino",
+      "organization": "Hospital Clínico Quirúrgico Faustino Pérez",
+      "category": "health-and-psychosocial",
+      "service": "Contacta al centro para consultar atención médica, disponibilidad y acceso a sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Matanzas, Matanzas",
+        "municipality": "Matanzas"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5345247016",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://travel.state.gov/content/dam/NEWadoptionassets/pdfs/LOCAL%20HOSPITALS_Mar2025.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-h-aldereguia",
+      "organization": "Hospital Clínico Quirúrgico Dr. Gustavo Aldereguía Lima",
+      "category": "health-and-psychosocial",
+      "service": "Contacta al centro para consultar atención médica, disponibilidad y acceso a sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cienfuegos, Cienfuegos",
+        "municipality": "Cienfuegos"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5343591100",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://travel.state.gov/content/dam/NEWadoptionassets/pdfs/LOCAL%20HOSPITALS_Mar2025.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-h-clinica-cienfuegos",
+      "organization": "Clínica Internacional de Cienfuegos",
+      "category": "health-and-psychosocial",
+      "service": "Contacta al centro para consultar atención médica, disponibilidad y acceso a sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cienfuegos, Cienfuegos",
+        "municipality": "Cienfuegos"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5343551622",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://travel.state.gov/content/dam/NEWadoptionassets/pdfs/LOCAL%20HOSPITALS_Mar2025.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-h-arnaldo",
+      "organization": "Hospital Clínico Quirúrgico Arnaldo Milián Castro",
+      "category": "health-and-psychosocial",
+      "service": "Contacta al centro para consultar atención médica, disponibilidad y acceso a sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santa Clara, Villa Clara",
+        "municipality": "Santa Clara"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5342270100",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://travel.state.gov/content/dam/NEWadoptionassets/pdfs/LOCAL%20HOSPITALS_Mar2025.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-h-roberto-rodriguez",
+      "organization": "Hospital Roberto Rodríguez",
+      "category": "health-and-psychosocial",
+      "service": "Contacta al centro para consultar atención médica, disponibilidad y acceso a sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Morón, Ciego de Ávila",
+        "municipality": "Morón"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5333505011",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://travel.state.gov/content/dam/NEWadoptionassets/pdfs/LOCAL%20HOSPITALS_Mar2025.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-h-ascunce",
+      "organization": "Hospital Clínico Quirúrgico Manuel Ascunce Domenech",
+      "category": "health-and-psychosocial",
+      "service": "Contacta al centro para consultar atención médica, disponibilidad y acceso a sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Camagüey, Camagüey",
+        "municipality": "Camagüey"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5332282012",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://travel.state.gov/content/dam/NEWadoptionassets/pdfs/LOCAL%20HOSPITALS_Mar2025.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-h-lenin",
+      "organization": "Hospital Vladimir Ilich Lenin",
+      "category": "health-and-psychosocial",
+      "service": "Contacta al centro para consultar atención médica, disponibilidad y acceso a sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Holguín, Holguín",
+        "municipality": "Holguín"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5324462011",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://travel.state.gov/content/dam/NEWadoptionassets/pdfs/LOCAL%20HOSPITALS_Mar2025.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-h-lucia",
+      "organization": "Hospital Clínico Quirúrgico Lucía Íñiguez Landín",
+      "category": "health-and-psychosocial",
+      "service": "Contacta al centro para consultar atención médica, disponibilidad y acceso a sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Holguín, Holguín",
+        "municipality": "Holguín"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5324481013",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://travel.state.gov/content/dam/NEWadoptionassets/pdfs/LOCAL%20HOSPITALS_Mar2025.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-h-octavio",
+      "organization": "Hospital Pediátrico Octavio de la Concepción",
+      "category": "health-and-psychosocial",
+      "service": "Contacta al centro para consultar atención médica, disponibilidad y acceso a sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Holguín, Holguín",
+        "municipality": "Holguín"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5324473633",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": "Atención pediátrica.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://travel.state.gov/content/dam/NEWadoptionassets/pdfs/LOCAL%20HOSPITALS_Mar2025.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-h-saturnino",
+      "organization": "Hospital Clínico Quirúrgico Saturnino Lora",
+      "category": "health-and-psychosocial",
+      "service": "Contacta al centro para consultar atención médica, disponibilidad y acceso a sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santiago de Cuba, Santiago de Cuba",
+        "municipality": "Santiago de Cuba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5322642067",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://travel.state.gov/content/dam/NEWadoptionassets/pdfs/LOCAL%20HOSPITALS_Mar2025.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-caritas-pinar",
+      "organization": "Cáritas Pinar del Río",
+      "category": "shelter-and-food",
+      "service": "Consulta por el programa de apoyo alimentario a personas mayores vulnerables y los comedores o servicios parroquiales disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Diócesis de Pinar del Río",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5348728135",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://caritascuba.org/contactos-2/",
+          "https://caritascuba.org/programa-de-personas-mayores/"
+        ]
+      }
+    },
+    {
+      "id": "cu-caritas-habana",
+      "organization": "Cáritas La Habana",
+      "category": "shelter-and-food",
+      "service": "Consulta por el programa de apoyo alimentario a personas mayores vulnerables y los comedores o servicios parroquiales disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Arquidiócesis de La Habana",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5378339555",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://caritascuba.org/contactos-2/",
+          "https://caritascuba.org/programa-de-personas-mayores/"
+        ]
+      }
+    },
+    {
+      "id": "cu-caritas-matanzas",
+      "organization": "Cáritas Matanzas",
+      "category": "shelter-and-food",
+      "service": "Consulta por el programa de apoyo alimentario a personas mayores vulnerables y los comedores o servicios parroquiales disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Diócesis de Matanzas",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5345243611",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://caritascuba.org/contactos-2/",
+          "https://caritascuba.org/programa-de-personas-mayores/"
+        ]
+      }
+    },
+    {
+      "id": "cu-caritas-cienfuegos",
+      "organization": "Cáritas Cienfuegos",
+      "category": "shelter-and-food",
+      "service": "Consulta por el programa de apoyo alimentario a personas mayores vulnerables y los comedores o servicios parroquiales disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Diócesis de Cienfuegos",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5343519925",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://caritascuba.org/contactos-2/",
+          "https://caritascuba.org/programa-de-personas-mayores/"
+        ]
+      }
+    },
+    {
+      "id": "cu-caritas-santa-clara",
+      "organization": "Cáritas Santa Clara",
+      "category": "shelter-and-food",
+      "service": "Consulta por el programa de apoyo alimentario a personas mayores vulnerables y los comedores o servicios parroquiales disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Diócesis de Santa Clara",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5342283165",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://caritascuba.org/contactos-2/",
+          "https://caritascuba.org/programa-de-personas-mayores/"
+        ]
+      }
+    },
+    {
+      "id": "cu-caritas-ciego",
+      "organization": "Cáritas Ciego de Ávila",
+      "category": "shelter-and-food",
+      "service": "Consulta por el programa de apoyo alimentario a personas mayores vulnerables y los comedores o servicios parroquiales disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Diócesis de Ciego de Ávila",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5333223057",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://caritascuba.org/contactos-2/",
+          "https://caritascuba.org/programa-de-personas-mayores/"
+        ]
+      }
+    },
+    {
+      "id": "cu-caritas-camaguey",
+      "organization": "Cáritas Camagüey",
+      "category": "shelter-and-food",
+      "service": "Consulta por el programa de apoyo alimentario a personas mayores vulnerables y los comedores o servicios parroquiales disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Arquidiócesis de Camagüey",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5332256800",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://caritascuba.org/contactos-2/",
+          "https://caritascuba.org/programa-de-personas-mayores/"
+        ]
+      }
+    },
+    {
+      "id": "cu-caritas-holguin",
+      "organization": "Cáritas Holguín",
+      "category": "shelter-and-food",
+      "service": "Consulta por el programa de apoyo alimentario a personas mayores vulnerables y los comedores o servicios parroquiales disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Diócesis de Holguín",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5324423219",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://caritascuba.org/contactos-2/",
+          "https://caritascuba.org/programa-de-personas-mayores/"
+        ]
+      }
+    },
+    {
+      "id": "cu-caritas-santiago",
+      "organization": "Cáritas Santiago de Cuba",
+      "category": "shelter-and-food",
+      "service": "Consulta por el programa de apoyo alimentario a personas mayores vulnerables y los comedores o servicios parroquiales disponibles.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Arquidiócesis de Santiago de Cuba",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5322626749",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://caritascuba.org/contactos-2/",
+          "https://caritascuba.org/programa-de-personas-mayores/"
+        ]
+      }
+    },
+    {
+      "id": "cu-legal-onbc",
+      "organization": "Organización Nacional de Bufetes Colectivos",
+      "category": "migration-and-legal",
+      "service": "Consulta por servicios jurídicos y la oficina que puede atender tu caso.",
+      "coverage": {
+        "scope": "national",
+        "area": "Cuba",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5378325000",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.exteriores.gob.es/DocumentosAuxiliaresSC/Cuba/LA%20HABANA%20%28C%29/Listado%20Bufetes%20Cuba.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-legal-especializados",
+      "organization": "Bufete de Servicios Especializados",
+      "category": "migration-and-legal",
+      "service": "Consulta asistencia jurídica especializada en asuntos civiles, familiares o internacionales.",
+      "coverage": {
+        "scope": "local",
+        "area": "Plaza de la Revolución, La Habana",
+        "municipality": "Plaza de la Revolución"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5378326024",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.exteriores.gob.es/DocumentosAuxiliaresSC/Cuba/LA%20HABANA%20%28C%29/Listado%20Bufetes%20Cuba.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-legal-playa",
+      "organization": "Bufete Colectivo de Playa, Avenida Quinta",
+      "category": "migration-and-legal",
+      "service": "Consulta a la sede de Avenida Quinta por asesoría jurídica.",
+      "coverage": {
+        "scope": "local",
+        "area": "Playa, La Habana",
+        "municipality": "Playa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5372028160",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.exteriores.gob.es/DocumentosAuxiliaresSC/Cuba/LA%20HABANA%20%28C%29/Listado%20Bufetes%20Cuba.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-legal-internacional",
+      "organization": "Bufete Internacional",
+      "category": "migration-and-legal",
+      "service": "Consulta por asesoría jurídica sobre documentación y asuntos internacionales.",
+      "coverage": {
+        "scope": "local",
+        "area": "Playa, La Habana",
+        "municipality": "Playa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5372045126",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.exteriores.gob.es/DocumentosAuxiliaresSC/Cuba/LA%20HABANA%20%28C%29/Listado%20Bufetes%20Cuba.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-legal-vedado",
+      "organization": "Bufete Colectivo del Vedado",
+      "category": "migration-and-legal",
+      "service": "Consulta por asesoría jurídica en la oficina de la calle E.",
+      "coverage": {
+        "scope": "local",
+        "area": "Plaza de la Revolución, La Habana",
+        "municipality": "Plaza de la Revolución"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5378369578",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.exteriores.gob.es/DocumentosAuxiliaresSC/Cuba/LA%20HABANA%20%28C%29/Listado%20Bufetes%20Cuba.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-legal-centro",
+      "organization": "Bufete Colectivo de Centro Habana",
+      "category": "migration-and-legal",
+      "service": "Consulta por asesoría jurídica en la oficina de Centro Habana.",
+      "coverage": {
+        "scope": "local",
+        "area": "Centro Habana, La Habana",
+        "municipality": "Centro Habana"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5378622926",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.exteriores.gob.es/DocumentosAuxiliaresSC/Cuba/LA%20HABANA%20%28C%29/Listado%20Bufetes%20Cuba.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-legal-ciego",
+      "organization": "Bufete Colectivo de Ciego de Ávila",
+      "category": "migration-and-legal",
+      "service": "Consulta por asesoría jurídica en la sede de Ciego de Ávila.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciego de Ávila, Ciego de Ávila",
+        "municipality": "Ciego de Ávila"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5333223980",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.exteriores.gob.es/DocumentosAuxiliaresSC/Cuba/LA%20HABANA%20%28C%29/Listado%20Bufetes%20Cuba.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-legal-santiago",
+      "organization": "Bufete Colectivo de Santiago de Cuba",
+      "category": "migration-and-legal",
+      "service": "Consulta por asesoría jurídica en la sede de Santiago de Cuba.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santiago de Cuba, Santiago de Cuba",
+        "municipality": "Santiago de Cuba"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5322651166",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.exteriores.gob.es/DocumentosAuxiliaresSC/Cuba/LA%20HABANA%20%28C%29/Listado%20Bufetes%20Cuba.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-legal-guantanamo",
+      "organization": "Bufete Colectivo de Guantánamo",
+      "category": "migration-and-legal",
+      "service": "Consulta por asesoría jurídica en la sede de Guantánamo.",
+      "coverage": {
+        "scope": "local",
+        "area": "Guantánamo, Guantánamo",
+        "municipality": "Guantánamo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5321322100",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.exteriores.gob.es/DocumentosAuxiliaresSC/Cuba/LA%20HABANA%20%28C%29/Listado%20Bufetes%20Cuba.pdf"
+        ]
+      }
+    },
+    {
+      "id": "cu-proteccion-sandino",
+      "organization": "Casa de Orientación a la Mujer y la Familia, Sandino",
+      "category": "protection",
+      "service": "Consulta por orientación y acompañamiento para mujeres y familias que necesitan apoyo ante situaciones de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Sandino, Pinar del Río",
+        "municipality": "Sandino"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5348423428",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://ogatcuba.org/directorio-de-ayudas/"
+        ]
+      }
+    },
+    {
+      "id": "cu-proteccion-artemisa",
+      "organization": "Casa de Orientación a la Mujer y la Familia, Artemisa",
+      "category": "protection",
+      "service": "Consulta por orientación y acompañamiento para mujeres y familias que necesitan apoyo ante situaciones de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Artemisa, Artemisa",
+        "municipality": "Artemisa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5347362259",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://ogatcuba.org/directorio-de-ayudas/"
+        ]
+      }
+    },
+    {
+      "id": "cu-proteccion-habana",
+      "organization": "Casa de Orientación a la Mujer y la Familia, Vedado",
+      "category": "protection",
+      "service": "Consulta por orientación y acompañamiento para mujeres y familias que necesitan apoyo ante situaciones de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Plaza de la Revolución, La Habana",
+        "municipality": "Plaza de la Revolución"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5378334505",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://ogatcuba.org/directorio-de-ayudas/"
+        ]
+      }
+    },
+    {
+      "id": "cu-proteccion-mayabeque",
+      "organization": "Casa de Orientación a la Mujer y la Familia, San José de las Lajas",
+      "category": "protection",
+      "service": "Consulta por orientación y acompañamiento para mujeres y familias que necesitan apoyo ante situaciones de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "San José de las Lajas, Mayabeque",
+        "municipality": "San José de las Lajas"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5347864255",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://ogatcuba.org/directorio-de-ayudas/"
+        ]
+      }
+    },
+    {
+      "id": "cu-proteccion-isla",
+      "organization": "Casa de Orientación a la Mujer y la Familia, Nueva Gerona",
+      "category": "protection",
+      "service": "Consulta por orientación y acompañamiento para mujeres y familias que necesitan apoyo ante situaciones de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Isla de la Juventud, Isla de la Juventud",
+        "municipality": "Isla de la Juventud"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5346322204",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://ogatcuba.org/directorio-de-ayudas/"
+        ]
+      }
+    },
+    {
+      "id": "cu-proteccion-santa-clara",
+      "organization": "Casa de Orientación a la Mujer y la Familia, Santa Clara",
+      "category": "protection",
+      "service": "Consulta por orientación y acompañamiento para mujeres y familias que necesitan apoyo ante situaciones de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santa Clara, Villa Clara",
+        "municipality": "Santa Clara"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5342203672",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://ogatcuba.org/directorio-de-ayudas/"
+        ]
+      }
+    },
+    {
+      "id": "cu-proteccion-cienfuegos",
+      "organization": "Casa de Orientación a la Mujer y la Familia, Cienfuegos",
+      "category": "protection",
+      "service": "Consulta por orientación y acompañamiento para mujeres y familias que necesitan apoyo ante situaciones de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cienfuegos, Cienfuegos",
+        "municipality": "Cienfuegos"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5343518161",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://ogatcuba.org/directorio-de-ayudas/"
+        ]
+      }
+    },
+    {
+      "id": "cu-proteccion-sancti",
+      "organization": "Casa de Orientación a la Mujer y la Familia, Sancti Spíritus",
+      "category": "protection",
+      "service": "Consulta por orientación y acompañamiento para mujeres y familias que necesitan apoyo ante situaciones de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Sancti Spíritus, Sancti Spíritus",
+        "municipality": "Sancti Spíritus"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5341325530",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://ogatcuba.org/directorio-de-ayudas/"
+        ]
+      }
+    },
+    {
+      "id": "cu-proteccion-camaguey",
+      "organization": "Casa de Orientación a la Mujer y la Familia, Camagüey",
+      "category": "protection",
+      "service": "Consulta por orientación y acompañamiento para mujeres y familias que necesitan apoyo ante situaciones de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Camagüey, Camagüey",
+        "municipality": "Camagüey"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5332291585",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://ogatcuba.org/directorio-de-ayudas/"
+        ]
+      }
+    },
+    {
+      "id": "cu-proteccion-manzanillo",
+      "organization": "Casa de Orientación a la Mujer y la Familia, Manzanillo",
+      "category": "protection",
+      "service": "Consulta por orientación y acompañamiento para mujeres y familias que necesitan apoyo ante situaciones de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Manzanillo, Granma",
+        "municipality": "Manzanillo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+5323574800",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://ogatcuba.org/directorio-de-ayudas/"
+        ]
+      }
+    }
+  ]
+}
+
