@@ -1,0 +1,1342 @@
+{
+  "country": "HT",
+  "language": "es",
+  "resources": [
+    {
+      "id": "ht-police",
+      "organization": "Police Nationale d’Haïti",
+      "category": "emergency",
+      "service": "Solicita intervención policial ante una emergencia.",
+      "coverage": {
+        "scope": "national",
+        "area": "Haití",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "114",
+          "routing": "short-code"
+        },
+        {
+          "type": "phone",
+          "number": "+50938381111",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mae.gouv.ht/services/numeros-durgence"
+        ]
+      }
+    },
+    {
+      "id": "ht-can",
+      "organization": "Centre Ambulancier National",
+      "category": "emergency",
+      "service": "Solicita un equipo de atención prehospitalaria ante una urgencia médica.",
+      "coverage": {
+        "scope": "national",
+        "area": "Haití",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "116",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.servicespublics.gouv.ht/site/rsservice/service_ambulancier_national"
+        ]
+      }
+    },
+    {
+      "id": "ht-croix-rouge",
+      "organization": "Croix-Rouge Haïtienne",
+      "category": "emergency",
+      "service": "Contacto de auxilio y emergencias de la Cruz Roja Haitiana.",
+      "coverage": {
+        "scope": "national",
+        "area": "Haití",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "118",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mae.gouv.ht/services/numeros-durgence"
+        ]
+      }
+    },
+    {
+      "id": "ht-fire-pap",
+      "organization": "Sapeurs-pompiers de Port-au-Prince",
+      "category": "emergency",
+      "service": "Contacta a los bomberos en Puerto Príncipe para incendios y rescates.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puerto Príncipe, Oeste",
+        "municipality": "Puerto Príncipe"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50944004444",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mae.gouv.ht/services/numeros-durgence"
+        ]
+      }
+    },
+    {
+      "id": "ht-fire-cap",
+      "organization": "Sapeurs-Pompiers du Cap-Haïtien",
+      "category": "emergency",
+      "service": "Solicita apoyo de los bomberos en Cabo Haitiano.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cabo Haitiano, Norte",
+        "municipality": "Cabo Haitiano"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50929451111",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://cap-haitien.ht/contact/?motif=signalement"
+        ]
+      }
+    },
+    {
+      "id": "ht-semanah",
+      "organization": "Service Maritime National d’Haïti",
+      "category": "emergency",
+      "service": "Contacto del servicio marítimo para incidentes en el mar.",
+      "coverage": {
+        "scope": "national",
+        "area": "Haití",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "8722",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mae.gouv.ht/services/numeros-durgence"
+        ]
+      }
+    },
+    {
+      "id": "ht-ofatma",
+      "organization": "OFATMA, centro de urgencias de Cabo Haitiano",
+      "category": "emergency",
+      "service": "Consulta por atención en el centro local de urgencias médicas.",
+      "coverage": {
+        "scope": "local",
+        "area": "Cabo Haitiano, Norte",
+        "municipality": "Cabo Haitiano"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50938238869",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50939094223",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://cap-haitien.ht/contact/?motif=signalement"
+        ]
+      }
+    },
+    {
+      "id": "ht-h-canape",
+      "organization": "Hôpital du Canapé Vert",
+      "category": "health-and-psychosocial",
+      "service": "Llama al centro para confirmar que esté operativo y consultar la disponibilidad de sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puerto Príncipe, Oeste",
+        "municipality": "Puerto Príncipe"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50931537788",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspp.gouv.ht/dpmmt/docs/LEPA%20JUILLET%202025.pdf",
+          "https://www.gov.uk/government/publications/haiti-medical-facilities/haiti-medical-facilities"
+        ]
+      }
+    },
+    {
+      "id": "ht-h-joseph",
+      "organization": "Hôpital Médical St-Joseph",
+      "category": "health-and-psychosocial",
+      "service": "Llama al centro para confirmar que esté operativo y consultar la disponibilidad de sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puerto Príncipe, Oeste",
+        "municipality": "Puerto Príncipe"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50937306156",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.uk/government/publications/haiti-medical-facilities/haiti-medical-facilities"
+        ]
+      }
+    },
+    {
+      "id": "ht-h-adventiste",
+      "organization": "Hôpital Adventiste d’Haïti",
+      "category": "health-and-psychosocial",
+      "service": "Llama al centro para confirmar que esté operativo y consultar la disponibilidad de sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Carrefour, Oeste",
+        "municipality": "Carrefour"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50934033661",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.uk/government/publications/haiti-medical-facilities/haiti-medical-facilities",
+          "https://aic.ht/service-medical/"
+        ]
+      }
+    },
+    {
+      "id": "ht-h-cardinal",
+      "organization": "Hôpital Cardinal Léger",
+      "category": "health-and-psychosocial",
+      "service": "Llama al centro para confirmar que esté operativo y consultar la disponibilidad de sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Léogâne, Oeste",
+        "municipality": "Léogâne"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50949133124",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspp.gouv.ht/dpmmt/docs/LEPA%20JUILLET%202025.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ht-h-eben",
+      "organization": "Hôpital Eben-Ezer de Jumecourt",
+      "category": "health-and-psychosocial",
+      "service": "Llama al centro para confirmar que esté operativo y consultar la disponibilidad de sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Croix-des-Bouquets, Oeste",
+        "municipality": "Croix-des-Bouquets"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50948905413",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aic.ht/service-medical/"
+        ]
+      }
+    },
+    {
+      "id": "ht-h-espoir",
+      "organization": "Hôpital Espoir",
+      "category": "health-and-psychosocial",
+      "service": "Llama al centro para confirmar que esté operativo y consultar la disponibilidad de sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Delmas, Oeste",
+        "municipality": "Delmas"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50928130974",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspp.gouv.ht/dpmmt/docs/LEPA%20JUILLET%202025.pdf",
+          "https://aic.ht/service-medical/"
+        ]
+      }
+    },
+    {
+      "id": "ht-h-camille",
+      "organization": "Hôpital Foyer Saint Camille",
+      "category": "health-and-psychosocial",
+      "service": "Llama al centro para confirmar que esté operativo y consultar la disponibilidad de sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Croix-des-Bouquets, Oeste",
+        "municipality": "Croix-des-Bouquets"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50928115347",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspp.gouv.ht/dpmmt/docs/LEPA%20JUILLET%202025.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ht-h-damien",
+      "organization": "Hôpital Saint Damien",
+      "category": "health-and-psychosocial",
+      "service": "Consulta la disponibilidad de los servicios de salud infantil del hospital.",
+      "coverage": {
+        "scope": "local",
+        "area": "Tabarre, Oeste",
+        "municipality": "Tabarre"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50947996202",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspp.gouv.ht/dpmmt/docs/LEPA%20JUILLET%202025.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ht-h-gheskio",
+      "organization": "Centres GHESKIO, asistencia general",
+      "category": "health-and-psychosocial",
+      "service": "Solicita información general sobre la atención de los centros GHESKIO.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puerto Príncipe, Oeste",
+        "municipality": "Puerto Príncipe"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50929401431",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://gheskio.org/contact-us/"
+        ]
+      }
+    },
+    {
+      "id": "ht-h-zanmi",
+      "organization": "Zanmi Lasante",
+      "category": "health-and-psychosocial",
+      "service": "Consulta qué servicios de la red de salud están disponibles y cuál se encuentra más cerca.",
+      "coverage": {
+        "scope": "national",
+        "area": "Haití",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50928130016",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://zanmilasante.org/propos-de-nous/nous-contacter"
+        ]
+      }
+    },
+    {
+      "id": "ht-h-medimax",
+      "organization": "Medimax",
+      "category": "health-and-psychosocial",
+      "service": "Llama al centro para confirmar que esté operativo y consultar la disponibilidad de sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puerto Príncipe, Oeste",
+        "municipality": "Puerto Príncipe"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50937176566",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://aic.ht/service-medical/"
+        ]
+      }
+    },
+    {
+      "id": "ht-h-sainte-claire",
+      "organization": "Hôpital Sainte Claire",
+      "category": "health-and-psychosocial",
+      "service": "Llama al centro para confirmar que esté operativo y consultar la disponibilidad de sus servicios.",
+      "coverage": {
+        "scope": "local",
+        "area": "Pétion-Ville, Oeste",
+        "municipality": "Pétion-Ville"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50948939486",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://dashhaiti.org/dashinternational/service-points/"
+        ]
+      }
+    },
+    {
+      "id": "ht-faes-pap",
+      "organization": "Fonds d’Assistance Économique et Sociale, Port-au-Prince",
+      "category": "shelter-and-food",
+      "service": "Consulta a la oficina por programas de asistencia alimentaria y social, zonas atendidas y condiciones de acceso.",
+      "coverage": {
+        "scope": "national",
+        "area": "Haití",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50929184141",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50929154141",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://faes.gouv.ht/nous-contactez/",
+          "https://faes.gouv.ht/2025/02/01/le-faes-determine-a-lutter-contre-linsecurite-alimentaire-et-a-favoriser-la-resilience/"
+        ]
+      }
+    },
+    {
+      "id": "ht-faes-jacmel",
+      "organization": "Fonds d’Assistance Économique et Sociale, Jacmel",
+      "category": "shelter-and-food",
+      "service": "Consulta a la oficina por programas de asistencia alimentaria y social, zonas atendidas y condiciones de acceso.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Sudeste",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50946435666",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50948961455",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://faes.gouv.ht/nous-contactez/",
+          "https://faes.gouv.ht/2025/02/01/le-faes-determine-a-lutter-contre-linsecurite-alimentaire-et-a-favoriser-la-resilience/"
+        ]
+      }
+    },
+    {
+      "id": "ht-faes-cayes",
+      "organization": "Fonds d’Assistance Économique et Sociale, Les Cayes",
+      "category": "shelter-and-food",
+      "service": "Consulta a la oficina por programas de asistencia alimentaria y social, zonas atendidas y condiciones de acceso.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Sur",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50937161666",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50948961452",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://faes.gouv.ht/nous-contactez/",
+          "https://faes.gouv.ht/2025/02/01/le-faes-determine-a-lutter-contre-linsecurite-alimentaire-et-a-favoriser-la-resilience/"
+        ]
+      }
+    },
+    {
+      "id": "ht-faes-hinche",
+      "organization": "Fonds d’Assistance Économique et Sociale, Hinche",
+      "category": "shelter-and-food",
+      "service": "Consulta a la oficina por programas de asistencia alimentaria y social, zonas atendidas y condiciones de acceso.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Centro",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50932901067",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://faes.gouv.ht/nous-contactez/",
+          "https://faes.gouv.ht/2025/02/01/le-faes-determine-a-lutter-contre-linsecurite-alimentaire-et-a-favoriser-la-resilience/"
+        ]
+      }
+    },
+    {
+      "id": "ht-faes-fort",
+      "organization": "Fonds d’Assistance Économique et Sociale, Fort-Liberté",
+      "category": "shelter-and-food",
+      "service": "Consulta a la oficina por programas de asistencia alimentaria y social, zonas atendidas y condiciones de acceso.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Nordeste",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50936142687",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50943599103",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://faes.gouv.ht/nous-contactez/",
+          "https://faes.gouv.ht/2025/02/01/le-faes-determine-a-lutter-contre-linsecurite-alimentaire-et-a-favoriser-la-resilience/"
+        ]
+      }
+    },
+    {
+      "id": "ht-faes-port",
+      "organization": "Fonds d’Assistance Économique et Sociale, Port-de-Paix",
+      "category": "shelter-and-food",
+      "service": "Consulta a la oficina por programas de asistencia alimentaria y social, zonas atendidas y condiciones de acceso.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Noroeste",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50948961453",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50936789167",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://faes.gouv.ht/nous-contactez/",
+          "https://faes.gouv.ht/2025/02/01/le-faes-determine-a-lutter-contre-linsecurite-alimentaire-et-a-favoriser-la-resilience/"
+        ]
+      }
+    },
+    {
+      "id": "ht-pam",
+      "organization": "Programme Alimentaire Mondial, Haïti",
+      "category": "shelter-and-food",
+      "service": "Consulta con la oficina del Programa Mundial de Alimentos sobre asistencia alimentaria y programas activos.",
+      "coverage": {
+        "scope": "national",
+        "area": "Haití",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50934166097",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://es.wfp.org/contactos",
+          "https://fr.wfp.org/urgences/urgence-en-haiti"
+        ]
+      }
+    },
+    {
+      "id": "ht-kay",
+      "organization": "Kay Fanm",
+      "category": "shelter-and-food",
+      "service": "Contacto de admisión para consultar por refugio y protección de mujeres y niñas sobrevivientes de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puerto Príncipe, Oeste",
+        "municipality": "Puerto Príncipe"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50936366247",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, 8:00–16:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.uk/government/publications/haiti-guidance-for-victims-of-rape-and-sexual-assault/haiti-guidance-for-victims-of-rape-and-sexual-assault"
+        ]
+      }
+    },
+    {
+      "id": "ht-garr",
+      "organization": "Groupe d’Appui aux Rapatriés et Réfugiés",
+      "category": "migration-and-legal",
+      "service": "Consulta por acogida y asistencia a personas migrantes retornadas o desplazadas.",
+      "coverage": {
+        "scope": "national",
+        "area": "Haití",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50937223833",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://garrhaiti.org/accueil-des-migrants/"
+        ]
+      }
+    },
+    {
+      "id": "ht-oim",
+      "organization": "Organisation Internationale pour les Migrations, línea de información",
+      "category": "migration-and-legal",
+      "service": "Consulta por servicios y programas de asistencia para personas migrantes atendidas por la OIM.",
+      "coverage": {
+        "scope": "national",
+        "area": "Haití",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "8840",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://haiti.iom.int/sites/g/files/tmzbdl1091/files/documents/IOM%20Haiti%20-%20Fiche%20d%27information%20sur%20la%20hotline%208840%20-%20Octobre%202022%20%28FR%29%20%5BAutosaved%5D.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ht-opc",
+      "organization": "Office de la Protection du Citoyen",
+      "category": "migration-and-legal",
+      "service": "Consulta cómo presentar una queja o pedir orientación en materia de derechos.",
+      "coverage": {
+        "scope": "national",
+        "area": "Haití",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50929991212",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50931390324",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://afcndh.org/membres/listing/office-de-la-protection-du-citoyen-opc/"
+        ]
+      }
+    },
+    {
+      "id": "ht-bai",
+      "organization": "Bureau des Avocats Internationaux",
+      "category": "migration-and-legal",
+      "service": "Consulta por asistencia jurídica en casos de vulneración de derechos.",
+      "coverage": {
+        "scope": "national",
+        "area": "Haití",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50944733120",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50956189339",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.ijdh.org/wp-content/uploads/2026.07.17-UPR-Submission-re-Womens-Rights-by-AdvanceWomensRightsHaiti-Coalition-Annex2.pdf"
+        ]
+      }
+    },
+    {
+      "id": "ht-rights-noroeste",
+      "organization": "RENODH, Réseau National de Défense des Droits Humains",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación local y cómo reportar una vulneración de derechos.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Noroeste",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50928131849",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://web.rnddh.org/nous-contacter/contact-des-bureaux-du-reseau/"
+        ]
+      }
+    },
+    {
+      "id": "ht-rights-norte",
+      "organization": "RENDH, Réseau National de Défense des Droits Humains",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación local y cómo reportar una vulneración de derechos.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Norte",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50928131847",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://web.rnddh.org/nous-contacter/contact-des-bureaux-du-reseau/"
+        ]
+      }
+    },
+    {
+      "id": "ht-rights-nordeste",
+      "organization": "RENEDH, Réseau National de Défense des Droits Humains",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación local y cómo reportar una vulneración de derechos.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Nordeste",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50928131843",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://web.rnddh.org/nous-contacter/contact-des-bureaux-du-reseau/"
+        ]
+      }
+    },
+    {
+      "id": "ht-rights-artibonite",
+      "organization": "REDHA, Réseau National de Défense des Droits Humains",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación local y cómo reportar una vulneración de derechos.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Artibonito",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50928131846",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://web.rnddh.org/nous-contacter/contact-des-bureaux-du-reseau/"
+        ]
+      }
+    },
+    {
+      "id": "ht-rights-centro",
+      "organization": "RECENDH, Réseau National de Défense des Droits Humains",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación local y cómo reportar una vulneración de derechos.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Centro",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50928131836",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://web.rnddh.org/nous-contacter/contact-des-bureaux-du-reseau/"
+        ]
+      }
+    },
+    {
+      "id": "ht-rights-grandanse",
+      "organization": "REGADH, Réseau National de Défense des Droits Humains",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación local y cómo reportar una vulneración de derechos.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Grand’Anse",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50928131835",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://web.rnddh.org/nous-contacter/contact-des-bureaux-du-reseau/"
+        ]
+      }
+    },
+    {
+      "id": "ht-rights-sur",
+      "organization": "REDH-SUD, Réseau National de Défense des Droits Humains",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación local y cómo reportar una vulneración de derechos.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Sur",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50928131856",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://web.rnddh.org/nous-contacter/contact-des-bureaux-du-reseau/"
+        ]
+      }
+    },
+    {
+      "id": "ht-ibesr",
+      "organization": "Institut du Bien-Être Social et de Recherches",
+      "category": "protection",
+      "service": "Solicita orientación o reporta una situación de riesgo que afecte a niñas, niños o adolescentes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Haití",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "133",
+          "routing": "short-code"
+        },
+        {
+          "type": "phone",
+          "number": "511",
+          "routing": "short-code"
+        },
+        {
+          "type": "phone",
+          "number": "+50928161554",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.bscht.org/contact"
+        ]
+      }
+    },
+    {
+      "id": "ht-bpm",
+      "organization": "Brigade de Protection des Mineurs",
+      "category": "protection",
+      "service": "Canal policial especializado de protección de niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Haití",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "188",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.unicef.org/haiti/communiqu%C3%A9s-de-presse/les-enfants-en-d%C3%A9tention-font-face-%C3%A0-un-risque-accru-de-contracter-la-covid"
+        ]
+      }
+    },
+    {
+      "id": "ht-neges",
+      "organization": "Nègès Mawon",
+      "category": "protection",
+      "service": "Acompañamiento jurídico, psicológico y médico para mujeres sobrevivientes de violencia.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Oeste",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50934065959",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50932005959",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.uk/government/publications/haiti-guidance-for-victims-of-rape-and-sexual-assault/haiti-guidance-for-victims-of-rape-and-sexual-assault"
+        ]
+      }
+    },
+    {
+      "id": "ht-sofa",
+      "organization": "Solidarite Fanm Ayisyen",
+      "category": "protection",
+      "service": "Consulta por los centros que ofrecen acompañamiento médico y psicosocial a niñas y mujeres sobrevivientes de violencia.",
+      "coverage": {
+        "scope": "national",
+        "area": "Haití",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50947308333",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, 8:00–16:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.uk/government/publications/haiti-guidance-for-victims-of-rape-and-sexual-assault/haiti-guidance-for-victims-of-rape-and-sexual-assault"
+        ]
+      }
+    },
+    {
+      "id": "ht-gheskio-vbg",
+      "organization": "Centres GHESKIO, atención a sobrevivientes de violencia sexual",
+      "category": "protection",
+      "service": "Solicita atención médica especializada y orientación tras una agresión sexual.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puerto Príncipe, Oeste",
+        "municipality": "Puerto Príncipe"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50944478738",
+          "routing": "direct"
+        }
+      ],
+      "hours": "24 horas",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.uk/government/publications/haiti-guidance-for-victims-of-rape-and-sexual-assault/haiti-guidance-for-victims-of-rape-and-sexual-assault"
+        ]
+      }
+    },
+    {
+      "id": "ht-favilek",
+      "organization": "Fanm Viktim Leve Kanpe",
+      "category": "protection",
+      "service": "Consulta por acompañamiento médico, psicológico y jurídico para sobrevivientes de violencia sexual.",
+      "coverage": {
+        "scope": "local",
+        "area": "Puerto Príncipe, Oeste",
+        "municipality": "Puerto Príncipe"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50937683299",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+50936083926",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.gov.uk/government/publications/haiti-guidance-for-victims-of-rape-and-sexual-assault/haiti-guidance-for-victims-of-rape-and-sexual-assault"
+        ]
+      }
+    },
+    {
+      "id": "ht-sps",
+      "organization": "Solidarite Peyizan pou Sekirite Fanm",
+      "category": "protection",
+      "service": "Consulta por servicios de protección disponibles para mujeres en situación de violencia.",
+      "coverage": {
+        "scope": "national",
+        "area": "Haití",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+50944757834",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.ijdh.org/wp-content/uploads/2026.07.17-UPR-Submission-re-Womens-Rights-by-AdvanceWomensRightsHaiti-Coalition-Annex2.pdf"
+        ]
+      }
+    }
+  ]
+}
+

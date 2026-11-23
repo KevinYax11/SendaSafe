@@ -12,6 +12,7 @@ const routes = new Set(['short-code', 'direct', 'switchboard'])
 const verificationMethods = new Set(['institutional-source', 'phone-confirmed'])
 const shortCodePattern = /^[1-9]\d{2,3}$/
 const countries = {
+  HT: { name: 'Haití', numberPattern: /^\+509[2-5]\d{7}$/ },
   CU: { name: 'Cuba', numberPattern: /^\+53[2-7]\d{7}$/ },
   VE: { name: 'Venezuela', numberPattern: /^(?:\+58[24]\d{9}|0800\d{7})$/ },
   NI: { name: 'Nicaragua', numberPattern: /^\+505[2578]\d{7}$/ },

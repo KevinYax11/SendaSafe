@@ -16,12 +16,13 @@ await request(stylesheet[1])
 
 const { countries } = await (await request('/api/v1/countries')).json()
 const covered = countries.filter(country => country.hasCoverage)
-assert.ok(covered.length > 0)
+assert.ok(countries.length > 0)
+assert.equal(covered.length, countries.length, 'Every selectable country has a directory')
 for (const { code } of covered) {
   const path = `/api/v1/countries/${code}/resources`
   const { country, resources } = await (await request(path)).json()
   assert.equal(country.code, code, path)
-  assert.ok(resources.length >= 20, path)
+  assert.ok(resources.length >= 45, path)
 }
 
 await request('/api/v1/countries/ZZ/resources', 404)

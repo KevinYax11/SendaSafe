@@ -26,8 +26,9 @@ A Spanish-language, mobile-first directory of emergency services, health resourc
 | Nicaragua | 45 | [NI](data/countries/ni/resources.json) |
 | Venezuela | 45 | [VE](data/countries/ve/resources.json) |
 | Cuba | 45 | [CU](data/countries/cu/resources.json) |
+| Haiti | 45 | [HT](data/countries/ht/resources.json) |
 
-The country selector also offers general guidance when a local directory is unavailable.
+The directory covers all 21 options in the country selector.
 
 Each published catalog has at least 45 resources and five distinct numbers in each category. The validator also enforces the expanded per-category totals in the original catalogs.
 
@@ -87,6 +88,7 @@ Each resource card shows the sources, date and verification method. Initial revi
 - Nicaragua. [Nicaraguan Tourism Institute emergency directory](https://www.mapanicaragua.com/numeros-de-emergencias-otros/), [Medical facilities](https://www.gov.uk/government/publications/hospitals-in-nicaragua/nicaragua-list-of-medical-facilities), [AA service and treatment directory](https://aaosgnicaragua.org/directorio-nacional/), [Food Bank](https://bancoalimentosnicaragua.org.ni/), [Rights and regional offices](https://www.pddh.gob.ni/?p=2420), [Consular support directory](https://www.consulado.gob.cl/consulado-contigo/redes-de-apoyo-en-managua).
 - Venezuela. [National Emergency Radio Network](https://www.radioclubve.org/terremoto/), [Red Cross health centers](https://cruzroja.ve/nuestra-presencia/), [Cáritas service map](https://caritasvenezuela.org/mapeo-de-servicios/), [UNHCR offices](https://help.unhcr.org/venezuela/donde-encontrar-ayuda-2/organismos-internacionales/), [Public refugee and rights institutions](https://help.unhcr.org/venezuela/donde-encontrar-ayuda-2/instituciones-publicas/), [UNFPA protection services](https://venezuela.unfpa.org/sites/default/files/pub-pdf/directorioserviciosvbg.pdf), [Regional gender violence directory](https://refugiolatinoamericano.com/wp-content/uploads/2026/05/Directorio-Regional-de-Denuncia-contra-la-Violencia-hacia-la-Mujer-Migrante-yo-Refugiada.pdf).
 - Cuba. [Official national numbering plan](https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000330003PDFE.pdf), [Toxicology network](https://retoxlac.org/wp-content/uploads/2024/07/Directorio-RETOXLAC-2024.pdf), [Hospital directory](https://travel.state.gov/content/dam/NEWadoptionassets/pdfs/LOCAL%20HOSPITALS_Mar2025.pdf), [Cáritas diocesan contacts](https://caritascuba.org/contactos-2/), [Cáritas older adults program](https://caritascuba.org/programa-de-personas-mayores/), [Legal aid offices](https://www.exteriores.gob.es/DocumentosAuxiliaresSC/Cuba/LA%20HABANA%20%28C%29/Listado%20Bufetes%20Cuba.pdf), [Gender violence support directory](https://ogatcuba.org/directorio-de-ayudas/).
+- Haiti. [Foreign ministry emergency numbers](https://mae.gouv.ht/services/numeros-durgence), [Health Ministry directory](https://www.mspp.gouv.ht/dpmmt/docs/LEPA%20JUILLET%202025.pdf), [Social assistance offices](https://faes.gouv.ht/nous-contactez/), [World Food Programme](https://es.wfp.org/contactos), [Human rights network offices](https://web.rnddh.org/nous-contacter/contact-des-bureaux-du-reseau/), [Support for survivors](https://www.gov.uk/government/publications/haiti-guidance-for-victims-of-rape-and-sexual-assault/haiti-guidance-for-victims-of-rape-and-sexual-assault).
 
 ### Correcting directory entries
 
