@@ -1,0 +1,1281 @@
+{
+  "country": "PY",
+  "language": "es",
+  "resources": [
+    {
+      "id": "py-police",
+      "organization": "Policía Nacional",
+      "category": "emergency",
+      "service": "Solicita asistencia policial inmediata.",
+      "coverage": {
+        "scope": "national",
+        "area": "Paraguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "911",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://paraguay.gov.py/"
+        ]
+      }
+    },
+    {
+      "id": "py-bomberos",
+      "organization": "Cuerpo de Bomberos Voluntarios del Paraguay",
+      "category": "emergency",
+      "service": "Solicita respuesta ante incendios y rescates.",
+      "coverage": {
+        "scope": "national",
+        "area": "Paraguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "132",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://paraguay.gov.py/"
+        ]
+      }
+    },
+    {
+      "id": "py-seme",
+      "organization": "Servicio de Emergencias Médicas Extrahospitalarias",
+      "category": "emergency",
+      "service": "Solicita una ambulancia ante una urgencia médica.",
+      "coverage": {
+        "scope": "national",
+        "area": "Paraguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "141",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://paraguay.gov.py/"
+        ]
+      }
+    },
+    {
+      "id": "py-trauma",
+      "organization": "Hospital de Trauma",
+      "category": "emergency",
+      "service": "Contacto del hospital especializado en traumatismos. Para pedir una ambulancia, llama al 141.",
+      "coverage": {
+        "scope": "local",
+        "area": "Asunción, Capital",
+        "municipality": "Asunción"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59521204800",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspbs.gov.py/portal/35850/operativo-jahoi-2026-unas-32-personas-atendidas-en-albergues-transitorios.html"
+        ]
+      }
+    },
+    {
+      "id": "py-sen",
+      "organization": "Secretaría de Emergencia Nacional",
+      "category": "emergency",
+      "service": "Contacto de coordinación y asistencia por inundaciones, tormentas y otros desastres.",
+      "coverage": {
+        "scope": "national",
+        "area": "Paraguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595986111001",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://sen.gov.py/sen-encabeza-reunion-interinstitucional-de-coordinacion-ante-alerta-por-lluvias-intensas-y-granizadas/"
+        ]
+      }
+    },
+    {
+      "id": "py-ande",
+      "organization": "Administración Nacional de Electricidad",
+      "category": "emergency",
+      "service": "Reporta cortes del servicio eléctrico. Al llamar al 160 elige la opción 1.",
+      "coverage": {
+        "scope": "national",
+        "area": "Paraguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "160",
+          "routing": "short-code"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+595962160160",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.ande.gov.py/interna.php?id=15395"
+        ]
+      }
+    },
+    {
+      "id": "py-h-cardiologia",
+      "organization": "Instituto Nacional de Cardiología",
+      "category": "health-and-psychosocial",
+      "service": "Consulta al centro por sus servicios médicos, disponibilidad y condiciones de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Asunción, Capital",
+        "municipality": "Asunción"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59521292532",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspbs.gov.py/portal/35850/operativo-jahoi-2026-unas-32-personas-atendidas-en-albergues-transitorios.html"
+        ]
+      }
+    },
+    {
+      "id": "py-h-obrero",
+      "organization": "Hospital General de Barrio Obrero",
+      "category": "health-and-psychosocial",
+      "service": "Consulta al centro por sus servicios médicos, disponibilidad y condiciones de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Asunción, Capital",
+        "municipality": "Asunción"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59521370099",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspbs.gov.py/portal/35850/operativo-jahoi-2026-unas-32-personas-atendidas-en-albergues-transitorios.html"
+        ]
+      }
+    },
+    {
+      "id": "py-h-pablo",
+      "organization": "Hospital Barrio San Pablo",
+      "category": "health-and-psychosocial",
+      "service": "Consulta al centro por sus servicios médicos, disponibilidad y condiciones de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Asunción, Capital",
+        "municipality": "Asunción"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59521500078",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspbs.gov.py/portal/35850/operativo-jahoi-2026-unas-32-personas-atendidas-en-albergues-transitorios.html"
+        ]
+      }
+    },
+    {
+      "id": "py-h-pediatrico",
+      "organization": "Hospital General Pediátrico",
+      "category": "health-and-psychosocial",
+      "service": "Consulta al centro por sus servicios médicos, disponibilidad y condiciones de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Lorenzo, Central",
+        "municipality": "San Lorenzo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595215890089",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspbs.gov.py/portal/35850/operativo-jahoi-2026-unas-32-personas-atendidas-en-albergues-transitorios.html"
+        ]
+      }
+    },
+    {
+      "id": "py-h-concepcion",
+      "organization": "Hospital Regional de Concepción",
+      "category": "health-and-psychosocial",
+      "service": "Consulta al centro por sus servicios médicos, disponibilidad y condiciones de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Concepción, Concepción",
+        "municipality": "Concepción"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595331242214",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspbs.gov.py/dependencias/portal/adjunto/2f19d3-HospitalesRegionales.pdf"
+        ]
+      }
+    },
+    {
+      "id": "py-h-oviedo",
+      "organization": "Hospital Regional de Coronel Oviedo",
+      "category": "health-and-psychosocial",
+      "service": "Consulta al centro por sus servicios médicos, disponibilidad y condiciones de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Coronel Oviedo, Caaguazú",
+        "municipality": "Coronel Oviedo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595521202167",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspbs.gov.py/dependencias/portal/adjunto/2f19d3-HospitalesRegionales.pdf"
+        ]
+      }
+    },
+    {
+      "id": "py-h-caacupe",
+      "organization": "Hospital Regional de Caacupé",
+      "category": "health-and-psychosocial",
+      "service": "Consulta al centro por sus servicios médicos, disponibilidad y condiciones de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Caacupé, Cordillera",
+        "municipality": "Caacupé"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595511242323",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspbs.gov.py/dependencias/portal/adjunto/2f19d3-HospitalesRegionales.pdf"
+        ]
+      }
+    },
+    {
+      "id": "py-h-aguaray",
+      "organization": "Hospital de Santa Rosa del Aguaray",
+      "category": "health-and-psychosocial",
+      "service": "Consulta al centro por sus servicios médicos, disponibilidad y condiciones de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Santa Rosa del Aguaray, San Pedro",
+        "municipality": "Santa Rosa del Aguaray"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595433240165",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspbs.gov.py/dependencias/portal/adjunto/2f19d3-HospitalesRegionales.pdf"
+        ]
+      }
+    },
+    {
+      "id": "py-banco",
+      "organization": "Banco de Alimentos",
+      "category": "shelter-and-food",
+      "service": "Consulta por organizaciones vinculadas al banco que distribuyen apoyo alimentario.",
+      "coverage": {
+        "scope": "national",
+        "area": "Paraguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595213285844",
+          "routing": "direct"
+        },
+        {
+          "type": "phone",
+          "number": "+595982349806",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://bancodealimentos.org.py/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "py-comedor-divino",
+      "organization": "Comedor comunitario Divino Niño",
+      "category": "shelter-and-food",
+      "service": "Apoyo alimentario para personas mayores en situación de vulnerabilidad. Consulta directamente al comedor por horarios y condiciones de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Asunción, Capital",
+        "municipality": "Asunción"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595984702782",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspbs.gov.py/bienestarsocial/comedores-comunitarios-personas.html"
+        ]
+      }
+    },
+    {
+      "id": "py-albergue-cde",
+      "organization": "Municipalidad de Ciudad del Este, Desarrollo Social",
+      "category": "shelter-and-food",
+      "service": "Canal para solicitar información o avisar sobre personas en situación de calle durante el operativo municipal de invierno.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad del Este, Alto Paraná",
+        "municipality": "Ciudad del Este"
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+595973574072",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Durante la activación del operativo",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mcde.gov.py/post/municipalidad-de-cde-alberga-a-personas-de-la-tercera-edad-"
+        ]
+      }
+    },
+    {
+      "id": "py-hogar-yhu",
+      "organization": "Residencia de Adultos Mayores de Yhú",
+      "category": "shelter-and-food",
+      "service": "Residencia de estadía permanente para personas mayores. Contacta al hogar para consultar requisitos y cupos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Yhú, Caaguazú",
+        "municipality": "Yhú"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595981680158",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspbs.gov.py/bienestarsocial/hogares-acuerdos.html"
+        ]
+      }
+    },
+    {
+      "id": "py-hogar-juan-pablo",
+      "organization": "Hogar de Ancianos Juan Pablo II",
+      "category": "shelter-and-food",
+      "service": "Residencia de estadía permanente para personas mayores. Contacta al hogar para consultar requisitos y cupos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Coronel Oviedo, Caaguazú",
+        "municipality": "Coronel Oviedo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595971381033",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspbs.gov.py/bienestarsocial/hogares-acuerdos.html"
+        ]
+      }
+    },
+    {
+      "id": "py-hogar-san-vicente",
+      "organization": "Hogar San Vicente de Paul",
+      "category": "shelter-and-food",
+      "service": "Residencia de estadía permanente para personas mayores. Contacta al hogar para consultar requisitos y cupos.",
+      "coverage": {
+        "scope": "local",
+        "area": "San Ignacio, Misiones",
+        "municipality": "San Ignacio"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595975619171",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspbs.gov.py/bienestarsocial/hogares-acuerdos.html"
+        ]
+      }
+    },
+    {
+      "id": "py-hogar-divina",
+      "organization": "Hogar Divina Misericordia",
+      "category": "shelter-and-food",
+      "service": "Residencia de estadía permanente para personas mayores. Contacta al hogar para consultar requisitos y cupos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ayolas, Misiones",
+        "municipality": "Ayolas"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595975188841",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspbs.gov.py/bienestarsocial/hogares-acuerdos.html"
+        ]
+      }
+    },
+    {
+      "id": "py-hogar-san-francisco",
+      "organization": "Hogar San Francisco de Asís",
+      "category": "shelter-and-food",
+      "service": "Residencia de estadía permanente para personas mayores. Contacta al hogar para consultar requisitos y cupos.",
+      "coverage": {
+        "scope": "local",
+        "area": "Luque, Central",
+        "municipality": "Luque"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59521671501",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspbs.gov.py/bienestarsocial/hogares-acuerdos.html"
+        ]
+      }
+    },
+    {
+      "id": "py-comedor-villa-jardin",
+      "organization": "Comedor comunitario Villa Jardín",
+      "category": "shelter-and-food",
+      "service": "Apoyo alimentario para personas mayores en situación de vulnerabilidad. Consulta directamente al comedor por horarios y condiciones de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Limpio, Central",
+        "municipality": "Limpio"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595981866472",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspbs.gov.py/bienestarsocial/comedores-comunitarios-personas.html"
+        ]
+      }
+    },
+    {
+      "id": "py-comedor-amvilla",
+      "organization": "Comedor comunitario AMVILLA",
+      "category": "shelter-and-food",
+      "service": "Apoyo alimentario para personas mayores en situación de vulnerabilidad. Consulta directamente al comedor por horarios y condiciones de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Villeta, Central",
+        "municipality": "Villeta"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595981680012",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mspbs.gov.py/bienestarsocial/comedores-comunitarios-personas.html"
+        ]
+      }
+    },
+    {
+      "id": "py-migraciones",
+      "organization": "Dirección Nacional de Migraciones",
+      "category": "migration-and-legal",
+      "service": "Consulta procedimientos de residencia, documentación y otros trámites migratorios.",
+      "coverage": {
+        "scope": "national",
+        "area": "Paraguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595214112000",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, 7:00–14:30, atención presencial por orden de llegada",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://migraciones.gov.py/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "py-acnur",
+      "organization": "ACNUR Paraguay y su organización asociada",
+      "category": "migration-and-legal",
+      "service": "Consulta por orientación sobre la solicitud de refugio y apoyo disponible en Paraguay.",
+      "coverage": {
+        "scope": "national",
+        "area": "Paraguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "whatsapp",
+          "number": "+595974350980",
+          "routing": "direct"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+59521420323",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://help.unhcr.org/paraguay/topics/about-us/"
+        ]
+      }
+    },
+    {
+      "id": "py-defensa",
+      "organization": "Ministerio de la Defensa Pública",
+      "category": "migration-and-legal",
+      "service": "Solicita orientación sobre defensa pública y la sede apropiada para tu caso.",
+      "coverage": {
+        "scope": "national",
+        "area": "Paraguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "133",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mdp.gov.py/noticias/turnos-de-call-center-de-la-linea-133/"
+        ]
+      }
+    },
+    {
+      "id": "py-defensa-ayolas",
+      "organization": "Defensa Pública, sede de Ayolas",
+      "category": "migration-and-legal",
+      "service": "Consulta a la oficina local por representación jurídica pública y requisitos de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ayolas, Misiones",
+        "municipality": "Ayolas"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59572223920",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mdp.gov.py/wp-content/uploads/2023/02/Direcciones-y-Telefonos-Nivel-Pais-.pdf"
+        ]
+      }
+    },
+    {
+      "id": "py-defensa-caacupe",
+      "organization": "Defensa Pública, sede de Caacupé",
+      "category": "migration-and-legal",
+      "service": "Consulta a la oficina local por representación jurídica pública y requisitos de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Caacupé, Cordillera",
+        "municipality": "Caacupé"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595511244027",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mdp.gov.py/wp-content/uploads/2023/02/Direcciones-y-Telefonos-Nivel-Pais-.pdf"
+        ]
+      }
+    },
+    {
+      "id": "py-defensa-caaguazu",
+      "organization": "Defensa Pública, sede de Caaguazú",
+      "category": "migration-and-legal",
+      "service": "Consulta a la oficina local por representación jurídica pública y requisitos de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Caaguazú, Caaguazú",
+        "municipality": "Caaguazú"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59552240383",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mdp.gov.py/wp-content/uploads/2023/02/Direcciones-y-Telefonos-Nivel-Pais-.pdf"
+        ]
+      }
+    },
+    {
+      "id": "py-defensa-capiata",
+      "organization": "Defensa Pública, sede de Capiatá",
+      "category": "migration-and-legal",
+      "service": "Consulta a la oficina local por representación jurídica pública y requisitos de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Capiatá, Central",
+        "municipality": "Capiatá"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595228636464",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mdp.gov.py/wp-content/uploads/2023/02/Direcciones-y-Telefonos-Nivel-Pais-.pdf"
+        ]
+      }
+    },
+    {
+      "id": "py-defensa-cde",
+      "organization": "Defensa Pública, sede de Ciudad del Este",
+      "category": "migration-and-legal",
+      "service": "Consulta a la oficina local por representación jurídica pública y requisitos de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Ciudad del Este, Alto Paraná",
+        "municipality": "Ciudad del Este"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59561511798",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mdp.gov.py/wp-content/uploads/2023/02/Direcciones-y-Telefonos-Nivel-Pais-.pdf"
+        ]
+      }
+    },
+    {
+      "id": "py-defensa-concepcion",
+      "organization": "Defensa Pública, sede de Concepción",
+      "category": "migration-and-legal",
+      "service": "Consulta a la oficina local por representación jurídica pública y requisitos de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Concepción, Concepción",
+        "municipality": "Concepción"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595331241130",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mdp.gov.py/wp-content/uploads/2023/02/Direcciones-y-Telefonos-Nivel-Pais-.pdf"
+        ]
+      }
+    },
+    {
+      "id": "py-defensa-oviedo",
+      "organization": "Defensa Pública, sede de Coronel Oviedo",
+      "category": "migration-and-legal",
+      "service": "Consulta a la oficina local por representación jurídica pública y requisitos de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Coronel Oviedo, Caaguazú",
+        "municipality": "Coronel Oviedo"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595521204432",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mdp.gov.py/wp-content/uploads/2023/02/Direcciones-y-Telefonos-Nivel-Pais-.pdf"
+        ]
+      }
+    },
+    {
+      "id": "py-defensa-encarnacion",
+      "organization": "Defensa Pública, sede de Encarnación",
+      "category": "migration-and-legal",
+      "service": "Consulta a la oficina local por representación jurídica pública y requisitos de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Encarnación, Itapúa",
+        "municipality": "Encarnación"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59571200315",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mdp.gov.py/wp-content/uploads/2023/02/Direcciones-y-Telefonos-Nivel-Pais-.pdf"
+        ]
+      }
+    },
+    {
+      "id": "py-defensa-filadelfia",
+      "organization": "Defensa Pública, sede de Filadelfia",
+      "category": "migration-and-legal",
+      "service": "Consulta a la oficina local por representación jurídica pública y requisitos de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Filadelfia, Boquerón",
+        "municipality": "Filadelfia"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595491433270",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mdp.gov.py/wp-content/uploads/2023/02/Direcciones-y-Telefonos-Nivel-Pais-.pdf"
+        ]
+      }
+    },
+    {
+      "id": "py-defensa-pilar",
+      "organization": "Defensa Pública, sede de Pilar",
+      "category": "migration-and-legal",
+      "service": "Consulta a la oficina local por representación jurídica pública y requisitos de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Pilar, Ñeembucú",
+        "municipality": "Pilar"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595786234379",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mdp.gov.py/wp-content/uploads/2023/02/Direcciones-y-Telefonos-Nivel-Pais-.pdf"
+        ]
+      }
+    },
+    {
+      "id": "py-defensa-villa-hayes",
+      "organization": "Defensa Pública, sede de Villa Hayes",
+      "category": "migration-and-legal",
+      "service": "Consulta a la oficina local por representación jurídica pública y requisitos de acceso.",
+      "coverage": {
+        "scope": "local",
+        "area": "Villa Hayes, Presidente Hayes",
+        "municipality": "Villa Hayes"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595226262012",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mdp.gov.py/wp-content/uploads/2023/02/Direcciones-y-Telefonos-Nivel-Pais-.pdf"
+        ]
+      }
+    },
+    {
+      "id": "py-sos-mujer",
+      "organization": "Ministerio de la Mujer, SOS Mujer",
+      "category": "protection",
+      "service": "Orientación y coordinación de ayuda para mujeres en situación de violencia.",
+      "coverage": {
+        "scope": "national",
+        "area": "Paraguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "137",
+          "routing": "short-code"
+        }
+      ],
+      "hours": "24 horas",
+      "cost": "Gratuito",
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mujer.gov.py/sos-mujer/"
+        ]
+      }
+    },
+    {
+      "id": "py-fonoayuda",
+      "organization": "Ministerio de la Niñez y la Adolescencia, Fono Ayuda",
+      "category": "protection",
+      "service": "Consulta o reporta situaciones de riesgo para niñas, niños y adolescentes.",
+      "coverage": {
+        "scope": "national",
+        "area": "Paraguay",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "147",
+          "routing": "short-code"
+        }
+      ],
+      "hours": null,
+      "cost": "Gratuito",
+      "requirements": "Marca directamente desde línea fija o móvil habilitada.",
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://minna.gov.py/fonoayuda/"
+        ]
+      }
+    },
+    {
+      "id": "py-sedamur",
+      "organization": "Servicio de Atención a la Mujer",
+      "category": "protection",
+      "service": "Consulta por atención psicológica, social y jurídica para mujeres en situación de violencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Asunción, Capital",
+        "municipality": "Asunción"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59521450037",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, 7:00–15:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mujer.gov.py/sos-mujer/"
+        ]
+      }
+    },
+    {
+      "id": "py-ciudad-mujer",
+      "organization": "Centro Ciudad Mujer",
+      "category": "protection",
+      "service": "Consulta por atención integral, orientación y servicios para mujeres.",
+      "coverage": {
+        "scope": "local",
+        "area": "Villa Elisa, Central",
+        "municipality": "Villa Elisa"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595214124000",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mujer.gov.py/contacto/"
+        ]
+      }
+    },
+    {
+      "id": "py-crm-cde",
+      "organization": "Centro Regional de las Mujeres, Ciudad del Este",
+      "category": "protection",
+      "service": "Apoyo social, psicológico y jurídico por violencia de género o trata.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Alto Paraná",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59561507531",
+          "routing": "direct"
+        }
+      ],
+      "hours": "7:00–15:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mujer.gov.py/centro-regionales/"
+        ]
+      }
+    },
+    {
+      "id": "py-crm-filadelfia",
+      "organization": "Centro Regional de las Mujeres, Filadelfia",
+      "category": "protection",
+      "service": "Apoyo social, psicológico y jurídico por violencia de género o trata.",
+      "coverage": {
+        "scope": "regional",
+        "area": "Boquerón",
+        "municipality": null
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+595491432370",
+          "routing": "direct"
+        }
+      ],
+      "hours": "Lunes a viernes, 7:00–15:00",
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://mujer.gov.py/centro-regionales/"
+        ]
+      }
+    },
+    {
+      "id": "py-hogar-proteccion",
+      "organization": "Ministerio de la Defensa Pública, niñez y adolescencia",
+      "category": "protection",
+      "service": "Consulta por acceso a asistencia jurídica pública en asuntos de niñez y adolescencia.",
+      "coverage": {
+        "scope": "local",
+        "area": "Asunción, Capital",
+        "municipality": "Asunción"
+      },
+      "channels": [
+        {
+          "type": "phone",
+          "number": "+59521421929",
+          "routing": "direct"
+        }
+      ],
+      "hours": null,
+      "cost": null,
+      "requirements": null,
+      "verification": {
+        "method": "institutional-source",
+        "reviewedOn": "2026-11-23",
+        "sources": [
+          "https://www.mdp.gov.py/wp-content/uploads/2023/02/Direcciones-y-Telefonos-Nivel-Pais-.pdf"
+        ]
+      }
+    }
+  ]
+}
